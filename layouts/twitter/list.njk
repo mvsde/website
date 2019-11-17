@@ -1,0 +1,15 @@
+{% extends "../default.njk" %}
+
+{% block content %}
+
+  <h1>Twitter Archive</h1>
+
+  <ol reversed>
+    {% for tweet in tweets %}
+      <li>
+        <a href="/twitter/status/{{ tweet.id }}">{{ tweet.text | striptags | truncate(40) }}</a>
+      </li>
+    {% endfor %}
+  </ol>
+
+{% endblock %}

@@ -1,0 +1,43 @@
+{% extends "../default.njk" %}
+
+{% block content %}
+
+  <h1>Tweet</h1>
+
+  <article>
+
+    {% if tweet.reply.id %}
+      <p>
+        {% if tweet.reply.isThread %}
+          <a href="/twitter/status/{{ tweet.reply.id }}">Thread parent</a>
+        {% else %}
+          <a href="https://twitter.com/{{ tweet.reply.user }}/status/{{ tweet.reply.id }}">Reply to {{ tweet.reply.user }}</a>
+        {% endif %}
+      </p>
+    {% endif %}
+
+    <p>{{ tweet.text | safe }}</p>
+
+    {% for media in tweet.media %}
+      {% if media.type == "photo" %}
+        <img
+          src="{{ media.url }}"
+          alt=""
+          width="{{ media.size.width }}"
+          height="{{ media.size.height }}"
+          lazy
+        >
+      {% endif %}
+    {% endfor %}
+
+    <p><time>{{ tweet.date }}</time></p>
+
+    <p>
+      <strong>{{ tweet.retweets }}</strong> Retweets<br>
+      <strong>{{ tweet.likes }}</strong> Likes<br>
+      <a href="https://twitter.com/mvsde/status/{{ tweet.id }}">Open on Twitter</a>
+    </p>
+
+  </article>
+
+{% endblock %}

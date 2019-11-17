@@ -1,0 +1,32 @@
+{
+  "name": "@mvsde/website",
+  "version": "0.1.0",
+  "description": "My personal website.",
+  "scripts": {
+    "dev:pages": "eleventy --input pages --serve",
+    "build": "npm run build:pages && npm run build:twitter",
+    "build:pages": "eleventy --input pages",
+    "build:twitter": "eleventy --input twitter",
+    "lint:js": "eslint \"**/*.js\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mvsde/website"
+  },
+  "author": "Fynn Becker <post@fynn.be>",
+  "license": "CC-BY-SA-4.0",
+  "bugs": {
+    "url": "https://github.com/mvsde/website/issues"
+  },
+  "homepage": "https://github.com/mvsde/website#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.9.0",
+    "eslint": "^6.6.0",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-node": "^10.0.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "got": "^10.0.0-alpha.3.2"
+  }
+}
