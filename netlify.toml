@@ -1,0 +1,7 @@
+[build]
+  publish = "dist"
+  command = "npm run build"
+
+[[redirects]]
+  from = "https://fynn.netlify.com/*"
+  to = "https://fynn.be/:splat"
