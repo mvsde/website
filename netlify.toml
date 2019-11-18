@@ -1,9 +1,13 @@
 [build]
-  publish = "dist"
-  command = "npm run build"
+  environment = { NODE_VERSION = "13" }
 
 [context.production]
-  environment = { NODE_VERSION = "13" }
+  publish = "dist/pages"
+  command = "npm run build:pages"
+
+[context.twitter]
+  publish = "dist/twitter"
+  command = "npm run build:twitter"
 
 [[redirects]]
   from = "https://fynn.netlify.com/*"

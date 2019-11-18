@@ -3,10 +3,9 @@
   "version": "0.1.0",
   "description": "My personal website.",
   "scripts": {
-    "dev:pages": "eleventy --input pages --serve",
-    "build": "npm run build:pages && npm run build:twitter",
-    "build:pages": "eleventy --input pages",
-    "build:twitter": "eleventy --input twitter",
+    "dev:pages": "eleventy --input pages --output dist/pages --serve",
+    "build:pages": "eleventy --input pages --output dist/pages",
+    "build:twitter": "eleventy --input twitter --output dist/twitter",
     "lint:js": "eslint \"**/*.js\""
   },
   "repository": {
