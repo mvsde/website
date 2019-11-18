@@ -1,3 +1,7 @@
+---
+layout: default.njk
+---
+
 # Games
 
 I own this ginormous video game collection I rarely touch.
