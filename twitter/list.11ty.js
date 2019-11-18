@@ -5,7 +5,7 @@ class List {
     return {
       layout: 'twitter/list.njk',
       tweets: await tweets,
-      permalink: 'twitter/'
+      permalink: '/'
     }
   }
 }

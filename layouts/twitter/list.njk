@@ -7,7 +7,7 @@
   <ol reversed>
     {% for tweet in tweets %}
       <li>
-        <a href="/twitter/status/{{ tweet.id }}">{{ tweet.text | striptags | truncate(40) }}</a>
+        <a href="/status/{{ tweet.id }}">{{ tweet.text | striptags | truncate(40) }}</a>
       </li>
     {% endfor %}
   </ol>

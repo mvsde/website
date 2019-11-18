@@ -10,7 +10,7 @@ class Tweet {
         size: 1,
         alias: 'tweet'
       },
-      permalink: data => `twitter/status/${data.tweet.id}/`
+      permalink: data => `/status/${data.tweet.id}/`
     }
   }
 }

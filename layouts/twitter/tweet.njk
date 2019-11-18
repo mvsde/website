@@ -9,7 +9,7 @@
     {% if tweet.reply.id %}
       <p>
         {% if tweet.reply.isThread %}
-          <a href="/twitter/status/{{ tweet.reply.id }}">Thread parent</a>
+          <a href="/status/{{ tweet.reply.id }}">Thread parent</a>
         {% else %}
           <a href="https://twitter.com/{{ tweet.reply.user }}/status/{{ tweet.reply.id }}">Reply to {{ tweet.reply.user }}</a>
         {% endif %}
