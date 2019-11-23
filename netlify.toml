@@ -1,13 +1,14 @@
-[build]
-  environment = { NODE_VERSION = "13" }
+[build.environment]
+  NODE_VERSION = "13"
+  GIT_LFS_SKIP_SMUDGE = "1"
 
 [context.production]
-  publish = "dist/pages"
-  command = "npm run build:pages"
+  publish = "dist/site"
+  command = "npm run build:site"
 
 [context.twitter]
   publish = "dist/twitter"
-  command = "npm run build:twitter"
+  command = "git clone git@github.com:mvsde/twitter-data.git ../twitter-data && npm run build:twitter"
 
 [[redirects]]
   from = "https://fynn.netlify.com/*"

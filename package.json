@@ -3,8 +3,8 @@
   "version": "0.1.0",
   "description": "My personal website.",
   "scripts": {
-    "dev:pages": "eleventy --input pages --output dist/pages --serve",
-    "build:pages": "eleventy --input pages --output dist/pages",
+    "dev:site": "eleventy --input site --output dist/site --serve",
+    "build:site": "eleventy --input site --output dist/site",
     "build:twitter": "eleventy --input twitter --output dist/twitter",
     "lint:js": "eslint \"**/*.js\""
   },
@@ -20,12 +20,11 @@
   "homepage": "https://github.com/mvsde/website#readme",
   "devDependencies": {
     "@11ty/eleventy": "^0.9.0",
-    "eslint": "^6.6.0",
+    "eslint": "^6.7.0",
     "eslint-config-standard": "^14.1.0",
     "eslint-plugin-import": "^2.18.2",
     "eslint-plugin-node": "^10.0.0",
     "eslint-plugin-promise": "^4.2.1",
-    "eslint-plugin-standard": "^4.0.1",
-    "got": "^10.0.0-beta.1"
+    "eslint-plugin-standard": "^4.0.1"
   }
 }

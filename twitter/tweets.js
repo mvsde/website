@@ -1,4 +1,4 @@
-const got = require('got')
+const fs = require('fs').promises
 
 const config = require('../config')
 
@@ -66,7 +66,9 @@ function convertMedia (media) {
 }
 
 async function getTweets () {
-  const tweets = await got(config.twitter.tweets).json()
+  const tweetDir = await fs.readdir(config.twitter.tweets)
+  const tweetFiles = await Promise.all(tweetDir.map(file => fs.readFile(`${config.twitter.tweets}/${file}`)))
+  const tweets = tweetFiles.flatMap(file => JSON.parse(file.toString()))
 
   return tweets
     .map(convertTweet)
