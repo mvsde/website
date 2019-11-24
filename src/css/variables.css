@@ -1,0 +1,13 @@
+:root {
+  --color-primary: hsl(0, 61%, 48%);
+  --color-text: hsl(220, 26%, 14%);
+  --color-text-muted: hsl(214, 20%, 60%);
+  --color-background: hsl(42, 50%, 92%);
+
+  --font-family: "IBM Plex Mono", monospace;
+
+  --line-height: 1.4;
+
+  --container-width: 70rem;
+  --container-padding: 1rem;
+}

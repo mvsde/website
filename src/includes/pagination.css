@@ -1,0 +1,21 @@
+.pagination__list {
+  list-style: none;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.pagination__item {
+  margin: 0 1em 0.25em;
+}
+
+.pagination__link {
+  text-decoration: none;
+}
+
+.pagination__link.is-active {
+  color: #fff;
+  background: var(--color-primary);
+  outline: 0.125em solid var(--color-primary);
+}

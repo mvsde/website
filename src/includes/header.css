@@ -1,0 +1,40 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding-top: var(--container-padding);
+  padding-bottom: var(--container-padding);
+}
+
+.header__info {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  font-weight: 700;
+}
+
+.header__title {
+  margin: 0 1.2em 0.2em 0;
+
+  font-size: 1.375em;
+  text-decoration: none;
+  color: currentColor;
+}
+
+.header__subtitle {
+  color: var(--color-text-muted);
+}
+
+.header__nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  margin-left: 1em;
+}
+
+.header__link {
+  margin: 0 0 0.5em 1em;
+
+  font-weight: 700;
+  text-decoration: none;
+}

@@ -4,11 +4,11 @@
 
 [context.production]
   publish = "dist/site"
-  command = "npm run build:site"
+  command = "npm run build:site && npm run build:css:site"
 
 [context.twitter]
   publish = "dist/twitter"
-  command = "git clone https://github.com/mvsde/twitter-data.git ../twitter-data && npm run build:twitter"
+  command = "git clone https://github.com/mvsde/twitter-data.git ../twitter-data && npm run build:twitter && npm run build:css:twitter"
 
 [[redirects]]
   from = "https://fynn.netlify.com/*"

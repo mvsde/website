@@ -1,0 +1,13 @@
+{% extends "../default.njk" %}
+
+{% set listStart = tweets.length - pagination.size * pagination.pageNumber %}
+
+{% block content %}
+  {% include "pagination.njk" %}
+
+  <ol class="twitter-list" start="{{ listStart }}" reversed>
+    {% for tweet in tweetChunk %}
+      <li><a href="/status/{{ tweet.id }}">{{ tweet.text | striptags | truncate(40) }}</a></li>
+    {% endfor %}
+  </ol>
+{% endblock %}

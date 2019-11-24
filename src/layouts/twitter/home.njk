@@ -1,0 +1,13 @@
+{% extends "../default.njk" %}
+
+{% block content %}
+  <h2>Some stats</h2>
+  <ul>
+    <li><strong>{{ stats.count }}</strong> total Tweets</li>
+    <li><strong>{{ stats.retweets }}</strong> Retweets</li>
+    <li><strong><a href="/status/{{ stats.first.id }}/">{{ stats.first.text | striptags | truncate(40) }}</a></strong> is the first Tweet</li>
+  </ul>
+
+  <h2>The Archive</h2>
+  <p><a href="/list/">Take me to the treasure trove →</a></p>
+{% endblock %}

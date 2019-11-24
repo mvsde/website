@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ title + " | " if not isHome }}Fynn Becker</title>
+
+    <link rel="stylesheet" href="/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono:400,400i,700,700i&display=swap" rel="stylesheet">
+  </head>
+  <body>
+
+    {% include "header.html" %}
+
+    <main class="content">
+
+      <h1 class="content__title">{{ title }}</h1>
+
+      <div class="content__wrapper">
+        <div class="content__inner container">
+          {% block content %}
+            {{ content | safe }}
+          {% endblock %}
+        </div>
+      </div>
+
+    </main>
+
+    {% include "footer.html" %}
+
+  </body>
+</html>

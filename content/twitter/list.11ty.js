@@ -4,8 +4,13 @@ class List {
   async data () {
     return {
       layout: 'twitter/list.njk',
+      title: 'Twitter Archive',
       tweets: await tweets,
-      permalink: '/'
+      pagination: {
+        data: 'tweets',
+        size: 1000,
+        alias: 'tweetChunk'
+      }
     }
   }
 }

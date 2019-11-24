@@ -4,6 +4,7 @@ class Tweet {
   async data () {
     return {
       layout: 'twitter/tweet.njk',
+      title: 'Twitter Archive',
       tweets: await tweets,
       pagination: {
         data: 'tweets',

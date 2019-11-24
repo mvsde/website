@@ -1,8 +1,7 @@
 ---
 layout: default.njk
+title: Games
 ---
-
-# Games
 
 I own this ginormous video game collection I rarely touch.
 Which is commonly known as the _Great Pile of Shame_™.

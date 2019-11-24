@@ -1,7 +1,7 @@
 module.exports = {
   dir: {
-    layouts: '../layouts',
-    includes: '../includes'
+    layouts: '../../src/layouts',
+    includes: '../../src/includes'
   },
   templateFormats: ['md', '11ty.js'],
   markdownTemplateEngine: 'njk'
