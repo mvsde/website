@@ -1,0 +1,19 @@
+.twitter-tweet__reply {
+  display: inline-block;
+  margin-bottom: 1em;
+}
+
+.twitter-tweet__text {
+  font-size: 1.25em;
+}
+
+.twitter-tweet__media {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(17em, 1fr));
+  gap: 1em;
+  margin-bottom: 1em;
+}
+
+.twitter-tweet__meta > * {
+  margin-right: 1em;
+}

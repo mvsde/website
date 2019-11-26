@@ -1,11 +1,22 @@
 {% extends "../default.njk" %}
 
 {% block content %}
-  <h2>Some stats</h2>
+  <h2>Random stats</h2>
   <ul>
-    <li><strong>{{ stats.count }}</strong> total Tweets</li>
-    <li><strong>{{ stats.retweets }}</strong> Retweets</li>
-    <li><strong><a href="/status/{{ stats.first.id }}/">{{ stats.first.text | striptags | truncate(40) }}</a></strong> is the first Tweet</li>
+    <li>
+      <strong>{{ stats.count }}</strong> total Tweets
+    </li>
+    <li>
+      <strong>{{ stats.retweets }}</strong> of that are Retweets
+    </li>
+    <li>
+      <strong>The very first tweet is</strong>
+      <a href="/status/{{ stats.first.id }}/">{{ stats.first.text | striptags | truncate(40) }}</a>
+    </li>
+    <li>
+      <strong>…and the most recent is</strong>
+      <a href="/status/{{ stats.last.id }}/">{{ stats.last.text | striptags | truncate(40) }}</a>
+    </li>
   </ul>
 
   <h2>The Archive</h2>

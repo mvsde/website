@@ -4,7 +4,7 @@ title: Games
 ---
 
 I own this ginormous video game collection I rarely touch.
-Which is commonly known as the _Great Pile of Shame_™.
+Which is commonly known as the _Great Pile of Shame™_.
 
 But if you ever wondered how large my pile really is, here you go:
 

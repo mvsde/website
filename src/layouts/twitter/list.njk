@@ -5,9 +5,11 @@
 {% block content %}
   {% include "pagination.njk" %}
 
-  <ol class="twitter-list" start="{{ listStart }}" reversed>
+  <ol class="twitter-list mt-2 mb-2" start="{{ listStart }}" reversed>
     {% for tweet in tweetChunk %}
-      <li><a href="/status/{{ tweet.id }}">{{ tweet.text | striptags | truncate(40) }}</a></li>
+      <li><a href="/status/{{ tweet.id }}">{{ tweet.text | truncate(40) }}</a></li>
     {% endfor %}
   </ol>
+
+  {% include "pagination.njk" %}
 {% endblock %}

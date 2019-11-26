@@ -22,4 +22,8 @@
   .content__title {
     font-size: 3em;
   }
+
+  .content__wrapper {
+    padding: 3.5em 0;
+  }
 }

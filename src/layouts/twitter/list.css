@@ -1,0 +1,10 @@
+.twitter-list {
+  padding-left: 3.5em;
+}
+
+@media (min-width: 50rem) {
+  .twitter-list {
+    columns: 2;
+    gap: 5em;
+  }
+}

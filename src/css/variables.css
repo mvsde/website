@@ -1,12 +1,14 @@
 :root {
-  --color-primary: hsl(0, 61%, 48%);
+  --color-primary: hsl(0, 69%, 50%);
   --color-text: hsl(220, 26%, 14%);
-  --color-text-muted: hsl(214, 20%, 60%);
-  --color-background: hsl(42, 50%, 92%);
+  --color-text-muted: hsl(203, 13%, 56%);
+  --color-background: hsl(30, 30%, 96%);
 
-  --font-family: "IBM Plex Mono", monospace;
+  --font-family-text: "IBM Plex Sans", sans-serif;
+  --font-family-heading: "IBM Plex Mono", monospace;
 
-  --line-height: 1.4;
+  --line-height-text: 1.4;
+  --line-height-heading: 1.2;
 
   --container-width: 70rem;
   --container-padding: 1rem;

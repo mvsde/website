@@ -1,5 +1,11 @@
 body {
-  font-family: var(--font-family);
-  line-height: var(--line-height);
+  font-family: var(--font-family-text);
+  line-height: var(--line-height-text);
   color: var(--color-text);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
 }

@@ -4,14 +4,12 @@
   "description": "My personal website.",
   "scripts": {
     "dev:site": "eleventy --input content/site --output dist/site --serve",
-    "dev:css": "postcss src/main.css --watch --env development",
-    "dev:css:site": "npm run dev:css -- --output dist/site/styles.css",
-    "dev:css:twitter": "npm run dev:css -- --output dist/twitter/styles.css",
+    "dev:css:site": "postcss src/main.css --watch --env development --output dist/site/styles.css",
+    "dev:css:twitter": "postcss src/twitter.css --watch --env development --output dist/twitter/styles.css",
     "build:site": "eleventy --input content/site --output dist/site --quiet",
     "build:twitter": "eleventy --input content/twitter --output dist/twitter --quiet",
-    "build:css": "postcss src/main.css --env production",
-    "build:css:site": "npm run build:css -- --output dist/site/styles.css",
-    "build:css:twitter": "npm run build:css -- --output dist/twitter/styles.css",
+    "build:css:site": "postcss src/main.css --env production --output dist/site/styles.css",
+    "build:css:twitter": "postcss src/twitter.css --env production --output dist/twitter/styles.css",
     "lint:js": "eslint \"**/*.js\""
   },
   "repository": {

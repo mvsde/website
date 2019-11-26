@@ -1,37 +1,50 @@
 {% extends "../default.njk" %}
 
 {% block content %}
-  <article>
+  <article class="twitter-tweet">
 
     {% if tweet.reply.id %}
-      <p>
-        {% if tweet.reply.isThread %}
-          <a href="/status/{{ tweet.reply.id }}">Thread parent</a>
-        {% else %}
-          <a href="https://twitter.com/{{ tweet.reply.user }}/status/{{ tweet.reply.id }}">Reply to {{ tweet.reply.user }}</a>
-        {% endif %}
-      </p>
+      {% if tweet.reply.isThread %}
+        <a
+          class="twitter-tweet__reply"
+          href="/status/{{ tweet.reply.id }}"
+        >
+          Thread parent
+        </a>
+      {% else %}
+        <a
+          class="twitter-tweet__reply"
+          href="https://twitter.com/{{ tweet.reply.user }}/status/{{ tweet.reply.id }}"
+        >
+          Reply to {{ tweet.reply.user }}
+        </a>
+      {% endif %}
     {% endif %}
 
-    <p>{{ tweet.text | safe }}</p>
+    <p class="twitter-tweet__text">{{ tweet.textMarkup | safe }}</p>
 
-    {% for media in tweet.media %}
-      {% if media.type == "photo" %}
-        <img
-          src="{{ media.url }}"
-          alt=""
-          width="{{ media.size.width }}"
-          height="{{ media.size.height }}"
-          lazy
-        >
-      {% endif %}
-    {% endfor %}
+    {% if tweet.media.length %}
+      <div class="twitter-tweet__media">
+        {% for media in tweet.media %}
+          {% if media.type == "photo" %}
+            <img
+              src="{{ media.url }}"
+              alt=""
+              width="{{ media.size.width }}"
+              height="{{ media.size.height }}"
+              lazy
+            >
+          {% endif %}
+        {% endfor %}
+      </div>
+    {% endif %}
 
-    <p><time>{{ tweet.date }}</time></p>
 
-    <p>
-      <strong>{{ tweet.retweets }}</strong> Retweets<br>
-      <strong>{{ tweet.likes }}</strong> Likes<br>
+
+    <p class="twitter-tweet__meta">
+      <span><strong>{{ tweet.retweets }}</strong> Retweets</span>
+      <span><strong>{{ tweet.likes }}</strong> Likes</span>
+      <span><strong>Date:</strong> <time>{{ tweet.dateFormatted }}</time></span>
       <a href="https://twitter.com/mvsde/status/{{ tweet.id }}">Open on Twitter</a>
     </p>
 
