@@ -10,6 +10,24 @@
   background: var(--color-background);
 }
 
+.content__wrapper--hero {
+  margin-top: var(--content-hero-bleed);
+}
+
+.content__hero {
+  display: block;
+  width: var(--container-width);
+  margin: calc(var(--content-hero-bleed) * -1) auto 2em;
+
+  box-shadow:
+    0 0.8px 2.8px rgba(0, 0, 0, 0.056),
+    0 2px 6.7px rgba(0, 0, 0, 0.081),
+    0 3.8px 12.5px rgba(0, 0, 0, 0.1),
+    0 6.7px 22.3px rgba(0, 0, 0, 0.119),
+    0 12.5px 41.8px rgba(0, 0, 0, 0.144),
+    0 30px 100px rgba(0, 0, 0, 0.2);
+}
+
 .content__inner > :first-child {
   margin-top: 0;
 }

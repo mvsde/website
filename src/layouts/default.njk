@@ -16,12 +16,24 @@
 
       <h1 class="content__title">{{ title }}</h1>
 
-      <div class="content__wrapper">
+      <div class="content__wrapper {% if hero.src %}content__wrapper--hero{% endif %}">
+        {% if hero %}
+          <img
+            class="content__hero"
+            src="{{ hero.src }}"
+            alt="{{ hero.alt }}"
+            width="1120"
+            height="692"
+            loading="lazy"
+          >
+        {% endif %}
+
         <div class="content__inner container">
           {% block content %}
             {{ content | safe }}
           {% endblock %}
         </div>
+
       </div>
 
     </main>
