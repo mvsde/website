@@ -1,6 +1,6 @@
-const tweets = require('./tweets')
+const { tweets } = require('./data')
 
-class Tweet {
+class TwitterTweet {
   async data () {
     return {
       layout: 'twitter/tweet.njk',
@@ -16,4 +16,4 @@ class Tweet {
   }
 }
 
-module.exports = Tweet
+module.exports = TwitterTweet

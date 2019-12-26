@@ -1,0 +1,14 @@
+{% set subdomain = true %}
+{% extends "../default.njk" %}
+
+{% block content %}
+
+  <h2>{{ current.name }}</h2>
+
+  <ol class="mt-2 mb-2">
+    {% for child in current.children %}
+      <li><a href="/date/{{ child.path }}/">{{ child.name }}</a></li>
+    {% endfor %}
+  </ol>
+
+{% endblock %}

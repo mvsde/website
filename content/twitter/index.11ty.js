@@ -1,5 +1,5 @@
 async function stats () {
-  const tweets = await require('./tweets')
+  const tweets = await require('./data').tweets
 
   return {
     count: tweets.length,
@@ -9,7 +9,7 @@ async function stats () {
   }
 }
 
-class Index {
+class TwitterIndex {
   async data () {
     return {
       layout: 'twitter/home.njk',
@@ -19,4 +19,4 @@ class Index {
   }
 }
 
-module.exports = Index
+module.exports = TwitterIndex

@@ -1,6 +1,6 @@
-const tweets = require('./tweets')
+const { tweets } = require('./data')
 
-class List {
+class TwitterList {
   async data () {
     return {
       layout: 'twitter/list.njk',
@@ -9,10 +9,10 @@ class List {
       pagination: {
         data: 'tweets',
         size: 1000,
-        alias: 'tweetChunk'
+        alias: 'tweets'
       }
     }
   }
 }
 
-module.exports = List
+module.exports = TwitterList
