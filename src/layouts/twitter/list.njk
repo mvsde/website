@@ -1,12 +1,12 @@
 {% set subdomain = true %}
 {% extends "../default.njk" %}
 
-{% set listStart = tweets.length - pagination.size * pagination.pageNumber %}
+{% set listStart = pagination.size * pagination.pageNumber + 1 %}
 
 {% block content %}
   {% include "pagination.njk" %}
 
-  <ol class="twitter-list mt-2 mb-2" start="{{ listStart }}" reversed>
+  <ol class="twitter-list mt-2 mb-2" start="{{ listStart }}">
     {% for tweet in tweetChunk %}
       <li><a href="/status/{{ tweet.id }}">{{ tweet.text | truncate(40) }}</a></li>
     {% endfor %}

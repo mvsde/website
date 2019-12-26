@@ -4,8 +4,8 @@ async function stats () {
   return {
     count: tweets.length,
     retweets: tweets.filter(tweet => tweet.text.startsWith('RT ')).length,
-    first: tweets[tweets.length - 1],
-    last: tweets[0]
+    first: tweets[0],
+    last: tweets[tweets.length - 1]
   }
 }
 
