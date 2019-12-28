@@ -10,7 +10,8 @@
     "build:twitter": "./twitter.sh",
     "build:css:site": "postcss src/main.css --env production --output dist/site/styles.css",
     "build:css:twitter": "postcss src/twitter.css --env production --output dist/twitter/styles.css",
-    "lint:js": "eslint \"**/*.js\""
+    "lint:js": "eslint \"**/*.js\"",
+    "lint:language": "alex content/**/*.md"
   },
   "repository": {
     "type": "git",
@@ -24,6 +25,7 @@
   "homepage": "https://github.com/mvsde/website#readme",
   "devDependencies": {
     "@11ty/eleventy": "^0.10.0-beta.1",
+    "alex": "^8.1.0",
     "cssnano": "^4.1.10",
     "eslint": "^6.8.0",
     "eslint-config-standard": "^14.1.0",
