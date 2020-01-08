@@ -9,16 +9,15 @@
 }
 
 .pagination__item {
-  margin: 0 1em 0.25em;
+  margin: 0 0.5em 0.25em;
 }
 
 .pagination__link {
+  padding: 0 0.25em;
   text-decoration: none;
 }
 
 .pagination__link.is-active {
-  padding: 0 0.25em;
-
   color: #fff;
   background: var(--color-primary);
   outline: 0.125em solid var(--color-primary);
