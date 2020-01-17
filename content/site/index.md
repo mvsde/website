@@ -6,12 +6,13 @@ title: Fynn Becker
 
 Frontend developer. Sometimes dabbling in backend stuff. Tech enthusiast and collector of video games.
 
-## Around the web
+## About me
 
 * [Twitter](https://twitter.com/mvsde)
 * [GitHub](https://github.com/mvsde)
 * [GitLab](https://gitlab.com/mvsde)
 * [LinkedIn](https://linkedin.com/in/fynn)
+* [Dev setup](/uses)
 
 ## Open Source
 
