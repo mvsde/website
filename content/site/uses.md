@@ -4,6 +4,7 @@ title: Development setup
 hero:
   src: /img/uses.jpg
   alt: Illuminated desk with ultra-wide monitor and notebook.
+  height: 661
 ---
 
 ## Software

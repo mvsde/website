@@ -4,6 +4,7 @@ title: Games
 hero:
   src: /img/gog.jpg
   alt: Screenshot of Fynn Becker's GOG Galaxy library.
+  height: 692
 ---
 
 I own this ginormous video game collection I rarely touch.
