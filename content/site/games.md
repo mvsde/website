@@ -2,9 +2,9 @@
 layout: default.njk
 title: Games
 hero:
-  src: /img/gog.jpg
+  src: https://images.gog.com/4bfbd0543af0afa6bb446fa3c27f9b5c8e7bd1b2ddc021091e89ed5fc2b4874b.jpg?namespace=stats_sharing
   alt: Screenshot of Fynn Becker's GOG Galaxy library.
-  height: 692
+  height: 630
 ---
 
 I own this ginormous video game collection I rarely touch.
