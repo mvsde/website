@@ -1,5 +1,5 @@
 [build.environment]
-  NODE_VERSION = "13"
+  NODE_VERSION = "14"
   GIT_LFS_SKIP_SMUDGE = "1"
 
 [context.production]
@@ -11,5 +11,5 @@
   command = "git clone https://github.com/mvsde/twitter-data.git ../twitter-data && npm run build:twitter && npm run build:css:twitter"
 
 [[redirects]]
-  from = "https://fynn.netlify.com/*"
+  from = "https://fynn.netlify.app/*"
   to = "https://fynn.be/:splat"
