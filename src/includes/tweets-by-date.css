@@ -1,0 +1,11 @@
+.twitter-list .twitter-list {
+  margin-left: 1.25em;
+}
+
+.twitter-list h2,
+.twitter-list h3,
+.twitter-list h4 {
+  display: inline-block;
+  margin: 0;
+  vertical-align: middle;
+}

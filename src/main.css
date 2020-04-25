@@ -1,6 +1,3 @@
-/* Third party */
-@import url("modern-normalize");
-
 /* Setup */
 @import url("./css/variables.css");
 @import url("./css/scaffolding.css");
@@ -12,6 +9,8 @@
 @import url("./includes/footer.css");
 @import url("./includes/header.css");
 @import url("./includes/pagination.css");
+@import url("./includes/tweet.css");
+@import url("./includes/tweets-by-date.css");
 
 /* Utilities */
 @import url("./utils/margin.css")

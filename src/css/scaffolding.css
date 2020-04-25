@@ -1,4 +1,10 @@
+*, ::before, ::after {
+  box-sizing: border-box;
+}
+
 body {
+  margin: 0;
+
   font-family: var(--font-family-text);
   line-height: var(--line-height-text);
   color: var(--color-text);
@@ -8,4 +14,8 @@ img {
   max-width: 100%;
   height: auto;
   vertical-align: middle;
+}
+
+summary {
+  cursor: pointer;
 }

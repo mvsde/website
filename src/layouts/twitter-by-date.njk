@@ -1,0 +1,31 @@
+{% extends "./default.njk" %}
+
+{% set month_names = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"] %}
+
+{% block content %}
+  {% for year, months in tweets %}
+    <details class="twitter-list">
+      <summary><h2>{{ year }}</h2></summary>
+
+      {% for month, days in tweets[year] %}
+        <details class="twitter-list">
+          <summary><h3>{{ month_names[month - 1] }}</h3></summary>
+
+          <div class="twitter-list">
+            {% for day, list in tweets[year][month] | dictsort %}
+              <h4>{{ day }}.</h4>
+
+              <ul>
+                {% for tweet in list %}
+                  <li>
+                    <a href="../status/{{ tweet }}/">{{ tweet }}</a>
+                  </li>
+                {% endfor %}
+              </ul>
+            {% endfor %}
+          </div>
+        </details>
+      {% endfor %}
+    </details>
+  {% endfor %}
+{% endblock %}

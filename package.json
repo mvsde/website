@@ -3,13 +3,10 @@
   "version": "0.1.0",
   "description": "My personal website.",
   "scripts": {
-    "dev:site": "eleventy --input content/site --output dist/site --serve",
-    "dev:css:site": "postcss src/main.css --watch --env development --output dist/site/styles.css",
-    "dev:css:twitter": "postcss src/twitter.css --watch --env development --output dist/twitter/styles.css",
-    "build:site": "eleventy --input content/site --output dist/site --quiet",
-    "build:twitter": "eleventy --input content/twitter --output dist/twitter --quiet",
-    "build:css:site": "postcss src/main.css --env production --output dist/site/styles.css",
-    "build:css:twitter": "postcss src/twitter.css --env production --output dist/twitter/styles.css",
+    "dev:site": "eleventy --input content --output dist --serve",
+    "dev:css": "postcss src/main.css --watch --env development --output dist/styles.css",
+    "build:site": "eleventy --input content --output dist --quiet",
+    "build:css": "postcss src/main.css --env production --output dist/styles.css",
     "lint:js": "eslint \"**/*.js\"",
     "lint:language": "alex content/**/*.md"
   },
@@ -33,10 +30,8 @@
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-standard": "^4.0.1",
+    "got": "^11.0.2",
     "postcss-cli": "^7.1.0",
     "postcss-import": "^12.0.1"
-  },
-  "dependencies": {
-    "modern-normalize": "^0.6.0"
   }
 }
