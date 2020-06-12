@@ -12,7 +12,8 @@ Frontend developer. Sometimes dabbling in backend stuff. Tech enthusiast and col
 * [GitHub](https://github.com/mvsde)
 * [GitLab](https://gitlab.com/mvsde)
 * [LinkedIn](https://linkedin.com/in/fynn)
-* [Dev setup](/uses)
+* [Dev setup](uses)
+* [Ethics](ethics)
 
 ## Open Source
 
@@ -23,5 +24,5 @@ Frontend developer. Sometimes dabbling in backend stuff. Tech enthusiast and col
 
 ## Experiments
 
-* [Twitter Archive](/twitter/)
-* [Pile of Shame™](/games/)
+* [Twitter Archive](twitter)
+* [Pile of Shame™](games)

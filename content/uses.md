@@ -20,7 +20,7 @@ hero:
 
 * [Dell XPS 15 9570](https://www.dell.com/en-us/shop/laptops-2-in-1-pcs/xps-15-laptop/spd/xps-15-7590-laptop)
 * [Acer XR382CQK](https://www.acer.com/ac/en/US/content/model/UM.TX2AA.002)
-* Custom-built gaming PC with lots of power and an insane price tag…
+* Custom-built gaming PC with lots of power and a huge price tag…
 * [Logitech G502](https://www.logitechg.com/en-us/products/gaming-mice/g502-hero-gaming-mouse.html)
 * Microsoft Sidewinder X4
 * [Behringer MS40](https://www.behringer.com/Categories/Behringer/Loudspeaker-Systems/Multimedia/MS40/p/P0384)

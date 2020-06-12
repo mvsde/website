@@ -8,7 +8,7 @@
     "build:site": "eleventy --input content --output dist --quiet",
     "build:css": "postcss src/main.css --env production --output dist/styles.css",
     "lint:js": "eslint \"**/*.js\"",
-    "lint:language": "alex content/**/*.md"
+    "lint:language": "alex content/*.md content/**/*.md"
   },
   "repository": {
     "type": "git",
