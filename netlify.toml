@@ -1,10 +1,6 @@
 [build.environment]
   NODE_VERSION = "14"
 
-[context.production]
-  publish = "dist"
-  command = "npm run build:site && npm run build:css"
-
 [[redirects]]
   from = "https://fynn.netlify.app/*"
   to = "https://fynn.be/:splat"
