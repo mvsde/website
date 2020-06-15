@@ -15,14 +15,15 @@ I take up a strong stance on ethical behavior in general and ethical web develop
 
 ## Key Principles
 
-* Everyone is equal. There must not be any distinction based on gender, color, language, birth, social origin, or whatever “category” comes to mind.
-* Accessibility is obligatory. There is no debate whether something should be accessible or not—it has to be.
-* Force is a last resort. Lethal or non-lethal, it does not matter, conflicts have to be solved peacefully.
+* **Everyone is equal.** There must not be any distinction based on gender, color, language, birth, social origin, or whatever “category” comes to mind.
+* **Accessibility is obligatory.** There is no debate whether something should be accessible or not—it has to be.
+* **Force is an absolute last resort.** Lethal or non-lethal, it does not matter, conflicts have to be solved peacefully.
 
 ## Development-specific Principles
 
-* Tracking is invasive and unnecessary. Ask your users what they want!
-* No [Dark Patterns](https://www.darkpatterns.org) at all. They harm the user!
+* **Pay the maintainers.** Open Source Software is free to use, but that does not mean it is free to make. Businesses that make money using OSS are urged to contribute back—be it financially or by giving back time.
+* **Tracking is invasive and unnecessary.** Ask your users what they want. And if you yourself block trackers (e.g. by using Firefox or Safari, or by installing a browser extension), and still have tracking scripts on your site, you are a wretched hypocrite.
+* **[Dark Patterns](https://www.darkpatterns.org) are shady tricks.** They actively harm the user experience and deceive those who are not aware of dark patterns. The web is a friendlier place if you are honest with your intentions.
 
 ## Open Source License
 
