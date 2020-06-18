@@ -3,7 +3,7 @@ layout: default.njk
 title: Games
 hero:
   src: https://images.gog.com/4bfbd0543af0afa6bb446fa3c27f9b5c8e7bd1b2ddc021091e89ed5fc2b4874b.jpg?namespace=stats_sharing
-  alt: Screenshot of Fynn Becker's GOG Galaxy library.
+  alt: 1988 games owned, 675 achievements, 824 hours played.
   height: 630
 ---
 
