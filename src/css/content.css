@@ -28,6 +28,10 @@
     0 30px 100px rgba(0, 0, 0, 0.2);
 }
 
+.content__inner {
+  width: var(--content-inner-width);
+}
+
 .content__inner > :first-child {
   margin-top: 0;
 }
