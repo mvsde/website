@@ -1,7 +1,7 @@
 const got = require('got')
 
 async function getTweetsByDate () {
-  const response = await got('https://cdn.jsdelivr.net/gh/mvsde/twitter-data/converted/tweets/meta/by-date.json').json()
+  const response = await got('https://cdn.jsdelivr.net/gh/mvsde/twitter-data@main/converted/tweets/meta/by-date.json').json()
 
   const tweetsByDate = {}
 

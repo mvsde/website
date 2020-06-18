@@ -13,7 +13,7 @@ hero:
 * [Google Chrome](https://www.google.com/chrome/)
 * [Visual Studio Code](https://code.visualstudio.com) with [lots of customizations](https://gist.github.com/mvsde/f787ef1df8b48243f8236f69d0b30dfa)
 * [Tilix](https://gnunn1.github.io/tilix-web/)
-* [zsh with Oh My Zsh](https://ohmyz.sh) and [some plugins](https://github.com/mvsde/dotfiles/blob/master/.zshrc)
+* [zsh with Oh My Zsh](https://ohmyz.sh) and [some plugins](https://github.com/mvsde/dotfiles/blob/main/.zshrc)
 * [Fira Code](https://github.com/tonsky/FiraCode)
 
 ## Hardware
