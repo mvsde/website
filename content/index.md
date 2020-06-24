@@ -1,6 +1,6 @@
 ---
 layout: default.njk
-isHome: true
+is_home: true
 title: Fynn Becker
 ---
 
