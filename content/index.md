@@ -4,7 +4,7 @@ isHome: true
 title: Fynn Becker
 ---
 
-Frontend developer. Sometimes dabbling in backend stuff. Tech enthusiast and collector of video games.
+Frontend developer. Open sourcerer 🧙‍♂️. Video game collector. Interested in everything tech and computer-y things. Star Wars and Star Trek 🖖
 
 ## About me
 
