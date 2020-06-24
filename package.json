@@ -24,7 +24,7 @@
     "@11ty/eleventy": "^0.11.0",
     "alex": "^8.1.1",
     "cssnano": "^4.1.10",
-    "eslint": "^7.2.0",
+    "eslint": "^7.3.1",
     "eslint-config-standard": "^14.1.1",
     "eslint-plugin-import": "^2.21.2",
     "eslint-plugin-node": "^11.1.0",
