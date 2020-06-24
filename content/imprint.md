@@ -12,7 +12,7 @@ Lilienstraße 11
 
 ### Email
 
-[post@fynn.be](mailto:post@fynn.be)
+[fynn@hey.com](mailto:fynn@hey.com)
 
 ### Phone
 

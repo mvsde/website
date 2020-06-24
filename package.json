@@ -1,7 +1,5 @@
 {
   "name": "@mvsde/website",
-  "version": "0.1.0",
-  "description": "My personal website.",
   "scripts": {
     "dev:site": "eleventy --input content --output dist --serve",
     "dev:css": "postcss src/main.css --watch --env development --output dist/styles.css",
@@ -14,7 +12,7 @@
     "type": "git",
     "url": "https://github.com/mvsde/website"
   },
-  "author": "Fynn Becker <post@fynn.be>",
+  "author": "Fynn Becker <fynn@hey.com>",
   "license": "UNLICENSED",
   "bugs": {
     "url": "https://github.com/mvsde/website/issues"
