@@ -8,12 +8,17 @@ Frontend developer. Open sourcerer 🧙‍♂️. Video game collector. Interest
 
 ## About me
 
+* [Ethics](ethics)
+* [Dev setup](uses)
+* [Pile of Shame™](games)
+
+## Social Media
+
 * [Twitter](https://twitter.com/mvsde)
+* [DEV](https://dev.to/mvsde)
 * [GitHub](https://github.com/mvsde)
 * [GitLab](https://gitlab.com/mvsde)
 * [LinkedIn](https://linkedin.com/in/fynn)
-* [Dev setup](uses)
-* [Ethics](ethics)
 
 ## Open Source
 
@@ -21,8 +26,3 @@ Frontend developer. Open sourcerer 🧙‍♂️. Video game collector. Interest
 * [Mailbox](https://github.com/mvsde/mailbox)
 * [Vue.js Project Timeline](https://github.com/mvsde/vue-project-timeline)
 * [This website](https://github.com/mvsde/website)
-
-## Experiments
-
-* [Twitter Archive](twitter)
-* [Pile of Shame™](games)
