@@ -7,8 +7,7 @@ hero:
   height: 630
 ---
 
-I own this ginormous video game collection I rarely touch.
-Which is commonly known as the [Pile of Shame](https://www.urbandictionary.com/define.php?term=Pile%20of%20shame).
+I own this ginormous video game collection I rarely touch. Which is commonly known as the [Pile of Shame](https://www.urbandictionary.com/define.php?term=Pile%20of%20shame).
 
 But if you ever wondered how large my pile really is, here you go:
 
