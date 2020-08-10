@@ -2,8 +2,8 @@
 layout: default.njk
 title: Games
 hero:
-  src: https://images.gog.com/274ee8b8875a8ef12c4fd89ec16dd5c29b6ce92a390bafcea3e259fe10cefa11.jpg?namespace=stats_sharing
-  alt: 2100 games owned, 759 achievements, 911 hours played.
+  src: https://images.gog.com/d910cc6d7a863d021844bc115852bcc55196317e4658e2553eacc5d29b54617d.jpg?namespace=stats_sharing
+  alt: 2109 games owned, 759 achievements, 911 hours played.
   height: 630
 ---
 
