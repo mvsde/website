@@ -4,7 +4,9 @@ is_home: true
 title: Fynn Becker
 ---
 
-Frontend developer 👨‍💻 Open sourcerer 🧙‍♂️ Video game collector 🎮 Interested in everything tech and computer-y things 💻 Star Wars and Star Trek 🖖
+<!-- alex ignore he-she -->
+
+Frontend developer 👨‍💻 Open sourcerer 🧙‍♂️ Video game collector 🎮 Interested in everything tech and computer-y things 💻 Star Wars and Star Trek 🖖 [He/Him](https://pronoun.is/he)
 
 ## About me
 
