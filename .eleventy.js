@@ -5,6 +5,10 @@ module.exports = function (eleventyConfig) {
     'src/icon': '/'
   })
 
+  eleventyConfig.addPairedShortcode("lang", function (content, lang) {
+    return `<span lang="${lang}">${content}</span>`
+  })
+
   return {
     dir: {
       layouts: '../src/layouts',
