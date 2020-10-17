@@ -30,3 +30,12 @@ ul, ol {
   margin: 0 0 1em;
   padding-left: 1.25em;
 }
+
+blockquote {
+  margin: 0 0 1em;
+  padding-left: 1em;
+
+  font-style: italic;
+
+  border-left: 0.25em solid var(--color-text-muted);
+}
