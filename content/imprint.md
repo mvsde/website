@@ -1,5 +1,4 @@
 ---
-layout: default.njk
 title: Imprint
 ---
 

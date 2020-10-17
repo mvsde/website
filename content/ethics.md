@@ -1,5 +1,4 @@
 ---
-layout: default.njk
 title: Ethics
 hero:
   src: /img/ethics.jpg

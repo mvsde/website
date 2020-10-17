@@ -1,5 +1,4 @@
 ---
-layout: default.njk
 title: Development setup
 hero:
   src: /img/uses.jpg

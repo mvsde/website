@@ -1,5 +1,4 @@
 ---
-layout: default.njk
 title: Games
 hero:
   src: https://images.gog.com/6e120ce866d87f3f4a0cc6c7049bdd1cfcc9846412cff3f6c44748fea88ee094.jpg?namespace=stats_sharing
