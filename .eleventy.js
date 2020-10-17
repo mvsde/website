@@ -1,6 +1,7 @@
 module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy({
     'content/img': 'img',
+    'src/fonts': '/fonts',
     'src/icon': '/'
   })
 
