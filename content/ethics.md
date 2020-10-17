@@ -2,7 +2,7 @@
 title: Ethics
 hero:
   src: /img/ethics.jpg
-  alt: Racism is a pandemic.
+  alt: Paper sign reading “Racism is a pandemic”.
   height: 609
 ---
 
