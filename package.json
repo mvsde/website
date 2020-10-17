@@ -3,8 +3,10 @@
   "scripts": {
     "dev:site": "eleventy --input content --output dist --serve",
     "dev:css": "postcss src/main.css --watch --env development --output dist/styles.css",
+    "build": "npm run build:site && npm run build:css",
     "build:site": "eleventy --input content --output dist --quiet",
     "build:css": "postcss src/main.css --env production --output dist/styles.css",
+    "lint": "npm run lint:js && npm run lint:language",
     "lint:js": "eslint \"**/*.js\"",
     "lint:language": "alex content/*.md content/**/*.md"
   },
