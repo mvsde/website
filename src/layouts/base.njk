@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ title + " | " if not is_home }}Fynn Becker</title>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#d72828">
+    <meta name="msapplication-TileColor" content="#d72828">
+    <meta name="theme-color" content="#d72828">
+
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;0,700;1,400&family=Merriweather:wght@700&display=swap">
+  </head>
+  <body>
+
+    {% include "header.njk" %}
+
+    <main class="content">
+
+      <h1 class="content__title">
+        {% block title %}
+          {{ title }}
+        {% endblock %}
+      </h1>
+
+      <div class="content__wrapper {% if hero.src %}content__wrapper--hero{% endif %}">
+        {% if hero %}
+          <img
+            class="content__hero"
+            src="{{ hero.src }}"
+            alt="{{ hero.alt }}"
+            width="1120"
+            height="{{ hero.height }}"
+            loading="lazy"
+          >
+        {% endif %}
+
+        <div class="content__inner container">
+          {% block content %}
+            {{ content | safe }}
+          {% endblock %}
+        </div>
+
+      </div>
+
+    </main>
+
+    {% include "footer.njk" %}
+
+  </body>
+</html>
