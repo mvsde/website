@@ -1,11 +1,19 @@
 ---
 is_home: true
-title: Fynn Becker
+title: Hi, I’m Fynn Becker
 ---
 
-<!-- alex ignore he-she -->
 
-Frontend developer 👨‍💻 Open sourcerer 🧙‍♂️ Video game collector 🎮 Interested in everything tech and computer-y things 💻 Star Wars and Star Trek 🖖 [He/Him](https://pronoun.is/he)
+A very short introduction: I am…
+
+* a frontend developer 👨‍💻
+* an open sourcerer 🧙‍♂️
+* a video game collector 🎮
+* interested in everything tech and computer-y things 💻
+* a Star Wars and Star Trek nerd 🖖
+
+<!-- alex ignore he-she -->
+My pronouns are [he/him](https://pronoun.is/he).
 
 ## About me
 
@@ -16,9 +24,9 @@ Frontend developer 👨‍💻 Open sourcerer 🧙‍♂️ Video game collector
 ## Social Media
 
 * [Twitter](https://twitter.com/mvsde)
-* [DEV](https://dev.to/mvsde)
 * [GitHub](https://github.com/mvsde)
 * [GitLab](https://gitlab.com/mvsde)
+* [DEV](https://dev.to/mvsde)
 * [LinkedIn](https://linkedin.com/in/fynn)
 
 ## Open Source
