@@ -1,10 +1,10 @@
 {
   "name": "@mvsde/website",
   "scripts": {
-    "dev:site": "eleventy --input content --output dist --serve",
+    "dev:site": "NODE_ENV=development eleventy --input content --output dist --serve",
     "dev:css": "postcss src/main.css --watch --env development --output dist/styles.css",
     "build": "npm run build:site && npm run build:css",
-    "build:site": "eleventy --input content --output dist --quiet",
+    "build:site": "NODE_ENV=production eleventy --input content --output dist --quiet",
     "build:css": "postcss src/main.css --env production --output dist/styles.css",
     "lint": "npm run lint:js && npm run lint:css",
     "lint:js": "eslint \"**/*.js\"",
