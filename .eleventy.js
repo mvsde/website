@@ -11,7 +11,7 @@ const COPY_FILES = {
  * @returns {string} Content wrapped with language
  */
 function langShortcode (content, lang) {
-  return `<span lang="${lang}">${content}</span>`
+  return `<span lang="${lang}" translate="no">${content}</span>`
 }
 
 /**
