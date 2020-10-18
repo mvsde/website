@@ -1,7 +1,12 @@
 ---
 title: Ethics
+description: I take up a strong stance on ethical behavior in general and ethical web development in particular.
+twitter:
+  image:
+    src: /img/ethics/twitter.webp
+    alt: Paper sign reading “Racism is a pandemic”.
 hero:
-  src: /img/ethics.jpg
+  src: /img/ethics/hero.webp
   alt: Paper sign reading “Racism is a pandemic”.
   height: 609
 ---

@@ -1,5 +1,6 @@
 ---
 title: Imprint
+description: Required legal disclosure for websites from German citizens.
 ---
 
 Fynn Becker  

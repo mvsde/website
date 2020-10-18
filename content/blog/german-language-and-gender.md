@@ -1,5 +1,6 @@
 ---
 title: The German Language and Gender
+description: I am thinking a lot about how I can express myself inclusively, be it in written or spoken word.
 date: 2020-10-17
 tags: blog
 ---

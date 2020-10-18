@@ -1,6 +1,12 @@
 ---
 is_home: true
 title: Hi, I’m Fynn Becker
+description: I am a frontend developer, open sourcerer, video game collector, interested in tech, and a Star Wars and Star Trek nerd 🖖
+twitter:
+  card: summary_large_image
+  image:
+    src: /img/index/twitter.webp
+    alt: Green meadow with horses under a blue sky with a few large clouds and two rainbow arcs.
 ---
 
 
