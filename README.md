@@ -40,5 +40,4 @@ npm run lint
 # Individual components
 npm run lint:js
 npm run lint:css
-npm run lint:language
 ```

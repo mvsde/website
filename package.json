@@ -6,10 +6,9 @@
     "build": "npm run build:site && npm run build:css",
     "build:site": "eleventy --input content --output dist --quiet",
     "build:css": "postcss src/main.css --env production --output dist/styles.css",
-    "lint": "npm run lint:js && npm run lint:language",
+    "lint": "npm run lint:js && npm run lint:css",
     "lint:js": "eslint \"**/*.js\"",
-    "lint:css": "stylelint --ignore-path .gitignore \"**/*.css\"",
-    "lint:language": "alex content/*.md content/**/*.md"
+    "lint:css": "stylelint --ignore-path .gitignore \"**/*.css\""
   },
   "repository": {
     "type": "git",
@@ -24,7 +23,6 @@
   "devDependencies": {
     "@11ty/eleventy": "^0.11.0",
     "@pangolinjs/stylelint-config": "^2.0.3",
-    "alex": "^9.0.1",
     "cssnano": "^4.1.10",
     "eslint": "^7.11.0",
     "eslint-config-standard": "^14.1.1",

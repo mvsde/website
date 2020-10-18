@@ -12,7 +12,6 @@ A very short introduction: I am…
 * interested in everything tech and computer-y things 💻
 * a Star Wars and Star Trek nerd 🖖
 
-<!-- alex ignore he-she -->
 My pronouns are [he/him](https://pronoun.is/he).
 
 ## About me
