@@ -1,0 +1,22 @@
+name: Continuous Integration
+on:
+  - push
+
+jobs:
+
+  lint:
+    name: Lint
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v2
+      - name: Set up Node.js
+        uses: actions/setup-node@v2-beta
+        with:
+          node-version: 14
+      - name: Install dependencies
+        run: npm ci
+      - name: Lint JS
+        run: npm run lint:js
+      - name: Lint language
+        run: npm run lint:language
