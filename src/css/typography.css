@@ -1,8 +1,13 @@
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   margin: 1.5em 0 0.5em;
 
   font-family: var(--font-family-heading);
-  line-height: var(--line-height-heading)
+  line-height: var(--line-height-heading);
 }
 
 p {
@@ -26,7 +31,8 @@ a:focus {
   outline-offset: 0.125em;
 }
 
-ul, ol {
+ul,
+ol {
   margin: 0 0 1em;
   padding-left: 1.25em;
 }

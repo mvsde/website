@@ -8,6 +8,7 @@
     "build:css": "postcss src/main.css --env production --output dist/styles.css",
     "lint": "npm run lint:js && npm run lint:language",
     "lint:js": "eslint \"**/*.js\"",
+    "lint:css": "stylelint --ignore-path .gitignore \"**/*.css\"",
     "lint:language": "alex content/*.md content/**/*.md"
   },
   "repository": {
@@ -22,6 +23,7 @@
   "homepage": "https://github.com/mvsde/website#readme",
   "devDependencies": {
     "@11ty/eleventy": "^0.11.0",
+    "@pangolinjs/stylelint-config": "^2.0.3",
     "alex": "^9.0.1",
     "cssnano": "^4.1.10",
     "eslint": "^7.11.0",
@@ -31,6 +33,9 @@
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-standard": "^4.0.1",
     "postcss-cli": "^8.1.0",
-    "postcss-import": "^12.0.1"
+    "postcss-import": "^12.0.1",
+    "stylelint": "^13.7.2",
+    "stylelint-order": "^4.1.0",
+    "stylelint-scss": "^3.18.0"
   }
 }
