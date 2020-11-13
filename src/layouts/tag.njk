@@ -4,7 +4,7 @@
   {{ content | safe }}
 
   <ol reversed>
-    {% for item in collections[collection] %}
+    {% for item in collections[collection] | reverse %}
       <li>
         <a href="{{ item.url }}">{{ item.data.title }}</a>
       </li>
