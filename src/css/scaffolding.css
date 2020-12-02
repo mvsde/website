@@ -21,3 +21,7 @@ img {
 summary {
   cursor: pointer;
 }
+
+iframe {
+  border: 0;
+}

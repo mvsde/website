@@ -3,10 +3,10 @@ title: Games
 description: I own this ginormous video game collection I rarely touch. Which is commonly known as the Pile of Shame.
 twitter:
   image:
-    src: /img/games/twitter.webp
+    image: /img/games/twitter.webp
     alt: Text reading “2166 games owned”.
 hero:
-  src: /img/games/hero.webp
+  image: /img/games/hero.webp
   alt: "GOG GALAXY statistics: 2166 games owned, 768 achievements, 915 hours played."
   height: 630
 ---

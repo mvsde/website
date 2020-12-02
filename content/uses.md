@@ -3,10 +3,10 @@ title: Development setup
 description: A list of all the software and hardware I use for my frontend dev job and my not-so-frontend-dev-job as a gamer.
 twitter:
   image:
-    src: /img/uses/twitter.webp
+    image: /img/uses/twitter.webp
     alt: Orange illuminated desk with ultra-wide monitor and notebook showing the Ubuntu 19.10 “Eoan Ermine” wallpaper.
 hero:
-  src: /img/uses/hero.webp
+  image: /img/uses/hero.webp
   alt: Orange illuminated desk with ultra-wide monitor and notebook showing the Ubuntu 19.10 “Eoan Ermine” wallpaper.
   height: 654
 ---

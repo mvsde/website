@@ -17,6 +17,7 @@
 .content__hero {
   display: block;
   width: var(--container-width);
+  max-width: 100%;
   margin: calc(var(--content-hero-bleed) * -1) auto 2em;
 
   box-shadow:

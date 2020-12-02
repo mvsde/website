@@ -34,16 +34,28 @@
         {% endblock %}
       </h1>
 
-      <div class="content__wrapper {% if hero.src %}content__wrapper--hero{% endif %}">
-        {% if hero %}
+      <div class="content__wrapper {% if hero %}content__wrapper--hero{% endif %}">
+        {% if hero.image %}
           <img
             class="content__hero"
-            src="{{ hero.src }}"
+            src="{{ hero.image }}"
             alt="{{ hero.alt }}"
             width="1120"
             height="{{ hero.height }}"
             loading="lazy"
           >
+        {% elseif hero.youtube %}
+          <div class="content__hero">
+            <div class="aspect-ratio is-16-9">
+              <iframe
+                src="https://www.youtube.com/embed/{{ hero.youtube }}"
+                width="1120"
+                height="630"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+            </div>
+          </div>
         {% endif %}
 
         <div class="content__inner container">
