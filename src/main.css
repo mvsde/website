@@ -8,6 +8,7 @@
 
 /* Layouts */
 @import url("layouts/post.css");
+@import url("layouts/tag.css");
 
 /* Components */
 @import url("includes/footer.css");
@@ -16,4 +17,3 @@
 
 /* Utilities */
 @import url("utils/aspect-ratio.css");
-@import url("utils/margin.css");

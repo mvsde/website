@@ -1,11 +1,12 @@
 {% extends "./base.njk" %}
 
 {% block title %}
+  {% set post_date = page.date.toISOString() %}
   <time
     class="post__date"
-    datetime="{{ page.date.toISOString() }}"
+    datetime="{{ post_date }}"
   >
-    {{ page.date.toISOString().slice(0, 10) }}
+    {{ post_date.slice(0, 10) }}
   </time>
   {{ title }}
 {% endblock %}

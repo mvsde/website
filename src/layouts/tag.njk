@@ -3,10 +3,24 @@
 {% block content %}
   {{ content | safe }}
 
-  <ol reversed>
+  <ol
+    class="tag__list"
+    reversed
+  >
     {% for item in collections[collection] | reverse %}
-      <li>
+      {% set item_date = item.date.toISOString() %}
+
+      <li class="tag__item">
+
+        <time
+          class="tag__date"
+          datetime="{{ item_date }}"
+        >
+          {{ item_date.slice(0, 10) }}
+        </time>
+
         <a href="{{ item.url }}">{{ item.data.title }}</a>
+
       </li>
     {% endfor %}
   </ol>
