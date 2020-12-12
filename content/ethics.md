@@ -37,12 +37,6 @@ Lethal or non-lethal, it does not matter, conflicts have to be solved peacefully
 
 Open Source Software is free to use, but that does not mean it is free to make. Businesses that make money using Open Source projects are urged to contribute back — be it financially or by giving back time.
 
-### Two types of Open Source
-
-There is “true” Open Source — developed by independent individuals or foundations. And there is “corporate” Open Source — projects that look open but are ultimately controlled by enterprises: _React_ is a _Facebook_ product, _Angular_ is a _Google_ product. You get the idea.
-
-Try using real Open Source projects as best as you can, lest you are driven by decisions from an unaccountable corporation.
-
 ### Tracking is invasive and unnecessary
 
 Since tracking and ad blockers see widespread usage, analytics is useless anyway. They give a false picture of user behavior. If you want to know what users think about your website or product, ask them, poll them. Use a method that is voluntary and not invasive.
