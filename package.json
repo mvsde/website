@@ -1,6 +1,7 @@
 {
   "name": "@mvsde/website",
   "scripts": {
+    "dev": "npm run dev:site & npm run dev:css",
     "dev:site": "NODE_ENV=development eleventy --input content --output dist --serve",
     "dev:css": "postcss src/main.css --watch --env development --output dist/styles.css",
     "build": "npm run build:site && npm run build:css",

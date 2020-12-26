@@ -13,20 +13,21 @@ npm install
 ## Development
 
 ```bash
-# Terminal 1
-npm run dev:site
+# All tasks parallel
+npm run dev
 
-# Terminal 2
+# Individual tasks
+npm run dev:site
 npm run dev:css
 ```
 
 ## Production
 
 ```bash
-# All in one
+# All tasks parallel
 npm run build
 
-# Individual parts
+# Individual tasks
 npm run build:site
 npm run build:css
 ```
@@ -34,10 +35,10 @@ npm run build:css
 ## Linting
 
 ```bash
-# All in one
+# All tasks parallel
 npm run lint
 
-# Individual components
+# Individual tasks
 npm run lint:js
 npm run lint:css
 ```
