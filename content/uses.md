@@ -8,6 +8,7 @@ twitter:
 hero:
   image: /img/uses/hero.webp
   alt: Orange illuminated desk with ultra-wide monitor and notebook showing the Ubuntu 19.10 “Eoan Ermine” wallpaper.
+  caption: I’ve since switched to the latest Ubuntu release, version 20.10 “Groovy Gorilla”.
   height: 654
 ---
 
@@ -15,7 +16,7 @@ hero:
 
 * [Ubuntu](https://ubuntu.com)
 * [Google Chrome](https://www.google.com/chrome/)
-* [Visual Studio Code](https://code.visualstudio.com) with [lots of customizations](https://gist.github.com/mvsde/f787ef1df8b48243f8236f69d0b30dfa)
+* [Visual Studio Code](https://code.visualstudio.com)
 * [Tilix](https://gnunn1.github.io/tilix-web/)
 * [zsh with Oh My Zsh](https://ohmyz.sh) and [some plugins](https://github.com/mvsde/dotfiles/blob/main/.zshrc)
 * [JetBrains Mono](https://www.jetbrains.com/lp/mono/)
@@ -29,5 +30,5 @@ hero:
 * [Microsoft Sidewinder X4](https://www.microsoft.com/accessories/d/sidewinder-x4-keyboard)
 * [Behringer MS40](https://www.behringer.com/Categories/Behringer/Loudspeaker-Systems/Multimedia/MS40/p/P0384)
 * [IKEA SKARSTA](https://www.ikea.com/us/en/p/skarsta-desk-sit-stand-white-s89324812/)
-* No chair — I'm always standing 😁
+* No chair, I'm always standing 😁
 * Some cheapo RGB LED strips
