@@ -14,21 +14,6 @@
   margin-top: var(--content-hero-bleed);
 }
 
-.content__hero {
-  display: block;
-  width: var(--container-width);
-  max-width: 100%;
-  margin: calc(var(--content-hero-bleed) * -1) auto 2em;
-
-  box-shadow:
-    0 0.8px 2.8px hsl(0deg 0% 0% / 0.06),
-    0 2px 6.7px hsl(0deg 0% 0% / 0.08),
-    0 3.8px 12.5px hsl(0deg 0% 0% / 0.1),
-    0 6.7px 22.3px hsl(0deg 0% 0% / 0.12),
-    0 12.5px 41.8px hsl(0deg 0% 0% / 0.14),
-    0 30px 100px hsl(0deg 0% 0% / 0.2);
-}
-
 .content__inner {
   width: var(--content-inner-width);
 }
