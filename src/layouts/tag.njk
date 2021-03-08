@@ -8,7 +8,7 @@
     reversed
   >
     {% for item in collections[collection] | reverse %}
-      {% set item_date = item.date.toISOString() %}
+      {% set item_date = item.date.toISOString().slice(0, 10) %}
 
       <li class="tag__item">
 
@@ -16,7 +16,7 @@
           class="tag__date"
           datetime="{{ item_date }}"
         >
-          {{ item_date.slice(0, 10) }}
+          {{ item_date }}
         </time>
 
         <a href="{{ item.url }}">{{ item.data.title }}</a>
