@@ -8,3 +8,9 @@
 [[redirects]]
   from = "https://fynn.netlify.app/*"
   to = "https://fynn.be/:splat"
+  force = true
+
+[[redirects]]
+  from = "https://mvsde.com/*"
+  to = "https://fynn.be/:splat"
+  force = true
