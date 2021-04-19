@@ -14,3 +14,8 @@
   from = "https://mvsde.com/*"
   to = "https://fynn.be/:splat"
   force = true
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    permissions-policy = "interest-cohort=()"
