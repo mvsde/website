@@ -3,7 +3,7 @@
   publish = "dist"
 
 [build.environment]
-  NODE_VERSION = "15"
+  NODE_VERSION = "16"
 
 [[redirects]]
   from = "https://fynn.netlify.app/*"
