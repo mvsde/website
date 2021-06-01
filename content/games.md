@@ -3,7 +3,7 @@ title: Games
 description: I own this ginormous video game collection I rarely touch. Which is commonly known as the Pile of Shame.
 twitter:
   image:
-    image: /img/games/twitter.webp
+    src: /img/games/twitter.webp
     alt: Text reading “2166 games owned”.
 hero:
   image: /img/games/hero.webp

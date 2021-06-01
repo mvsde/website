@@ -3,7 +3,7 @@ title: Ethics
 description: I take up a strong stance on ethical behavior in general and ethical web development in particular.
 twitter:
   image:
-    image: /img/ethics/twitter.webp
+    src: /img/ethics/twitter.webp
     alt: Paper sign reading “Racism is a pandemic”.
 hero:
   image: /img/ethics/hero.webp

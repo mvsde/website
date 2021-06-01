@@ -5,7 +5,7 @@ description: I am a frontend developer, open sourcerer, video game collector, in
 twitter:
   card: summary_large_image
   image:
-    image: /img/index/twitter.webp
+    src: /img/index/twitter.webp
     alt: Green meadow with horses under a blue sky with a few large clouds and two rainbow arcs.
 ---
 
