@@ -8,7 +8,7 @@ twitter:
 hero:
   image: /img/uses/hero.webp
   alt: Orange illuminated desk with ultra-wide monitor and notebook showing the Ubuntu 19.10 “Eoan Ermine” wallpaper.
-  caption: I’ve since switched to the latest Ubuntu release, version 20.10 “Groovy Gorilla”.
+  caption: I’ve since switched to the latest Ubuntu release, version 21.04 “Hirsute Hippo”.
   height: 654
 ---
 
