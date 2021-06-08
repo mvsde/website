@@ -23,6 +23,7 @@
   "homepage": "https://fynn.be",
   "devDependencies": {
     "@11ty/eleventy": "^0.12.1",
+    "@11ty/eleventy-plugin-rss": "^1.1.1",
     "@pangolinjs/eslint-config": "^5.2.0",
     "@pangolinjs/stylelint-config": "^2.0.5",
     "cssnano": "^5.0.5",

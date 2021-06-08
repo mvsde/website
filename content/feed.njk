@@ -1,0 +1,41 @@
+---
+permalink: feed.xml
+layout: false
+eleventyExcludeFromCollections: true
+---
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Fynn Becker</title>
+  <subtitle>Blog posts from the personal website of Fynn Becker.</subtitle>
+  <updated>{{ collections.rss | getNewestCollectionItemDate | dateToRfc3339 }}</updated>
+  <icon>{{ base }}/icon/favicon.svg</icon>
+
+  <link href="{{ base }}/{{ permalink }}" rel="self"/>
+  <link href="{{ base }}/"/>
+  <id>{{ base }}/</id>
+
+  <author>
+    <name>Fynn Becker</name>
+    <email>post@fynn.be</email>
+  </author>
+
+  {% for post in collections.rss %}
+    {% set absolutePostUrl %}{{ post.url | url | absoluteUrl(base) }}{% endset %}
+    {% set hero = post.data.hero %}
+    {% set hero_markup %}{% include "hero.njk" %}{% endset %}
+
+    <entry>
+      <title>{{ post.data.title }}</title>
+      <link href="{{ absolutePostUrl }}"/>
+      <updated>{{ post.date | dateToRfc3339 }}</updated>
+      <id>{{ absolutePostUrl }}</id>
+      {% if post.data.summary %}
+        <summary>{{ post.data.description }}</summary>
+      {% endif %}
+      <content type="html">
+        {% if hero %}{{ hero_markup }}{% endif %}
+        {{ post.templateContent | htmlToAbsoluteUrls(absolutePostUrl) }}
+      </content>
+    </entry>
+  {% endfor %}
+</feed>
