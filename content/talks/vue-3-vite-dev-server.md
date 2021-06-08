@@ -7,4 +7,4 @@ hero:
   youtube: Wyj0O2EdQeQ
 ---
 
-Short introduction to the [Vite Dev Server](https://github.com/vitejs/vite) and [Vue 3](https://vuejs.org). In German.
+Short introduction to the [Vite Dev Server](https://github.com/vitejs/vite) and [Vue 3](https://vuejs.org). The [slides are available online](https://slides.com/fynn/vue-3-mit-vite-dev-server). In German.
