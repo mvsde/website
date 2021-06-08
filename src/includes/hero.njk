@@ -7,12 +7,11 @@
       alt="{{ hero.alt }}"
       width="1120"
       height="{{ hero.height }}"
-      loading="lazy"
     >
   {% elseif hero.youtube %}
     <div class="hero__media aspect-ratio is-16-9">
       <iframe
-        src="https://www.youtube.com/embed/{{ hero.youtube }}"
+        src="https://www.youtube-nocookie.com/embed/{{ hero.youtube }}"
         width="1120"
         height="630"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"

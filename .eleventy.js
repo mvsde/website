@@ -28,7 +28,6 @@ module.exports = function (eleventyConfig) {
       includes: '../src/includes',
       data: '../data'
     },
-    templateFormats: ['md', '11ty.js'],
     markdownTemplateEngine: 'njk'
   }
 }
