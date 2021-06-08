@@ -6,17 +6,11 @@
   padding-bottom: var(--container-padding);
 }
 
-.header__info {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: baseline;
-  font-weight: 700;
-}
-
 .header__title {
   margin: 0 1.2em 0.2em 0;
 
   font-size: 1.375em;
+  font-weight: 700;
   text-decoration: none;
   color: currentColor;
 }
