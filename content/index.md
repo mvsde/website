@@ -12,13 +12,13 @@ twitter:
 
 A very short introduction: I am…
 
-* a frontend developer 👨‍💻
-* an open sourcerer 🧙‍♂️
-* a video game collector 🎮
-* interested in everything tech and computer-y things 💻
-* a Star Wars and Star Trek nerd 🖖
+* a frontend developer 👨‍💻,
+* an open sourcerer 🧙‍♂️,
+* a video game collector 🎮,
+* interested in everything tech and computer-y things 💻,
+* and a Star Wars and Star Trek nerd 🖖.
 
-My pronouns are [he/him](https://pronoun.is/he).
+My pronouns are [he/him](https://pronoun.is/he) 🏳️‍🌈.
 
 ## About me
 
