@@ -1,7 +1,7 @@
 :root {
   --color-primary: hsl(0deg 69% 50%);
   --color-text: hsl(19deg 27% 14%);
-  --color-text-muted: hsl(23deg 13% 45%);
+  --color-text-muted: hsl(23deg 13% 44%);
   --color-background: hsl(30deg 30% 96%);
 
   --font-family-text: "IBM Plex Sans", sans-serif;

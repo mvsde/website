@@ -15,10 +15,6 @@
   color: currentColor;
 }
 
-.header__subtitle {
-  color: var(--color-text-muted);
-}
-
 .header__nav {
   display: flex;
   flex-wrap: wrap;
