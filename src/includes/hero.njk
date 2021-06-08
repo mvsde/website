@@ -23,7 +23,7 @@
 
   {% if hero.caption %}
     <figcaption class="hero__caption">
-      {{ hero.caption }}
+      {{ hero.caption | safe }}
     </figcaption>
   {% endif %}
 
