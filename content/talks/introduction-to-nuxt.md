@@ -1,7 +1,7 @@
 ---
 title: Introduction to Nuxt.js
 description: Server side rendering made easy.
-date: 2019-01-29
+date: 2019-01-29 16:00:00
 tags: talk
 hero:
   image: /img/talks/introduction-to-nuxt/hero.webp

@@ -1,7 +1,7 @@
 ---
 title: Inclusivity in Video Games
 description: Like software development, video games have a history of being dominated by white men.
-date: 2020-12-26
+date: 2020-12-26 07:36:00
 tags: blog
 ---
 
