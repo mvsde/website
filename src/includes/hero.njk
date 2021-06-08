@@ -11,6 +11,7 @@
   {% elseif hero.youtube %}
     <div class="hero__media aspect-ratio is-16-9">
       <iframe
+        title="{{ hero.title }}"
         src="https://www.youtube-nocookie.com/embed/{{ hero.youtube }}"
         width="1120"
         height="630"
