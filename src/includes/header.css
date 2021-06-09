@@ -19,12 +19,16 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-end;
-  margin-left: 1em;
+  gap: 0.5em 1em;
 }
 
 .header__link {
-  margin: 0 0 0.5em 1em;
-
   font-weight: 700;
   text-decoration: none;
+}
+
+.header__link:hover,
+.header__link.is-active {
+  text-decoration: underline;
+  text-decoration-thickness: 0.125em;
 }
