@@ -25,26 +25,6 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPairedShortcode('lang', langShortcode)
   eleventyConfig.addPlugin(pluginRSS)
 
-  eleventyConfig.addCollection('rss', collectionApi => {
-    return collectionApi.getAllSorted().filter(item => {
-      const tags = item.data.tags
-
-      if (tags?.includes('blog')) {
-        return true
-      }
-
-      if (tags?.includes('talk')) {
-        return true
-      }
-
-      if (tags?.includes('sunset')) {
-        return true
-      }
-
-      return false
-    })
-  })
-
   return {
     dir: {
       layouts: '../src/layouts',

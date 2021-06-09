@@ -2,7 +2,9 @@
 title: Inclusivity in Video Games
 description: Like software development, video games have a history of being dominated by white men.
 date: 2020-12-26 07:36:00
-tags: blog
+tags:
+  - blog
+  - feed
 ---
 
 Video games and software development share an unfortunate “feature”: Both are dominated by white western men. But recently some progress could be made on either front. Developers share their experiences with gatekeeping and racism, and more video games tell inclusive stories with diverse characters.

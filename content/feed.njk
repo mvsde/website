@@ -7,7 +7,7 @@ eleventyExcludeFromCollections: true
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Fynn Becker</title>
   <subtitle>Blog posts from the personal website of Fynn Becker.</subtitle>
-  <updated>{{ collections.rss | getNewestCollectionItemDate | dateToRfc3339 }}</updated>
+  <updated>{{ collections.feed | getNewestCollectionItemDate | dateToRfc3339 }}</updated>
   <icon>{{ base }}/icon/favicon.svg</icon>
 
   <link href="{{ base }}/{{ permalink }}" rel="self"/>
@@ -19,7 +19,7 @@ eleventyExcludeFromCollections: true
     <email>post@fynn.be</email>
   </author>
 
-  {% for post in collections.rss %}
+  {% for post in collections.feed %}
     {% set absolutePostUrl %}{{ post.url | url | absoluteUrl(base) }}{% endset %}
     {% set hero = post.data.hero %}
     {% set hero_markup %}{% include "hero.njk" %}{% endset %}

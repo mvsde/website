@@ -2,7 +2,9 @@
 title: Vue 3 with Vite Dev Server
 description: Short introduction to the Vite Dev Server and Vue 3. In German.
 date: 2020-12-01 16:00:00
-tags: talk
+tags:
+  - talk
+  - feed
 hero:
   youtube: Wyj0O2EdQeQ
   title: Video recording of the talk
