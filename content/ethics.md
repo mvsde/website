@@ -42,9 +42,11 @@ Since tracking and ad blockers see widespread usage, analytics is useless anyway
 
 And if you yourself block trackers (e.g. by using _Firefox_ or _Safari_, or by installing a browser extension), and still have tracking scripts on your site, you are a wretched hypocrite!
 
-### [Dark Patterns](https://www.darkpatterns.org) are shady tricks
+### [Deceptive dark patterns](https://www.darkpatterns.org) are shady tricks
 
-They actively harm the user experience and deceive those who are not aware of dark patterns. The web is a friendlier place if you are honest with your intentions.
+They actively harm the user experience and deceive those who are not aware of deceptive dark patterns. The web is a friendlier place if you are honest with your intentions.
+
+The phrase “dark pattern” is problematic. [Jeremy Keith](https://adactio.com) proposes _[deceptive dark pattern](https://adactio.com/journal/18192)_ as a temporary solution until we can drop the “dark”.
 
 ## Open Source License
 
