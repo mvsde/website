@@ -14,3 +14,16 @@
   font-size: 0.8em;
   color: var(--color-text-muted);
 }
+
+.tag__language {
+  display: inline-block;
+  margin-right: 0.5em;
+  padding: 0.2em 0.25em;
+  vertical-align: 0.05em;
+
+  font-size: 0.8em;
+  line-height: 1;
+  color: #fff;
+
+  background: var(--color-text-muted);
+}

@@ -19,7 +19,12 @@
           {{ item_date }}
         </time>
 
-        <a href="{{ item.url }}">{{ item.data.title }}</a>
+        <a href="{{ item.url }}">
+          {% if item.data.language %}
+            <span aria-label="(In {{ item.data.language | upper }}) " class="tag__language">{{ item.data.language | upper }}</span>
+          {%- endif %}
+          {{- item.data.title }}
+        </a>
 
       </li>
     {% endfor %}
