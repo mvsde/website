@@ -32,7 +32,7 @@
     "eslint-plugin-import": "^2.23.4",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^5.1.0",
-    "postcss": "^8.3.2",
+    "postcss": "^8.3.4",
     "postcss-cli": "^8.3.1",
     "postcss-import": "^14.0.2",
     "stylelint": "^13.13.1",
