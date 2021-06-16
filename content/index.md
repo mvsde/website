@@ -10,12 +10,14 @@ twitter:
 ---
 
 
-A very short introduction: I am…
+A short introduction: I am…
 
 * a frontend developer 👨‍💻,
 * an open sourcerer 🧙‍♂️,
 * a video game collector 🎮,
 * interested in everything tech and computer-y things 💻,
+* a [Shinson Hapkido](http://www.shinsonhapkido.org) green belt 🥋,
+* an active member of the German cyclists club ADFC 🚴🏻‍♂️,
 * and a Star Wars and Star Trek nerd 🖖.
 
 My pronouns are [he/him](https://pronoun.is/he) 🏳️‍🌈.
