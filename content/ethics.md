@@ -36,11 +36,9 @@ Lethal or non-lethal, it does not matter, conflicts have to be solved peacefully
 
 Open Source Software is free to use, but that does not mean it is free to make. Businesses that make money using Open Source projects are urged to contribute back — be it financially or by giving back time.
 
-### Tracking is invasive and unnecessary
+### Alternatives to Google Analytics
 
-Since tracking and ad blockers see widespread usage, analytics is useless anyway. They give a false picture of user behavior. If you want to know what users think about your website or product, ask them, poll them. Use a method that is voluntary and not invasive.
-
-And if you yourself block trackers (e.g. by using _Firefox_ or _Safari_, or by installing a browser extension), and still have tracking scripts on your site, you are a wretched hypocrite!
+Please stop feeding tech giants with even more data about literally every person that dares to use a web browser. You can self-host [Matomo](https://matomo.org) or [Umami](https://umami.is), or use privacy-focused analytics providers like [Fathom](https://usefathom.com) or [Plausible](https://plausible.io).
 
 ### [Deceptive dark patterns](https://www.darkpatterns.org) are shady tricks
 
