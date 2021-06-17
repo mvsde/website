@@ -34,7 +34,7 @@ Lethal or non-lethal, it does not matter, conflicts have to be solved peacefully
 
 ### Pay the maintainers
 
-Open Source Software is free to use, but that does not mean it is free to make. Businesses that make money using Open Source projects are urged to contribute back — be it financially or by giving back time.
+Open-source software is free to use, but that does not mean it is free to make. Businesses that make money using open-source projects should contribute back — be it financially or by allocating developer time.
 
 ### Alternatives to Google Analytics
 
