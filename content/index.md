@@ -1,7 +1,7 @@
 ---
 is_home: true
 title: Hi, I’m Fynn Becker
-description: I am a frontend developer, open sourcerer, video game collector, interested in tech, and a Star Wars and Star Trek nerd 🖖
+description: I am a frontend developer, open sourcerer, video game collector, interested in tech, and a Star Wars and Star Trek nerd 🖖🏻
 twitter:
   card: summary_large_image
   image:
@@ -12,13 +12,13 @@ twitter:
 
 A short introduction: I am…
 
-* a frontend developer 👨‍💻,
-* an open sourcerer 🧙‍♂️,
+* a frontend developer 🧑🏻‍💻,
+* an open sourcerer 🧙🏻,
 * a video game collector 🎮,
-* interested in everything tech and computer-y things 💻,
+* interested in tech and computer-y things 💻,
 * a [Shinson Hapkido](http://www.shinsonhapkido.org) green belt 🥋,
-* an active member of the German cyclists club ADFC 🚴🏻‍♂️,
-* and a Star Wars and Star Trek nerd 🖖.
+* an active member of the German cyclists club ADFC 🚴🏻,
+* and a huge [Star Wars](https://twitter.com/mvsde/status/1408409600643190788) and [Star Trek](https://twitter.com/mvsde/status/1400519056374046726) nerd 🖖🏻.
 
 My pronouns are [he/him](https://pronoun.is/he) 🏳️‍🌈.
 
@@ -26,7 +26,7 @@ My pronouns are [he/him](https://pronoun.is/he) 🏳️‍🌈.
 
 * [Ethics](ethics)
 * [Dev setup](uses)
-* [Pile of Shame™](games)
+* [Pile of Shame](games)™
 
 ## Social Media
 
