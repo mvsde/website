@@ -20,7 +20,7 @@ A short introduction: I am…
 * an active member of the German cyclists club ADFC 🚴🏻,
 * and a huge [Star Wars](https://twitter.com/mvsde/status/1408409600643190788) and [Star Trek](https://twitter.com/mvsde/status/1400519056374046726) nerd 🖖🏻.
 
-My pronouns are [he/him](https://pronoun.is/he) 🏳️‍🌈.
+My pronouns are [he](https://pronoun.is/he) or [they](https://pronoun.is/they) 🏳️‍🌈.
 
 ## About me
 
