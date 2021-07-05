@@ -41,5 +41,4 @@ My pronouns are [he](https://pronoun.is/he) or [they](https://pronoun.is/they) ð
 
 * [Pangolin.js](https://pangolinjs.org)
 * [Mailbox](https://github.com/mvsde/mailbox)
-* [Vue.js Project Timeline](https://github.com/mvsde/vue-project-timeline)
 * [This website](https://github.com/mvsde/website)
