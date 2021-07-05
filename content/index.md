@@ -34,6 +34,7 @@ My pronouns are [he/him](https://pronoun.is/he) 🏳️‍🌈.
 * [GitHub](https://github.com/mvsde)
 * [GitLab](https://gitlab.com/mvsde)
 * [DEV](https://dev.to/mvsde)
+* [Polywork](https://www.polywork.com/fynn)
 * [LinkedIn](https://linkedin.com/in/fynn)
 
 ## Open Source
