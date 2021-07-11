@@ -1,0 +1,14 @@
+table {
+  margin-block-end: 1em;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 0.375em 0.5em;
+  border: 0.0625em solid var(--color-table-border);
+}
+
+th {
+  text-align: start;
+}

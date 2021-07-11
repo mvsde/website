@@ -3,6 +3,7 @@
   --color-text: hsl(19deg 27% 14%);
   --color-text-muted: hsl(23deg 13% 44%);
   --color-background: hsl(30deg 30% 96%);
+  --color-table-border: hsl(30deg 15% 65%);
 
   --font-family-text: "IBM Plex Sans", sans-serif;
   --font-family-heading: "Merriweather", serif;

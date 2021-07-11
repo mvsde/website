@@ -1,20 +1,21 @@
 /* Setup */
-@import url("css/variables.css");
-@import url("css/fonts.css");
-@import url("css/scaffolding.css");
-@import url("css/typography.css");
-@import url("css/container.css");
-@import url("css/content.css");
+@import "css/variables.css";
+@import "css/fonts.css";
+@import "css/scaffolding.css";
+@import "css/typography.css";
+@import "css/tables.css";
+@import "css/container.css";
+@import "css/content.css";
 
 /* Layouts */
-@import url("layouts/post.css");
-@import url("layouts/tag.css");
+@import "layouts/post.css";
+@import "layouts/tag.css";
 
 /* Components */
-@import url("includes/footer.css");
-@import url("includes/header.css");
-@import url("includes/hero.css");
-@import url("includes/pagination.css");
+@import "includes/footer.css";
+@import "includes/header.css";
+@import "includes/hero.css";
+@import "includes/pagination.css";
 
 /* Utilities */
-@import url("utils/aspect-ratio.css");
+@import "utils/aspect-ratio.css";
