@@ -31,5 +31,4 @@ hero:
 * [Corsair MM300 PRO](https://www.corsair.com/Categories/Products/Gaming-Mousepads/Cloth-Textile-Surface-Mousepads/MM300-PRO/p/CH-9413641-WW)
 * [Behringer MS40](https://www.behringer.com/Categories/Behringer/Loudspeaker-Systems/Multimedia/MS40/p/P0384)
 * [IKEA SKARSTA](https://www.ikea.com/us/en/p/skarsta-desk-sit-stand-white-s89324812/)
-* No chair, I'm always standing 🧍🏻
-* Some cheapo RGB LED strips
+* No chair, I’m always standing 🧍🏻

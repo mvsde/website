@@ -9,23 +9,24 @@ twitter:
     alt: Green meadow with horses under a blue sky with a few large clouds and two rainbow arcs.
 ---
 
-
 A short introduction: I am…
 
-* a frontend developer 🧑🏻‍💻,
-* an open sourcerer 🧙🏻,
-* a video game collector 🎮,
-* interested in tech and computer-y things 💻,
-* a [Shinson Hapkido](http://www.shinsonhapkido.org) green belt 🥋,
-* an active member of the German cyclists club ADFC 🚴🏻,
-* and a huge [Star Wars](https://twitter.com/mvsde/status/1408409600643190788) and [Star Trek](https://twitter.com/mvsde/status/1400519056374046726) nerd 🖖🏻.
+🧑🏻‍💻 a frontend developer,  
+🧙🏻 an open sourcerer,  
+🎮 a video game collector,  
+💻 interested in tech and computer things,  
+🥋 a [Shinson Hapkido](http://www.shinsonhapkido.org) green belt,  
+🚴🏻 an active member of the German cyclists club ADFC,  
+🖖🏻 and a huge [Star Wars](https://twitter.com/mvsde/status/1408409600643190788) and [Star Trek](https://twitter.com/mvsde/status/1400519056374046726) nerd.  
 
-My pronouns are [he](https://pronoun.is/he) or [they](https://pronoun.is/they) 🏳️‍🌈.
+My pronouns are [they](https://pronoun.is/they) or [he](https://pronoun.is/he) 🏳️‍🌈.
 
 ## About me
 
 * [Ethics](ethics)
 * [Dev setup](uses)
+* [Blog](blog)
+* [Talks](talks)
 * [Pile of Shame](games)™
 
 ## Social Media
@@ -33,7 +34,7 @@ My pronouns are [he](https://pronoun.is/he) or [they](https://pronoun.is/they) �
 * [Twitter](https://twitter.com/mvsde)
 * [GitHub](https://github.com/mvsde)
 * [GitLab](https://gitlab.com/mvsde)
-* [DEV](https://dev.to/mvsde)
+* [DEV Community](https://dev.to/mvsde)
 * [Polywork](https://www.polywork.com/fynn)
 * [LinkedIn](https://linkedin.com/in/fynn)
 
@@ -42,3 +43,4 @@ My pronouns are [he](https://pronoun.is/he) or [they](https://pronoun.is/they) �
 * [Pangolin.js](https://pangolinjs.org)
 * [Mailbox](https://github.com/mvsde/mailbox)
 * [This website](https://github.com/mvsde/website)
+* [More projects](https://github.com/mvsde?tab=repositories)…

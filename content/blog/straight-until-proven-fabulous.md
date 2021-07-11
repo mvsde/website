@@ -17,7 +17,7 @@ hero:
   height: 747
 ---
 
-The video essay _[Maybe You Haven't Met The Right Person Yet](https://www.youtube.com/watch?v=vkRPPcxPPjA)_ by [David J Bradley](https://www.youtube.com/c/DavidJBradley) is a fantastic exploration of asexuality and the broader meaning of “sexuality”. It approaches the topic with humor but does not shy away from the seriousness. One key takeaway for me: You do not have to be _one_ thing. A rainbow in nature is not quantized, it is smooth like a wave. Let me explain…
+The video essay _[Maybe You Haven’t Met The Right Person Yet](https://www.youtube.com/watch?v=vkRPPcxPPjA)_ by [David J Bradley](https://www.youtube.com/c/DavidJBradley) is a fantastic exploration of asexuality and the broader meaning of “sexuality”. It approaches the topic with humor but does not shy away from the seriousness. One key takeaway for me: You do not have to be _one_ thing. A rainbow in nature is not quantized, it is smooth like a wave. Let me explain…
 
 People tend to stuff other people into hard categories. She is female. He is male. This person is straight. That person is
 gay. This works if you are a government which can enforce arbitrary binary attributes that have to be stamped on an ID card. But the world out there is quite different and a lot less well-defined.
