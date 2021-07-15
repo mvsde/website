@@ -1,9 +1,10 @@
 :root {
-  --color-primary: hsl(0deg 69% 50%);
+  --color-brand: hsl(0deg 69% 50%);
   --color-text: hsl(19deg 27% 14%);
   --color-text-muted: hsl(23deg 13% 44%);
-  --color-background: hsl(30deg 30% 96%);
-  --color-table-border: hsl(30deg 15% 65%);
+  --color-background: hsl(0deg 0% 100%);
+  --color-content-background: hsl(30deg 30% 96%);
+  --color-table-border: hsl(30deg 10% 70%);
 
   --font-family-text: "IBM Plex Sans", sans-serif;
   --font-family-heading: "Merriweather", serif;
@@ -16,4 +17,17 @@
 
   --content-hero-bleed: 10rem;
   --content-inner-width: 40rem;
+
+  color-scheme: light dark;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-brand: hsl(0deg 80% 65%);
+    --color-text: hsl(19deg 27% 90%);
+    --color-text-muted: hsl(23deg 13% 65%);
+    --color-background: hsl(0deg 0% 0%);
+    --color-content-background: hsl(30deg 15% 15%);
+    --color-table-border: hsl(30deg 10% 40%);
+  }
 }

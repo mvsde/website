@@ -19,6 +19,6 @@
 
 .pagination__link.is-active {
   color: #fff;
-  background: var(--color-primary);
-  outline: 0.125em solid var(--color-primary);
+  background: var(--color-brand);
+  outline: 0.125em solid var(--color-brand);
 }

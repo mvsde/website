@@ -7,7 +7,7 @@
 
 .content__wrapper {
   padding: calc(2em + 2vw) 0;
-  background: var(--color-background);
+  background: var(--color-content-background);
 }
 
 .content__wrapper--hero {

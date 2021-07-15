@@ -15,7 +15,7 @@ p {
 }
 
 a {
-  color: var(--color-primary);
+  color: var(--color-brand);
 
   word-wrap: break-word;
   word-break: break-all;
