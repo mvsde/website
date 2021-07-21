@@ -1,10 +1,11 @@
 {
   "name": "@mvsde/website",
   "scripts": {
-    "dev": "npm run dev:site & npm run dev:css",
+    "dev": "npm run dev:clean && npm run dev:site & npm run dev:css",
+    "dev:clean": "rm --recursive dist",
     "dev:site": "NODE_ENV=development eleventy --input content --output dist --serve",
     "dev:css": "postcss src/main.css --watch --env development --output dist/styles.css",
-    "build": "npm run build:site && npm run build:css",
+    "build": "npm run build:css && npm run build:site",
     "build:site": "NODE_ENV=production eleventy --input content --output dist --quiet",
     "build:css": "postcss src/main.css --env production --output dist/styles.css",
     "lint": "npm run lint:js && npm run lint:css",
@@ -21,6 +22,10 @@
     "url": "https://github.com/mvsde/website/issues"
   },
   "homepage": "https://fynn.be",
+  "dependencies": {
+    "@fontsource/ibm-plex-sans": "^4.5.0",
+    "@fontsource/merriweather": "^4.5.0"
+  },
   "devDependencies": {
     "@11ty/eleventy": "^0.12.1",
     "@11ty/eleventy-plugin-rss": "^1.1.1",

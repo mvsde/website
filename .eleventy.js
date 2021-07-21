@@ -1,9 +1,15 @@
 const pluginRSS = require('@11ty/eleventy-plugin-rss')
 
 const COPY_FILES = {
+  'node_modules/@fontsource/*/files/*latin-{400,700}*.woff2': 'fonts',
   'content/img': 'img',
-  'src/fonts': '/fonts',
   'src/icon': '/'
+}
+
+const DIRECTORIES = {
+  layouts: '../src/layouts',
+  includes: '../src/includes',
+  data: '../data'
 }
 
 /**
@@ -26,11 +32,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(pluginRSS)
 
   return {
-    dir: {
-      layouts: '../src/layouts',
-      includes: '../src/includes',
-      data: '../data'
-    },
+    dir: DIRECTORIES,
     markdownTemplateEngine: 'njk'
   }
 }
