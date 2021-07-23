@@ -23,10 +23,10 @@ My pronouns are [they](https://pronoun.is/they) or [he](https://pronoun.is/he) ð
 
 ## About me
 
-* [Ethics](ethics)
-* [Dev setup](uses)
 * [Blog](blog)
 * [Talks](talks)
+* [Dev setup](uses)
+* [Ethics](ethics)
 * [Pile of Shame](games)â„¢
 
 ## Social Media

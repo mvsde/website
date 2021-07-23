@@ -1,10 +1,10 @@
 :root {
-  --color-brand: hsl(0deg 69% 50%);
-  --color-text: hsl(19deg 27% 14%);
-  --color-text-muted: hsl(23deg 13% 44%);
+  --color-brand: hsl(275deg 90% 40%);
+  --color-text: hsl(275deg 30% 10%);
+  --color-text-muted: hsl(275deg 5% 44%);
   --color-background: hsl(0deg 0% 100%);
   --color-content-background: hsl(30deg 30% 96%);
-  --color-table-border: hsl(30deg 10% 70%);
+  --color-table-border: hsl(275deg 20% 75%);
 
   --font-family-text: "IBM Plex Sans", sans-serif;
   --font-family-heading: "Merriweather", serif;
@@ -23,11 +23,11 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --color-brand: hsl(0deg 80% 65%);
-    --color-text: hsl(19deg 27% 90%);
-    --color-text-muted: hsl(23deg 13% 65%);
+    --color-brand: hsl(275deg 90% 72%);
+    --color-text: hsl(275deg 30% 90%);
+    --color-text-muted: hsl(275deg 13% 65%);
     --color-background: hsl(0deg 0% 0%);
-    --color-content-background: hsl(30deg 15% 15%);
-    --color-table-border: hsl(30deg 10% 40%);
+    --color-content-background: hsl(275deg 15% 15%);
+    --color-table-border: hsl(275deg 15% 40%);
   }
 }
