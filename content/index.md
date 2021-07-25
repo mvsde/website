@@ -9,19 +9,18 @@ twitter:
     alt: Green meadow with horses under a blue sky with a few large clouds and two rainbow arcs.
 ---
 
-A short introduction: I am…
+If you want to know a bit about me, I am…
 
 🧑🏻‍💻 a frontend developer,  
 🧙🏻 an open sourcerer,  
 🎮 a video game collector,  
 💻 interested in tech and computer things,  
 🥋 a [Shinson Hapkido](http://www.shinsonhapkido.org) green belt,  
-🚴🏻 an active member of the German cyclists club ADFC,  
-🖖🏻 and a huge [Star Wars](https://twitter.com/mvsde/status/1408409600643190788) and [Star Trek](https://twitter.com/mvsde/status/1400519056374046726) nerd.  
+🚴🏻 an active member of the cyclists club ADFC,  
+🖖🏻 a huge [Star Wars](https://twitter.com/mvsde/status/1408409600643190788) and [Star Trek](https://twitter.com/mvsde/status/1400519056374046726) nerd,  
+🏳️‍🌈 a non-binary person, my pronouns are [they](https://pronoun.is/they) or [he](https://pronoun.is/he).
 
-My pronouns are [they](https://pronoun.is/they) or [he](https://pronoun.is/he) 🏳️‍🌈.
-
-## About me
+## From the Site
 
 * [Blog](blog)
 * [Talks](talks)
@@ -43,4 +42,4 @@ My pronouns are [they](https://pronoun.is/they) or [he](https://pronoun.is/he) �
 * [Pangolin.js](https://pangolinjs.org)
 * [Mailbox](https://github.com/mvsde/mailbox)
 * [This website](https://github.com/mvsde/website)
-* [More projects](https://github.com/mvsde?tab=repositories)…
+* [More projects](https://github.com/mvsde?tab=repositories)
