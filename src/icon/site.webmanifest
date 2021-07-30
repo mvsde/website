@@ -1,10 +1,10 @@
 {
   "name": "Fynn Becker | Frontend Developer",
   "short_name": "Fynn Becker",
-  "icons": [{
-    "src": "/manifest-icon.png",
-    "sizes": "512x512"
-    }],
-    "theme_color": "#d72828",
-    "background_color": "#fff"
-  }
+  "icons": [
+    { "src": "/manifest-icon-192.png", "sizes": "192x192" },
+    { "src": "/manifest-icon-512.png", "sizes": "512x512" }
+  ],
+  "theme_color": "#750ac2",
+  "background_color": "#fff"
+}
