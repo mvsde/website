@@ -1,11 +1,11 @@
 {
   "name": "@mvsde/website",
   "scripts": {
-    "dev": "npm run dev:clean && npm run dev:site & npm run dev:css",
-    "dev:clean": "rm --recursive dist",
+    "clean": "rm --recursive --force dist",
+    "dev": "npm run clean && (npm run dev:site & npm run dev:css)",
     "dev:site": "NODE_ENV=development eleventy --input content --output dist --serve",
     "dev:css": "postcss src/main.css --watch --env development --output dist/styles.css",
-    "build": "npm run build:css && npm run build:site",
+    "build": "npm run clean && npm run build:site && npm run build:css",
     "build:site": "NODE_ENV=production eleventy --input content --output dist --quiet",
     "build:css": "postcss src/main.css --env production --output dist/styles.css",
     "lint": "npm run lint:js && npm run lint:css",
