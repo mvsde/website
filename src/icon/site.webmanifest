@@ -1,6 +1,7 @@
 {
-  "name": "Fynn Becker | Frontend Developer",
+  "name": "Fynn Becker",
   "short_name": "Fynn Becker",
+  "description": "Frontend developer, video game collector, interested in tech and computer things, cyclist, Shinson Hapkido 🥋, Star Wars and Star Trek 🖖🏻",
   "icons": [
     { "src": "/manifest-icon-192.png", "sizes": "192x192" },
     { "src": "/manifest-icon-512.png", "sizes": "512x512" }

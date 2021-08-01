@@ -1,7 +1,7 @@
 ---
 is_home: true
 title: Hi, I’m Fynn Becker
-description: I am a frontend developer, open sourcerer, video game collector, interested in tech, and a Star Wars and Star Trek nerd 🖖🏻
+description: Frontend developer, video game collector, interested in tech and computer things, cyclist, Shinson Hapkido 🥋, Star Wars and Star Trek 🖖🏻
 twitter:
   card: summary_large_image
   image:
