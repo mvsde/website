@@ -8,11 +8,19 @@
 [[redirects]]
   from = "https://fynn.netlify.app/*"
   to = "https://fynn.be/:splat"
+  status = 302
   force = true
 
 [[redirects]]
   from = "https://mvsde.com/*"
   to = "https://fynn.be/:splat"
+  status = 302
+  force = true
+
+[[redirects]]
+  from = "https://talks.fynn.be/*"
+  to = "https://fynn.be/talks/"
+  status = 302
   force = true
 
 [[headers]]
