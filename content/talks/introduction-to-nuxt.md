@@ -11,4 +11,4 @@ hero:
   height: 840
 ---
 
-The talk focuses on the routing and sever side parts of [Nuxt.js](https://nuxtjs.org). The [slides are available online](https://nuxt.mvsde.com) and they are [open source](https://github.com/mvsde/introduction-to-nuxt). No recording.
+The talk focuses on the routing and sever side parts of [Nuxt.js](https://nuxtjs.org). The [slides are available online](https://nuxt.talks.fynn.be) and they are [open source](https://github.com/mvsde/introduction-to-nuxt). No recording.

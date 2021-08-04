@@ -1,13 +1,14 @@
 ---
-title: Vue 3 with Vite Dev Server
-description: Short introduction to the Vite Dev Server and Vue 3. In German.
+title: Vue 3 mit Vite Dev Server
+language: de
+description: Kurze Einführung in den Vite Dev Server für Vue 3 als Alternative zur Vue CLI.
 date: 2020-12-01 16:00:00
 tags:
   - talk
   - feed
 hero:
   youtube: Wyj0O2EdQeQ
-  title: Video recording of the talk
+  title: Video-Aufnahme des Talks „Vue 3 mit Vite Dev Server“
 ---
 
-Short introduction to the [Vite Dev Server](https://github.com/vitejs/vite) and [Vue 3](https://vuejs.org). The [slides are available online](https://slides.com/fynn/vue-3-mit-vite-dev-server). In German.
+Kurze Einführung in den [Vite Dev Server](https://vitejs.dev) für [Vue 3](https://vuejs.org) als Alternative zur Vue CLI. Die [Slides sind online verfügbar](https://vite.talks.fynn.be) und [Open Source](https://github.com/mvsde/vue-3-mit-vite-dev-server).
