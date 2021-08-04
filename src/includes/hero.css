@@ -15,6 +15,11 @@
 .hero__caption {
   padding: var(--container-padding);
   font-style: italic;
+  color: var(--color-text-muted);
+}
+
+.hero__caption a {
+  color: currentColor;
 }
 
 @media (prefers-color-scheme: dark) {
