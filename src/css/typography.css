@@ -22,13 +22,14 @@ a {
   word-break: break-word;
 }
 
-a:hover {
-  text-decoration: underline;
-}
-
 a:focus {
+  text-decoration: none;
   outline: 0.125em solid currentColor;
   outline-offset: 0.125em;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 ul,
