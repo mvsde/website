@@ -13,15 +13,17 @@ twitter:
 
 If you want to know a bit about me, I am…
 
-🧑🏻‍💻 a frontend developer,  
-🧙🏻 an open sourcerer,  
-🎮 a video game collector,  
-💻 interested in tech and computer things,  
-🥋 a [Shinson Hapkido](http://www.shinsonhapkido.org) green belt,  
-🚴🏻 an active member of the cyclists club ADFC,  
-🖖🏻 a huge [Star Wars](https://twitter.com/mvsde/status/1408409600643190788) and [Star Trek](https://twitter.com/mvsde/status/1400519056374046726) nerd,  
-🏠 living near Hamburg, Germany,  
+{% listemoji %}
+🧑🏻‍💻 a frontend developer,
+🧙🏻 an open sourcerer,
+🎮 a video game collector,
+💻 interested in tech and computer things,
+🥋 a [Shinson Hapkido](http://www.shinsonhapkido.org) green belt,
+🚴🏻 an active member of the cyclists club ADFC,
+🖖🏻 a huge [Star Wars](https://twitter.com/mvsde/status/1408409600643190788) and [Star Trek](https://twitter.com/mvsde/status/1400519056374046726) nerd,
+🏠 living near Hamburg, Germany,
 🏳️‍🌈 a non-binary person, my pronouns are [they](https://pronoun.is/they) or [he](https://pronoun.is/he).
+{% endlistemoji %}
 
 ## From the Site
 

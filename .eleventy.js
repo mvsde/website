@@ -23,12 +23,28 @@ function langShortcode (content, lang) {
 }
 
 /**
+ * Create pseudo-list out of lines prefixed with emojis
+ * @param {string} content Content between tags
+ * @returns {string} Emoji list markup
+ */
+function listEmojiShortcode (content) {
+  const listItems = content
+    .trim()
+    .split('\n')
+    .map(line => line.split(/\s(.+)/))
+    .map(([emoji, text]) => `<span>${emoji}</span> <span>${text}</span>`)
+
+  return `<span class="list-emoji">${listItems.join('\n')}</span>`
+}
+
+/**
  * Eleventy configuration
  * @param {Object} eleventyConfig Eleventy configuration
  */
 module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy(COPY_FILES)
   eleventyConfig.addPairedShortcode('lang', langShortcode)
+  eleventyConfig.addPairedShortcode('listemoji', listEmojiShortcode)
   eleventyConfig.addPlugin(pluginRSS)
 
   return {

@@ -1,0 +1,5 @@
+.list-emoji {
+  display: grid;
+  grid-template-columns: min-content 1fr;
+  column-gap: 0.5em;
+}
