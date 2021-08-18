@@ -9,6 +9,8 @@ twitter:
     alt: Green meadow with horses under a blue sky with a few large clouds and two rainbow arcs.
 ---
 
+<img src="/img/index/portrait.webp" alt="Portrait of Fynn Becker." width="195" height="260" class="image-right">
+
 If you want to know a bit about me, I am…
 
 🧑🏻‍💻 a frontend developer,  

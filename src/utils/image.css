@@ -1,0 +1,10 @@
+.image-right {
+  margin-bottom: 1em;
+}
+
+@media (min-width: 40rem) {
+  .image-right {
+    margin-left: 1em;
+    float: right;
+  }
+}
