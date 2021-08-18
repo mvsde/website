@@ -8,7 +8,7 @@ twitter:
     alt: Portrait of Fynn Becker.
 ---
 
-<img src="/img/index/portrait.webp" alt="Portrait of Fynn Becker." width="195" height="260" class="image-right">
+<img src="/img/index/portrait.webp" alt="Portrait of Fynn Becker." width="195" height="260" class="image image--right">
 
 If you want to know a bit about me, I am…
 

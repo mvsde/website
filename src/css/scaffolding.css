@@ -17,6 +17,7 @@ body {
 }
 
 img,
+svg,
 iframe {
   max-width: 100%;
   height: auto;
