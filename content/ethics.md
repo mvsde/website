@@ -9,7 +9,7 @@ hero:
   image: /img/ethics/hero.webp
   alt: Paper sign reading “Racism is a pandemic”.
   caption: Title photo by <a href="https://unsplash.com/@theeastlondonphotographer">Ehimetalor Akhere Unuabona</a> on <a href="https://unsplash.com/photos/zswLbyR_b58">Unsplash</a>.
-  height: 609
+  height: 747
 ---
 
 ## Preamble

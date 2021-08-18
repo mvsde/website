@@ -6,7 +6,6 @@ tags:
   - blog
   - feed
 twitter:
-  card: summary_large_image
   image:
     src: /img/blog/straight-until-proven-fabulous/twitter.webp
     alt: Abstract painting with colored stripes in red, green, and blue in the background and a rainbow in the lower right hand side.
