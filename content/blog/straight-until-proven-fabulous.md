@@ -6,9 +6,10 @@ date: 2021-06-08 06:56:00
 tags:
   - blog
   - feed
-twitter:
+social:
+  og_type: article
   image:
-    src: /img/blog/straight-until-proven-fabulous/twitter.webp
+    src: /img/blog/straight-until-proven-fabulous/social.webp
     alt: Abstract painting with colored stripes in red, green, and blue in the background and a rainbow in the lower right hand side.
 hero:
   image: /img/blog/straight-until-proven-fabulous/hero.webp

@@ -7,6 +7,8 @@ date: 2021-06-12 10:10:00
 tags:
   - blog
   - feed
+social:
+  og_type: article
 hero:
   image: /img/blog/die-zeit-werbung-journalismus/hero.webp
   alt: Screenshot der ZEIT-Online-Startseite mit einem übergroßen roten Werbebanner der Organisation Initiative Neue Soziale Marktwirtschaft (INSM) „Annalena und die 10 Verbote“.

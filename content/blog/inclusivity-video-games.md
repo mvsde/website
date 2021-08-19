@@ -6,6 +6,8 @@ date: 2020-12-26 07:36:00
 tags:
   - blog
   - feed
+social:
+  og_type: article
 ---
 
 Video games and software development share an unfortunate “feature”: Both are dominated by white men. But recently some progress could be made on either front. Developers share their experiences with gatekeeping, sexism, and racism; and more video games tell inclusive stories with diverse characters.

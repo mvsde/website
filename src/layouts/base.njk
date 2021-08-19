@@ -7,7 +7,7 @@
     <title>{{ title + " | " if not is_home }}Fynn Becker</title>
     <meta name="description" content="{{ description }}">
 
-    <link href="/feed.xml" type="application/atom+xml" rel="alternate" />
+    <link href="/feed.xml" type="application/atom+xml" rel="alternate">
 
     <link rel="icon" href="/favicon.svg">
     <link rel="manifest" href="/site.webmanifest">
@@ -15,14 +15,22 @@
     <meta name="theme-color" content="#750ac2" media="(prefers-color-scheme: light)">
     <meta name="theme-color" content="#27212c" media="(prefers-color-scheme: dark)">
 
-    <meta name="twitter:card" content="{{ twitter.card or "summary" }}">
+    <meta name="twitter:card" content="{{ social.twitter_card or "summary" }}">
     <meta name="twitter:site" content="@mvsde">
-    <meta name="twitter:title" content="{{ (twitter.title or title) | truncate(70) }}">
-    <meta name="twitter:description" content="{{ (twitter.description or description) | truncate(200) }}">
+    <meta name="twitter:title" content="{{ (social.title or title) | truncate(70) }}">
+    <meta name="twitter:description" content="{{ (social.description or description) | truncate(200) }}">
 
-    {% if twitter.image %}
-      <meta name="twitter:image" content="{{ base }}{{ twitter.image.src }}">
-      <meta name="twitter:image:alt" content="{{ twitter.image.alt | truncate(420) }}">
+    <meta property="og:type" content="{{ social.og_type or "website" }}">
+    <meta property="og:url" content="{{ base }}{{ page.url }}">
+    <meta property="og:title" content="{{ social.title or title }}">
+    <meta property="og:description" content="{{ social.description or description }}">
+    <meta property="og:locale" content="{{ language or "en" }}">
+
+    {% if social.image %}
+      <meta name="twitter:image" content="{{ base }}{{ social.image.src }}">
+      <meta name="twitter:image:alt" content="{{ social.image.alt | truncate(420) }}">
+
+      <meta property="og:image" content="{{ base }}{{ social.image.src }}">
     {% endif %}
 
     <link rel="preload" href="/fonts/merriweather-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin>

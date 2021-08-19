@@ -6,9 +6,10 @@ date: 2021-08-02 11:21:00
 tags:
   - blog
   - feed
-twitter:
+social:
+  og_type: article
   image:
-    src: /img/blog/exploring-fabulousness/twitter.webp
+    src: /img/blog/exploring-fabulousness/social.webp
     alt: Abstract painting with colored stripes in hues of red, green, and blue from left to right forming a rainbow.
 hero:
   image: /img/blog/exploring-fabulousness/hero.webp

@@ -2,9 +2,9 @@
 id: 330d32ba-4a8b-4747-8cb5-9d93d917e367
 title: Ethics
 description: I take up a strong stance on ethical behavior in general and ethical web development in particular.
-twitter:
+social:
   image:
-    src: /img/ethics/twitter.webp
+    src: /img/ethics/social.webp
     alt: Group of eco protestors, one holding a paper sign reading “Planet over Profit”.
 hero:
   image: /img/ethics/hero.webp

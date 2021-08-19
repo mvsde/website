@@ -3,9 +3,9 @@ id: 69d559e8-4b86-4ce6-bb36-e10416f6db4d
 is_home: true
 title: Hi, I’m Fynn Becker
 description: Frontend developer, video game collector, interested in tech and computer things, cyclist, Shinson Hapkido 🥋, Star Wars and Star Trek 🖖🏻
-twitter:
+social:
   image:
-    src: /img/index/twitter.webp
+    src: /img/index/social.webp
     alt: Portrait of Fynn Becker.
 ---
 

@@ -2,9 +2,9 @@
 id: 5a6dd264-835e-44dc-9899-653d44d130bd
 title: Games
 description: I own this ginormous video game collection I rarely touch. Which is commonly known as the Pile of Shame.
-twitter:
+social:
   image:
-    src: /img/games/twitter.webp
+    src: /img/games/social.webp
     alt: Text reading “2305 games owned”.
 hero:
   image: /img/games/hero.webp

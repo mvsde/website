@@ -2,9 +2,9 @@
 id: 4d463b58-cf4e-4917-9411-8c84ba32abca
 title: Development setup
 description: A list of all the software and hardware I use for my frontend dev job and my not-so-frontend-dev-job as a gamer.
-twitter:
+social:
   image:
-    src: /img/uses/twitter.webp
+    src: /img/uses/social.webp
     alt: Orange illuminated desk with ultra-wide monitor and notebook showing the Ubuntu 19.10 “Eoan Ermine” wallpaper.
 hero:
   image: /img/uses/hero.webp

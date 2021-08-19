@@ -6,6 +6,8 @@ date: 2020-10-17 12:39:00
 tags:
   - blog
   - feed
+social:
+  og_type: article
 ---
 
 I’m thinking a lot about how I can express myself inclusively, be it in written or spoken word. [For English this is a solved problem](https://en.wikipedia.org/wiki/Singular_they), all it takes is the willpower to _actually do it_. But my native language – German – has a unique challenge: Every noun is attached to one or sometimes multiple genders. These genders are the well-known _feminine_, _masculine_, and _neuter_.

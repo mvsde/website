@@ -7,6 +7,8 @@ date: 2020-12-01 16:00:00
 tags:
   - talk
   - feed
+social:
+  og_type: article
 hero:
   youtube: Wyj0O2EdQeQ
   title: Video-Aufnahme des Talks „Vue 3 mit Vite Dev Server“
