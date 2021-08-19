@@ -1,5 +1,5 @@
 ---
-title: The Return of Fabulousness
+title: Exploring Fabulousness
 description: The second part of my identity exploration. It’s going to be non-binary, like a quantum particle.
 date: 2021-08-02 11:21:00
 tags:
@@ -7,10 +7,10 @@ tags:
   - feed
 twitter:
   image:
-    src: /img/blog/return-of-fabulousness/twitter.webp
+    src: /img/blog/exploring-fabulousness/twitter.webp
     alt: Abstract painting with colored stripes in hues of red, green, and blue from left to right forming a rainbow.
 hero:
-  image: /img/blog/return-of-fabulousness/hero.webp
+  image: /img/blog/exploring-fabulousness/hero.webp
   alt: Abstract painting with colored stripes in hues of red, green, and blue from left to right forming a rainbow.
   caption: Title photo by <a href="https://unsplash.com/@steve_j">Steve Johnson</a> on <a href="https://unsplash.com/photos/wpw8sHoBtSY">Unsplash</a>.
   height: 817
@@ -24,7 +24,7 @@ Then I changed my pronouns to _he/they_. I have no idea why I did this. There wa
 
 Finally (for now at least) I switched the pronoun order to _they/he_. This doesn’t look like a big change, but for me it has been the realization that I’m non-binary first and male second. My sex may be male and I’m fine with that, but my gender is non-binary. I don’t identify with “maleness”. Here’s how I came to this conclusion.
 
-<img src="/img/blog/return-of-fabulousness/diagram.svg" width="608" height="193" alt="Illustration. 3 diamonds on a line each with a label: “female” on the left, “male” on the right, “non-binary” in the middle. Large circle with label “me” between “non-binary” and ”male”." class="image image--illustration">
+<img src="/img/blog/exploring-fabulousness/diagram.svg" width="608" height="193" alt="Illustration. 3 diamonds on a line each with a label: “female” on the left, “male” on the right, “non-binary” in the middle. Large circle with label “me” between “non-binary” and ”male”." class="image image--illustration">
 
 I never strived to behave “male-like”. I’m not a “big, strong guy”. I don’t like to “boss others around”. I don’t want to be _insert male cliché here_. That’s intrisic to my self and in part due to me being an introvert. And yet there’s more to the story, [feelings I started to discover and explore in the last few years](../straight-until-proven-fabulous/). Feelings I couldn’t explain because of a knowledge gap. Then the following started to occur more often…
 
