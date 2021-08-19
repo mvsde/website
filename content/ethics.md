@@ -5,11 +5,11 @@ description: I take up a strong stance on ethical behavior in general and ethica
 twitter:
   image:
     src: /img/ethics/twitter.webp
-    alt: Paper sign reading “Racism is a pandemic”.
+    alt: Group of eco protestors, one holding a paper sign reading “Planet over Profit”.
 hero:
   image: /img/ethics/hero.webp
-  alt: Paper sign reading “Racism is a pandemic”.
-  caption: Title photo by <a href="https://unsplash.com/@theeastlondonphotographer">Ehimetalor Akhere Unuabona</a> on <a href="https://unsplash.com/photos/zswLbyR_b58">Unsplash</a>.
+  alt: Group of eco protestors, one holding a paper sign reading “Planet over Profit”.
+  caption: Title photo by <a href="https://unsplash.com/@markusspiske">Markus Spiske</a> on <a href="https://unsplash.com/photos/n52HL8hmsdg">Unsplash</a>.
   height: 747
 ---
 
