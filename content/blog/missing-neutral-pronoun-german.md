@@ -1,4 +1,5 @@
 ---
+id: 586c2aaa-3092-4840-a88d-89a4a5a1909f
 title: The Missing Neutral Pronoun in German
 description: Nouns can be “neutralized” but what about pronouns? There is a non-binary one missing in German.
 date: 2021-07-11 09:10:00

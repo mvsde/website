@@ -28,7 +28,7 @@ eleventyExcludeFromCollections: true
       <title>{{ post.data.title }}</title>
       <link href="{{ absolutePostUrl }}"/>
       <updated>{{ post.date | dateToRfc3339 }}</updated>
-      <id>{{ absolutePostUrl }}</id>
+      <id>urn:uuid:{{ post.data.id }}</id>
       {% if post.data.summary %}
         <summary>{{ post.data.description }}</summary>
       {% endif %}

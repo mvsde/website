@@ -1,4 +1,5 @@
 ---
+id: 4d463b58-cf4e-4917-9411-8c84ba32abca
 title: Development setup
 description: A list of all the software and hardware I use for my frontend dev job and my not-so-frontend-dev-job as a gamer.
 twitter:
