@@ -22,11 +22,9 @@ The German feminine form must be explicitly derived from the masculine one:
 
 Thankfully, a lot of progress has been made over the last couple of years. Namely the combination of the masculine and feminine form into a new neutral one:
 
-> {% lang "de" %}Lehrer<strong>:</strong>in, Radfahrer<strong>:</strong>in oder Astronaut<strong>:</strong>in{% endlang %}
+> {% lang "de" %}Lehrer<strong>\*</strong>in, Radfahrer<strong>\*</strong>in oder Astronaut<strong>\*</strong>in{% endlang %}
 
-Instead of a colon, the “gender star” ( * ) and “gender gap” ( _ ) also see widespread usage. But apart from their not-so-aesthetic looks inside a word, the colon comes with better support for assistive technology. Both star and underscore will be read out loud by screen readers, the colon inserts a short pause.
-
-This is a perfect segue to the _glottal stop_, which is a short pause inside or at the end of a spoken word. In English the glottal stop is most often heard when words or syllables end in plosives like _t_ or _k_:
+But how is such a construct pronounced? This is a perfect segue to the _glottal stop_, which is a short pause inside or at the end of a spoken word. In English the glottal stop is most often heard when words or syllables end in plosives like _t_ or _k_:
 
 > ligh<u>t</u>, apar<u>t</u>ment, no<u>t</u>ebook, ba<u>ck</u>seat
 
