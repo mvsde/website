@@ -4,10 +4,12 @@
   --color-text-muted: hsl(275deg 5% 44%);
   --color-background: hsl(0deg 0% 100%);
   --color-content-background: hsl(330deg 30% 96%);
+  --color-code-background: hsl(275deg 20% 85%);
   --color-table-border: hsl(275deg 20% 75%);
 
   --font-family-text: "IBM Plex Sans", sans-serif;
   --font-family-heading: "Merriweather", serif;
+  --font-family-mono: "IBM Plex Mono", monospace;
 
   --line-height-text: 1.5;
   --line-height-heading: 1.2;
@@ -28,6 +30,7 @@
     --color-text-muted: hsl(275deg 13% 65%);
     --color-background: hsl(0deg 0% 0%);
     --color-content-background: hsl(275deg 15% 15%);
+    --color-code-background: hsl(275deg 15% 30%);
     --color-table-border: hsl(275deg 15% 40%);
   }
 }

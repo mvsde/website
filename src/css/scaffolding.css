@@ -6,6 +6,7 @@
 
 html {
   font-family: var(--font-family-text);
+  font-synthesis: none;
   line-height: var(--line-height-text);
   color: var(--color-text);
 

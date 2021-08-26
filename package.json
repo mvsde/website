@@ -23,6 +23,7 @@
   },
   "homepage": "https://fynn.be",
   "dependencies": {
+    "@fontsource/ibm-plex-mono": "^4.5.1",
     "@fontsource/ibm-plex-sans": "^4.5.1",
     "@fontsource/merriweather": "^4.5.1"
   },
