@@ -23,7 +23,7 @@
   },
   "homepage": "https://fynn.be",
   "dependencies": {
-    "@fontsource/ibm-plex-sans": "^4.5.0",
+    "@fontsource/ibm-plex-sans": "^4.5.1",
     "@fontsource/merriweather": "^4.5.1"
   },
   "devDependencies": {
@@ -34,7 +34,7 @@
     "cssnano": "^5.0.8",
     "eslint": "^7.32.0",
     "eslint-config-standard": "^16.0.3",
-    "eslint-plugin-import": "^2.24.1",
+    "eslint-plugin-import": "^2.24.2",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^5.1.0",
     "postcss": "^8.3.6",
