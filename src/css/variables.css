@@ -21,6 +21,7 @@
   --content-inner-width: 40rem;
 
   color-scheme: light dark;
+  accent-color: var(--color-brand);
 }
 
 @media (prefers-color-scheme: dark) {
