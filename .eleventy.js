@@ -3,7 +3,7 @@ const pluginRSS = require('@11ty/eleventy-plugin-rss')
 const COPY_FILES = {
   'node_modules/@fontsource/*/files/*latin-{400,700}*.woff2': 'fonts',
   'content/img': 'img',
-  'src/icon': '/'
+  'src/assets': '/'
 }
 
 const DIRECTORIES = {
