@@ -20,6 +20,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-end;
+  align-items: center;
   gap: 0.5em 1em;
 }
 
@@ -32,4 +33,8 @@
 .header__link.is-active {
   text-decoration: underline;
   text-decoration-thickness: 0.125em;
+}
+
+.header__link svg {
+  display: block;
 }

@@ -1,19 +1,21 @@
 {% set links = [
   {
-    url: '/blog/',
-    title: 'Blog'
+    url: "/blog/",
+    title: "Blog"
   },
   {
-    url: '/talks/',
-    title: 'Talks'
+    url: "/talks/",
+    title: "Talks"
   },
   {
-    url: 'https://twitter.com/mvsde',
-    title: 'Twitter'
+    url: "https://twitter.com/mvsde",
+    title: "Twitter",
+    image: "./social/twitter.svg"
   },
   {
-    url: 'https://github.com/mvsde',
-    title: 'GitHub'
+    url: "https://github.com/mvsde",
+    title: "GitHub",
+    image: "./social/github.svg"
   }
 ] %}
 
@@ -32,10 +34,18 @@
       <a
         class="
           header__link
-          {% if is_current %}is-active{% endif %}"
-          href="{{ link.url }}"
-          {% if is_current %}aria-current="page"{% endif %}
-        >{{ link.title }}</a>
+          {% if is_current %}is-active{% endif %}
+        "
+        href="{{ link.url }}"
+        {% if is_current %}aria-current="page"{% endif %}
+        {% if link.image %}aria-label="{{ link.title }}"{% endif %}
+      >
+        {% if link.image %}
+          {% include link.image %}
+        {% else %}
+          {{ link.title }}
+        {% endif %}
+      </a>
     {% endfor %}
   </nav>
 

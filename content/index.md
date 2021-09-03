@@ -38,8 +38,7 @@ If you want to know a bit about me, I am…
 * [Twitter](https://twitter.com/mvsde)
 * [GitHub](https://github.com/mvsde)
 * [GitLab](https://gitlab.com/mvsde)
-* [DEV Community](https://dev.to/mvsde)
-* [Polywork](https://www.polywork.com/fynn)
+* [DEV Community](https://dev.to/fynn)
 * [LinkedIn](https://linkedin.com/in/fynn)
 
 ## Open Source
