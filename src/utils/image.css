@@ -3,14 +3,14 @@
 }
 
 @media (min-width: 40rem) {
-  .image--right {
+  .image.is-right {
     margin-left: 1em;
     float: right;
   }
 }
 
 @media (prefers-color-scheme: dark) {
-  .image--illustration {
+  .image.is-illustration {
     filter: invert(93%) hue-rotate(180deg);
   }
 }
