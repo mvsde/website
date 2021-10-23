@@ -4,13 +4,12 @@ title: Ethics
 description: I take up a strong stance on ethical behavior in general and ethical web development in particular.
 social:
   image:
-    src: /img/ethics/social.webp
+    src: content/ethics.social.jpg
     alt: Group of eco protestors, one holding a paper sign reading “Planet over Profit”.
 hero:
-  image: /img/ethics/hero.webp
+  image: content/ethics.jpg
   alt: Group of eco protestors, one holding a paper sign reading “Planet over Profit”.
   caption: Title photo by <a href="https://unsplash.com/@markusspiske">Markus Spiske</a> on <a href="https://unsplash.com/photos/n52HL8hmsdg">Unsplash</a>.
-  height: 747
 ---
 
 ## Preamble

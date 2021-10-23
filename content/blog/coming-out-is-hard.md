@@ -9,13 +9,12 @@ tags:
 social:
   og_type: article
   image:
-    src: /img/blog/coming-out-is-hard/social.webp
+    src: content/blog/coming-out-is-hard.social.jpg
     alt: Black backpack with rainbow colored zipper traces. The backpack leans against a tree.
 hero:
-  image: /img/blog/coming-out-is-hard/hero.webp
+  image: content/blog/coming-out-is-hard.jpg
   alt: Black backpack with rainbow colored zipper traces. The backpack leans against a tree.
   caption: I’m sorry, but for now this is all I dare to show of my queerness in real life.
-  height: 841
 ---
 
 It is 23:30 o’clock, I can’t sleep, and there’s this blog post idea that’s been sitting at the back of my mind for a few days: _Coming out is hard, really hard, actually._

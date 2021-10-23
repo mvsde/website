@@ -9,13 +9,12 @@ tags:
 social:
   og_type: article
   image:
-    src: /img/blog/dropping-the-he/social.webp
+    src: content/blog/dropping-the-he.social.jpg
     alt: Rainbow stripes (red, orange, yellow, green, cyan, blue, purple) in the background. Pronouns “they/them” prominently placed black on white in the center.
 hero:
-  image: /img/blog/dropping-the-he/hero.webp
+  image: content/blog/dropping-the-he.jpg
   alt: Rainbow stripes (red, orange, yellow, green, cyan, blue, purple) in the background. Pronouns “they/them” prominently placed black on white in the center.
   caption: Title photo by <a href="https://unsplash.com/@katierainbow">Katie Rainbow</a> on <a href="https://unsplash.com/photos/90bg59HzXxE">Unsplash</a>.
-  height: 630
 ---
 
 Until recently my pronouns were _they_ or _he_. I kept the _he_ for the sake of convenience and because I’m still afraid of fully coming out to everyone. But the _he_ is starting to feel like baggage from a past self that is no longer me. So, effective immediately, my pronouns are _they/them_.

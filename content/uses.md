@@ -4,13 +4,11 @@ title: Development setup
 description: A list of all the software and hardware I use for my frontend dev job and my not-so-frontend-dev-job as a gamer.
 social:
   image:
-    src: /img/uses/social.webp
+    src: content/uses.social.jpg
     alt: Orange illuminated desk with ultra-wide monitor and notebook showing the Ubuntu 19.10 “Eoan Ermine” wallpaper.
 hero:
-  image: /img/uses/hero.webp
+  image: content/uses.jpg
   alt: Orange illuminated desk with ultra-wide monitor and notebook showing the Ubuntu 19.10 “Eoan Ermine” wallpaper.
-  caption: I’ve since switched to the latest Ubuntu release, version 21.04 “Hirsute Hippo”.
-  height: 654
 ---
 
 ## Software

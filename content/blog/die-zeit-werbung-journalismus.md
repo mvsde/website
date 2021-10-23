@@ -10,10 +10,9 @@ tags:
 social:
   og_type: article
 hero:
-  image: /img/blog/die-zeit-werbung-journalismus/hero.webp
+  image: content/blog/die-zeit-werbung-journalismus.jpg
   alt: Screenshot der ZEIT-Online-Startseite mit einem übergroßen roten Werbebanner der Organisation Initiative Neue Soziale Marktwirtschaft (INSM) „Annalena und die 10 Verbote“.
   caption: Titelbild von <a href="https://twitter.com/jlbrts">Johannes Lamberts</a> auf <a href="https://twitter.com/jlbrts/status/1403287953649061888">Twitter</a>.
-  height: 572
 ---
 
 Journalismus kann mit zwei Mitteln finanziert werden:

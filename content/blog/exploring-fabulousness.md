@@ -9,13 +9,12 @@ tags:
 social:
   og_type: article
   image:
-    src: /img/blog/exploring-fabulousness/social.webp
+    src: content/blog/exploring-fabulousness.social.jpg
     alt: Abstract painting with colored stripes in hues of red, green, and blue from left to right forming a rainbow.
 hero:
-  image: /img/blog/exploring-fabulousness/hero.webp
+  image: content/blog/exploring-fabulousness.jpg
   alt: Abstract painting with colored stripes in hues of red, green, and blue from left to right forming a rainbow.
   caption: Title photo by <a href="https://unsplash.com/@steve_j">Steve Johnson</a> on <a href="https://unsplash.com/photos/wpw8sHoBtSY">Unsplash</a>.
-  height: 817
 ---
 
 “Fabulousness” is a fantastic word, isn’t it? Right up there with everyone’s all-time favorite frontend term “CSS selector specificity”. In case you haven’t noticed, I really like to [dig into languages](../german-language-and-gender/). Etymology is an interesting topic aswell, but that’s content for some future blog posts. Let’s get back to queerness.
@@ -25,8 +24,6 @@ First, my pronouns were _he/him_. I guess that’s the default someone with the 
 Then I changed my pronouns to _he/they_. I have no idea why I did this. There was a sudden urge to see how this looks. Maybe I wanted to promote and normalize the usage of a neutral pronoun? I strongly believe we should start using _they_ by default until we definitely know how someone wants to be addressed.
 
 Finally (for now at least) I switched the pronoun order to _they/he_. This doesn’t look like a big change, but for me it has been the realization that I’m non-binary first and male second. My sex may be male and I’m fine with that, but my gender is non-binary. I don’t identify with “maleness”. Here’s how I came to this conclusion.
-
-<img src="/img/blog/exploring-fabulousness/diagram.svg" width="608" height="193" alt="Illustration. 3 diamonds on a line each with a label: “female” on the left, “male” on the right, “non-binary” in the middle. Large circle with label “me” between “non-binary” and ”male”." class="image is-illustration">
 
 I never strived to behave “male-like”. I’m not a “big, strong guy”. I don’t like to “boss others around”. I don’t want to be _insert male cliché here_. That’s intrisic to my self and in part due to me being an introvert. And yet there’s more to the story, [feelings I started to discover and explore in the last few years](../straight-until-proven-fabulous/). Feelings I couldn’t explain because of a knowledge gap. Then the following started to occur more often…
 
