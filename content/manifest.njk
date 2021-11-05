@@ -1,11 +1,16 @@
+---
+permalink: site.webmanifest
+layout: false
+eleventyExcludeFromCollections: true
+---
 {
   "name": "Fynn Becker",
   "short_name": "Fynn Becker",
   "description": "Frontend developer, video game collector, interested in tech and computer things, cyclist, Shinson Hapkido 🥋, Star Wars and Star Trek 🖖🏻",
   "icons": [
-    { "src": "/icon/manifest-icon-192.png", "sizes": "192x192" },
-    { "src": "/icon/manifest-icon-512.png", "sizes": "512x512" }
+    { "src": "{% appIcon { width: 192 } %}", "sizes": "192x192" },
+    { "src": "{% appIcon { width: 512 } %}", "sizes": "512x512" }
   ],
-  "theme_color": "#750ac2",
+  "theme_color": "#3730a3",
   "background_color": "#fff"
 }

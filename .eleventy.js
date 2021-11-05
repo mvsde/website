@@ -1,5 +1,6 @@
 const pluginRSS = require('@11ty/eleventy-plugin-rss')
 
+const appIconShortcode = require('./eleventy/appIconShortcode.js')
 const imageShortcode = require('./eleventy/imageShortcode.js')
 const imageSocialShortcode = require('./eleventy/imageSocialShortcode.js')
 const langShortcode = require('./eleventy/langShortcode.js')
@@ -22,6 +23,7 @@ const DIRECTORIES = {
  */
 module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy(COPY_FILES)
+  eleventyConfig.addShortcode('appIcon', appIconShortcode)
   eleventyConfig.addShortcode('image', imageShortcode)
   eleventyConfig.addShortcode('imageSocial', imageSocialShortcode)
   eleventyConfig.addPairedShortcode('lang', langShortcode)
