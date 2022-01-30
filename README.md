@@ -13,10 +13,6 @@ npm install
 ## Development
 
 ```bash
-# All tasks parallel
-npm run dev
-
-# Individual tasks
 npm run dev:site
 npm run dev:js
 npm run dev:css
@@ -25,7 +21,7 @@ npm run dev:css
 ## Production
 
 ```bash
-# All tasks parallel
+# All tasks
 npm run build
 
 # Individual tasks
@@ -37,7 +33,7 @@ npm run build:css
 ## Linting
 
 ```bash
-# All tasks parallel
+# All tasks
 npm run lint
 
 # Individual tasks
