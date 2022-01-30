@@ -35,6 +35,7 @@
   text-decoration-thickness: 0.125em;
 }
 
-.header__link svg {
+.header__link .icon {
   display: block;
+  font-size: 1.375em;
 }

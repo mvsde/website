@@ -10,12 +10,12 @@
   {
     url: "https://twitter.com/mvsde",
     title: "Twitter",
-    image: "./social/twitter.svg"
+    icon: "twitter"
   },
   {
     url: "https://github.com/mvsde",
     title: "GitHub",
-    image: "./social/github.svg"
+    icon: "github"
   }
 ] %}
 
@@ -34,14 +34,16 @@
       <a
         class="
           header__link
+          {% if link.icon %}is-icon{% endif %}
           {% if is_current %}is-active{% endif %}
         "
         href="{{ link.url }}"
         {% if is_current %}aria-current="page"{% endif %}
-        {% if link.image %}aria-label="{{ link.title }}"{% endif %}
+        {% if link.icon %}aria-label="{{ link.title }}"{% endif %}
       >
-        {% if link.image %}
-          {% include link.image %}
+        {% if link.icon %}
+          {% set icon = { name: link.icon } %}
+          {% include "icon.njk" %}
         {% else %}
           {{ link.title }}
         {% endif %}
