@@ -26,7 +26,12 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addShortcode('imageSocial', imageSocialShortcode)
   eleventyConfig.addPairedShortcode('lang', langShortcode)
   eleventyConfig.addPairedShortcode('listemoji', listEmojiShortcode)
-  eleventyConfig.addPlugin(pluginRSS)
+
+  if (process.env.NODE_ENV === 'production') {
+    eleventyConfig.addPlugin(pluginRSS)
+  } else {
+    eleventyConfig.ignores.add('content/feed.njk');
+  }
 
   return {
     dir: DIRECTORIES,
