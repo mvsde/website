@@ -19,7 +19,7 @@
 }
 
 .hero__caption a {
-  color: currentColor;
+  color: currentcolor;
 }
 
 @media (prefers-color-scheme: dark) {

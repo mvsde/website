@@ -3,7 +3,7 @@
   publish = "dist"
 
 [build.environment]
-  NODE_VERSION = "16"
+  NODE_VERSION = "17"
 
 [[redirects]]
   from = "https://fynn.netlify.app/*"
@@ -32,8 +32,3 @@
   from = "/*"
   to = "/404.html"
   status = 404
-
-[[headers]]
-  for = "/*"
-  [headers.values]
-    permissions-policy = "interest-cohort=()"

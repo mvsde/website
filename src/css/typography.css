@@ -24,7 +24,7 @@ a {
 
 a:focus {
   text-decoration: none;
-  outline: 0.125em solid currentColor;
+  outline: 0.125em solid currentcolor;
   outline-offset: 0.125em;
 }
 
