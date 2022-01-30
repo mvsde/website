@@ -1,0 +1,22 @@
+.theme {
+  display: none;
+}
+
+.theme.is-init {
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+}
+
+.theme__heading {
+  display: inline;
+  margin: 0;
+
+  font-size: 1em;
+}
+
+.theme__button {
+  display: flex;
+  align-items: center;
+  gap: 0.375em;
+}

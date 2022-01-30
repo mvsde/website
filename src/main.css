@@ -17,6 +17,7 @@
 @import "includes/hero.css";
 @import "includes/icon.css";
 @import "includes/pagination.css";
+@import "includes/theme.css";
 
 /* Utilities */
 @import "utils/aspect-ratio.css";

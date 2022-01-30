@@ -35,3 +35,23 @@
     --color-table-border: hsl(215deg 14% 34%);
   }
 }
+
+.is-theme-light {
+  --color-brand: hsl(244deg 55% 41%);
+  --color-text: hsl(221deg 39% 11%);
+  --color-text-muted: hsl(220deg 9% 46%);
+  --color-background: hsl(0deg 0% 100%);
+  --color-content-background: hsl(20deg 30% 96%);
+  --color-code-background: hsl(19deg 53% 87%);
+  --color-table-border: hsl(218deg 11% 65%);
+}
+
+.is-theme-dark {
+  --color-brand: hsl(230deg 94% 82%);
+  --color-text: hsl(210deg 20% 98%);
+  --color-text-muted: hsl(218deg 11% 65%);
+  --color-background: hsl(0deg 0% 0%);
+  --color-content-background: hsl(215deg 28% 17%);
+  --color-code-background: hsl(217deg 19% 27%);
+  --color-table-border: hsl(215deg 14% 34%);
+}

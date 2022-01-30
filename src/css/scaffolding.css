@@ -32,3 +32,7 @@ summary {
 iframe {
   border: 0;
 }
+
+button {
+  font: inherit;
+}
