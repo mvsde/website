@@ -1,4 +1,5 @@
 const pluginRSS = require('@11ty/eleventy-plugin-rss')
+const markdownIt = require('markdown-it')
 
 const imageShortcode = require('./eleventy/imageShortcode.js')
 const imageSocialShortcode = require('./eleventy/imageSocialShortcode.js')
@@ -16,11 +17,20 @@ const DIRECTORIES = {
   data: '../data'
 }
 
+const MARKDOWN_OPTIONS = {
+  html: true
+}
+
+const md = markdownIt(MARKDOWN_OPTIONS)
+md.renderer.rules.table_open = () => '<div class="table-scroll"><table>\n';
+md.renderer.rules.table_close = () => '</table></div>\n';
+
 /**
  * Eleventy configuration
  * @param {Object} eleventyConfig Eleventy configuration
  */
 module.exports = function (eleventyConfig) {
+  eleventyConfig.setLibrary('md', md);
   eleventyConfig.addPassthroughCopy(COPY_FILES)
   eleventyConfig.addShortcode('image', imageShortcode)
   eleventyConfig.addShortcode('imageSocial', imageSocialShortcode)

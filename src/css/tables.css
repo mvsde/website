@@ -1,5 +1,4 @@
 table {
-  margin-block-end: 1em;
   border-collapse: collapse;
 }
 
@@ -11,4 +10,9 @@ td {
 
 th {
   text-align: start;
+}
+
+.table-scroll {
+  margin-block-end: 1em;
+  overflow-x: auto;
 }
