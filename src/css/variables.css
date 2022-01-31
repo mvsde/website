@@ -44,6 +44,8 @@
   --color-content-background: hsl(20deg 30% 96%);
   --color-code-background: hsl(19deg 53% 87%);
   --color-table-border: hsl(218deg 11% 65%);
+
+  color-scheme: light;
 }
 
 .is-theme-dark {
@@ -54,4 +56,6 @@
   --color-content-background: hsl(215deg 28% 17%);
   --color-code-background: hsl(217deg 19% 27%);
   --color-table-border: hsl(215deg 14% 34%);
+
+  color-scheme: dark;
 }
