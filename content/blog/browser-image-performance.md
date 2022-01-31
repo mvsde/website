@@ -10,8 +10,6 @@ social:
   og_type: article
 ---
 
-_Disclaimer: I have no idea how scientific the following approach is. The numbers match expectations, though._
-
 Modern image formats like [WebP](https://en.wikipedia.org/wiki/WebP) and [AVIF](https://en.wikipedia.org/wiki/AVIF) have [spectacular compression improvements](https://jakearchibald.com/2020/avif-has-landed/) over the three decades old JPEG. But they come with a downside: longer encoding and decoding times. While the encoding time is negligible – it only happens once on a server or in a build step – the decoding is done over and over again on the clients.
 
 While researching the topic I came across this [statement by Addy Osmani](https://www.smashingmagazine.com/2021/09/modern-image-formats-avif-webp/#avif-gotchas):
@@ -21,6 +19,8 @@ While researching the topic I came across this [statement by Addy Osmani](https:
 What I couldn’t find were any hard numbers on WebP/AVIF vs. JPEG decoding times. So began my quest to somehow collect this data myself, leading to the development of the [Image Performance Measurement](https://github.com/mvsde/image-performance-measurement) tool.
 
 ## Methodology
+
+_Disclaimer: I have no idea how scientific the following approach is. The numbers match expectations, though._
 
 In its default configuration the _Image Performance Measurement_ tool does the following:
 
@@ -61,6 +61,6 @@ Specifications: Intel Core i7-10750H, 32 GB RAM, NVMe SSD
 
 JPEG takes the decoding performance crown, indeed. Though, on modern devices the differences between JPEG, WebP, and AVIF are tiny – a couple of milliseconds at worst. The greatly reduced file sizes of WebP and AVIF lead to shorter response times that outweigh any advantage JPEG may have in the decoding department.
 
-The story changes slightly on older or slower devices. The total time it takes for the images to be displayed converges and AVIF loses a lot while decoding. As long as the file size of the WebP and AVIF files is significantly less than JPEG, they still beat the response category.
+Even on slower devices the modern image formats are more performant than JPEG. True, decoding and painting AVIF takes significantly longer than JPEG, but once again the smaller file sizes of WebP and AVIF win.
 
-And always bet on the future, I guess: JPEG had three decades to optimize every last bit. WebP is not even a dozen years old, and AVIF barely three.
+And always bet on the future, I guess: JPEG had three decades to optimize every last bit. WebP is not even a dozen years old, and AVIF barely three. As old devices are replaced, the performance gap between JPEG and WebP/AVIF will only increase.
