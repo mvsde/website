@@ -18,9 +18,22 @@ While researching the topic I came across this [statement by Addy Osmani](https:
 
 What I couldn’t find were any hard numbers on WebP/AVIF vs. JPEG decoding times. So began my quest to somehow collect this data myself, leading to the development of the [Image Performance Measurement](https://github.com/mvsde/image-performance-measurement) tool.
 
+## Terminology
+
+Response time
+: The time it takes the browser to request an image and receive the file.
+
+Decode time
+: The time it takes the browser to read and decompress the encoded image.
+
+Paint time
+: The time it takes the browser to “paint” the image’s pixels on the page.
+
 ## Methodology
 
-_Disclaimer: I have no idea how scientific the following approach is. The numbers match expectations, though._
+::: note
+_Disclaimer:_ I have no idea how scientific the following approach is. The numbers match expectations, though.
+:::
 
 In its default configuration the _Image Performance Measurement_ tool does the following:
 
