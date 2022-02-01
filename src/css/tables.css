@@ -4,7 +4,8 @@ table {
 
 th,
 td {
-  padding: 0.375em 0.5em;
+  padding-block: 0.375em;
+  padding-inline: 0.5em;
   border: 0.0625em solid var(--color-table-border);
 }
 

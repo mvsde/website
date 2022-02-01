@@ -4,16 +4,15 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin: 0;
-  padding: 0;
 }
 
 .pagination__item {
-  margin: 0 0.5em 0.25em;
+  margin-block-end: 0.25em;
+  margin-inline: 0.5em;
 }
 
 .pagination__link {
-  padding: 0 0.25em;
+  padding-inline: 0.25em;
   text-decoration: none;
 }
 

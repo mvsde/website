@@ -4,7 +4,7 @@
   --color-text-muted: hsl(220deg 9% 46%);
   --color-background: hsl(0deg 0% 100%);
   --color-content-background: hsl(20deg 30% 96%);
-  --color-code-background: hsl(19deg 53% 87%);
+  --color-highlight-background: hsl(19deg 53% 87%);
   --color-table-border: hsl(218deg 11% 65%);
 
   --font-family-text: "IBM Plex Sans", sans-serif;
@@ -31,7 +31,7 @@
     --color-text-muted: hsl(218deg 11% 65%);
     --color-background: hsl(0deg 0% 0%);
     --color-content-background: hsl(215deg 28% 17%);
-    --color-code-background: hsl(217deg 19% 27%);
+    --color-highlight-background: hsl(217deg 19% 27%);
     --color-table-border: hsl(215deg 14% 34%);
   }
 }
@@ -42,7 +42,7 @@
   --color-text-muted: hsl(220deg 9% 46%);
   --color-background: hsl(0deg 0% 100%);
   --color-content-background: hsl(20deg 30% 96%);
-  --color-code-background: hsl(19deg 53% 87%);
+  --color-highlight-background: hsl(19deg 53% 87%);
   --color-table-border: hsl(218deg 11% 65%);
 
   color-scheme: light;
@@ -54,7 +54,7 @@
   --color-text-muted: hsl(218deg 11% 65%);
   --color-background: hsl(0deg 0% 0%);
   --color-content-background: hsl(215deg 28% 17%);
-  --color-code-background: hsl(217deg 19% 27%);
+  --color-highlight-background: hsl(217deg 19% 27%);
   --color-table-border: hsl(215deg 14% 34%);
 
   color-scheme: dark;

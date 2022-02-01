@@ -4,14 +4,15 @@ h3,
 h4,
 h5,
 h6 {
-  margin: 1.5em 0 0.5em;
+  margin-block-start: 1.5em;
+  margin-block-end: 0.5em;
 
   font-family: var(--font-family-heading);
   line-height: var(--line-height-heading);
 }
 
 p {
-  margin: 0 0 1em;
+  margin-block-end: 1em;
 }
 
 a {
@@ -34,26 +35,34 @@ a:hover {
 
 ul,
 ol {
-  margin: 0 0 1em;
-  padding-left: 1.125em;
+  margin-block-end: 1em;
+  padding-inline-start: 1.125em;
 }
 
 li {
-  margin-bottom: 0.25em;
-  padding-left: 0.5em;
+  margin-block-end: 0.25em;
+  padding-inline-start: 0.5em;
 }
 
 li::marker {
   color: var(--color-brand);
 }
 
+dt {
+  color: var(--color-brand);
+}
+
+dd + dt {
+  margin-block-start: 0.5em;
+}
+
 blockquote {
-  margin: 0 0 1em;
-  padding-left: 1em;
+  margin-block-end: 1em;
+  padding-inline-start: 1em;
 
   font-style: italic;
 
-  border-left: 0.25em solid var(--color-brand);
+  border-inline-start: 0.25em solid var(--color-brand);
 }
 
 code {
@@ -62,6 +71,19 @@ code {
   font-family: var(--font-family-mono);
   font-size: 0.95em;
 
-  background: var(--color-code-background);
+  background: var(--color-highlight-background);
   border-radius: 0.2em;
+}
+
+.note {
+  margin-block-end: 1em;
+  padding-block: 0.5em;
+  padding-inline: 0.75em;
+
+  background: var(--color-highlight-background);
+  border-radius: 0.2em;
+}
+
+.note > :last-child {
+  margin-block-end: 0;
 }

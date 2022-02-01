@@ -1,8 +1,9 @@
 .hero {
   display: block;
-  width: var(--container-width);
-  max-width: 100%;
-  margin: calc(var(--content-hero-bleed) * -1) auto 2em;
+  inline-size: var(--container-width);
+  max-inline-size: 100%;
+  margin-block: calc(var(--content-hero-bleed) * -1) 2em;
+  margin-inline: auto;
 
 }
 

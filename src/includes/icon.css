@@ -1,5 +1,5 @@
 .icon {
-  width: 1em;
-  height: 1em;
+  inline-size: 1em;
+  block-size: 1em;
   fill: currentcolor;
 }

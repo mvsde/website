@@ -1,11 +1,12 @@
 .image {
-  margin-bottom: 1em;
+  margin-block-end: 1em;
 }
 
 @media (min-width: 40rem) {
-  .image.is-right {
-    margin-left: 1em;
+  .image.is-aligned-end {
+    margin-inline-start: 1em;
     float: right;
+    float: inline-end;
   }
 }
 

@@ -13,7 +13,7 @@ social:
   src: "content/index.jpg",
   alt: "Portrait of Fynn Becker",
   width: 195,
-  class: "image is-right"
+  class: "image is-aligned-end"
 } %}
 
 If you want to know a bit about me, I am…

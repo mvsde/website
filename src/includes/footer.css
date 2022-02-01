@@ -3,8 +3,7 @@
   flex-direction: column;
   gap: 1em;
 
-  padding-top: 2em;
-  padding-bottom: 2em;
+  padding-block: 2em;
 }
 
 .footer__links {
