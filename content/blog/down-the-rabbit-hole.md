@@ -1,6 +1,6 @@
 ---
 id: 3c07b6a7-01e2-406b-93cf-7f3e3d2a8a89
-title: Exploring Fabulousness
+title: Down the Rabbit Hole
 description: The second part of my identity exploration. It’s going to be non-binary, like a quantum particle.
 date: 2021-08-02 11:21:00
 tags:
@@ -9,12 +9,12 @@ tags:
 social:
   og_type: article
   image:
-    src: content/blog/exploring-fabulousness.social.jpg
-    alt: Abstract painting with colored stripes in hues of red, green, and blue from left to right forming a rainbow.
+    src: content/blog/down-the-rabbit-hole.social.jpg
+    alt: Lonely person standing on moss-covered rocks in a beam of light in a huge cavern.
 hero:
-  image: content/blog/exploring-fabulousness.jpg
-  alt: Abstract painting with colored stripes in hues of red, green, and blue from left to right forming a rainbow.
-  caption: Title photo by <a href="https://unsplash.com/@steve_j">Steve Johnson</a> on <a href="https://unsplash.com/photos/wpw8sHoBtSY">Unsplash</a>.
+  image: content/blog/down-the-rabbit-hole.jpg
+  alt: Lonely person standing on moss-covered rocks in a beam of light in a huge cavern.
+  caption: Title photo by <a href="https://unsplash.com/@dburka">Daniel Burka</a> on <a href="https://unsplash.com/photos/facU72FcKBI">Unsplash</a>.
 ---
 
 “Fabulousness” is a fantastic word, isn’t it? Right up there with everyone’s all-time favorite frontend term “CSS selector specificity”. In case you haven’t noticed, I really like to [dig into languages](../german-language-and-gender/). Etymology is an interesting topic aswell, but that’s content for some future blog posts. Let’s get back to queerness.

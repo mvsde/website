@@ -19,7 +19,7 @@ hero:
 
 It is 23:30 o’clock, I can’t sleep, and there’s this blog post idea that’s been sitting at the back of my mind for a few days: _Coming out is hard, really hard, actually._
 
-I’m open about being [bisexual/pansexual, sometimes grayish asexual](../straight-until-proven-fabulous/), and I recently published that I’m a [non-binary person](../exploring-fabulousness/). But that’s all online. I don’t know why it’s so much easier for me to tell hundreds of people on Twitter about my queerness, than to talk to a single person in real life. There’s literally _one_ friend I could bring myself to talk to, a friend I very deeply trust and respect. Even that cost me quite the effort.
+I’m open about being [bisexual/pansexual, sometimes grayish asexual](../straight-until-proven-fabulous/), and I recently published that I’m a [non-binary person](../down-the-rabbit-hole/). But that’s all online. I don’t know why it’s so much easier for me to tell hundreds of people on Twitter about my queerness, than to talk to a single person in real life. There’s literally _one_ friend I could bring myself to talk to, a friend I very deeply trust and respect. Even that cost me quite the effort.
 
 Funnily enough, my most popular tweet to date has 124 likes, thousands of views, and sparked an interesting and civilized debate. It was in response to another tweet and goes like this:
 

@@ -25,7 +25,12 @@
 
 [[redirects]]
   from = "/blog/return-of-fabulousness/"
-  to = "/blog/exploring-fabulousness/"
+  to = "/blog/down-the-rabbit-hole/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/exploring-fabulousness/"
+  to = "/blog/down-the-rabbit-hole/"
   status = 301
 
 [[redirects]]
