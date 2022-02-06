@@ -11,7 +11,7 @@
     "build:js": "esbuild src/main.js --bundle --sourcemap --minify --outfile=dist/scripts.js",
     "build:css": "postcss src/main.css --env production --output dist/styles.css",
     "lint": "npm run lint:js && npm run lint:css",
-    "lint:js": "eslint \"**/*.js\"",
+    "lint:js": "eslint --ignore-path .gitignore \"**/*.{js,vue}\"",
     "lint:css": "stylelint --ignore-path .gitignore \"**/*.{css,vue}\""
   },
   "repository": {
