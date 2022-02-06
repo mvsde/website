@@ -34,11 +34,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPairedShortcode('lang', langShortcode)
   eleventyConfig.addPairedShortcode('listemoji', listEmojiShortcode)
 
-  if (process.env.NODE_ENV === 'production') {
-    eleventyConfig.addPlugin(pluginRSS)
-  } else {
-    eleventyConfig.ignores.add('content/feed.njk');
-  }
+  eleventyConfig.addPlugin(pluginRSS)
 
   eleventyConfig.addPlugin(pluginVue, {
     input: [

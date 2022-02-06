@@ -22,7 +22,7 @@ eleventyExcludeFromCollections: true
   {% for post in collections.feed %}
     {% set absolutePostUrl %}{{ post.url | url | absoluteUrl(base) }}{% endset %}
     {% set hero = post.data.hero %}
-    {% set hero_markup %}{% include "hero.njk" %}{% endset %}
+    {% set hero_markup %}{% include "feed-hero.njk" %}{% endset %}
 
     <entry>
       <title>{{ post.data.title }}</title>

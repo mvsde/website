@@ -1,0 +1,26 @@
+<figure>
+
+  {% if hero.image %}
+    {% image {
+      src: hero.image,
+      alt: hero.alt,
+      width: 1120
+    } %}
+  {% elseif hero.youtube %}
+    <iframe
+      title="{{ hero.title }}"
+      src="https://www.youtube-nocookie.com/embed/{{ hero.youtube }}"
+      width="1120"
+      height="630"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen
+    ></iframe>
+  {% endif %}
+
+  {% if hero.caption %}
+    <figcaption>
+      {{ hero.caption | safe }}
+    </figcaption>
+  {% endif %}
+
+</figure>
