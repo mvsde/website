@@ -12,12 +12,11 @@
 @import "layouts/tag.css";
 
 /* Components */
-@import "includes/footer.css";
-@import "includes/header.css";
-@import "includes/hero.css";
-@import "includes/icon.css";
-@import "includes/pagination.css";
-@import "includes/theme.css";
+@import "components/footer.css";
+@import "components/header.css";
+@import "components/hero.css";
+@import "components/icon.css";
+@import "components/theme.css";
 
 /* Utilities */
 @import "utils/aspect-ratio.css";

@@ -1,1 +1,1 @@
-module.exports = 'default.njk'
+module.exports = 'LDefault.vue'

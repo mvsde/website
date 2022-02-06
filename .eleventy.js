@@ -1,5 +1,7 @@
 const pluginRSS = require('@11ty/eleventy-plugin-rss')
+const pluginVue = require('@11ty/eleventy-plugin-vue')
 
+const doctypeTransform = require('./eleventy/doctypeTransform.js')
 const markdown = require('./eleventy/markdown.js')
 
 const imageShortcode = require('./eleventy/imageShortcode.js')
@@ -23,8 +25,10 @@ const DIRECTORIES = {
  * @param {Object} eleventyConfig Eleventy configuration
  */
 module.exports = function (eleventyConfig) {
+  eleventyConfig.addTransform('add-html-doctype', doctypeTransform)
   eleventyConfig.setLibrary('md', markdown);
   eleventyConfig.addPassthroughCopy(COPY_FILES)
+
   eleventyConfig.addShortcode('image', imageShortcode)
   eleventyConfig.addShortcode('imageSocial', imageSocialShortcode)
   eleventyConfig.addPairedShortcode('lang', langShortcode)
@@ -35,6 +39,14 @@ module.exports = function (eleventyConfig) {
   } else {
     eleventyConfig.ignores.add('content/feed.njk');
   }
+
+  eleventyConfig.addPlugin(pluginVue, {
+    input: [
+      'src/layouts/LDefault.vue',
+      'src/layouts/LPost.vue',
+      'src/layouts/LTag.vue'
+    ]
+  })
 
   return {
     dir: DIRECTORIES,
