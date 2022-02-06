@@ -1,3 +1,5 @@
+const markdown = require('./markdown.js')
+
 /**
  * Create pseudo-list out of lines prefixed with emojis
  * @param {string} content Content between tags
@@ -8,7 +10,8 @@ module.exports = function (content) {
     .trim()
     .split('\n')
     .map(line => line.split(/\s(.+)/))
-    .map(([emoji, text]) => `<span>${emoji}</span> <span>${text}</span>`)
+    .map(([emoji, text]) => `<span aria-hidden="true">${emoji}</span> <span>${markdown.renderInline(text)}</span>`)
+    .map(line => `<li class="list-emoji__item">${line}</li>`)
 
-  return `<span class="list-emoji">${listItems.join('\n')}</span>`
+  return `<ul class="list-emoji">${listItems.join('')}</ul>`
 }
