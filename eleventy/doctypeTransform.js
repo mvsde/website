@@ -5,7 +5,7 @@
  * @param {string} outputPath
  * @returns {string}
  */
-module.exports = function (content, outputPath) {
+module.exports = function doctype (content, outputPath) {
   const doctype = '<!DOCTYPE html>'
 
   // If we’re writing to an HTML file and a Doctype does not already exist.

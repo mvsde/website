@@ -3,11 +3,11 @@
   "private": true,
   "scripts": {
     "clean": "rm --recursive --force dist",
-    "dev:site": "NODE_ENV=development URL=http://localhost:8080 eleventy --input content --output dist --serve",
+    "dev:site": "NODE_ENV=development URL=http://localhost:8080 eleventy --serve",
     "dev:js": "esbuild src/main.js --bundle --sourcemap --watch --outfile=dist/scripts.js",
     "dev:css": "postcss src/main.css --watch --env development --output dist/styles.css",
     "build": "npm run clean && npm run build:site && npm run build:js && npm run build:css",
-    "build:site": "NODE_ENV=production eleventy --input content --output dist --quiet",
+    "build:site": "NODE_ENV=production eleventy",
     "build:js": "esbuild src/main.js --bundle --sourcemap --minify --outfile=dist/scripts.js",
     "build:css": "postcss src/main.css --env production --output dist/styles.css",
     "lint": "npm run lint:js && npm run lint:css",
@@ -28,33 +28,33 @@
     "node": ">=17"
   },
   "dependencies": {
-    "@fontsource/ibm-plex-mono": "^4.5.2",
-    "@fontsource/ibm-plex-sans": "^4.5.3",
-    "@fontsource/merriweather": "^4.5.4"
+    "@fontsource/ibm-plex-mono": "^4.5.4",
+    "@fontsource/ibm-plex-sans": "^4.5.5",
+    "@fontsource/merriweather": "^4.5.6"
   },
   "devDependencies": {
-    "@11ty/eleventy": "^1.0.0",
-    "@11ty/eleventy-img": "^1.0.0",
+    "@11ty/eleventy": "^2.0.0-canary.4",
+    "@11ty/eleventy-img": "^2.0.0",
     "@11ty/eleventy-plugin-rss": "^1.1.2",
     "@11ty/eleventy-plugin-vue": "^1.0.0-canary.8",
     "@pangolinjs/eslint-config": "^5.3.1",
     "@pangolinjs/stylelint-config": "^3.0.0",
-    "cssnano": "^5.0.16",
-    "esbuild": "^0.14.18",
-    "eslint": "^8.8.0",
-    "eslint-config-standard": "^16.0.3",
+    "cssnano": "^5.1.4",
+    "esbuild": "^0.14.27",
+    "eslint": "^8.11.0",
+    "eslint-config-standard": "^17.0.0-1",
     "eslint-plugin-import": "^2.25.4",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^6.0.0",
-    "eslint-plugin-vue": "^8.4.1",
+    "eslint-plugin-vue": "^8.5.0",
     "markdown-it-container": "^3.0.0",
     "markdown-it-deflist": "^2.1.0",
-    "postcss": "^8.4.6",
+    "postcss": "^8.4.12",
     "postcss-cli": "^9.1.0",
     "postcss-html": "^1.3.0",
     "postcss-import": "^14.0.2",
-    "stylelint": "^14.3.0",
+    "stylelint": "^14.6.0",
     "stylelint-order": "^5.0.0",
-    "stylelint-scss": "^4.1.0"
+    "stylelint-scss": "^4.2.0"
   }
 }
