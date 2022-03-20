@@ -19,6 +19,6 @@
 @import "components/theme.css";
 
 /* Utilities */
-@import "utils/aspect-ratio.css";
-@import "utils/image.css";
-@import "utils/list.css";
+@import "utilities/aspect-ratio.css";
+@import "utilities/image.css";
+@import "utilities/list.css";

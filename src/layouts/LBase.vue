@@ -2,10 +2,11 @@
 import CFooter from '../components/CFooter.vue'
 import CHeader from '../components/CHeader.vue'
 import CHero from '../components/CHero.vue'
-import truncate from '../utils/truncate.js'
-import { useData } from '../utils/data.js'
+import truncate from '../utilities/truncate.js'
+import { useData, useMethods } from '../utilities/use-global.js'
 
 const { page, language, title, description, social, hero, base } = useData()
+const { imageSocial } = useMethods()
 
 const lang = language || 'en'
 const isHome = page.url === '/'

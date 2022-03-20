@@ -1,6 +1,6 @@
 <script setup>
 import CIcon from './CIcon.vue'
-import { useData } from '../utils/data.js'
+import { useData } from '../utilities/use-global.js'
 
 const { page } = useData()
 

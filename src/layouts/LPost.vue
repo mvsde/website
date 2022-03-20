@@ -1,7 +1,7 @@
 <script setup>
 import LBase from './LBase.vue'
-import formatDate from '../utils/formatDate.js'
-import { useData } from '../utils/data.js'
+import formatDate from '../utilities/format-date.js'
+import { useData } from '../utilities/use-global.js'
 
 const { title, content, date } = useData()
 </script>

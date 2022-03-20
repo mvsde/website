@@ -1,6 +1,6 @@
 <script setup>
 import CTheme from './CTheme.vue'
-import { useData } from '../utils/data.js'
+import { useData } from '../utilities/use-global.js'
 
 const { page } = useData()
 
