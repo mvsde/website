@@ -6,6 +6,7 @@ const transformDoctype = require('./eleventy/transform-doctype.js')
 
 // Plugins
 const pluginRSS = require('@11ty/eleventy-plugin-rss')
+const pluginSyntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight')
 const pluginVue = require('@11ty/eleventy-plugin-vue')
 
 // Shortcodes
@@ -53,6 +54,7 @@ module.exports = function (eleventyConfig) {
 
   // Plugins
   eleventyConfig.addPlugin(pluginRSS)
+  eleventyConfig.addPlugin(pluginSyntaxHighlight)
   eleventyConfig.addPlugin(pluginVue, { input: VUE_SFCS })
 
   // Shortcodes

@@ -5,6 +5,7 @@
   --color-background: hsl(0deg 0% 100%);
   --color-content-background: hsl(20deg 30% 96%);
   --color-highlight-background: hsl(19deg 53% 87%);
+  --color-code-background: var(--color-background);
   --color-table-border: hsl(218deg 11% 65%);
 
   --font-family-text: "IBM Plex Sans", sans-serif;
@@ -19,6 +20,7 @@
 
   --content-hero-bleed: 10rem;
   --content-inner-width: 40rem;
+  --content-highlight-inset: var(--container-padding);
 
   color-scheme: light dark;
   accent-color: var(--color-brand);

@@ -1,0 +1,27 @@
+/* stylelint-disable selector-no-qualifying-type */
+
+code,
+code[class*="language-"],
+pre[class*="language-"] {
+  font-family: var(--font-family-mono);
+  font-size: 0.95em;
+
+  border-radius: 0.2em;
+}
+
+code {
+  padding-inline: 0.2em;
+  background: var(--color-highlight-background);
+}
+
+code[class*="language-"],
+pre[class*="language-"] {
+  background: var(--color-code-background);
+}
+
+pre[class*="language-"] {
+  margin-block: 0 1em;
+  margin-inline: calc(var(--content-highlight-inset) * -1);
+  padding-block: 0.75em;
+  padding-inline: var(--content-highlight-inset);
+}

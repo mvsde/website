@@ -1,15 +1,23 @@
 const STORAGE_KEY = 'fynn-theme'
 const THEMES = ['system', 'light', 'dark']
 
+const SELECTORS = {
+  theme: '.js-theme',
+  css: '.js-theme-css'
+}
+
 class Theme {
   /**
-   * @param {Element} container
+   * @param {HTMLElement} container
    */
   constructor (container) {
     this.container = container
 
     /** @type {NodeListOf<HTMLButtonElement>} */
     this.buttons = container.querySelectorAll('.js-theme-button')
+
+    /** @type {HTMLLinkElement} */
+    this.css = document.querySelector(SELECTORS.css)
   }
 
   init () {
@@ -25,7 +33,12 @@ class Theme {
    * @param {'system'|'light'|'dark'} name
    */
   setTheme (name) {
+    if (!name) {
+      return
+    }
+
     localStorage.setItem(STORAGE_KEY, name)
+    this.css.href = `/theme/${name}.css`
 
     for (const theme of THEMES) {
       document.documentElement.classList.remove(`is-theme-${theme}`)
@@ -35,6 +48,4 @@ class Theme {
   }
 }
 
-for (const element of document.querySelectorAll('.js-theme')) {
-  new Theme(element).init()
-}
+new Theme(document.querySelector(SELECTORS.theme)).init()

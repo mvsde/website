@@ -51,8 +51,9 @@ const isHome = page.url === '/'
       <link rel="preload" href="/fonts/merriweather-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin>
       <link rel="preload" href="/fonts/ibm-plex-sans-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
 
-      <script src="/scripts.js" defer />
-      <link rel="stylesheet" href="/styles.css">
+      <script src="/main.js" defer />
+      <link rel="stylesheet" href="/theme/system.css" class="js-theme-css">
+      <link rel="stylesheet" href="/main.css">
       <!-- eslint-enable vue/max-attributes-per-line -->
     </head>
     <body>

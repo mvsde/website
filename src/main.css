@@ -6,6 +6,7 @@
 @import "css/tables.css";
 @import "css/container.css";
 @import "css/content.css";
+@import "css/code.css";
 
 /* Layouts */
 @import "layouts/post.css";

@@ -65,20 +65,11 @@ blockquote {
   border-inline-start: 0.25em solid var(--color-brand);
 }
 
-code {
-  padding-inline: 0.2em;
-
-  font-family: var(--font-family-mono);
-  font-size: 0.95em;
-
-  background: var(--color-highlight-background);
-  border-radius: 0.2em;
-}
-
 .note {
   margin-block-end: 1em;
-  padding-block: 0.5em;
-  padding-inline: 0.75em;
+  margin-inline: calc(var(--content-highlight-inset) * -1);
+  padding-block: 0.75em;
+  padding-inline: var(--content-highlight-inset);
 
   background: var(--color-highlight-background);
   border-radius: 0.2em;

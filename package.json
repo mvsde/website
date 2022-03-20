@@ -4,12 +4,12 @@
   "scripts": {
     "clean": "rm --recursive --force dist",
     "dev:site": "NODE_ENV=development URL=http://localhost:8080 eleventy --serve",
-    "dev:js": "esbuild src/main.js --bundle --sourcemap --watch --outfile=dist/scripts.js",
-    "dev:css": "postcss src/main.css --watch --env development --output dist/styles.css",
+    "dev:js": "esbuild src/main.js --bundle --sourcemap --watch --outdir=dist",
+    "dev:css": "postcss src/main.css src/theme --base src --watch --env development --dir dist",
     "build": "npm run clean && npm run build:site && npm run build:js && npm run build:css",
     "build:site": "NODE_ENV=production eleventy",
-    "build:js": "esbuild src/main.js --bundle --sourcemap --minify --outfile=dist/scripts.js",
-    "build:css": "postcss src/main.css --env production --output dist/styles.css",
+    "build:js": "esbuild src/main.js --bundle --sourcemap --minify --outdir=dist",
+    "build:css": "postcss src/main.css src/theme --base src --env production --dir dist",
     "lint": "npm run lint:js && npm run lint:css",
     "lint:js": "eslint --ignore-path .gitignore \"**/*.{js,vue}\"",
     "lint:css": "stylelint --ignore-path .gitignore \"**/*.{css,vue}\""
@@ -30,12 +30,14 @@
   "dependencies": {
     "@fontsource/ibm-plex-mono": "^4.5.4",
     "@fontsource/ibm-plex-sans": "^4.5.5",
-    "@fontsource/merriweather": "^4.5.6"
+    "@fontsource/merriweather": "^4.5.6",
+    "prism-themes": "^1.9.0"
   },
   "devDependencies": {
     "@11ty/eleventy": "^2.0.0-canary.4",
     "@11ty/eleventy-img": "^2.0.0",
     "@11ty/eleventy-plugin-rss": "^1.1.2",
+    "@11ty/eleventy-plugin-syntaxhighlight": "^4.0.0",
     "@11ty/eleventy-plugin-vue": "^1.0.0-canary.8",
     "@pangolinjs/eslint-config": "^5.3.1",
     "@pangolinjs/stylelint-config": "^3.0.0",
