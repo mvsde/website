@@ -17,7 +17,7 @@ social:
 
 If you want to know a bit about me, I am…
 
-{% listemoji %}
+{% emojiList %}
 🧑🏻‍💻 a frontend developer,
 🧙🏻 an open sourcerer,
 🎮 a video game collector,
@@ -27,7 +27,7 @@ If you want to know a bit about me, I am…
 🖖🏻 a huge [Star Wars](https://twitter.com/mvsde/status/1408409600643190788) and [Star Trek](https://twitter.com/mvsde/status/1400519056374046726) nerd,
 🏠 living near Hamburg, Germany,
 🏳️‍🌈 non-binary, my pronouns are [they/them](https://pronoun.is/they/them).
-{% endlistemoji %}
+{% endemojiList %}
 
 ## From the Site
 

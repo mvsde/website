@@ -6,7 +6,7 @@ import truncate from '../utilities/truncate.js'
 import { useData, useMethods } from '../utilities/use-global.js'
 
 const { page, language, title, description, social, hero, base } = useData()
-const { imageSocial } = useMethods()
+const { socialImage } = useMethods()
 
 const lang = language || 'en'
 const isHome = page.url === '/'
@@ -42,10 +42,10 @@ const isHome = page.url === '/'
       <meta property="og:locale" :content="lang">
 
       <template v-if="social?.image">
-        <meta name="twitter:image" :content="base + imageSocial({ src: social.image.src })">
+        <meta name="twitter:image" :content="base + socialImage({ src: social.image.src })">
         <meta name="twitter:image:alt" :content="truncate(social.image.alt, 420)">
 
-        <meta property="og:image" :content="base + imageSocial({ src: social.image.src })">
+        <meta property="og:image" :content="base + socialImage({ src: social.image.src })">
       </template>
 
       <link rel="preload" href="/fonts/merriweather-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin>

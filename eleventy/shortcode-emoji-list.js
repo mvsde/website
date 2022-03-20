@@ -1,4 +1,4 @@
-const markdown = require('./markdown.js')
+const markdown = require('./library-markdown.js')
 
 /**
  * Create pseudo-list out of lines prefixed with emojis

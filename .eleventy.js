@@ -1,13 +1,18 @@
+// Libraries
+const libraryMarkdown = require('./eleventy/library-markdown.js')
+
+// Transforms
+const transformDoctype = require('./eleventy/transform-doctype.js')
+
+// Plugins
 const pluginRSS = require('@11ty/eleventy-plugin-rss')
 const pluginVue = require('@11ty/eleventy-plugin-vue')
 
-const doctype = require('./eleventy/doctypeTransform.js')
-const markdown = require('./eleventy/markdown.js')
-
-const imageShortcode = require('./eleventy/imageShortcode.js')
-const imageSocialShortcode = require('./eleventy/imageSocialShortcode.js')
-const langShortcode = require('./eleventy/langShortcode.js')
-const listEmojiShortcode = require('./eleventy/listEmojiShortcode.js')
+// Shortcodes
+const shortcodeEmojiList = require('./eleventy/shortcode-emoji-list.js')
+const shortcodeImage = require('./eleventy/shortcode-image.js')
+const shortcodeLang = require('./eleventy/shortcode-lang.js')
+const shortcodeSocialImage = require('./eleventy/shortcode-social-image.js')
 
 const DIRECTORIES = {
   // Relative to current directory.
@@ -38,20 +43,23 @@ const VUE_SFCS = [
  * @param {Object} eleventyConfig Eleventy configuration
  */
 module.exports = function (eleventyConfig) {
-  eleventyConfig.addTransform('add-html-doctype', doctype)
-  eleventyConfig.setLibrary('md', markdown);
   eleventyConfig.addPassthroughCopy(COPY_FILES)
 
-  eleventyConfig.addShortcode('image', imageShortcode)
-  eleventyConfig.addShortcode('imageSocial', imageSocialShortcode)
-  eleventyConfig.addPairedShortcode('lang', langShortcode)
-  eleventyConfig.addPairedShortcode('listemoji', listEmojiShortcode)
+  // Transforms
+  eleventyConfig.addTransform('doctype', transformDoctype)
 
+  // Libraries
+  eleventyConfig.setLibrary('md', libraryMarkdown);
+
+  // Plugins
   eleventyConfig.addPlugin(pluginRSS)
+  eleventyConfig.addPlugin(pluginVue, { input: VUE_SFCS })
 
-  eleventyConfig.addPlugin(pluginVue, {
-    input: VUE_SFCS
-  })
+  // Shortcodes
+  eleventyConfig.addShortcode('image', shortcodeImage)
+  eleventyConfig.addShortcode('socialImage', shortcodeSocialImage)
+  eleventyConfig.addPairedShortcode('lang', shortcodeLang)
+  eleventyConfig.addPairedShortcode('emojiList', shortcodeEmojiList)
 
   return {
     dir: DIRECTORIES,
