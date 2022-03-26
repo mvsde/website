@@ -13,10 +13,10 @@ social:
 [Eleventy](https://www.11ty.dev/) supports numerous [template languages](https://www.11ty.dev/docs/languages/) out of the box. Unfortunately, a lot of these languages lack a key feature: good tooling aka developer experience (DX). Visual Studio Code integration is spotty, and linters or formatters are rare. Enter [eleventy-plugin-vue](https://github.com/11ty/eleventy-plugin-vue) – fully static pre-rendered Vue templates for Eleventy. And with Vue we can use all sorts of nice tools: Vetur or Volar for VSCode, ESLint, and Prettier.
 
 ::: note
-A quick warning before we continue: The Vue 3 integration into Eleventy is in _early alpha_. It works really well, but some things are a bit rough and need workarounds. This article documents and explains these workarounds.
+A quick warning before we continue: The Vue 3 integration for Eleventy is in _early alpha_. It works really well, but some things are a bit rough and need workarounds. This blog post documents and explains these workarounds.
 :::
 
-Head over to the [official plugin documentation](https://github.com/11ty/eleventy-plugin-vue#readme) for installation instructions. A few more tricks can also be found on the [Netlify blog](https://www.netlify.com/blog/2020/09/18/eleventy-and-vue-a-match-made-to-power-netlify.com/).
+Head over to the [official plugin documentation](https://github.com/11ty/eleventy-plugin-vue#readme) for installation instructions. A few more tricks can also be found on the [Netlify blog](https://www.netlify.com/blog/2020/09/18/eleventy-and-vue-a-match-made-to-power-netlify.com/). The following tips are collected in the demo repository [mvsde/eleventy-vue](https://github.com/mvsde/eleventy-vue).
 
 ## Vue SFC as base template
 
@@ -46,7 +46,7 @@ const DOCTYPE = '<!DOCTYPE html>'
 
 module.exports = function (content, outputPath) {
   const isHTMLFile = outputPath.endsWith('.html')
-  const hasDoctype = content.trim().toLowerCase().startsWith(DOCTYPE)
+  const hasDoctype = content.trim().toLowerCase().startsWith(DOCTYPE.toLowerCase())
 
   if (isHTMLFile && !hasDoctype) {
     return `${DOCTYPE}${content}`

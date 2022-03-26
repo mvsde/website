@@ -9,7 +9,7 @@ const DOCTYPE = '<!DOCTYPE html>'
  */
 module.exports = function (content, outputPath) {
   const isHTMLFile = outputPath.endsWith('.html')
-  const hasDoctype = content.trim().toLowerCase().startsWith(DOCTYPE)
+  const hasDoctype = content.trim().toLowerCase().startsWith(DOCTYPE.toLowerCase())
 
   if (isHTMLFile && !hasDoctype) {
     return `${DOCTYPE}${content}`
