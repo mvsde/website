@@ -5,7 +5,7 @@ import CHero from '../components/CHero.vue'
 import truncate from '../utilities/truncate.js'
 import { useData, useMethods } from '../utilities/use-global.js'
 
-const { page, language, title, description, social, hero, base } = useData()
+const { page, language, title, description, social, hero, base, eleventyVersion } = useData()
 const { socialImage } = useMethods()
 
 const lang = language || 'en'
@@ -48,8 +48,8 @@ const isHome = page.url === '/'
         <meta property="og:image" :content="base + socialImage({ src: social.image.src })">
       </template>
 
-      <link rel="preload" href="/fonts/merriweather-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin>
-      <link rel="preload" href="/fonts/ibm-plex-sans-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+      <link rel="preload" href="/fonts/merriweather-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+      <link rel="preload" href="/fonts/ibm-plex-sans-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin="anonymous">
 
       <script src="/main.js" defer />
       <link rel="stylesheet" href="/theme/system.css" class="js-theme-css">

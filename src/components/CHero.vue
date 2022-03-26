@@ -1,3 +1,10 @@
+<script setup>
+import { useData, useMethods } from '../utilities/use-global.js'
+
+const { hero } = useData()
+const { image } = useMethods()
+</script>
+
 <template>
   <figure class="hero">
     <div
