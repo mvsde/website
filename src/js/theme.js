@@ -33,8 +33,8 @@ class Theme {
    * @param {'system'|'light'|'dark'} name
    */
   setTheme (name) {
-    if (!name) {
-      return
+    if (!THEMES.includes(name)) {
+      name = 'system'
     }
 
     localStorage.setItem(STORAGE_KEY, name)
