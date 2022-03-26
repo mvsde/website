@@ -16,6 +16,7 @@ code {
 
 code[class*="language-"],
 pre[class*="language-"] {
+  text-shadow: none;
   background: var(--color-code-background);
 }
 
