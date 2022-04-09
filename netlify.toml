@@ -37,3 +37,18 @@
   from = "/*"
   to = "/404.html"
   status = 404
+
+[[plugins]]
+  package = "@netlify/plugin-lighthouse"
+
+  [[plugins.inputs.audits]]
+    path = ""
+
+  [[plugins.inputs.audits]]
+    path = "blog"
+
+  [[plugins.inputs.audits]]
+    path = "talks"
+
+  [[plugins.inputs.audits]]
+    path = "ethics"
