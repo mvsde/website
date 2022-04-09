@@ -12,6 +12,7 @@ social:
   src: "content/index.jpg",
   alt: "Portrait of Fynn Becker",
   width: 195,
+  sizes: "195px",
   class: "image is-aligned-end"
 } %}
 
