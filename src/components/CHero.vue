@@ -13,6 +13,7 @@ const { image } = useMethods()
         src: hero.image,
         alt: hero.alt,
         width: 1120,
+        sizes: '(min-width: 1120px) 1120px, 100vw',
         class: 'hero__media'
       })"
     />
