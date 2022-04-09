@@ -4,12 +4,12 @@
   "scripts": {
     "clean": "rm --recursive --force dist",
     "dev:site": "NODE_ENV=development URL=http://localhost:8080 eleventy --serve",
-    "dev:js": "esbuild src/main.js --bundle --sourcemap --watch --outdir=dist",
-    "dev:css": "postcss src/main.css src/theme --base src --watch --env development --dir dist",
+    "dev:js": "esbuild $npm_package_config_js --watch",
+    "dev:css": "postcss $npm_package_config_css --watch --env development",
     "build": "npm run clean && npm run build:site && npm run build:js && npm run build:css",
     "build:site": "NODE_ENV=production eleventy",
-    "build:js": "esbuild src/main.js --bundle --sourcemap --minify --outdir=dist",
-    "build:css": "postcss src/main.css src/theme --base src --env production --dir dist",
+    "build:js": "esbuild $npm_package_config_js --minify",
+    "build:css": "postcss $npm_package_config_css --env production",
     "lint": "npm run lint:js && npm run lint:css",
     "lint:js": "eslint --ignore-path .gitignore \"**/*.{js,vue}\"",
     "lint:css": "stylelint --ignore-path .gitignore \"**/*.{css,vue}\""
@@ -26,6 +26,10 @@
   "homepage": "https://fynn.be",
   "engines": {
     "node": ">=17"
+  },
+  "config": {
+    "js": "src/main.js --bundle --sourcemap --outdir=dist",
+    "css": "src/main.css src/theme --base src --dir dist"
   },
   "dependencies": {
     "@fontsource/ibm-plex-mono": "^4.5.7",
