@@ -17,19 +17,16 @@ const { image } = useMethods()
         class: 'hero__media'
       })"
     />
-    <div
+    <iframe
       v-else-if="hero.youtube"
-      class="hero__media aspect-ratio is-16-9"
-    >
-      <iframe
-        :title="hero.title"
-        :src="`https://www.youtube-nocookie.com/embed/${hero.youtube}`"
-        width="1120"
-        height="630"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-      />
-    </div>
+      class="hero__media hero__media--video aspect-ratio-video"
+      :title="hero.title"
+      :src="`https://www.youtube-nocookie.com/embed/${hero.youtube}`"
+      width="1120"
+      height="630"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen
+    />
 
     <figcaption
       v-if="hero.caption"

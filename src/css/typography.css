@@ -72,7 +72,7 @@ blockquote {
   padding-inline: var(--content-highlight-inset);
 
   background: var(--color-highlight-background);
-  border-radius: 0.2em;
+  border-radius: var(--border-radius-small);
 }
 
 .note > :last-child {

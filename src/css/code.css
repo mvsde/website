@@ -6,7 +6,7 @@ pre[class*="language-"] {
   font-family: var(--font-family-mono);
   font-size: 0.95em;
 
-  border-radius: 0.2em;
+  border-radius: var(--border-radius-small);
 }
 
 code {
