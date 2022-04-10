@@ -36,7 +36,7 @@ If you want to know a bit about me, I am…
 * [Talks](/talks/)
 * [Dev setup](/uses/)
 * [Ethics](/ethics/)
-* [Pile of Shame](/games/)™
+* [Sunset](/sunset/)
 
 ## Social Media
 
