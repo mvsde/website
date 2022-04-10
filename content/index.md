@@ -11,8 +11,8 @@ social:
 {% image {
   src: "content/index.jpg",
   alt: "Portrait of Fynn Becker",
-  width: 195,
-  sizes: "195px",
+  width: 218,
+  sizes: "218px",
   class: "image is-aligned-end"
 } %}
 
