@@ -1,19 +1,14 @@
 .footer {
   display: flex;
   flex-direction: column;
-  gap: 1em;
+  gap: 2em;
 
   padding-block: 2em;
 }
 
 .footer__links {
   display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
   gap: 1em;
-}
-
-@media (min-width: 40rem) {
-  .footer {
-    flex-direction: row;
-    justify-content: space-between;
-  }
 }

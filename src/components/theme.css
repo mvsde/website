@@ -1,11 +1,13 @@
 .theme {
-  display: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.5em;
 }
 
-.theme.is-init {
-  display: flex;
-  align-items: center;
-  gap: 0.5em;
+.theme:not(.is-init) {
+  display: none;
 }
 
 .theme__heading {
@@ -21,4 +23,8 @@
   gap: 0.375em;
 
   padding-inline: 0.25em;
+}
+
+.theme__button .icon {
+  flex-shrink: 0;
 }
