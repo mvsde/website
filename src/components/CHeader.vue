@@ -6,6 +6,10 @@ const { page } = useData()
 
 const links = [
   {
+    text: 'About',
+    url: '/'
+  },
+  {
     text: 'Blog',
     url: '/blog/'
   },
@@ -28,13 +32,6 @@ const links = [
 
 <template>
   <header class="header container">
-    <a
-      class="header__title"
-      aria-label="Homepage"
-      href="/"
-      :aria-current="page.url === '/' ? 'page' : null"
-    >Fynn Becker</a>
-
     <nav class="header__nav">
       <a
         v-for="link in links"
