@@ -1,17 +1,11 @@
-.image {
+.content__inner img {
   margin-block-end: 1em;
 }
 
 @media (min-width: 40rem) {
-  .image.is-aligned-end {
+  .image-end {
     margin-inline-start: 1em;
     float: right;
     float: inline-end;
-  }
-}
-
-@media (prefers-color-scheme: dark) {
-  .image.is-illustration {
-    filter: invert(93%) hue-rotate(180deg);
   }
 }

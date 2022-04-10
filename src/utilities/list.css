@@ -3,7 +3,7 @@
   padding-inline-start: 0;
 }
 
-.list-emoji__item {
+.list-emoji li {
   display: grid;
   grid-template-columns: 1.75em 1fr;
 
