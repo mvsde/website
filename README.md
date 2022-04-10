@@ -1,4 +1,4 @@
-# Personal website
+# Fynn’s personal website
 
 ## Requirements
 
