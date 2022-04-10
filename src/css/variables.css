@@ -2,8 +2,8 @@
   --color-brand: hsl(244deg 55% 41%);
   --color-text: hsl(221deg 39% 11%);
   --color-text-muted: hsl(220deg 9% 46%);
-  --color-background: hsl(0deg 0% 100%);
-  --color-content-background: hsl(20deg 30% 96%);
+  --color-background: hsl(20deg 30% 96%);
+  --color-content-background: hsl(0deg 0% 100%);
   --color-highlight-background: hsl(19deg 53% 87%);
   --color-code-background: var(--color-background);
   --color-table-border: hsl(218deg 11% 65%);
@@ -42,8 +42,8 @@
   --color-brand: hsl(244deg 55% 41%);
   --color-text: hsl(221deg 39% 11%);
   --color-text-muted: hsl(220deg 9% 46%);
-  --color-background: hsl(0deg 0% 100%);
-  --color-content-background: hsl(20deg 30% 96%);
+  --color-background: hsl(20deg 30% 96%);
+  --color-content-background: hsl(0deg 0% 100%);
   --color-highlight-background: hsl(19deg 53% 87%);
   --color-table-border: hsl(218deg 11% 65%);
 
