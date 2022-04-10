@@ -5,7 +5,9 @@ import { useData } from '../utilities/use-global.js'
 
 const { title, content, collections, collection } = useData()
 
-const items = collections[collection].slice().reverse()
+const items = collection.order === 'ascending'
+  ? collections[collection.name]
+  : collections[collection.name].slice().reverse()
 </script>
 
 <template>
