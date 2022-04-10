@@ -1,6 +1,6 @@
 ---
 id: e2f5d98a-e837-494b-ad1a-dc3469abe3d1
-title: Straight until Proven Fabulous
+title: Straight until proven fabulous
 description: Talking about sexuality is hard. That’s why I prefer to write.
 date: 2021-06-08 06:56:00
 tags:

@@ -16,7 +16,7 @@ hero:
 
 I take up a strong stance on ethical behavior in general and ethical web development in particular. The following positions are by no means complete and will be expanded over time.
 
-## Key Principles
+## Key principles
 
 ### Everyone is equal
 
@@ -24,17 +24,17 @@ There must not be any distinction based on gender, color, language, birth, socia
 
 ### Accessibility is obligatory
 
-There is no debate whether something should be accessible or not — it has to be.
+There is no debate whether something should be accessible or not – it has to be.
 
 ### Force is an absolute last resort
 
 Lethal or non-lethal, it does not matter, conflicts have to be solved peacefully.
 
-## Development-specific Principles
+## Development-specific principles
 
 ### Pay the maintainers
 
-Open-source software is free to use, but that does not mean it is free to make. Businesses that make money using open-source projects should contribute back — be it financially or by allocating developer time.
+Open-source software is free to use, but that does not mean it is free to make. Businesses that make money using open-source projects should contribute back – be it financially or by allocating developer time.
 
 ### Alternatives to Google Analytics
 
@@ -46,6 +46,6 @@ They actively harm the user experience and deceive those who are not aware of de
 
 The phrase “dark pattern” is problematic. [Jeremy Keith](https://adactio.com) proposes _[deceptive dark pattern](https://adactio.com/journal/18192)_ as a temporary solution until we can drop the “dark”.
 
-## Open Source License
+## Open source license
 
 I am in the process of migrating all my Open Source projects to the [Hippocratic License](https://firstdonoharm.dev). This license is based on the [Universal Declaration of Human Rights](https://www.un.org/en/universal-declaration-human-rights/) and the [United Nations Global Compact](https://www.unglobalcompact.org).

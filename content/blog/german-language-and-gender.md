@@ -1,6 +1,6 @@
 ---
 id: e23a0cdd-2f0b-484f-9cd9-9f11196820c2
-title: The German Language and Gender
+title: The German language and gender
 description: I’m thinking a lot about how I can express myself inclusively, be it in written or spoken word.
 date: 2020-10-17 12:39:00
 tags:
@@ -89,6 +89,6 @@ Neutralization is incredibly powerful and flexible but needs more rephrasing tha
 
 ## The solution
 
-As of late 2020 all three approaches are used in real-world writing and speaking. The debate over the best solution is still ongoing. Maybe there is no “one size fits all” for a problem this all-encompassing. After all gendered nouns are integral to the German language. This of course doesn’t mean we should “just ignore” the issue and go on with our lives. On the contrary. Inclusivity in language cannot be emphasized enough. It’s literally what we use every day to include and unfortunately exclude people.
+As of late 2020 all three approaches are used in real-world writing and speaking. The debate over the best solution is still ongoing. Maybe there is no “one size fits all” for a problem this all-encompassing. After all, gendered nouns are integral to the German language. This of course doesn’t mean we should “just ignore” the issue and go on with our lives. On the contrary. Inclusivity in language cannot be emphasized enough. It’s literally what we use every day to include and – unfortunately – exclude people.
 
 The website [Genderleicht.de (German)](https://www.genderleicht.de) has lots of tips for writing and speaking discrimination-free.

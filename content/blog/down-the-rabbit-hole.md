@@ -1,6 +1,6 @@
 ---
 id: 3c07b6a7-01e2-406b-93cf-7f3e3d2a8a89
-title: Down the Rabbit Hole
+title: Down the rabbit hole
 description: The second part of my identity exploration. It’s going to be non-binary, like a quantum particle.
 date: 2021-08-02 11:21:00
 tags:

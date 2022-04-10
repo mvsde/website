@@ -1,6 +1,6 @@
 ---
 id: 69d559e8-4b86-4ce6-bb36-e10416f6db4d
-title: Hi, I’m Fynn Becker
+title: Hi, I’m Fynn Becker 👋🏻
 description: Frontend developer, video game collector, interested in tech and computer things, cyclist, Shinson Hapkido 🥋, Star Wars and Star Trek 🖖🏻
 social:
   image:
@@ -30,7 +30,7 @@ If you want to know a bit about me, I am…
 🏳️‍🌈 non-binary, my pronouns are [they/them](https://pronoun.is/they/them).
 {% endemojiList %}
 
-## From the Site
+## From the site
 
 * [Blog](/blog/)
 * [Talks](/talks/)
@@ -38,7 +38,7 @@ If you want to know a bit about me, I am…
 * [Ethics](/ethics/)
 * [Sunset](/sunset/)
 
-## Social Media
+## Social media
 
 * [Twitter](https://twitter.com/mvsde)
 * [GitHub](https://github.com/mvsde)
@@ -46,7 +46,7 @@ If you want to know a bit about me, I am…
 * [DEV Community](https://dev.to/fynn)
 * [LinkedIn](https://linkedin.com/in/fynn)
 
-## Open Source
+## Open source
 
 * [Pangolin.js](https://pangolinjs.org)
 * [Mailbox](https://github.com/mvsde/mailbox)

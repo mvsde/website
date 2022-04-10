@@ -33,7 +33,7 @@ A few examples for gender-neutral language in German were given and the particip
 |-------------------|-----:|-----:|
 | **Approval**      | 26 % | 35 % |
 | **Refusal**       | 65 % | 56 % |
-| **Not specified** | 9 %  | 9 %  |
+| **Not specified** |  9 % |  9 % |
 
 The second [study by Politbarometer](https://de.wikipedia.org/wiki/Geschlechtergerechte_Sprache#Politbarometer2021) came to similar conclusions.
 

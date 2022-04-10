@@ -1,6 +1,6 @@
 ---
 id: 501c8afd-75a1-47ad-87b1-c59cb3b38a3a
-title: Inclusivity in Video Games
+title: Inclusivity in video games
 description: Like software development, video games have a history of being dominated by white men.
 date: 2020-12-26 07:36:00
 tags:
