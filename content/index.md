@@ -8,13 +8,17 @@ social:
     alt: Portrait of Fynn Becker.
 ---
 
-::: block-image
-![Portrait of Fynn Becker](content/index.jpg?width=218&sizes=218px&class=image-end)
-:::
+{% image {
+  src: "content/index.jpg",
+  alt: "Portrait of Fynn Becker",
+  width: 218,
+  sizes: "218px",
+  class: "image-end"
+} %}
 
 If you want to know a bit about me, I am…
 
-::: emoji-list
+{% emojiList %}
 * 🧑🏻‍💻 a frontend developer,
 * 🧙🏻 an open sourcerer,
 * 🎮 a video game collector,
@@ -24,7 +28,7 @@ If you want to know a bit about me, I am…
 * 🖖🏻 a huge [Star Wars](https://twitter.com/mvsde/status/1408409600643190788) and [Star Trek](https://twitter.com/mvsde/status/1400519056374046726) nerd,
 * 🏠 living near Hamburg, Germany,
 * 🏳️‍🌈 non-binary, my pronouns are [they/them](https://pronoun.is/they/them).
-:::
+{% endemojiList %}
 
 ## From the site
 
