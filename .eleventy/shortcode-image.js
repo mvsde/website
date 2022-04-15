@@ -7,6 +7,7 @@ const Image = require('@11ty/eleventy-img')
  */
 function generateHTMLAttributes (attributes) {
   return Object.entries(attributes)
+    .filter(([name, value]) => value !== null)
     .map(([name, value]) => `${name}="${value}"`)
 }
 
@@ -15,10 +16,17 @@ function generateHTMLAttributes (attributes) {
  * @param {Object} options
  * @param {string} options.src Path to image
  * @param {number} options.width Image width
+ * @param {string} options.sizes Image sizes
  */
-module.exports = function ({ src, width, ...attributes }) {
+module.exports = function ({ src, width, sizes, ...attributes }) {
+  const widths = [width]
+
+  if (sizes) {
+    widths.push(width * 2)
+  }
+
   const options = {
-    widths: [width, width * 1.5, width * 2],
+    widths,
     formats: ['avif', 'webp', 'jpeg'],
     outputDir: 'dist/img',
     svgShortCircuit: true
@@ -29,27 +37,28 @@ module.exports = function ({ src, width, ...attributes }) {
   const metadata = Image.statsSync(src, options)
 
   const defaultSource = metadata.jpeg[0]
-  attributes.src = defaultSource.url
-  attributes.width = defaultSource.width
-  attributes.height = defaultSource.height
+  const defaultAttributes = {
+    ...attributes,
+    src: defaultSource.url,
+    width: defaultSource.width,
+    height: defaultSource.height
+  }
 
   const sources = Object.values(metadata)
     .map(source => {
       const sourceAttributes = {
         type: source[0].sourceType,
         srcset: source.map(entry => entry.srcset).join(', '),
-        sizes: attributes.sizes
+        sizes: sizes ?? null
       }
 
       return `<source ${generateHTMLAttributes(sourceAttributes).join('\n')}>`
     })
 
-  delete attributes.sizes
-
   const picture = `
     <picture>
       ${sources.join('\n')}
-      <img ${generateHTMLAttributes(attributes).join('\n')}>
+      <img ${generateHTMLAttributes(defaultAttributes).join('\n')}>
     </picture>
   `
 
