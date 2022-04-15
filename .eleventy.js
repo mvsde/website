@@ -1,8 +1,8 @@
 // Libraries
-const libraryMarkdown = require('./eleventy/library-markdown.js')
+const libraryMarkdown = require('./.eleventy/library-markdown.js')
 
 // Transforms
-const transformDoctype = require('./eleventy/transform-doctype.js')
+const transformDoctype = require('./.eleventy/transform-doctype.js')
 
 // Plugins
 const pluginRSS = require('@11ty/eleventy-plugin-rss')
@@ -10,10 +10,10 @@ const pluginSyntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight')
 const pluginVue = require('@11ty/eleventy-plugin-vue')
 
 // Shortcodes
-const shortcodeEmojiList = require('./eleventy/shortcode-emoji-list.js')
-const shortcodeImage = require('./eleventy/shortcode-image.js')
-const shortcodeLang = require('./eleventy/shortcode-lang.js')
-const shortcodeSocialImage = require('./eleventy/shortcode-social-image.js')
+const shortcodeEmojiList = require('./.eleventy/shortcode-emoji-list.js')
+const shortcodeImage = require('./.eleventy/shortcode-image.js')
+const shortcodeLang = require('./.eleventy/shortcode-lang.js')
+const shortcodeSocialImage = require('./.eleventy/shortcode-social-image.js')
 
 const DIRECTORIES = {
   // Relative to current directory.
