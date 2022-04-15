@@ -1,3 +1,5 @@
+const yaml = require('js-yaml')
+
 // Libraries
 const libraryMarkdown = require('./.eleventy/library-markdown.js')
 
@@ -46,11 +48,14 @@ const VUE_SFCS = [
 module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy(COPY_FILES)
 
+  // Data
+  eleventyConfig.addDataExtension('yaml', contents => yaml.load(contents))
+
   // Transforms
   eleventyConfig.addTransform('doctype', transformDoctype)
 
   // Libraries
-  eleventyConfig.setLibrary('md', libraryMarkdown);
+  eleventyConfig.setLibrary('md', libraryMarkdown)
 
   // Plugins
   eleventyConfig.addPlugin(pluginRSS)
