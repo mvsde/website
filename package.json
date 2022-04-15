@@ -10,8 +10,8 @@
     "build:js": "esbuild $npm_package_config_js --minify",
     "build:css": "postcss $npm_package_config_css --env production",
     "lint": "npm run lint:js && npm run lint:css",
-    "lint:js": "eslint --ignore-path .gitignore \"**/*.{js,vue}\"",
-    "lint:css": "stylelint --ignore-path .gitignore \"**/*.{css,vue}\""
+    "lint:js": "eslint \"**/*.{js,vue}\"",
+    "lint:css": "stylelint \"**/*.{css,vue}\""
   },
   "repository": {
     "type": "git",

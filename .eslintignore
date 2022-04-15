@@ -1,0 +1,7 @@
+# Lint configuration files
+!.eleventy.js
+!.eslintrc.js
+!.stylelintrc.js
+
+# Ignore during linting
+dist
