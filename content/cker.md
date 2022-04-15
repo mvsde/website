@@ -3,7 +3,7 @@ id: 39b4c480-46b7-4fe4-a369-50a2ee5bceed
 title: fynn.be/cker
 description: That’s a funny URL, isn’t it? 😎
 hero:
-  image: content/cker.jpg
+  image: media/trolls.jpg
   alt: Frame from The Lord of the Rings credits. Reading “Executive producers; Mark Ordesky, Bob Weinstein, Harvey Weinstein”. Two giant trolls in the background.
   caption: That time Peter Jackson put giant trolls in the background of the executive producer credits.
 ---

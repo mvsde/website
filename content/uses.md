@@ -4,10 +4,10 @@ title: Development setup
 description: A list of all the software and hardware I use for my frontend dev job and my not-so-frontend-dev-job as a gamer.
 social:
   image:
-    src: content/uses.social.jpg
+    src: media/workstation-square.jpg
     alt: Orange illuminated desk with ultra-wide monitor and notebook showing the Ubuntu 19.10 “Eoan Ermine” wallpaper.
 hero:
-  image: content/uses.jpg
+  image: media/workstation.jpg
   alt: Orange illuminated desk with ultra-wide monitor and notebook showing the Ubuntu 19.10 “Eoan Ermine” wallpaper.
 ---
 

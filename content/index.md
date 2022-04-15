@@ -4,12 +4,12 @@ title: Hi, I’m Fynn Becker 👋🏻
 description: Frontend developer, video game collector, interested in tech and computer things, cyclist, Shinson Hapkido 🥋, Star Wars and Star Trek 🖖🏻
 social:
   image:
-    src: content/index.social.jpg
+    src: media/portrait-square.jpg
     alt: Portrait of Fynn Becker.
 ---
 
 {% image {
-  src: "content/index.jpg",
+  src: "media/portrait.jpg",
   alt: "Portrait of Fynn Becker",
   width: 218,
   sizes: "218px",

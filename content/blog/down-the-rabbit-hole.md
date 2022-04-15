@@ -9,10 +9,10 @@ tags:
 social:
   og_type: article
   image:
-    src: content/blog/down-the-rabbit-hole.social.jpg
+    src: media/cave-square.jpg
     alt: Lonely person standing on moss-covered rocks in a beam of light in a huge cavern.
 hero:
-  image: content/blog/down-the-rabbit-hole.jpg
+  image: media/cave.jpg
   alt: Lonely person standing on moss-covered rocks in a beam of light in a huge cavern.
   caption: Title photo by <a href="https://unsplash.com/@dburka">Daniel Burka</a> on <a href="https://unsplash.com/photos/facU72FcKBI">Unsplash</a>.
 ---

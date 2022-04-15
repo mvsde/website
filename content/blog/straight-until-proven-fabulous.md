@@ -9,10 +9,10 @@ tags:
 social:
   og_type: article
   image:
-    src: content/blog/straight-until-proven-fabulous.social.jpg
+    src: media/rainbow-art-square.jpg
     alt: Abstract painting with colored stripes in red, green, and blue in the background and a rainbow in the lower right hand side.
 hero:
-  image: content/blog/straight-until-proven-fabulous.jpg
+  image: media/rainbow-art.jpg
   alt: Abstract painting with colored stripes in red, green, and blue in the background and a rainbow in the lower right hand side.
   caption: Title photo by <a href="https://unsplash.com/@steve_j">Steve Johnson</a> on <a href="https://unsplash.com/photos/5Z9GhJJjiCc">Unsplash</a>.
 ---

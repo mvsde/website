@@ -9,10 +9,10 @@ tags:
 social:
   og_type: article
   image:
-    src: content/blog/dropping-the-he.social.jpg
+    src: media/they-them-square.jpg
     alt: Rainbow stripes (red, orange, yellow, green, cyan, blue, purple) in the background. Pronouns “they/them” prominently placed black on white in the center.
 hero:
-  image: content/blog/dropping-the-he.jpg
+  image: media/they-them.jpg
   alt: Rainbow stripes (red, orange, yellow, green, cyan, blue, purple) in the background. Pronouns “they/them” prominently placed black on white in the center.
   caption: Title photo by <a href="https://unsplash.com/@katierainbow">Katie Rainbow</a> on <a href="https://unsplash.com/photos/90bg59HzXxE">Unsplash</a>.
 ---

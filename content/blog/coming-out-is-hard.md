@@ -9,10 +9,10 @@ tags:
 social:
   og_type: article
   image:
-    src: content/blog/coming-out-is-hard.social.jpg
+    src: media/rainbow-bag-square.jpg
     alt: Black backpack with rainbow colored zipper traces. The backpack leans against a tree.
 hero:
-  image: content/blog/coming-out-is-hard.jpg
+  image: media/rainbow-bag.jpg
   alt: Black backpack with rainbow colored zipper traces. The backpack leans against a tree.
   caption: I’m sorry, but for now this is all I dare to show of my queerness in real life.
 ---

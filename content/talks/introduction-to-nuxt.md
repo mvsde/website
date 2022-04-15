@@ -9,7 +9,7 @@ tags:
 social:
   og_type: article
 hero:
-  image: content/talks/introduction-to-nuxt.jpg
+  image: media/nuxt-talk.jpg
   alt: Fynn Becker holding a microphone standing under a giant screen with the slides from his Nuxt.js talk.
 ---
 

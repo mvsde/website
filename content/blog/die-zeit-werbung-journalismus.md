@@ -10,7 +10,7 @@ tags:
 social:
   og_type: article
 hero:
-  image: content/blog/die-zeit-werbung-journalismus.jpg
+  image: media/zeit-baerbock-werbung.jpg
   alt: Screenshot der ZEIT-Online-Startseite mit einem übergroßen roten Werbebanner der Organisation Initiative Neue Soziale Marktwirtschaft (INSM) „Annalena und die 10 Verbote“.
   caption: Titelbild von <a href="https://twitter.com/jlbrts">Johannes Lamberts</a> auf <a href="https://twitter.com/jlbrts/status/1403287953649061888">Twitter</a>.
 ---
