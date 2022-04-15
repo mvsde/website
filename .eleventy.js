@@ -31,7 +31,7 @@ const DIRECTORIES = {
 // Relative to current directory.
 const COPY_FILES = {
   'node_modules/@fontsource/*/files/*latin-{400,700}*.woff2': 'fonts',
-  'src/assets': '/'
+  public: '/'
 }
 
 // Relative to current directory.

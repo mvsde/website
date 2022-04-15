@@ -1,0 +1,259 @@
+backend:
+  name: github
+  repo: mvsde/website
+  branch: main
+  squash_merges: true
+  commit_messages:
+    create: "feat({{collection}}): Add “{{slug}}”"
+    update: "fix({{collection}}): Update “{{slug}}”"
+    delete: "feat({{collection}}): Delete “{{slug}}”"
+    uploadMedia: "feat(media): Add “{{path}}”"
+    deleteMedia: "feat(media): Remove “{{path}}”"
+
+publish_mode: editorial_workflow
+
+media_folder: media
+public_folder: media
+
+site_url: https://fynn.be
+display_url: https://fynn.be
+
+.field_title: &field_title
+  label: Title
+  name: title
+  widget: string
+
+.field_description: &field_description
+  label: Description
+  name: description
+  widget: string
+
+.field_uuid: &field_uuid
+  label: UUID
+  hint: Get a new UUID with **npx uuid**.
+  name: id
+  widget: string
+
+.field_layout: &field_layout
+  label: Layout
+  name: layout
+  widget: hidden
+
+.field_collection: &field_collection
+  label: Collection
+  name: collection
+  widget: object
+  fields:
+    - label: Name
+      name: name
+      widget: string
+    - label: Order
+      name: order
+      widget: select
+      required: false
+      options:
+        - label: Ascending
+          value: ascending
+        - label: Descending
+          value: descending
+
+.field_date: &field_date
+  label: Date
+  name: date
+  widget: datetime
+  format: YYYY-MM-DD HH:mm:ss
+  date_format: YYYY-MM-DD
+  time_format: HH:mm:ss
+  picker_utc: true
+
+.field_tags: &field_tags
+  label: Tags
+  name: tags
+  widget: select
+  multiple: true
+  options: [blog, sunset, talk, feed]
+
+.field_social: &field_social
+  label: Social
+  summary: Social media meta tags
+  name: social
+  widget: object
+  required: false
+  collapsed: true
+  fields:
+    - label: Title
+      name: title
+      widget: string
+      required: false
+    - label: Description
+      name: description
+      widget: string
+      required: false
+    - label: Twitter Card
+      hint: Defaults to **summary**.
+      name: twitter_card
+      widget: string
+      required: false
+    - label: OG Type
+      hint: Defaults to **website**, use **article** for posts.
+      name: og_type
+      widget: string
+      required: false
+    - label: Image
+      summary: Social media meta image
+      name: image
+      widget: object
+      required: false
+      fields:
+        - label: Source
+          name: src
+          widget: image
+          allow_multiple: false
+        - label: Alternative text
+          name: alt
+          widget: string
+
+.field_hero: &field_hero
+  label: Hero
+  summary: Hero image or video
+  name: hero
+  widget: object
+  required: false
+  collapsed: true
+  fields:
+    - label: Image
+      name: image
+      widget: image
+      required: false
+      allow_multiple: false
+    - label: Alternative text
+      name: alt
+      widget: string
+      required: false
+    - label: Caption
+      name: caption
+      widget: text
+      required: false
+    - label: YouTube
+      hint: YouTube video ID, i.e. the part after youtube&period;com/watch?v=.
+      name: youtube
+      widget: string
+      required: false
+    - label: Video Title
+      name: title
+      widget: string
+      required: false
+
+.field_content: &field_content
+  label: Content
+  name: body
+  widget: code
+  default_language: markdown
+  allow_language_selection: false
+  output_code_only: true
+
+.page_fields: &page_fields
+  - <<: *field_title
+  - <<: *field_description
+  - <<: *field_uuid
+  - <<: *field_layout
+  - <<: *field_social
+  - <<: *field_hero
+  - <<: *field_content
+
+.tag_fields: &tag_fields
+  - <<: *field_title
+  - <<: *field_description
+  - <<: *field_uuid
+  - <<: *field_layout
+    default: LTag.vue
+  - <<: *field_collection
+  - <<: *field_social
+  - <<: *field_hero
+  - <<: *field_content
+
+.blog_fields: &blog_fields
+  - <<: *field_title
+  - <<: *field_description
+  - <<: *field_uuid
+  - <<: *field_layout
+    default: LPost.vue
+  - <<: *field_date
+  - <<: *field_tags
+    default: [blog, feed]
+  - <<: *field_social
+  - <<: *field_hero
+  - <<: *field_content
+
+.talk_fields: &talk_fields
+  - <<: *field_title
+  - <<: *field_description
+  - <<: *field_uuid
+  - <<: *field_layout
+    default: LPost.vue
+  - <<: *field_date
+  - <<: *field_tags
+    default: [talk, feed]
+  - <<: *field_social
+  - <<: *field_hero
+  - <<: *field_content
+
+.sunset_fields: &sunset_fields
+  - <<: *field_title
+  - <<: *field_description
+  - <<: *field_uuid
+  - <<: *field_layout
+    default: LPost.vue
+  - <<: *field_date
+  - <<: *field_tags
+    default: [sunset, feed]
+  - <<: *field_social
+  - <<: *field_hero
+    collapsed: false
+
+.collection_template: &collection
+  create: true
+  editor:
+    preview: false
+  sortable_fields: [title, date]
+
+collections:
+  - <<: *collection
+    label: Pages
+    label_singular: Page
+    name: pages
+    folder: content
+    fields: *page_fields
+
+  - <<: *collection
+    label: Tags
+    label_singular: Tag
+    name: tags
+    folder: content
+    filter:
+      field: layout
+      value: LTag.vue
+    fields: *tag_fields
+
+  - <<: *collection
+    label: Blog
+    label_singular: Post
+    summary: "{{title}} ({{date}})"
+    name: blog
+    folder: content/blog
+    fields: *blog_fields
+
+  - <<: *collection
+    label: Talks
+    label_singular: Talk
+    summary: "{{title}} ({{date}})"
+    name: talks
+    folder: content/talks
+    fields: *talk_fields
+
+  - <<: *collection
+    label: Sunsets
+    label_singular: Sunset
+    name: sunsets
+    folder: content/sunset
+    fields: *sunset_fields
