@@ -3,23 +3,23 @@ import CFooter from '../components/CFooter.vue'
 import CHeader from '../components/CHeader.vue'
 import CHero from '../components/CHero.vue'
 import truncate from '../utilities/truncate.js'
+import { isHomePage } from '../utilities/page.js'
 import { useData, useMethods } from '../utilities/use-global.js'
 
 const { page, language, title, description, social, hero, base, eleventyVersion } = useData()
 const { socialImage } = useMethods()
 
 const lang = language || 'en'
-const isHome = page.url === '/'
 </script>
 
 <template>
   <html :lang="lang">
     <head>
-      <!-- eslint-disable vue/max-attributes-per-line -->
+      <!-- eslint-disable vue/html-self-closing vue/max-attributes-per-line -->
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-      <title>{{ isHome ? '' : `${title} | ` }}Fynn Becker</title>
+      <title>{{ isHomePage(page.url) ? '' : `${title} | ` }}Fynn Becker</title>
       <meta name="description" :content="description">
       <meta name="generator" :content="`Eleventy ${eleventyVersion}`">
 
@@ -51,10 +51,10 @@ const isHome = page.url === '/'
       <link rel="preload" href="/fonts/merriweather-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin="anonymous">
       <link rel="preload" href="/fonts/ibm-plex-sans-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin="anonymous">
 
-      <script src="/main.js" defer />
+      <script src="/main.js" defer></script>
       <link rel="stylesheet" href="/theme/system.css" class="js-theme-css">
       <link rel="stylesheet" href="/main.css">
-      <!-- eslint-enable vue/max-attributes-per-line -->
+      <!-- eslint-enable vue/html-self-closing vue/max-attributes-per-line -->
     </head>
     <body>
       <CHeader />

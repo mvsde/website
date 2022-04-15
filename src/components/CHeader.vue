@@ -1,5 +1,6 @@
 <script setup>
 import CIcon from './CIcon.vue'
+import { isCurrentPage, isActivePage } from '../utilities/page.js'
 import { useData } from '../utilities/use-global.js'
 
 const { page } = useData()
@@ -40,10 +41,10 @@ const links = [
         class="header__link"
         :class="{
           'is-icon': link.icon,
-          'is-active': page.url === link.url
+          'is-active': isActivePage({ current: page.url, url: link.url })
         }"
         :aria-label="link.text"
-        :aria-current="page.url === link.url ? 'page' : null"
+        :aria-current="isCurrentPage({ current: page.url, url: link.url }) ? 'page' : null"
       >
         <CIcon
           v-if="link.icon"
