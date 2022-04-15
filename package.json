@@ -2,11 +2,10 @@
   "name": "@mvsde/website",
   "private": true,
   "scripts": {
-    "clean": "rm --recursive --force dist",
     "dev:site": "NODE_ENV=development URL=http://localhost:8080 eleventy --serve",
     "dev:js": "esbuild $npm_package_config_js --watch",
     "dev:css": "postcss $npm_package_config_css --watch --env development",
-    "build": "npm run clean && npm run build:site && npm run build:js && npm run build:css",
+    "build": "npm run build:site && npm run build:js && npm run build:css",
     "build:site": "NODE_ENV=production eleventy",
     "build:js": "esbuild $npm_package_config_js --minify",
     "build:css": "postcss $npm_package_config_css --env production",
