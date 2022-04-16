@@ -1,4 +1,5 @@
 <script setup>
+import { ref, onServerPrefetch } from 'vue'
 import CFooter from '../components/CFooter.vue'
 import CHeader from '../components/CHeader.vue'
 import CHero from '../components/CHero.vue'
@@ -7,9 +8,28 @@ import { isHomePage } from '../utilities/page.js'
 import { useData, useMethods } from '../utilities/use-global.js'
 
 const { page, language, title, description, social, hero, base, eleventyVersion } = useData()
-const { socialImage } = useMethods()
+const { imagePath } = useMethods()
 
 const lang = language || 'en'
+const socialDescription = social?.description || description
+
+function getSocialImage () {
+  if (!social?.image) {
+    return
+  }
+
+  return imagePath({
+    src: social.image.src,
+    width: 1000,
+    format: 'webp'
+  })
+}
+
+const socialImage = ref(null)
+
+onServerPrefetch(async () => {
+  socialImage.value = await getSocialImage()
+})
 </script>
 
 <template>
@@ -20,7 +40,7 @@ const lang = language || 'en'
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
       <title>{{ isHomePage(page.url) ? '' : `${title} | ` }}Fynn Becker</title>
-      <meta name="description" :content="description">
+      <meta v-if="description" name="description" :content="description">
       <meta name="generator" :content="`Eleventy ${eleventyVersion}`">
 
       <link href="/feed.xml" type="application/atom+xml" rel="alternate">
@@ -33,19 +53,21 @@ const lang = language || 'en'
       <meta name="twitter:card" :content="social?.twitter_card || 'summary'">
       <meta name="twitter:site" content="@mvsde">
       <meta name="twitter:title" :content="truncate(social?.title || title, 70)">
-      <meta name="twitter:description" :content="truncate(social?.description || description, 200)">
 
       <meta property="og:type" :content="social?.og_type || 'website'">
       <meta property="og:url" :content="base + page.url">
       <meta property="og:title" :content="social?.title || title">
-      <meta property="og:description" :content="social?.description || description">
       <meta property="og:locale" :content="lang">
 
-      <template v-if="social?.image">
-        <meta name="twitter:image" :content="base + socialImage({ src: social.image.src })">
-        <meta name="twitter:image:alt" :content="truncate(social.image.alt, 420)">
+      <template v-if="socialDescription">
+        <meta name="twitter:description" :content="truncate(socialDescription, 200)">
+        <meta property="og:description" :content="socialDescription">
+      </template>
 
-        <meta property="og:image" :content="base + socialImage({ src: social.image.src })">
+      <template v-if="socialImage">
+        <meta name="twitter:image" :content="base + socialImage">
+        <meta name="twitter:image:alt" :content="truncate(social.image.alt, 420)">
+        <meta property="og:image" :content="base + socialImage">
       </template>
 
       <link rel="preload" href="/fonts/merriweather-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin="anonymous">

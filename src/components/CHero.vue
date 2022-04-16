@@ -1,21 +1,36 @@
 <script setup>
+import { ref, onServerPrefetch } from 'vue'
 import { useData, useMethods } from '../utilities/use-global.js'
 
 const { hero } = useData()
 const { image } = useMethods()
+
+function getHeroImage () {
+  if (!hero.image) {
+    return
+  }
+
+  return image({
+    src: hero.image,
+    alt: hero.alt,
+    width: 1120,
+    sizes: '(min-width: 1120px) 1120px, 100vw',
+    class: 'hero__media'
+  })
+}
+
+const heroImage = ref(null)
+
+onServerPrefetch(async () => {
+  heroImage.value = await getHeroImage()
+})
 </script>
 
 <template>
   <figure class="hero">
     <div
-      v-if="hero.image"
-      v-html="image({
-        src: hero.image,
-        alt: hero.alt,
-        width: 1120,
-        sizes: '(min-width: 1120px) 1120px, 100vw',
-        class: 'hero__media'
-      })"
+      v-if="heroImage"
+      v-html="heroImage"
     />
     <iframe
       v-else-if="hero.youtube"

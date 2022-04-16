@@ -17,8 +17,9 @@ function generateHTMLAttributes (attributes) {
  * @param {string} options.src Path to image
  * @param {number} options.width Image width
  * @param {string} options.sizes Image sizes
+ * @returns {Promise<string>} Image HTML
  */
-module.exports = function ({ src, width, sizes, ...attributes }) {
+module.exports = async function ({ src, width, sizes, ...attributes }) {
   const widths = [width]
 
   if (sizes) {
@@ -32,9 +33,7 @@ module.exports = function ({ src, width, sizes, ...attributes }) {
     svgShortCircuit: true
   }
 
-  Image(src, options)
-
-  const metadata = Image.statsSync(src, options)
+  const metadata = await Image(src, options)
 
   const defaultSource = metadata.jpeg[0]
   const defaultAttributes = {
