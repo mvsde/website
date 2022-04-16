@@ -27,12 +27,19 @@ display_url: https://fynn.be
   label: Description
   name: description
   widget: string
+  required: false
 
 .field_uuid: &field_uuid
   label: UUID
   hint: Get a new UUID with **npx uuid**.
   name: id
   widget: string
+
+.field_filename: &field_filename
+  label: Filename
+  name: filename
+  widget: string
+  required: false
 
 .field_layout: &field_layout
   label: Layout
@@ -151,11 +158,13 @@ display_url: https://fynn.be
   label: Content
   name: body
   widget: markdown
+  required: false
 
 .page_fields: &page_fields
   - <<: *field_title
   - <<: *field_description
   - <<: *field_uuid
+  - <<: *field_filename
   - <<: *field_social
   - <<: *field_hero
   - <<: *field_content
@@ -164,6 +173,7 @@ display_url: https://fynn.be
   - <<: *field_title
   - <<: *field_description
   - <<: *field_uuid
+  - <<: *field_filename
   - <<: *field_layout
     default: LTag.vue
   - <<: *field_collection
@@ -175,6 +185,7 @@ display_url: https://fynn.be
   - <<: *field_title
   - <<: *field_description
   - <<: *field_uuid
+  - <<: *field_filename
   - <<: *field_layout
     default: LPost.vue
   - <<: *field_date
@@ -187,6 +198,7 @@ display_url: https://fynn.be
   - <<: *field_title
   - <<: *field_description
   - <<: *field_uuid
+  - <<: *field_filename
   - <<: *field_layout
     default: LPost.vue
   - <<: *field_date
@@ -199,6 +211,7 @@ display_url: https://fynn.be
   - <<: *field_title
   - <<: *field_description
   - <<: *field_uuid
+  - <<: *field_filename
   - <<: *field_layout
     default: LPost.vue
   - <<: *field_date
@@ -207,26 +220,26 @@ display_url: https://fynn.be
     collapsed: false
 
 .collection_template: &collection
+  identifier_field: filename
   create: true
   editor:
     preview: false
   sortable_fields: [title, date]
+  preview_path: "{{slug}}"
 
 collections:
   - <<: *collection
     label: Pages
-    label_singular: Page
+    label_singular: page
     name: pages
     folder: content
-    preview_path: "{{slug}}"
     fields: *page_fields
 
   - <<: *collection
     label: Tags
-    label_singular: Tag
+    label_singular: tag
     name: tags
     folder: content
-    preview_path: "{{slug}}"
     filter:
       field: layout
       value: LTag.vue
@@ -234,7 +247,7 @@ collections:
 
   - <<: *collection
     label: Blog
-    label_singular: Post
+    label_singular: post
     summary: "{{title}} ({{date}})"
     name: blog
     folder: content/blog
@@ -243,7 +256,7 @@ collections:
 
   - <<: *collection
     label: Talks
-    label_singular: Talk
+    label_singular: talk
     summary: "{{title}} ({{date}})"
     name: talks
     folder: content/talks
@@ -252,7 +265,7 @@ collections:
 
   - <<: *collection
     label: Sunsets
-    label_singular: Sunset
+    label_singular: sunset
     name: sunsets
     folder: content/sunset
     preview_path: sunset/{{slug}}
