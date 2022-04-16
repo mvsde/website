@@ -219,6 +219,7 @@ collections:
     label_singular: Page
     name: pages
     folder: content
+    preview_path: "{{slug}}"
     fields: *page_fields
 
   - <<: *collection
@@ -226,6 +227,7 @@ collections:
     label_singular: Tag
     name: tags
     folder: content
+    preview_path: "{{slug}}"
     filter:
       field: layout
       value: LTag.vue
@@ -237,6 +239,7 @@ collections:
     summary: "{{title}} ({{date}})"
     name: blog
     folder: content/blog
+    preview_path: blog/{{slug}}
     fields: *blog_fields
 
   - <<: *collection
@@ -245,6 +248,7 @@ collections:
     summary: "{{title}} ({{date}})"
     name: talks
     folder: content/talks
+    preview_path: talks/{{slug}}
     fields: *talk_fields
 
   - <<: *collection
@@ -252,4 +256,5 @@ collections:
     label_singular: Sunset
     name: sunsets
     folder: content/sunset
+    preview_path: sunset/{{slug}}
     fields: *sunset_fields
