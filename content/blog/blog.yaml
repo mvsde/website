@@ -1,1 +1,6 @@
 layout: LPost.vue
+tags:
+  - blog
+  - feed
+social:
+  og_type: article

@@ -3,11 +3,7 @@ id: 806a344e-5227-4d6c-88bf-8f40d0f4cb7a
 title: Dropping the “he”
 description: Effective immediately, my pronouns are they/them.
 date: 2021-09-25 09:24:00
-tags:
-  - blog
-  - feed
 social:
-  og_type: article
   image:
     src: media/they-them-square.jpg
     alt: Rainbow stripes (red, orange, yellow, green, cyan, blue, purple) in the background. Pronouns “they/them” prominently placed black on white in the center.

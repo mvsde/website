@@ -3,11 +3,7 @@ id: e2f5d98a-e837-494b-ad1a-dc3469abe3d1
 title: Straight until proven fabulous
 description: Talking about sexuality is hard. That’s why I prefer to write.
 date: 2021-06-08 06:56:00
-tags:
-  - blog
-  - feed
 social:
-  og_type: article
   image:
     src: media/rainbow-art-square.jpg
     alt: Abstract painting with colored stripes in red, green, and blue in the background and a rainbow in the lower right hand side.

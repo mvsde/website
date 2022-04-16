@@ -3,11 +3,7 @@ id: 41826230-84f8-480b-8c1e-b8a827e3d5d3
 title: Coming out is hard, actually
 description: This post is a tad rambly, but it’s a topic I worry quite a bit about lately.
 date: 2021-08-26 22:15:00
-tags:
-  - blog
-  - feed
 social:
-  og_type: article
   image:
     src: media/rainbow-bag-square.jpg
     alt: Black backpack with rainbow colored zipper traces. The backpack leans against a tree.

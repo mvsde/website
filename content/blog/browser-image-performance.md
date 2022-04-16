@@ -3,11 +3,6 @@ id: 4acd0bfd-de22-43ac-a363-5b9637f3e55e
 title: Performance of modern image formats
 description: Modern image formats have spectacular compression improvements. But how fast are they overall?
 date: 2022-01-30 11:38:00
-tags:
-  - blog
-  - feed
-social:
-  og_type: article
 ---
 
 Modern image formats like [WebP](https://en.wikipedia.org/wiki/WebP) and [AVIF](https://en.wikipedia.org/wiki/AVIF) have [spectacular compression improvements](https://jakearchibald.com/2020/avif-has-landed/) over the three decades old JPEG. But they come with a downside: longer encoding and decoding times. While the encoding time is negligible – it only happens once on a server or in a build step – the decoding is done over and over again on the clients.

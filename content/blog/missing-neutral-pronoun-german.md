@@ -3,11 +3,6 @@ id: 586c2aaa-3092-4840-a88d-89a4a5a1909f
 title: The missing neutral pronoun in German
 description: Nouns can be “neutralized” but what about pronouns? There is a non-binary one missing in German.
 date: 2021-07-11 09:10:00
-tags:
-  - blog
-  - feed
-social:
-  og_type: article
 ---
 
 In October of 2020, I wrote a blog post about [the gender problem with the German language](../german-language-and-gender/). In short, every German noun has either one or multiple genders (_feminine_, _masculine_, or _neuter_) attached to it. This is in itself not problematic, unfortunately nouns that describe what a person _is_ are almost always in the _generic masculine form_.
