@@ -109,10 +109,12 @@ display_url: https://fynn.be
         - label: Source
           name: src
           widget: image
+          required: false
           allow_multiple: false
         - label: Alternative text
           name: alt
           widget: string
+          required: false
 
 .field_hero: &field_hero
   label: Hero
