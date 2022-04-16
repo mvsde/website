@@ -150,10 +150,7 @@ display_url: https://fynn.be
 .field_content: &field_content
   label: Content
   name: body
-  widget: code
-  default_language: markdown
-  allow_language_selection: false
-  output_code_only: true
+  widget: markdown
 
 .page_fields: &page_fields
   - <<: *field_title
