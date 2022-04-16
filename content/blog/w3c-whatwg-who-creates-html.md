@@ -27,6 +27,7 @@ While WHATWG advanced HTML, the W3C hasn’t been sitting idle. According to Wik
 > […] Living Standards are what "evergreen" browsers require, those of us who resisted have seen the light. But those who didn't think the Living Standards needed a patent policy have also seen the light I suppose.  This reset is cold water on lots of old flame wars.
 >
 > — [Tweet by @mc2hampion](https://twitter.com/mc2hampion/status/940476343447203845), written on 2017-12-12 at 08:00 AM.
+
 But many members of the web community still have strong opinions about the different approaches. One of the authors of the W3C HTML Specification, Steve Faulkner, sparked an interesting [discussion regarding semantics](https://twitter.com/stevefaulkner/status/940271868329824256) with a [follow up about accessibility](https://twitter.com/aardrian/status/940275362570924032) by Adrian Roselli. The _W3C Technical Architecture Group_ (TAG) seems to be worried about [WHATWG rendering W3C HTML obsolete](https://cryptpad.fr/pad/#/1/view/GpGiv+gMMGEMUdb6lQ2akg/gCtzEJ3B8wHxZ2lPsbTKg2ffmacIq3g5Ljd3ZSi80-0/), since all major browser developers are now part of WHATWG. But the [comments on W3C’s blog post](https://www.w3.org/blog/2017/12/whatwg-working-mode-changes/#comments) and the aforementioned [Reddit thread](https://www.reddit.com/r/javascript/comments/5swe9b/what_is_the_difference_between_the_w3c_and_the/) are especially heated.
 
 At the moment, it seems to be good advice to follow the extensive [MDN Web Docs](https://developer.mozilla.org/) which references both WHATWG and W3C.
