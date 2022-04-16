@@ -7,7 +7,7 @@ import truncate from '../utilities/truncate.js'
 import { isHomePage } from '../utilities/page.js'
 import { useData, useMethods } from '../utilities/use-global.js'
 
-const { page, language, title, description, social, hero, base, eleventyVersion } = useData()
+const { page, language, title, description, social, hero, base, eleventy } = useData()
 const { imagePath } = useMethods()
 
 const lang = language || 'en'
@@ -41,7 +41,7 @@ onServerPrefetch(async () => {
 
       <title>{{ isHomePage(page.url) ? '' : `${title} | ` }}Fynn Becker</title>
       <meta v-if="description" name="description" :content="description">
-      <meta name="generator" :content="`Eleventy ${eleventyVersion}`">
+      <meta name="generator" :content="eleventy.generator">
 
       <link href="/feed.xml" type="application/atom+xml" rel="alternate">
 
