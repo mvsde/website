@@ -70,8 +70,9 @@ display_url: https://fynn.be
   label: Tags
   name: tags
   widget: select
+  required: false
   multiple: true
-  options: [blog, sunset, talk, feed]
+  options: []
 
 .field_social: &field_social
   label: Social
@@ -95,7 +96,7 @@ display_url: https://fynn.be
       widget: string
       required: false
     - label: OG Type
-      hint: Defaults to **website**, use **article** for posts.
+      hint: Defaults to **website** for normal pages and **article** for posts.
       name: og_type
       widget: string
       required: false
@@ -156,7 +157,6 @@ display_url: https://fynn.be
   - <<: *field_title
   - <<: *field_description
   - <<: *field_uuid
-  - <<: *field_layout
   - <<: *field_social
   - <<: *field_hero
   - <<: *field_content
@@ -180,7 +180,6 @@ display_url: https://fynn.be
     default: LPost.vue
   - <<: *field_date
   - <<: *field_tags
-    default: [blog, feed]
   - <<: *field_social
   - <<: *field_hero
   - <<: *field_content
@@ -193,7 +192,6 @@ display_url: https://fynn.be
     default: LPost.vue
   - <<: *field_date
   - <<: *field_tags
-    default: [talk, feed]
   - <<: *field_social
   - <<: *field_hero
   - <<: *field_content
@@ -206,8 +204,6 @@ display_url: https://fynn.be
     default: LPost.vue
   - <<: *field_date
   - <<: *field_tags
-    default: [sunset, feed]
-  - <<: *field_social
   - <<: *field_hero
     collapsed: false
 
