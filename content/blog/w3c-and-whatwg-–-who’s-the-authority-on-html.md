@@ -3,6 +3,7 @@ title: W3C and WHATWG – Who’s the authority on HTML?
 description: Once upon a time the W3C created the HTML standard. But that
   responsibility moved to the WHATWG after the XHTML fiasco.
 id: 991f7c60-1311-4ce5-b722-0e9740927281
+filename: w3c-whatwg-who-creates-html
 layout: LPost.vue
 date: 2018-03-07 09:36:20
 ---
