@@ -37,3 +37,11 @@
   from = "/*"
   to = "/404.html"
   status = 404
+
+[[plugins]]
+  package = "netlify-plugin-cache"
+
+  [plugins.inputs]
+    paths = [
+      "dist/img"
+    ]
