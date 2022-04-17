@@ -18,6 +18,17 @@ public_folder: media
 site_url: https://fynn.be
 display_url: https://fynn.be
 
+.field_uuid: &field_uuid
+  label: UUID
+  name: id
+  widget: uuid
+
+.field_filename: &field_filename
+  label: Initial filename
+  hint: Workaround for Netlify CMS to set a custom filename during page creation.
+  name: filename
+  widget: filename
+
 .field_title: &field_title
   label: Title
   name: title
@@ -26,18 +37,6 @@ display_url: https://fynn.be
 .field_description: &field_description
   label: Description
   name: description
-  widget: string
-  required: false
-
-.field_uuid: &field_uuid
-  label: UUID
-  hint: Get a new UUID with **npx uuid**.
-  name: id
-  widget: string
-
-.field_filename: &field_filename
-  label: Filename
-  name: filename
   widget: string
   required: false
 
@@ -64,7 +63,7 @@ display_url: https://fynn.be
         - label: Descending
           value: descending
 
-.field_date: &field_date
+.field_publish_date: &field_publish_date
   label: Date
   name: date
   widget: datetime
@@ -72,14 +71,7 @@ display_url: https://fynn.be
   date_format: YYYY-MM-DD
   time_format: HH:mm:ss
   picker_utc: true
-
-.field_tags: &field_tags
-  label: Tags
-  name: tags
-  widget: select
-  required: false
-  multiple: true
-  options: []
+  default: ""
 
 .field_social: &field_social
   label: Social
@@ -161,19 +153,19 @@ display_url: https://fynn.be
   required: false
 
 .page_fields: &page_fields
-  - <<: *field_title
-  - <<: *field_description
   - <<: *field_uuid
   - <<: *field_filename
+  - <<: *field_title
+  - <<: *field_description
   - <<: *field_social
   - <<: *field_hero
   - <<: *field_content
 
 .tag_fields: &tag_fields
-  - <<: *field_title
-  - <<: *field_description
   - <<: *field_uuid
   - <<: *field_filename
+  - <<: *field_title
+  - <<: *field_description
   - <<: *field_layout
     default: LTag.vue
   - <<: *field_collection
@@ -181,45 +173,17 @@ display_url: https://fynn.be
   - <<: *field_hero
   - <<: *field_content
 
-.blog_fields: &blog_fields
-  - <<: *field_title
-  - <<: *field_description
+.post_fields: &post_fields
   - <<: *field_uuid
   - <<: *field_filename
-  - <<: *field_layout
-    default: LPost.vue
-  - <<: *field_date
-  - <<: *field_tags
+  - <<: *field_title
+  - <<: *field_description
+  - <<: *field_publish_date
   - <<: *field_social
   - <<: *field_hero
   - <<: *field_content
 
-.talk_fields: &talk_fields
-  - <<: *field_title
-  - <<: *field_description
-  - <<: *field_uuid
-  - <<: *field_filename
-  - <<: *field_layout
-    default: LPost.vue
-  - <<: *field_date
-  - <<: *field_tags
-  - <<: *field_social
-  - <<: *field_hero
-  - <<: *field_content
-
-.sunset_fields: &sunset_fields
-  - <<: *field_title
-  - <<: *field_description
-  - <<: *field_uuid
-  - <<: *field_filename
-  - <<: *field_layout
-    default: LPost.vue
-  - <<: *field_date
-  - <<: *field_tags
-  - <<: *field_hero
-    collapsed: false
-
-.collection_template: &collection
+.collection: &collection
   identifier_field: filename
   create: true
   editor:
@@ -252,7 +216,7 @@ collections:
     name: blog
     folder: content/blog
     preview_path: blog/{{slug}}
-    fields: *blog_fields
+    fields: *post_fields
 
   - <<: *collection
     label: Talks
@@ -261,7 +225,7 @@ collections:
     name: talks
     folder: content/talks
     preview_path: talks/{{slug}}
-    fields: *talk_fields
+    fields: *post_fields
 
   - <<: *collection
     label: Sunsets
@@ -269,4 +233,4 @@ collections:
     name: sunsets
     folder: content/sunset
     preview_path: sunset/{{slug}}
-    fields: *sunset_fields
+    fields: *post_fields
