@@ -15,13 +15,13 @@ While English consents to the neutral singular _they_, this isn’t grammaticall
 
 This is a perfectly fine expression in English that becomes clear through context. Now compare this to the German translation:
 
-> {% lang "de" %}**Der Lehrer** braucht einen Stift. **Er** möchte die Prüfung korrigieren.{% endlang %}
+> {% lang "de", "**Der Lehrer** braucht einen Stift. **Er** möchte die Prüfung korrigieren." %}
 
 This works and at first glance looks good. But translated back to English, something has been lost:
 
 > **The teacher** needs a pen. **He** wants to assess the exam.
 
-The German version uses the so-called _generic masculine form_ because “{% lang "de" %}Lehrer{% endlang %}” (teacher) is masculine. A _generic feminine form_ exists for feminine nouns and a _generic neutral form_ for the neuter.
+The German version uses the so-called _generic masculine form_ because “{% lang "de", "Lehrer" %}” (teacher) is masculine. A _generic feminine form_ exists for feminine nouns and a _generic neutral form_ for the neuter.
 
 As mentioned the English solution for this problem is the singular _they_, which isn’t directly translatable to German. But don’t give up hope just yet, there are a few solutions for the German language.
 
@@ -29,7 +29,7 @@ As mentioned the English solution for this problem is the singular _they_, which
 
 A straightforward albeit verbose technique is enumeration of every gender. This is possible because a lot of German nouns have a feminine and masculine form.
 
-> {% lang "de" %}**Die Lehrerin** oder **der Lehrer** braucht einen Stift. **Sie** oder **er** möchte die Prüfung korrigieren.{% endlang %}
+> {% lang "de", "**Die Lehrerin** oder **der Lehrer** braucht einen Stift. **Sie** oder **er** möchte die Prüfung korrigieren." %}
 
 The English translation sounds like this:
 
@@ -37,7 +37,7 @@ The English translation sounds like this:
 
 The gender pair has a few downsides:
 
-* It’s exceedingly long but can be shortened (“{% lang "de" %}Die Lehrerin oder der Lehrer{% endlang %}” becomes the rather unaesthetic “{% lang "de" %}Die/Der Lehrer/-in{% endlang %}”).
+* It’s exceedingly long but can be shortened (“{% lang "de", "Die Lehrerin oder der Lehrer" %}” becomes the rather unaesthetic “{% lang "de", "Die/Der Lehrer/-in" %}”).
 * It assumes a binary gender (female or male) and thus excludes non-binary people.
 * [Compound nouns](https://en.wikipedia.org/wiki/German_nouns#Compounds) – another German specialty – may have parts with different genders that each need to be transformed.
 
@@ -45,7 +45,7 @@ The gender pair has a few downsides:
 
 Instead of enumerating all possible genders which becomes unwieldy very quickly, an alternative is the “[gender star](https://en.wikipedia.org/wiki/Gender_star).” The star is placed inside a noun to delimit the genders and include non-binary people:
 
-> {% lang "de" %}**Die\*der Lehrer*in** braucht einen Stift. **Sie*er** möchte die Prüfung korrigieren.{% endlang %}
+> {% lang "de", "**Die&ast;der Lehrer&ast;in** braucht einen Stift. **Sie&ast;er** möchte die Prüfung korrigieren." %}
 
 The gender star is great because it is concise and inclusive, but has its own downsides:
 
@@ -59,19 +59,19 @@ Despite having a rather “brutal”-sounding name, neutralization is an elegant
 
 Neutralization can be achieved in a few ways. The most basic is replacing a noun with a more generic one without implied gender:
 
-> {% lang "de" %}**Die Lehrkraft** braucht einen Stift. Sie möchte die Prüfung korrigieren.{% endlang %}
+> {% lang "de", "**Die Lehrkraft** braucht einen Stift. Sie möchte die Prüfung korrigieren." %}
 
-The word “{% lang "de" %}Lehrkraft{% endlang %}” (teaching staff) is grammatically feminine but does not imply a gender like “{% lang "de" %}Lehrerin{% endlang %}” (female teacher) or “{% lang "de" %}Lehrer{% endlang %}” (male teacher).
+The word “{% lang "de", "Lehrkraft" %}” (teaching staff) is grammatically feminine but does not imply a gender like “{% lang "de", "Lehrerin" %}” (female teacher) or “{% lang "de", "Lehrer" %}” (male teacher).
 
 Rephrasing, relative clauses, and passive voice are additional tools for gender neutral language:
 
-> {% lang "de" %}**Die Lehrkraft** braucht einen Stift, um die Prüfung zu korrigieren.{% endlang %}
+> {% lang "de", "**Die Lehrkraft** braucht einen Stift, um die Prüfung zu korrigieren." %}
 
-> {% lang "de" %}Für die Korrektur der Prüfung, braucht **die Lehrkraft** einen Stift.{% endlang %}
+> {% lang "de", "Für die Korrektur der Prüfung, braucht **die Lehrkraft** einen Stift." %}
 
 If the expression doesn’t need an article, generic nouns can be formed from adjectives:
 
-> {% lang "de" %}**Lehrende** brauchen einen Stift, um Prüfungen zu korrigieren.{% endlang %}
+> {% lang "de", "**Lehrende** brauchen einen Stift, um Prüfungen zu korrigieren." %}
 
 Note that this example has a different meaning than the original one. It translates into English as follows:
 

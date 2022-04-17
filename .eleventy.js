@@ -67,7 +67,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addJavaScriptFunction('imagePath', shortcodeImagePath)
   eleventyConfig.addNunjucksAsyncShortcode('image', shortcodeImage)
   eleventyConfig.addPairedShortcode('emojiList', shortcodeEmojiList)
-  eleventyConfig.addPairedShortcode('lang', shortcodeLang)
+  eleventyConfig.addShortcode('lang', shortcodeLang)
 
   return {
     dir: DIRECTORIES,
