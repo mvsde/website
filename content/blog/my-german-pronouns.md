@@ -1,7 +1,7 @@
 ---
 id: c45220d3-7fee-4de9-a91d-a6cd373754f9
 title: My German pronouns
-description: "It’s finally time for some neo-pronoun action: dey/denen."
+description: It’s finally time for some neo-pronouns. Say hello to “dey/denen”!
 date: 2022-04-17 11:06:00
 ---
 
@@ -36,5 +36,5 @@ You can learn more about how I like to be addressed on [Pronouns.page](https://p
 
 ### Accusative
 
-> {% lang "de", "Ich folge **dey** auf Twitter." %}  
-> <small>Translation: I follow **them** on Twitter.</small>
+> {% lang "de", "Ich habe **dey** auf Twitter gefunden." %}  
+> <small>Translation: I’ve found **them** on Twitter.</small>
