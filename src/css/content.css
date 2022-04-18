@@ -27,6 +27,11 @@
   margin-block-end: 0;
 }
 
+/* Use :where() to decrease specificity. */
+:where(.content__inner) img {
+  margin-block-end: 1em;
+}
+
 @media (min-width: 70rem) {
   .content__title {
     font-size: 3em;
