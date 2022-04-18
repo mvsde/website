@@ -1,13 +1,15 @@
 <script setup>
 import LBase from './LBase.vue'
 import formatDate from '../utilities/format-date.js'
+import { orderCollection } from '../utilities/collection.js'
 import { useData } from '../utilities/use-global.js'
 
 const { title, content, collections, collection } = useData()
 
-const items = collection.order === 'ascending'
-  ? collections[collection.name]
-  : collections[collection.name].slice().reverse()
+const items = orderCollection({
+  collection: collections[collection.name],
+  order: collection.order
+})
 </script>
 
 <template>
@@ -16,11 +18,14 @@ const items = collection.order === 'ascending'
       {{ title }}
     </template>
 
-    <div v-html="content" />
+    <div
+      v-if="content"
+      v-html="content"
+    />
 
     <ol
       class="tag__list"
-      reversed
+      :reversed="collection.order !== 'ascending'"
     >
       <li
         v-for="item in items"

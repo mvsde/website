@@ -9,6 +9,7 @@
 @import "css/code.css";
 
 /* Layouts */
+@import "layouts/gallery.css";
 @import "layouts/post.css";
 @import "layouts/tag.css";
 

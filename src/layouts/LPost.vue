@@ -15,6 +15,9 @@ const { title, content, date } = useData()
       {{ title }}
     </template>
 
-    <div v-html="content" />
+    <div
+      v-if="content"
+      v-html="content"
+    />
   </LBase>
 </template>

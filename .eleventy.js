@@ -37,6 +37,7 @@ const COPY_FILES = {
 // Relative to current directory.
 const VUE_SFCS = [
   'src/layouts/LDefault.vue',
+  'src/layouts/LGallery.vue',
   'src/layouts/LPost.vue',
   'src/layouts/LTag.vue'
 ]

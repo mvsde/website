@@ -28,6 +28,7 @@ display_url: https://fynn.be
   hint: Workaround for Netlify CMS to set a custom filename during page creation.
   name: filename
   widget: filename
+  required: false
 
 .field_title: &field_title
   label: Title
@@ -71,7 +72,6 @@ display_url: https://fynn.be
   date_format: YYYY-MM-DD
   time_format: HH:mm:ss
   picker_utc: true
-  default: ""
 
 .field_social: &field_social
   label: Social
@@ -173,6 +173,18 @@ display_url: https://fynn.be
   - <<: *field_hero
   - <<: *field_content
 
+.gallery_fields: &gallery_fields
+  - <<: *field_uuid
+  - <<: *field_filename
+  - <<: *field_title
+  - <<: *field_description
+  - <<: *field_layout
+    default: LGallery.vue
+  - <<: *field_collection
+  - <<: *field_social
+  - <<: *field_hero
+  - <<: *field_content
+
 .post_fields: &post_fields
   - <<: *field_uuid
   - <<: *field_filename
@@ -211,7 +223,7 @@ collections:
 
   - <<: *collection
     label: Blog
-    label_singular: post
+    label_singular: blog
     summary: "{{title}} ({{date}})"
     name: blog
     folder: content/blog
@@ -233,4 +245,4 @@ collections:
     name: sunsets
     folder: content/sunset
     preview_path: sunset/{{slug}}
-    fields: *post_fields
+    fields: *gallery_fields
