@@ -240,9 +240,19 @@ collections:
     fields: *post_fields
 
   - <<: *collection
+    label: Galleries
+    label_singular: gallery
+    name: galleries
+    folder: content
+    filter:
+      field: layout
+      value: LGallery.vue
+    fields: *gallery_fields
+
+  - <<: *collection
     label: Sunsets
     label_singular: sunset
     name: sunsets
     folder: content/sunset
     preview_path: sunset/{{slug}}
-    fields: *gallery_fields
+    fields: *post_fields
