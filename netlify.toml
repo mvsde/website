@@ -3,6 +3,7 @@
   publish = "dist"
 
 [build.environment]
+  NODE_VERSION = "17"
   NPM_FLAGS = "--force"
 
 [[redirects]]
