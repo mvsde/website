@@ -27,7 +27,7 @@ If you want to know a bit about me, I am…
 * 🚴🏻 an active member of the cyclists club ADFC,
 * 🖖🏻 a huge [Star Wars](https://twitter.com/mvsde/status/1408409600643190788) and [Star Trek](https://twitter.com/mvsde/status/1400519056374046726) nerd,
 * 🏠 living near Hamburg, Germany,
-* 🏳️‍🌈 non-binary, my pronouns are [they/them](https://en.pronouns.page/@mvsde).
+* 🏳️‍⚧️ non-binary, my pronouns are [they](https://en.pronouns.page/they) or [dey](https://de.pronouns.page/dey).
 {% endemojiList %}
 
 ## From the site
