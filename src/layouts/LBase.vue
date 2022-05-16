@@ -70,8 +70,8 @@ onServerPrefetch(async () => {
         <meta property="og:image" :content="base + socialImage">
       </template>
 
-      <link rel="preload" href="/fonts/merriweather-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin="anonymous">
       <link rel="preload" href="/fonts/ibm-plex-sans-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+      <link rel="preload" href="/fonts/ibm-plex-sans-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin="anonymous">
 
       <script src="/main.js" defer></script>
       <link rel="stylesheet" href="/theme/system.css" class="js-theme-css">

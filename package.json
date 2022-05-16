@@ -33,7 +33,6 @@
   "dependencies": {
     "@fontsource/ibm-plex-mono": "^4.5.9",
     "@fontsource/ibm-plex-sans": "^4.5.10",
-    "@fontsource/merriweather": "^4.5.11",
     "prism-themes": "^1.9.0"
   },
   "devDependencies": {
