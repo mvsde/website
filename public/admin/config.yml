@@ -28,7 +28,6 @@ display_url: https://fynn.be
   hint: Workaround for Netlify CMS to set a custom filename during page creation.
   name: filename
   widget: filename
-  required: false
 
 .field_title: &field_title
   label: Title
