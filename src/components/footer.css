@@ -1,7 +1,9 @@
 .footer {
   display: flex;
-  flex-direction: column;
-  gap: 2em;
+  flex-wrap: wrap;
+  align-items: center;
+  column-gap: 2.5em;
+  row-gap: 1.5em;
 
   padding-block: 2em;
 }
@@ -9,6 +11,11 @@
 .footer__links {
   display: flex;
   justify-content: center;
-  flex-wrap: wrap;
   gap: 1em;
+
+  font-weight: 700;
+}
+
+.footer__link {
+  text-decoration: none;
 }

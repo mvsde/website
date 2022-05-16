@@ -1,8 +1,5 @@
 <script setup>
 import CTheme from './CTheme.vue'
-import { useData } from '../utilities/use-global.js'
-
-const { page } = useData()
 
 const links = [
   {
@@ -12,10 +9,6 @@ const links = [
   {
     text: 'Feed',
     url: '/feed.xml'
-  },
-  {
-    text: 'Edit on GitHub',
-    url: `https://github.com/mvsde/website/edit/main/content${page.filePathStem}.md`
   }
 ]
 </script>
@@ -26,6 +19,7 @@ const links = [
       <a
         v-for="link in links"
         :key="link.url"
+        class="footer__link"
         :href="link.url"
       >{{ link.text }}</a>
     </div>

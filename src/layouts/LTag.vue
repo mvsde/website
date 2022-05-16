@@ -36,6 +36,7 @@ const items = orderCollection({
           {{ formatDate(item.date) }}
         </time>
         <a
+          class="tag__link"
           :href="item.url"
           :hreflang="item.data.language"
         >

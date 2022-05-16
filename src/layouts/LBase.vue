@@ -82,7 +82,7 @@ onServerPrefetch(async () => {
       <CHeader />
 
       <main class="content">
-        <h1 class="content__title">
+        <h1 class="content__title container">
           <slot name="title" />
         </h1>
 
@@ -94,8 +94,10 @@ onServerPrefetch(async () => {
         >
           <CHero v-if="hero" />
 
-          <div class="content__inner container">
-            <slot />
+          <div class="container">
+            <div class="content__inner">
+              <slot />
+            </div>
           </div>
         </div>
       </main>
