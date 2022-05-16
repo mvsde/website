@@ -21,7 +21,7 @@ function getSocialImage () {
   return imagePath({
     src: social.image.src,
     width: 1000,
-    format: 'webp'
+    format: 'jpeg'
   })
 }
 

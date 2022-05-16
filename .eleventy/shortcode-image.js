@@ -30,7 +30,10 @@ module.exports = async function ({ src, width, sizes, ...attributes }) {
     widths,
     formats: ['avif', 'webp', 'jpeg'],
     outputDir: 'dist/img',
-    svgShortCircuit: true
+    svgShortCircuit: true,
+    sharpAvifOptions: {
+      quality: 70
+    }
   }
 
   const metadata = await Image(src, options)
