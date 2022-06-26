@@ -8,7 +8,7 @@ social:
     alt: Portrait of Fynn Becker.
 hero:
   image: media/portrait.jpg
-  alt: Foo bar
+  alt: Portrait of Fynn Becker.
 ---
 
 If you want to know a bit about me, I am…
