@@ -2,7 +2,7 @@
 id: 991f7c60-1311-4ce5-b722-0e9740927281
 title: W3C and WHATWG – Who’s the authority on HTML?
 description: Once upon a time the W3C created the HTML standard. But that responsibility moved to the WHATWG after the XHTML fiasco.
-date: 2018-03-07 09:36:20
+date: 2018-03-07T09:36:20Z
 ---
 
 Way back in 2004 the _World Wide Web Consortium_ (W3C) decided to abandon HTML and shift its focus to XHTML. Concerned with this move, individuals from Apple, Mozilla, and Opera formed the _Web Hypertext Application Technology Working Group_ (WHATWG) to continue the development of HTML. Notable specifications by WHATWG are HTML (formerly HTML5), the DOM and Fetch standards, and Storage Standards (localStorage).

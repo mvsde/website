@@ -2,7 +2,7 @@
 id: c65d97a3-cdeb-4d38-8000-7e33ad5eaa05
 title: Introduction to Nuxt.js
 description: Server side rendering made easy.
-date: 2019-01-29 16:00:00
+date: 2019-01-29T16:00:00Z
 hero:
   image: media/nuxt-talk.jpg
   alt: Fynn Becker holding a microphone standing under a giant screen with the slides from his Nuxt.js talk.

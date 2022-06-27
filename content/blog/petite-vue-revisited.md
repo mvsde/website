@@ -2,7 +2,7 @@
 id: 75badf7c-b219-424b-8787-1f5c1801e422
 title: petite-vue revisited
 description: petite-vue is a nice project for enhancing static HTML with some interactivity.
-date: 2022-05-12 11:04:23
+date: 2022-05-12T11:04:23Z
 ---
 
 One key Vue feature is the browser-only build. It doesn’t require any build step, so it allows [experimenting with Vue](https://vuejs.org/guide/quick-start.html#without-build-tools) without having to set up any special environment. [petite-vue](https://github.com/vuejs/petite-vue) takes this approach and provides a library for “sprinkling” interactivity on otherwise server-rendered or static HTML.

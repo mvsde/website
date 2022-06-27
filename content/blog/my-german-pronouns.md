@@ -2,7 +2,7 @@
 id: c45220d3-7fee-4de9-a91d-a6cd373754f9
 title: My German pronouns
 description: It’s finally time for some neo-pronouns. Say hello to “dey/denen”!
-date: 2022-04-17 11:06:00
+date: 2022-04-17T11:06:00Z
 ---
 
 You may remember me complaining about the [missing neutral pronoun in German](../missing-neutral-pronoun-german/). Well, unfortunately it’s still missing, and I don’t want to wait for an “official” one any longer. So, I finally decided on a neo-pronoun:
