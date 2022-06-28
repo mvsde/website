@@ -24,8 +24,7 @@ const DIRECTORIES = {
 
   // Relative to `content` directory.
   layouts: '../src/layouts',
-  includes: '../src/includes',
-  data: '../data'
+  includes: '../src/includes'
 }
 
 // Relative to current directory.
@@ -51,6 +50,8 @@ module.exports = function (eleventyConfig) {
 
   // Data
   eleventyConfig.addDataExtension('yaml', contents => yaml.load(contents))
+  eleventyConfig.addGlobalData('base', process.env.URL)
+  eleventyConfig.addGlobalData('layout', 'LDefault.vue')
 
   // Transforms
   eleventyConfig.addTransform('doctype', transformDoctype)
