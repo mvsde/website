@@ -1,26 +1,23 @@
 /* stylelint-disable selector-no-qualifying-type */
 
 code,
-code[class*="language-"],
-pre[class*="language-"] {
+pre {
   font-family: var(--font-family-mono);
   font-size: 0.95em;
+  text-shadow: none;
 
-  border-radius: var(--border-radius-small);
+  background: var(--color-code-background);
+  border-radius: 0;
 }
 
 code {
   padding-inline: 0.2em;
+
   background: var(--color-code-background);
+  border-radius: var(--border-radius-small);
 }
 
-code[class*="language-"],
-pre[class*="language-"] {
-  text-shadow: none;
-  background: var(--color-code-background);
-}
-
-pre[class*="language-"] {
+pre {
   margin-block: 0 1em;
   margin-inline: calc(var(--content-highlight-inset) * -1);
   padding-block: 0.75em;

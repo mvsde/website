@@ -22,7 +22,7 @@ function getGalleryImage ({ src, alt }) {
   })
 }
 
-const galleryImages = ref(null)
+const galleryImages = ref([])
 
 onServerPrefetch(async () => {
   const images = []

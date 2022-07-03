@@ -23,7 +23,8 @@ iframe {
   vertical-align: middle;
 }
 
-img {
+img,
+iframe {
   border-radius: var(--border-radius-small);
 }
 

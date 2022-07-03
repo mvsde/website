@@ -1,2 +1,2 @@
-@import "prism-themes/themes/prism-one-light.css" (prefers-color-scheme: light);
-@import "prism-themes/themes/prism-one-dark.css" (prefers-color-scheme: dark);
+@import "prism-themes/themes/prism-one-light.css" layer(third-party) (prefers-color-scheme: light);
+@import "prism-themes/themes/prism-one-dark.css" layer(third-party) (prefers-color-scheme: dark);

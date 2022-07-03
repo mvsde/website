@@ -1,26 +1,28 @@
-/* Setup */
-@import "css/variables.css";
-@import "css/fonts.css";
-@import "css/scaffolding.css";
-@import "css/typography.css";
-@import "css/tables.css";
-@import "css/container.css";
-@import "css/content.css";
-@import "css/code.css";
+@layer third-party, global, components, utilities;
+
+/* Global */
+@import "css/variables.css" layer(global);
+@import "css/fonts.css" layer(global);
+@import "css/scaffolding.css" layer(global);
+@import "css/typography.css" layer(global);
+@import "css/tables.css" layer(global);
+@import "css/container.css" layer(global);
+@import "css/content.css" layer(global);
+@import "css/code.css" layer(global);
 
 /* Layouts */
-@import "layouts/gallery.css";
-@import "layouts/post.css";
-@import "layouts/tag.css";
+@import "layouts/gallery.css" layer(global);
+@import "layouts/post.css" layer(global);
+@import "layouts/tag.css" layer(global);
 
 /* Components */
-@import "components/footer.css";
-@import "components/header.css";
-@import "components/hero.css";
-@import "components/icon.css";
-@import "components/theme.css";
+@import "components/footer.css" layer(components);
+@import "components/header.css" layer(components);
+@import "components/hero.css" layer(components);
+@import "components/icon.css" layer(components);
+@import "components/theme.css" layer(components);
 
 /* Utilities */
-@import "utilities/aspect-ratio.css";
-@import "utilities/image.css";
-@import "utilities/list.css";
+@import "utilities/aspect-ratio.css" layer(utilities);
+@import "utilities/image.css" layer(utilities);
+@import "utilities/list.css" layer(utilities);

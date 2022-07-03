@@ -67,6 +67,20 @@ blockquote {
   border-inline-start: 0.25em solid var(--color-brand);
 }
 
+@media (min-width: 42rem) {
+  pre,
+  .note {
+    border-radius: 0 var(--border-radius-small) var(--border-radius-small) 0;
+  }
+}
+
+@media (min-width: 70rem) {
+  pre,
+  .note {
+    border-radius: var(--border-radius-small);
+  }
+}
+
 .note {
   margin-block-end: 1em;
   margin-inline: calc(var(--content-highlight-inset) * -1);
@@ -74,7 +88,6 @@ blockquote {
   padding-inline: var(--content-highlight-inset);
 
   background: var(--color-highlight-background);
-  border-radius: var(--border-radius-small);
 }
 
 .note > :last-child {
