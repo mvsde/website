@@ -20,6 +20,7 @@
   "author": "Fynn Becker <post@fynn.be>",
   "license": "UNLICENSED",
   "bugs": {
+    "email": "post@fynn.be",
     "url": "https://github.com/mvsde/website/issues"
   },
   "homepage": "https://fynn.be",
@@ -36,7 +37,7 @@
     "prism-themes": "^1.9.0"
   },
   "devDependencies": {
-    "@11ty/eleventy": "^2.0.0-canary.12",
+    "@11ty/eleventy": "^2.0.0-canary.13",
     "@11ty/eleventy-img": "^2.0.1",
     "@11ty/eleventy-plugin-rss": "^1.2.0",
     "@11ty/eleventy-plugin-syntaxhighlight": "^4.1.0",
@@ -44,22 +45,22 @@
     "@pangolinjs/eslint-config": "^6.0.0",
     "@pangolinjs/stylelint-config": "^3.0.1",
     "cssnano": "^5.1.12",
-    "esbuild": "^0.14.39",
+    "esbuild": "^0.14.49",
     "eslint": "^8.19.0",
     "eslint-config-standard": "^17.0.0",
     "eslint-plugin-import": "^2.26.0",
-    "eslint-plugin-n": "^15.2.3",
+    "eslint-plugin-n": "^15.2.4",
     "eslint-plugin-promise": "^6.0.0",
-    "eslint-plugin-vue": "^9.1.1",
+    "eslint-plugin-vue": "^9.2.0",
     "markdown-it-container": "^3.0.0",
     "markdown-it-deflist": "^2.1.0",
     "netlify-plugin-cache": "^1.0.3",
     "postcss": "^8.4.14",
     "postcss-cli": "^10.0.0",
-    "postcss-html": "^1.4.1",
+    "postcss-html": "^1.5.0",
     "postcss-import": "romainmenke/postcss-import#fix-import-with-layer--reliable-beetle-64787252f3",
     "stylelint": "^14.9.1",
     "stylelint-order": "^5.0.0",
-    "stylelint-scss": "^4.2.0"
+    "stylelint-scss": "^4.3.0"
   }
 }
