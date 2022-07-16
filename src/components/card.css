@@ -1,0 +1,11 @@
+.card {
+  padding: var(--content-highlight-inset);
+
+  background: var(--color-background);
+  border-radius: var(--border-radius-small);
+}
+
+.card__title {
+  /* Optically adjust space before title. */
+  margin-block-start: -0.2em;
+}

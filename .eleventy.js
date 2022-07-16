@@ -37,6 +37,7 @@ const COPY_FILES = {
 const VUE_SFCS = [
   'src/layouts/LDefault.vue',
   'src/layouts/LGallery.vue',
+  'src/layouts/LHome.vue',
   'src/layouts/LPost.vue',
   'src/layouts/LTag.vue'
 ]

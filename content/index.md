@@ -2,6 +2,7 @@
 id: 69d559e8-4b86-4ce6-bb36-e10416f6db4d
 title: Hi, I’m Fynn Becker
 description: Frontend developer, video game collector, interested in tech and computer things, cyclist, Shinson Hapkido 🥋, Star Wars and Star Trek 🖖🏻
+layout: LHome.vue
 social:
   image:
     src: media/portrait-square.jpg
@@ -9,41 +10,49 @@ social:
 hero:
   image: media/portrait.jpg
   alt: Portrait of Fynn Becker.
+lists:
+  - title: From the site
+    links:
+      - title: Blog
+        url: /blog/
+      - title: Talks
+        url: /talks/
+      - title: Ethics
+        url: /ethics/
+      - title: Sunset
+        url: /sunset/
+  - title: Social media
+    links:
+      - title: Twitter
+        url: https://twitter.com/mvsde
+      - title: GitHub
+        url: https://github.com/mvsde
+      - title: GitLab
+        url: https://gitlab.com/mvsde
+      - title: LinkedIn
+        url: https://linkedin.com/in/fynn
+  - title: Open source
+    links:
+      - title: Pangolin.js
+        url: https://pangolinjs.org
+      - title: Mailbox
+        url: https://github.com/mvsde/mailbox
+      - title: This website
+        url: https://github.com/mvsde/website
+      - title: More projects
+        url: https://github.com/mvsde?tab=repositories
 ---
 
-If you want to know a bit about me, I am…
+## About me
 
 {% emojiList %}
-* 🧑🏻‍💻 a frontend developer,
-* 🧙🏻 an open sourcerer,
-* 🎮 a video game collector,
-* 💻 interested in tech and computer things,
-* 🥋 a [Shinson Hapkido](http://www.shinsonhapkido.org) blue belt,
-* 🚴🏻 an active member of the cyclists club ADFC,
-* 🖖🏻 a huge [Star Wars](https://twitter.com/mvsde/status/1408409600643190788) and [Star Trek](https://twitter.com/mvsde/status/1400519056374046726) nerd,
-* 🏠 living near Hamburg, Germany,
-* 🏳️‍⚧️ non-binary, my pronouns are [they](https://en.pronouns.page/they) or [dey](https://de.pronouns.page/dey).
+* 🧑🏻‍💻 Frontend developer,
+* 🧙🏻 Open sourcerer,
+* 🎮 Video game collector,
+* 💻 Interested in tech and computer things,
+* 🥋 [Shinson Hapkido](http://www.shinsonhapkido.org) blue belt,
+* 🚴🏻 Active member of the cyclists club ADFC,
+* 🖖🏻 Huge [Star Wars](https://twitter.com/mvsde/status/1408409600643190788) and [Star Trek](https://twitter.com/mvsde/status/1400519056374046726) nerd,
+* 🏠 Living near Hamburg, Germany,
+* 🏳️‍⚧️ I am non-binary, my pronouns are [they](https://en.pronouns.page/they) or [dey](https://de.pronouns.page/dey).
 {% endemojiList %}
-
-## From the site
-
-* [Blog](/blog/)
-* [Talks](/talks/)
-* [Dev setup](/uses/)
-* [Ethics](/ethics/)
-* [Sunset](/sunset/)
-
-## Social media
-
-* [Twitter](https://twitter.com/mvsde)
-* [GitHub](https://github.com/mvsde)
-* [GitLab](https://gitlab.com/mvsde)
-* [DEV Community](https://dev.to/fynn)
-* [LinkedIn](https://linkedin.com/in/fynn)
-
-## Open source
-
-* [Pangolin.js](https://pangolinjs.org)
-* [Mailbox](https://github.com/mvsde/mailbox)
-* [This website](https://github.com/mvsde/website)
-* [More projects](https://github.com/mvsde?tab=repositories)

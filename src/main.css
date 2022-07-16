@@ -11,11 +11,13 @@
 @import "css/code.css" layer(global);
 
 /* Layouts */
-@import "layouts/gallery.css" layer(global);
-@import "layouts/post.css" layer(global);
-@import "layouts/tag.css" layer(global);
+@import "layouts/gallery.css" layer(layouts);
+@import "layouts/home.css" layer(layouts);
+@import "layouts/post.css" layer(layouts);
+@import "layouts/tag.css" layer(layouts);
 
 /* Components */
+@import "components/card.css" layer(components);
 @import "components/footer.css" layer(components);
 @import "components/header.css" layer(components);
 @import "components/hero.css" layer(components);
