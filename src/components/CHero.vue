@@ -29,12 +29,20 @@ onServerPrefetch(async () => {
 <template>
   <figure class="hero">
     <div
-      v-if="heroImage"
+      v-if="hero.image"
       v-html="heroImage"
     />
     <iframe
+      v-else-if="hero.iframe"
+      class="hero__media"
+      :title="hero.title"
+      :src="hero.iframe"
+      width="1120"
+      :style="{ 'aspect-ratio': hero.aspect_ratio }"
+    />
+    <iframe
       v-else-if="hero.youtube"
-      class="hero__media hero__media--video aspect-ratio-video"
+      class="hero__media aspect-ratio-video"
       :title="hero.title"
       :src="`https://www.youtube-nocookie.com/embed/${hero.youtube}`"
       width="1120"

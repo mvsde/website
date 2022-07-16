@@ -25,6 +25,7 @@ iframe {
 
 img,
 iframe {
+  background: var(--color-background);
   border-radius: var(--border-radius-small);
 }
 
