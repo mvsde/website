@@ -1,4 +1,4 @@
-.gallery__list {
+.layout-gallery__list {
   list-style: none;
 
   display: grid;
@@ -9,15 +9,15 @@
   margin: 0;
 }
 
-.gallery__item {
+.layout-gallery__item {
   margin: 0;
   padding: 0;
 }
 
-.gallery__image {
+.layout-gallery__image {
   margin: 0;
 }
 
-.gallery__link {
+.layout-gallery__link {
   display: block;
 }

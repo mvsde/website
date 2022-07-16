@@ -9,7 +9,7 @@ const { title, content, date } = useData()
 <template>
   <LBase>
     <template #title>
-      <time class="post__date">
+      <time class="layout-post__date">
         {{ formatDate(date) }}
       </time>
       {{ title }}

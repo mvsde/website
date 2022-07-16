@@ -18,7 +18,7 @@ function getGalleryImage ({ src, alt }) {
     alt,
     width: 335,
     sizes: '(min-width: 544px) 192px, 100vw',
-    class: 'gallery__image'
+    class: 'layout-gallery__image'
   })
 }
 
@@ -50,17 +50,17 @@ onServerPrefetch(async () => {
     />
 
     <ol
-      class="gallery__list"
+      class="layout-gallery__list"
       :reversed="collection.order !== 'ascending'"
     >
       <li
         v-for="(item, index) in items"
         :key="item.data.id"
-        class="gallery__item"
+        class="layout-gallery__item"
       >
         <a
           :href="item.url"
-          class="gallery__link"
+          class="layout-gallery__link"
           v-html="galleryImages[index]"
         />
       </li>

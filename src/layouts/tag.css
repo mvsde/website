@@ -1,4 +1,4 @@
-.tag__list {
+.layout-tag__list {
   list-style: none;
 
   display: grid;
@@ -7,20 +7,20 @@
   padding: 0;
 }
 
-.tag__item {
+.layout-tag__item {
   margin: 0;
   padding: 0;
 
   font-size: 1.25em;
 }
 
-.tag__meta {
+.layout-tag__meta {
   display: block;
 
   font-size: 0.8em;
   color: var(--color-text-muted);
 }
 
-.tag__link {
+.layout-tag__link {
   text-decoration: none;
 }
