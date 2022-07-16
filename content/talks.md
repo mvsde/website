@@ -6,5 +6,3 @@ layout: LTag.vue
 collection:
   name: talk
 ---
-
-I’m not really a public speaker. But sometimes I do give a talk here and there.

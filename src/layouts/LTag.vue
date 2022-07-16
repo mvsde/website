@@ -10,6 +10,8 @@ const items = orderCollection({
   collection: collections[collection.name],
   order: collection.order
 })
+
+const languageName = new Intl.DisplayNames('en', { type: 'language' })
 </script>
 
 <template>
@@ -32,19 +34,20 @@ const items = orderCollection({
         :key="item.data.id"
         class="tag__item"
       >
-        <time class="tag__date">
-          {{ formatDate(item.date) }}
-        </time>
+        <span class="tag__meta">
+          <time>
+            {{ formatDate(item.date) }}
+          </time>
+          <span v-if="item.data.language">
+            · {{ languageName.of(item.data.language) }}
+          </span>
+        </span>
         <a
           class="tag__link"
           :href="item.url"
           :hreflang="item.data.language"
         >
-          <span
-            v-if="item.data.language"
-            class="tag__language"
-            aria-hidden="true"
-          >{{ item.data.language.toUpperCase() }}</span>{{ item.data.title }}
+          {{ item.data.title }}
         </a>
       </li>
     </ol>
