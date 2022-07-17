@@ -1,5 +1,3 @@
-/* stylelint-disable selector-no-qualifying-type */
-
 code,
 pre {
   font-family: var(--font-family-mono);
@@ -7,7 +5,6 @@ pre {
   text-shadow: none;
 
   background: var(--color-code-background);
-  border-radius: 0;
 }
 
 code {
@@ -18,7 +15,6 @@ code {
 }
 
 pre {
-  margin-block: 0 1em;
   margin-inline: calc(var(--content-highlight-inset) * -1);
   padding-block: 0.75em;
   padding-inline: var(--content-highlight-inset);
