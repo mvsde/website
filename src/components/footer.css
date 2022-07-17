@@ -16,6 +16,6 @@
   font-weight: 700;
 }
 
-.footer__link {
+.footer__link:not(:hover) {
   text-decoration: none;
 }

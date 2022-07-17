@@ -21,6 +21,6 @@
   color: var(--color-text-muted);
 }
 
-.layout-tag__link {
+.layout-tag__link:not(:hover) {
   text-decoration: none;
 }

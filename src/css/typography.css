@@ -31,10 +31,6 @@ a:focus {
   outline-offset: 0.125em;
 }
 
-a:hover {
-  text-decoration: underline;
-}
-
 ul,
 ol {
   margin-block-end: 1em;

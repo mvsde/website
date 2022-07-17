@@ -27,6 +27,8 @@
 .layout-home__link {
   display: block;
   padding-block: 0.25em;
+}
 
+.layout-home__link:not(:hover) {
   text-decoration: none;
 }
