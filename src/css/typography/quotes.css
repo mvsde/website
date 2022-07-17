@@ -1,0 +1,20 @@
+blockquote {
+  position: relative;
+  padding-inline-start: 1em;
+  font-style: italic;
+}
+
+blockquote::before {
+  content: "»";
+  pointer-events: none;
+
+  position: absolute;
+
+  /* Optically align with start.  */
+  inset-inline-start: -0.1em;
+
+  font-size: 1.25em;
+  font-weight: 700;
+  line-height: 1.1;
+  color: var(--color-brand);
+}

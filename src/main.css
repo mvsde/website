@@ -1,30 +1,7 @@
-@layer third-party, global, components, utilities;
+@layer third-party, global, typography, components, utilities;
 
-/* Global */
-@import "css/variables.css" layer(global);
-@import "css/fonts.css" layer(global);
-@import "css/scaffolding.css" layer(global);
-@import "css/typography.css" layer(global);
-@import "css/tables.css" layer(global);
-@import "css/container.css" layer(global);
-@import "css/content.css" layer(global);
-@import "css/code.css" layer(global);
-
-/* Layouts */
-@import "layouts/gallery.css" layer(layouts);
-@import "layouts/home.css" layer(layouts);
-@import "layouts/post.css" layer(layouts);
-@import "layouts/tag.css" layer(layouts);
-
-/* Components */
-@import "components/card.css" layer(components);
-@import "components/footer.css" layer(components);
-@import "components/header.css" layer(components);
-@import "components/hero.css" layer(components);
-@import "components/icon.css" layer(components);
-@import "components/theme.css" layer(components);
-
-/* Utilities */
-@import "utilities/aspect-ratio.css" layer(utilities);
-@import "utilities/image.css" layer(utilities);
-@import "utilities/list.css" layer(utilities);
+@import "css/global.css" layer(global);
+@import "css/typography.css" layer(typography);
+@import "css/layouts.css" layer(layouts);
+@import "css/components.css" layer(components);
+@import "css/utilities.css" layer(utilities);

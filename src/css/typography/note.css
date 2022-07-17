@@ -1,0 +1,11 @@
+.note {
+  margin-inline: calc(var(--content-highlight-inset) * -1);
+  padding-block: 0.75em;
+  padding-inline: var(--content-highlight-inset);
+
+  background: var(--color-highlight-background);
+}
+
+.note > :last-child {
+  margin-block-end: 0;
+}

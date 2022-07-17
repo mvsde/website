@@ -1,0 +1,61 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-block-start: 1.5em;
+  margin-block-end: 0.5em;
+
+  line-height: var(--line-height-heading);
+}
+
+p,
+ul,
+ol,
+dl,
+blockquote,
+pre,
+.note {
+  margin-block-end: 1em;
+}
+
+a {
+  color: var(--color-brand);
+
+  word-wrap: break-word;
+  word-break: break-all;
+  word-break: break-word;
+
+  /* Rounded corners for focus outline. */
+  border-radius: var(--border-radius-small);
+}
+
+a:focus {
+  text-decoration: none;
+  outline: 0.125em solid currentcolor;
+  outline-offset: 0.125em;
+}
+
+hr {
+  block-size: 0.25em;
+  margin-block: 2em;
+
+  background: var(--color-highlight-background);
+  border: 0;
+  border-radius: var(--border-radius-small);
+}
+
+@media (min-width: 42rem) {
+  pre,
+  .note {
+    border-radius: 0 var(--border-radius-small) var(--border-radius-small) 0;
+  }
+}
+
+@media (min-width: 70rem) {
+  pre,
+  .note {
+    border-radius: var(--border-radius-small);
+  }
+}
