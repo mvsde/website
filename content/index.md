@@ -46,13 +46,13 @@ lists:
 ## About me
 
 {% emojiList %}
-* 🧑🏻‍💻 Frontend developer,
-* 🧙🏻 Open sourcerer,
-* 🎮 Video game collector,
-* 💻 Interested in tech and computer things,
-* 🥋 [Shinson Hapkido](http://www.shinsonhapkido.org) blue belt,
-* 🚴🏻 Active member of the cyclists club ADFC,
-* 🖖🏻 Huge [Star Wars](https://twitter.com/mvsde/status/1408409600643190788) and [Star Trek](https://twitter.com/mvsde/status/1400519056374046726) nerd,
-* 🏠 Living near Hamburg, Germany,
-* 🏳️‍⚧️ I am non-binary, my pronouns are [they](https://en.pronouns.page/they) or [dey](https://de.pronouns.page/dey).
+* 🧑🏻‍💻 Frontend developer
+* 🧙🏻 Open sourcerer
+* 🎮 Video game collector
+* 💻 Interested in tech and computer things
+* 🥋 [Shinson Hapkido](http://www.shinsonhapkido.org) blue belt
+* 🚴🏻 Active member of the cyclists club ADFC
+* 🖖🏻 Huge [Star Wars](https://twitter.com/mvsde/status/1408409600643190788) and [Star Trek](https://twitter.com/mvsde/status/1400519056374046726) nerd
+* 🏠 Living near Hamburg, Germany
+* 🏳️‍⚧️ I’m non-binary, pronouns are [they](https://en.pronouns.page/they) or [dey](https://de.pronouns.page/dey)
 {% endemojiList %}
