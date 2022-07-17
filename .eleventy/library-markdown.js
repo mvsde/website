@@ -1,16 +1,18 @@
-const markdownIt = require('markdown-it')
 const container = require('markdown-it-container')
 const deflist = require('markdown-it-deflist')
+const footnote = require('markdown-it-footnote')
+const markdown = require('markdown-it')
 
 const MARKDOWN_OPTIONS = {
   html: true
 }
 
-const md = markdownIt(MARKDOWN_OPTIONS)
+const md = markdown(MARKDOWN_OPTIONS)
 
 // Plugins
 md.use(container, 'note')
 md.use(deflist)
+md.use(footnote)
 
 // Custom rules
 md.renderer.rules.table_open = () => '<div class="table-scroll"><table>\n'

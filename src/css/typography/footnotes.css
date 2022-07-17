@@ -1,0 +1,12 @@
+.footnotes {
+  font-size: 0.875em;
+}
+
+.footnote-item > * {
+  margin: 0;
+}
+
+.footnote-ref a,
+.footnote-backref {
+  text-decoration: none;
+}
