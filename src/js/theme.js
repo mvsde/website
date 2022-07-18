@@ -3,7 +3,7 @@ const THEMES = ['system', 'light', 'dark']
 
 const SELECTORS = {
   theme: '.js-theme',
-  css: '.js-theme-css'
+  css: '#theme-css'
 }
 
 class Theme {

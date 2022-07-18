@@ -74,7 +74,7 @@ onServerPrefetch(async () => {
       <link rel="preload" href="/fonts/ibm-plex-sans-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin="anonymous">
 
       <script src="/main.js" defer></script>
-      <link rel="stylesheet" href="/theme/system.css" class="js-theme-css">
+      <link id="theme-css" rel="stylesheet" href="/theme/system.css">
       <link rel="stylesheet" href="/main.css">
       <!-- eslint-enable vue/html-self-closing vue/max-attributes-per-line -->
     </head>
