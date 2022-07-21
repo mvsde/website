@@ -45,6 +45,7 @@ const languageName = new Intl.DisplayNames('en', { type: 'language' })
         <a
           class="layout-tag__link"
           :href="item.url"
+          :lang="item.data.language"
           :hreflang="item.data.language"
         >
           {{ item.data.title }}

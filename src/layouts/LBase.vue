@@ -10,7 +10,6 @@ import { useData, useMethods } from '../utilities/use-global.js'
 const { page, language, title, description, social, hero, base, eleventy } = useData()
 const { imagePath } = useMethods()
 
-const lang = language || 'en'
 const socialDescription = social?.description || description
 
 function getSocialImage () {
@@ -33,7 +32,7 @@ onServerPrefetch(async () => {
 </script>
 
 <template>
-  <html :lang="lang">
+  <html lang="en">
     <head>
       <!-- eslint-disable vue/html-self-closing vue/max-attributes-per-line -->
       <meta charset="utf-8">
@@ -57,7 +56,6 @@ onServerPrefetch(async () => {
       <meta property="og:type" :content="social?.og_type || 'website'">
       <meta property="og:url" :content="base + page.url">
       <meta property="og:title" :content="social?.title || title">
-      <meta property="og:locale" :content="lang">
 
       <template v-if="socialDescription">
         <meta name="twitter:description" :content="truncate(socialDescription, 200)">
@@ -81,7 +79,10 @@ onServerPrefetch(async () => {
     <body>
       <CHeader />
 
-      <main class="content">
+      <main
+        class="content"
+        :lang="language"
+      >
         <h1 class="content__title container">
           <slot name="title" />
         </h1>
