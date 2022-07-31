@@ -11,6 +11,10 @@ li::marker {
   color: var(--color-brand);
 }
 
+:where(ul) li {
+  list-style-type: disc;
+}
+
 dt {
   color: var(--color-brand);
 }
