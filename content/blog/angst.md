@@ -2,7 +2,7 @@
 id: 7263c125-791e-491b-a3f5-2c3758254df4
 title: Angst
 description: The first 6 months of 2022 were exhausting.
-date: 2022-07-17T10:00:00Z
+date: 2022-07-17T09:02:00Z
 social:
   image:
     src: media/patchy-rainbow-square.jpg
@@ -41,7 +41,7 @@ Getting bombarded with hate each and every day is exhausting, which is exactly w
 
 I want to close with my favorite German sentence. These are the very first words of the Constitution of Germany (I know I’m weird, there are four copies of the constitution on my bookshelf, you never know when you might need them):
 
-> {% lang "de", "Die Würde des Menschen ist unantastbar." %}  
+> {% lang "de", "Die Würde des Menschen ist unantastbar." %}<br>
 > <small>Translation: Human dignity shall be inviolable.</small>
 >
 > — Article 1.1, Constitution of Germany

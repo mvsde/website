@@ -1,0 +1,19 @@
+line-length: false
+no-trailing-spaces:
+  br_spaces: 0
+no-inline-html:
+  allowed_elements: [span, br, small, strong, u]
+ul-style:
+  style: asterisk
+ol-prefix:
+  style: ordered
+hr-style:
+  style: ---
+code-block-style:
+  style: fenced
+code-fence-style:
+  style: backtick
+emphasis-style:
+  style: underscore
+strong-style:
+  style: asterisk

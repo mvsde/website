@@ -9,7 +9,7 @@ module.exports = function (content) {
   const listItems = content
     .trim()
     .split('\n')
-    .map(line => line.slice(2).split(/\s(.+)/))
+    .map(line => line.split(/\s(.+)/))
     .map(([emoji, text]) => `<span aria-hidden="true">${emoji}</span> <span>${markdown.renderInline(text)}</span>`)
     .map(line => `<li>${line}</li>`)
 

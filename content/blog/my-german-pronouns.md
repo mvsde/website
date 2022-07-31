@@ -21,20 +21,20 @@ You can learn more about how I like to be addressed on [Pronouns.page](https://p
 
 ### Nominative
 
-> {% lang "de", "**Dey** ist Frontend-Entwickler*in." %}  
+> {% lang "de", "**Dey** ist Frontend-Entwickler*in." %}<br>
 > <small>Translation: **They** are a frontend developer.</small>
 
 ### Possessive
 
-> {% lang "de", "fynn.be ist **deren** Website." %}  
+> {% lang "de", "fynn.be ist **deren** Website." %}<br>
 > <small>Translation: fynn.be is **their** website.</small>
 
 ### Dative
 
-> {% lang "de", "Ich bin **denen** kürzlich begegnet." %}  
+> {% lang "de", "Ich bin **denen** kürzlich begegnet." %}<br>
 > <small>Translation: I’ve met **them** recently.</small>
 
 ### Accusative
 
-> {% lang "de", "Ich habe **dey** auf Twitter gefunden." %}  
+> {% lang "de", "Ich habe **dey** auf Twitter gefunden." %}<br>
 > <small>Translation: I’ve found **them** on Twitter.</small>

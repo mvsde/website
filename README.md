@@ -39,4 +39,5 @@ npm run lint
 # Individual tasks
 npm run lint:js
 npm run lint:css
+npm run lint:markdown
 ```

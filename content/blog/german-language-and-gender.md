@@ -65,8 +65,7 @@ The word “{% lang "de", "Lehrkraft" %}” (teaching staff) is grammatically fe
 
 Rephrasing, relative clauses, and passive voice are additional tools for gender neutral language:
 
-> {% lang "de", "**Die Lehrkraft** braucht einen Stift, um die Prüfung zu korrigieren." %}
-
+> {% lang "de", "**Die Lehrkraft** braucht einen Stift, um die Prüfung zu korrigieren." %}<br>
 > {% lang "de", "Für die Korrektur der Prüfung, braucht **die Lehrkraft** einen Stift." %}
 
 If the expression doesn’t need an article, generic nouns can be formed from adjectives:
