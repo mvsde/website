@@ -41,7 +41,7 @@ Getting bombarded with hate each and every day is exhausting, which is exactly w
 
 I want to close with my favorite German sentence. These are the very first words of the Constitution of Germany (I know I’m weird, there are four copies of the constitution on my bookshelf, you never know when you might need them):
 
-> {% lang "de", "Die Würde des Menschen ist unantastbar." %}<br>
+> <span lang=de translate=no>Die Würde des Menschen ist unantastbar.</span><br>
 > <small>Translation: Human dignity shall be inviolable.</small>
 >
 > — Article 1.1, Constitution of Germany

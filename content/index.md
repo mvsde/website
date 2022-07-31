@@ -54,5 +54,5 @@ lists:
 🚴🏻 Active member of the cyclists club ADFC
 🖖🏻 Huge [Star Wars](https://twitter.com/mvsde/status/1408409600643190788) and [Star Trek](https://twitter.com/mvsde/status/1400519056374046726) nerd
 🏠 Living near Hamburg, Germany
-🏳️‍⚧️ I’m non-binary, my pronouns are [they](https://en.pronouns.page/they) or [dey](https://de.pronouns.page/dey)
+🏳️‍⚧️ I’m non-binary, my pronouns are <span lang=en translate=no>[they](https://en.pronouns.page/they)</span> or <span lang=de translate=no>[dey](https://de.pronouns.page/dey)</span>
 {% endemojiList %}

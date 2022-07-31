@@ -15,7 +15,6 @@ const pluginVue = require('@11ty/eleventy-plugin-vue')
 const shortcodeEmojiList = require('./.eleventy/shortcode-emoji-list.js')
 const shortcodeImage = require('./.eleventy/shortcode-image.js')
 const shortcodeImagePath = require('./.eleventy/shortcode-image-path.js')
-const shortcodeLang = require('./.eleventy/shortcode-lang.js')
 
 const DIRECTORIES = {
   // Relative to current directory.
@@ -69,7 +68,6 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addJavaScriptFunction('imagePath', shortcodeImagePath)
   eleventyConfig.addNunjucksAsyncShortcode('image', shortcodeImage)
   eleventyConfig.addPairedShortcode('emojiList', shortcodeEmojiList)
-  eleventyConfig.addShortcode('lang', shortcodeLang)
 
   return {
     dir: DIRECTORIES,
