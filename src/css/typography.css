@@ -1,8 +1,8 @@
-@import "typography/base.css";
+@import "./typography/base.css";
 
-@import "typography/code.css";
-@import "typography/footnotes.css";
-@import "typography/lists.css";
-@import "typography/note.css";
-@import "typography/quotes.css";
-@import "typography/tables.css";
+@import "./typography/code.css";
+@import "./typography/footnotes.css";
+@import "./typography/lists.css";
+@import "./typography/note.css";
+@import "./typography/quotes.css";
+@import "./typography/tables.css";
