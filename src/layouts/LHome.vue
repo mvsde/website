@@ -13,7 +13,7 @@ const { title, content, lists } = useData()
     </template>
 
     <div class="layout-home__cards">
-      <c-card
+      <CCard
         v-for="list in lists"
         :key="list.title"
         :title="list.title"
@@ -32,7 +32,7 @@ const { title, content, lists } = useData()
             </a>
           </li>
         </ul>
-      </c-card>
+      </CCard>
     </div>
 
     <div
