@@ -68,7 +68,7 @@ onServerPrefetch(async () => {
         <meta property="og:image" :content="base + socialImage">
       </template>
 
-      <script src="/main.js" defer></script>
+      <script type="module" src="/main.js"></script>
       <link id="theme-css" rel="stylesheet" href="/theme/system.css">
       <link rel="stylesheet" href="/main.css">
       <!-- eslint-enable vue/html-self-closing vue/max-attributes-per-line -->

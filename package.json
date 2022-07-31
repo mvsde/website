@@ -28,7 +28,7 @@
     "node": ">=17"
   },
   "config": {
-    "js": "esbuild src/main.js --bundle --sourcemap --outdir=dist",
+    "js": "esbuild src/main.js --bundle --format=esm --sourcemap --outdir=dist",
     "css": "postcss src/main.css src/theme --base src --dir dist"
   },
   "dependencies": {
