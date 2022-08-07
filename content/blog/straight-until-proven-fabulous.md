@@ -11,6 +11,11 @@ hero:
   image: media/rainbow-art.jpg
   alt: Abstract painting with colored stripes in red, green, and blue in the background and a rainbow in the lower right hand side.
   caption: Title photo by <a href="https://unsplash.com/@steve_j">Steve Johnson</a> on <a href="https://unsplash.com/photos/5Z9GhJJjiCc">Unsplash</a>.
+updates:
+  - /blog/down-the-rabbit-hole/
+  - /blog/coming-out-is-hard/
+  - /blog/dropping-the-he/
+  - /blog/my-german-pronouns/
 ---
 
 The video essay _[Maybe You Haven’t Met The Right Person Yet](https://www.youtube.com/watch?v=vkRPPcxPPjA)_ by [David J Bradley](https://www.youtube.com/c/DavidJBradley) is a fantastic exploration of asexuality and the broader meaning of “sexuality”. It approaches the topic with humor but doesn’t shy away from the seriousness. One key takeaway for me: You don’t have to be _one_ thing. A rainbow in nature is not quantized, it is smooth like a wave. Let me explain…
