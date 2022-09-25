@@ -33,10 +33,10 @@ lists:
         url: https://linkedin.com/in/fynn
   - title: Open source
     links:
+      - title: miyagi for VS Code
+        url: https://github.com/miyagi-dev/vscode-miyagi
       - title: Pangolin.js
         url: https://pangolinjs.org
-      - title: Mailbox
-        url: https://github.com/mvsde/mailbox
       - title: This website
         url: https://github.com/mvsde/website
       - title: More projects
