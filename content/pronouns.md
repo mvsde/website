@@ -9,4 +9,4 @@ social:
 ---
 
 * [English](en/)
-* <span lang=de>[Deutsch](de/)</span>
+* [Deutsch](de/){lang=de hreflang=de}

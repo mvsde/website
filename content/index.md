@@ -46,7 +46,7 @@ lists:
 ## About me
 
 {% emojiList %}
-🏳️‍⚧️ I’m non-binary, my pronouns are <span lang=en translate=no>[they/them](/pronouns/)</span>
+🏳️‍⚧️ I’m non-binary, my pronouns are [they/them](/pronouns/){lang=en translate=no}
 🧑🏻‍💻 Frontend developer at [Factorial](https://www.factorial.io/)
 🧙🏻 Open sourcerer
 🎮 Video game collector

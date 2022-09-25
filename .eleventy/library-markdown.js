@@ -1,7 +1,9 @@
+const attrs = require('markdown-it-attrs')
 const container = require('markdown-it-container')
 const deflist = require('markdown-it-deflist')
 const footnote = require('markdown-it-footnote')
 const markdown = require('markdown-it')
+const spans = require('markdown-it-bracketed-spans')
 
 const MARKDOWN_OPTIONS = {
   html: true
@@ -10,9 +12,11 @@ const MARKDOWN_OPTIONS = {
 const md = markdown(MARKDOWN_OPTIONS)
 
 // Plugins
+md.use(attrs)
 md.use(container, 'note')
 md.use(deflist)
 md.use(footnote)
+md.use(spans)
 
 // Custom rules
 md.renderer.rules.table_open = () => '<div class="table-scroll"><table>\n'
