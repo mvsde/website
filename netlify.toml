@@ -6,11 +6,23 @@
   NODE_VERSION = "17"
   NPM_FLAGS = "--force"
 
+[[plugins]]
+  package = "netlify-plugin-cache"
+
+  [plugins.inputs]
+    paths = [
+      "dist/img"
+    ]
+
+# fynn.netlify.app
+
 [[redirects]]
   from = "https://fynn.netlify.app/*"
   to = "https://fynn.be/:splat"
   status = 302
   force = true
+
+# mvsde.com
 
 [[redirects]]
   from = "https://mvsde.com/*"
@@ -18,11 +30,41 @@
   status = 302
   force = true
 
+# fynn.lgbt
+
+[[redirects]]
+  from = "https://fynn.lgbt/*"
+  to = "https://fynn.be/pronouns/"
+  status = 302
+  force = true
+
+[[redirects]]
+  from = "https://www.fynn.lgbt/*"
+  to = "https://fynn.be/pronouns/"
+  status = 302
+  force = true
+
+[[redirects]]
+  from = "https://en.fynn.lgbt/*"
+  to = "https://fynn.be/pronouns/en/"
+  status = 302
+  force = true
+
+[[redirects]]
+  from = "https://de.fynn.lgbt/*"
+  to = "https://fynn.be/pronouns/de/"
+  status = 302
+  force = true
+
+# talks.fynn.be
+
 [[redirects]]
   from = "https://talks.fynn.be/*"
   to = "https://fynn.be/talks/"
   status = 302
   force = true
+
+# Page redirects
 
 [[redirects]]
   from = "/blog/return-of-fabulousness/"
@@ -34,15 +76,9 @@
   to = "/blog/down-the-rabbit-hole/"
   status = 301
 
+# 404
+
 [[redirects]]
   from = "/*"
   to = "/404.html"
   status = 404
-
-[[plugins]]
-  package = "netlify-plugin-cache"
-
-  [plugins.inputs]
-    paths = [
-      "dist/img"
-    ]
