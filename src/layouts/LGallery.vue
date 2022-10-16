@@ -2,7 +2,7 @@
 import LBase from './LBase.vue'
 import { orderCollection } from '../utilities/collection.js'
 import { ref, onServerPrefetch } from 'vue'
-import { useData, useMethods } from '../utilities/use-global.js'
+import { useData, useMethods } from '@mvsde/eleventy-plugin-vue'
 
 const { title, content, collections, collection } = useData()
 const { image } = useMethods()

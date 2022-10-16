@@ -1,7 +1,7 @@
 <script setup>
 import CIcon from './CIcon.vue'
 import { isCurrentPage, isActivePage } from '../utilities/page.js'
-import { useData } from '../utilities/use-global.js'
+import { useData } from '@mvsde/eleventy-plugin-vue'
 
 const { page } = useData()
 

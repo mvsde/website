@@ -1,6 +1,6 @@
 <script setup>
 import LBase from './LBase.vue'
-import { useData } from '../utilities/use-global.js'
+import { useData } from '@mvsde/eleventy-plugin-vue'
 
 const { title, content } = useData()
 </script>

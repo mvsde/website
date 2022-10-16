@@ -1,6 +1,6 @@
 <script setup>
 import { ref, onServerPrefetch } from 'vue'
-import { useData, useMethods } from '../utilities/use-global.js'
+import { useData, useMethods } from '@mvsde/eleventy-plugin-vue'
 
 const { hero } = useData()
 const { image } = useMethods()

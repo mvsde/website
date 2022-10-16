@@ -2,7 +2,7 @@
 import LBase from './LBase.vue'
 import formatDate from '../utilities/format-date.js'
 import { orderCollection } from '../utilities/collection.js'
-import { useData } from '../utilities/use-global.js'
+import { useData } from '@mvsde/eleventy-plugin-vue'
 
 const { title, content, collections, collection } = useData()
 

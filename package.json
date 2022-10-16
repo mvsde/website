@@ -42,7 +42,7 @@
     "@11ty/eleventy-img": "^2.0.1",
     "@11ty/eleventy-plugin-rss": "^1.2.0",
     "@11ty/eleventy-plugin-syntaxhighlight": "^4.1.0",
-    "@11ty/eleventy-plugin-vue": "^1.0.0-canary.8",
+    "@mvsde/eleventy-plugin-vue": "^0.1.0",
     "@pangolinjs/eslint-config": "^6.0.0",
     "@pangolinjs/stylelint-config": "^3.0.1",
     "cssnano": "^5.1.13",

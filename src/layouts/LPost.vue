@@ -1,8 +1,8 @@
 <script setup>
 import LBase from './LBase.vue'
 import formatDate from '../utilities/format-date.js'
-import { getPageData } from '../utilities/page'
-import { useData } from '../utilities/use-global.js'
+import { getPageData } from '../utilities/page.js'
+import { useData } from '@mvsde/eleventy-plugin-vue'
 
 const { collections, title, content, date, updates } = useData()
 const updatePages = updates?.map(update => getPageData({ collections, url: update }))

@@ -5,7 +5,7 @@ import CHeader from '../components/CHeader.vue'
 import CHero from '../components/CHero.vue'
 import truncate from '../utilities/truncate.js'
 import { isHomePage } from '../utilities/page.js'
-import { useData, useMethods } from '../utilities/use-global.js'
+import { useData, useMethods } from '@mvsde/eleventy-plugin-vue'
 
 const { page, language, title, description, social, hero, base, eleventy } = useData()
 const { imagePath } = useMethods()
@@ -68,7 +68,7 @@ onServerPrefetch(async () => {
         <meta property="og:image" :content="base + socialImage">
       </template>
 
-      <script type="module" src="/main.js"></script>
+      <component :is="'script'" type="module" src="/main.js"></component>
       <link id="theme-css" rel="stylesheet" href="/theme/system.css">
       <link rel="stylesheet" href="/main.css">
       <!-- eslint-enable vue/html-self-closing vue/max-attributes-per-line -->
