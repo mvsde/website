@@ -31,4 +31,4 @@ People who follow me on Twitter probably know that I’m queer.
 
 People who don’t, don’t.
 
-Will they ever? I sure hope I’ll someday get my act together and “publicly” state my queerness (i.e. talking to all my friends and family… oh dear… don’t panic, just keep the anxiety level bearable). On the positive side of things: I love my new backpack and maybe it’ll lead to conversations all on its own.
+Will they ever? I sure hope I’ll someday get my act together and “publicly” state my queerness (talking to all my friends and family… oh dear… don’t panic, just keep the anxiety level bearable). On the positive side of things: I love my new backpack and maybe it’ll lead to conversations all on its own.

@@ -52,7 +52,7 @@ Another approach would be – you guessed it – passive voice. But turning ever
 
 ## A solution
 
-Language is what we the people speak and write, not what a random _Council for German Orthography_ or _Association for the German Language_ deem “correct” German. As long as others understand what we say (i.e., the language actually works as a means of communication), we can do whatever we want.
+Language is what we the people speak and write, not what a random _Council for German Orthography_ or _Association for the German Language_ deem “correct” German. As long as others understand what we say (the language actually works as a means of communication), we can do whatever we want.
 
 Why search for weird alternatives if we could turn to English once again and just use the literal translation of _one_{lang=en translate=no} (as in the translation for the numeral).
 
