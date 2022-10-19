@@ -1,5 +1,4 @@
 <script setup>
-import { ref, onServerPrefetch } from 'vue'
 import { useData, useMethods } from '@mvsde/eleventy-plugin-vue'
 
 const { hero } = useData()
@@ -19,11 +18,7 @@ function getHeroImage () {
   })
 }
 
-const heroImage = ref(null)
-
-onServerPrefetch(async () => {
-  heroImage.value = await getHeroImage()
-})
+const heroImage = await getHeroImage()
 </script>
 
 <template>

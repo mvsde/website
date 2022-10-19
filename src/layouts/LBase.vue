@@ -1,5 +1,4 @@
 <script setup>
-import { ref, onServerPrefetch } from 'vue'
 import CFooter from '../components/CFooter.vue'
 import CHeader from '../components/CHeader.vue'
 import CHero from '../components/CHero.vue'
@@ -24,11 +23,7 @@ function getSocialImage () {
   })
 }
 
-const socialImage = ref(null)
-
-onServerPrefetch(async () => {
-  socialImage.value = await getSocialImage()
-})
+const socialImage = await getSocialImage()
 </script>
 
 <template>

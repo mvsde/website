@@ -1,7 +1,6 @@
 <script setup>
 import LBase from './LBase.vue'
 import { orderCollection } from '../utilities/collection.js'
-import { ref, onServerPrefetch } from 'vue'
 import { useData, useMethods } from '@mvsde/eleventy-plugin-vue'
 
 const { title, content, collections, collection } = useData()
@@ -12,30 +11,20 @@ const items = orderCollection({
   order: collection.order
 })
 
-function getGalleryImage ({ src, alt }) {
-  return image({
-    src,
-    alt,
+function getGalleryImages () {
+  const mapImage = item => image({
+    src: item.data.hero.image,
+    alt: item.data.title,
     width: 335,
     sizes: '(min-width: 544px) 192px, 100vw',
     class: 'layout-gallery__image'
   })
+
+  const images = items.map(mapImage)
+  return Promise.all(images)
 }
 
-const galleryImages = ref([])
-
-onServerPrefetch(async () => {
-  const images = []
-
-  for (const item of items) {
-    const src = item.data.hero.image
-    const alt = item.data.title
-
-    images.push(getGalleryImage({ src, alt }))
-  }
-
-  galleryImages.value = await Promise.all(images)
-})
+const galleryImages = await getGalleryImages()
 </script>
 
 <template>
