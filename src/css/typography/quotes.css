@@ -10,11 +10,15 @@ blockquote::before {
 
   position: absolute;
 
-  /* Optically align with start.  */
+  /* Optically align with start. */
   inset-inline-start: -0.1em;
 
   font-size: 1.25em;
   font-weight: 700;
   line-height: 1.1;
   color: var(--color-brand);
+}
+
+blockquote em {
+  font-style: normal;
 }
