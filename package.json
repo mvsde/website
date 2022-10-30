@@ -45,7 +45,7 @@
     "@mvsde/eleventy-plugin-vue": "^0.1.1",
     "@pangolinjs/eslint-config": "^6.0.0",
     "@pangolinjs/stylelint-config": "^3.0.1",
-    "cssnano": "^5.1.13",
+    "cssnano": "^5.1.14",
     "esbuild": "^0.15.12",
     "eslint": "^8.26.0",
     "eslint-config-standard": "^17.0.0",
