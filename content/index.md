@@ -27,8 +27,8 @@ lists:
         url: https://twitter.com/mvsde
       - title: GitHub
         url: https://github.com/mvsde
-      - title: GitLab
-        url: https://gitlab.com/mvsde
+      - title: Mastodon
+        url: https://mastodon.social/@mvsde
       - title: LinkedIn
         url: https://linkedin.com/in/fynn
   - title: Open source

@@ -20,12 +20,7 @@
   text-decoration-thickness: 0.125em;
 }
 
-.header__link.is-icon {
-  /* Match focus outline to icon circle. */
-  border-radius: 50%;
-}
-
-.header__link .icon {
+.header__icon {
   display: block;
-  font-size: 1.375em;
+  font-size: 1.25em;
 }

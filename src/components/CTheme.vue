@@ -32,7 +32,10 @@ const themes = [
       class="theme__button js-theme-button"
       :data-theme="theme.theme"
     >
-      <CIcon :name="theme.icon" />
+      <CIcon
+        class="theme__icon"
+        :name="theme.icon"
+      />
       {{ theme.title }}
     </button>
   </div>
