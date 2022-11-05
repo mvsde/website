@@ -23,12 +23,12 @@ lists:
         url: /sunset/
   - title: Social media
     links:
+      - title: Mastodon
+        url: https://mastodon.social/@mvsde
       - title: Twitter
         url: https://twitter.com/mvsde
       - title: GitHub
         url: https://github.com/mvsde
-      - title: Mastodon
-        url: https://mastodon.social/@mvsde
       - title: LinkedIn
         url: https://linkedin.com/in/fynn
   - title: Open source

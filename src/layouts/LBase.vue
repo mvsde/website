@@ -38,6 +38,7 @@ const socialImage = await getSocialImage()
       <meta name="generator" :content="eleventy.generator">
 
       <link href="/feed.xml" type="application/atom+xml" rel="alternate">
+      <link href="https://mastodon.social/@mvsde" rel="me">
 
       <link rel="icon" href="/favicon.ico" sizes="any">
       <link rel="icon" href="/favicon.svg" type="image/svg+xml">

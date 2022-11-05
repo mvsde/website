@@ -19,22 +19,19 @@ const links = [
     url: '/talks/'
   },
   {
+    text: 'Mastodon',
+    url: 'https://mastodon.social/@mvsde',
+    icon: 'mastodon'
+  },
+  {
     text: 'Twitter',
     url: 'https://twitter.com/mvsde',
-    rel: 'me',
     icon: 'twitter'
   },
   {
     text: 'GitHub',
     url: 'https://github.com/mvsde',
-    rel: 'me',
     icon: 'github'
-  },
-  {
-    text: 'Mastodon',
-    url: 'https://mastodon.social/@mvsde',
-    rel: 'me',
-    icon: 'mastodon'
   }
 ]
 </script>
@@ -46,7 +43,6 @@ const links = [
         v-for="link in links"
         :key="link.url"
         :href="link.url"
-        :rel="link.rel"
         class="header__link"
         :class="{
           'is-active': isActivePage({ current: page.url, url: link.url })
