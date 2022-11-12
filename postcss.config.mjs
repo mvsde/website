@@ -1,4 +1,5 @@
 import path from 'node:path'
+
 import pluginCSSnano from 'cssnano'
 import pluginImport from 'postcss-import'
 import pluginURL from 'postcss-url'
@@ -18,23 +19,23 @@ const IS_PRODUCTION = process.env.NODE_ENV === 'production'
 
 /** @type {PluginURLOptions} */
 const urlOptions = [
-  {
-    filter: '**/*.woff2',
-    url: 'copy',
-    basePath: path.resolve('node_modules'),
-    assetsPath: 'fonts',
-    useHash: true
-  }
+	{
+		filter: '**/*.woff2',
+		url: 'copy',
+		basePath: path.resolve('node_modules'),
+		assetsPath: 'fonts',
+		useHash: true,
+	},
 ]
 
 /** @type {Config} */
 export default {
-  map: {
-    inline: false
-  },
-  plugins: [
-    pluginImport(),
-    pluginURL(urlOptions),
-    IS_PRODUCTION && pluginCSSnano()
-  ]
+	map: {
+		inline: false,
+	},
+	plugins: [
+		pluginImport(),
+		pluginURL(urlOptions),
+		IS_PRODUCTION && pluginCSSnano(),
+	],
 }

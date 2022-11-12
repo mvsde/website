@@ -6,5 +6,5 @@
  * @returns {string}
  */
 export default function (text = '', length) {
-  return text.slice(0, length)
+	return text.slice(0, length)
 }

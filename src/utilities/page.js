@@ -4,7 +4,7 @@
  * @returns {boolean}
  */
 export function isHomePage (page) {
-  return page === '/'
+	return page === '/'
 }
 
 /**
@@ -15,7 +15,7 @@ export function isHomePage (page) {
  * @returns {boolean}
  */
 export function isCurrentPage ({ current, url }) {
-  return current === url
+	return current === url
 }
 
 /**
@@ -26,11 +26,11 @@ export function isCurrentPage ({ current, url }) {
  * @returns {boolean}
  */
 export function isActivePage ({ current, url }) {
-  if (isHomePage(url)) {
-    return isCurrentPage({ current, url })
-  }
+	if (isHomePage(url)) {
+		return isCurrentPage({ current, url })
+	}
 
-  return current.startsWith(url)
+	return current.startsWith(url)
 }
 
 /**
@@ -41,5 +41,5 @@ export function isActivePage ({ current, url }) {
  * @returns {Array}
  */
 export function getPageData ({ collections, url }) {
-  return collections.all.find(page => page.url === url)
+	return collections.all.find(page => page.url === url)
 }

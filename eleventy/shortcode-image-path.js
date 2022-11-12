@@ -9,13 +9,13 @@ const Image = require('@11ty/eleventy-img')
  * @returns {Promise<string>} Image URL
  */
 module.exports = async function ({ src, width, format }) {
-  const options = {
-    widths: [width],
-    formats: [format],
-    outputDir: 'dist/img'
-  }
+	const options = {
+		widths: [width],
+		formats: [format],
+		outputDir: 'dist/img',
+	}
 
-  const metadata = await Image(src, options)
+	const metadata = await Image(src, options)
 
-  return metadata[format][0].url
+	return metadata[format][0].url
 }

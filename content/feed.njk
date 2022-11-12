@@ -5,37 +5,37 @@ eleventyExcludeFromCollections: true
 ---
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Fynn Becker</title>
-  <subtitle>Blog posts from the personal website of Fynn Becker.</subtitle>
-  <updated>{{ collections.feed | getNewestCollectionItemDate | dateToRfc3339 }}</updated>
-  <icon>{{ base }}/favicon.svg</icon>
+	<title>Fynn Becker</title>
+	<subtitle>Blog posts from the personal website of Fynn Becker.</subtitle>
+	<updated>{{ collections.feed | getNewestCollectionItemDate | dateToRfc3339 }}</updated>
+	<icon>{{ base }}/favicon.svg</icon>
 
-  <link href="{{ base }}/{{ permalink }}" rel="self"/>
-  <link href="{{ base }}/"/>
-  <id>{{ base }}/</id>
+	<link href="{{ base }}/{{ permalink }}" rel="self"/>
+	<link href="{{ base }}/"/>
+	<id>{{ base }}/</id>
 
-  <author>
-    <name>Fynn Becker</name>
-    <email>post@fynn.be</email>
-  </author>
+	<author>
+		<name>Fynn Becker</name>
+		<email>post@fynn.be</email>
+	</author>
 
-  {% for post in collections.feed %}
-    {% set absolutePostUrl %}{{ post.url | url | absoluteUrl(base) }}{% endset %}
-    {% set hero = post.data.hero %}
-    {% set hero_markup %}{% include "feed-hero.njk" %}{% endset %}
+	{% for post in collections.feed %}
+		{% set absolutePostUrl %}{{ post.url | url | absoluteUrl(base) }}{% endset %}
+		{% set hero = post.data.hero %}
+		{% set hero_markup %}{% include "feed-hero.njk" %}{% endset %}
 
-    <entry>
-      <title>{{ post.data.title }}</title>
-      <link href="{{ absolutePostUrl }}"/>
-      <updated>{{ post.date | dateToRfc3339 }}</updated>
-      <id>urn:uuid:{{ post.data.id }}</id>
-      {% if post.data.summary %}
-        <summary>{{ post.data.description }}</summary>
-      {% endif %}
-      <content type="html">
-        {% if hero %}{{ hero_markup }}{% endif %}
-        {{ post.templateContent | htmlToAbsoluteUrls(absolutePostUrl) }}
-      </content>
-    </entry>
-  {% endfor %}
+		<entry>
+			<title>{{ post.data.title }}</title>
+			<link href="{{ absolutePostUrl }}"/>
+			<updated>{{ post.date | dateToRfc3339 }}</updated>
+			<id>urn:uuid:{{ post.data.id }}</id>
+			{% if post.data.summary %}
+				<summary>{{ post.data.description }}</summary>
+			{% endif %}
+			<content type="html">
+				{% if hero %}{{ hero_markup }}{% endif %}
+				{{ post.templateContent | htmlToAbsoluteUrls(absolutePostUrl) }}
+			</content>
+		</entry>
+	{% endfor %}
 </feed>

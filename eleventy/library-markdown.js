@@ -6,7 +6,7 @@ const markdown = require('markdown-it')
 const spans = require('markdown-it-bracketed-spans')
 
 const MARKDOWN_OPTIONS = {
-  html: true
+	html: true,
 }
 
 const md = markdown(MARKDOWN_OPTIONS)

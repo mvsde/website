@@ -6,11 +6,9 @@
  * @returns {Array}
  */
 export function orderCollection ({ collection, order = 'descending' }) {
-  if (order === 'ascending') {
-    return collection
-  }
+	if (order === 'descending') {
+		return collection.slice().reverse()
+	}
 
-  if (order === 'descending') {
-    return collection.slice().reverse()
-  }
+	return collection
 }
