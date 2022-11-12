@@ -19,19 +19,28 @@ const links = [
     url: '/talks/'
   },
   {
-    text: 'Mastodon',
     url: 'https://mastodon.social/@mvsde',
-    icon: 'mastodon'
+    icon: 'mastodon',
+    attributes: {
+      'aria-label': 'Mastodon',
+      rel: 'me'
+    }
   },
   {
-    text: 'Twitter',
     url: 'https://twitter.com/mvsde',
-    icon: 'twitter'
+    icon: 'twitter',
+    attributes: {
+      'aria-label': 'Twitter',
+      rel: 'me'
+    }
   },
   {
-    text: 'GitHub',
     url: 'https://github.com/mvsde',
-    icon: 'github'
+    icon: 'github',
+    attributes: {
+      'aria-label': 'GitHub',
+      rel: 'me'
+    }
   }
 ]
 </script>
@@ -47,8 +56,8 @@ const links = [
         :class="{
           'is-active': isActivePage({ current: page.url, url: link.url })
         }"
-        :aria-label="link.text"
         :aria-current="isCurrentPage({ current: page.url, url: link.url }) ? 'page' : undefined"
+        v-bind="link.attributes"
       >
         <CIcon
           v-if="link.icon"
