@@ -27,6 +27,7 @@ const { title, content, lists } = useData()
             <a
               class="layout-home__link"
               :href="link.url"
+              v-bind="link.attributes"
             >
               {{ link.title }}
             </a>

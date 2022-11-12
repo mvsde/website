@@ -25,12 +25,20 @@ lists:
     links:
       - title: Mastodon
         url: https://mastodon.social/@mvsde
+        attributes:
+          rel: me
       - title: Twitter
         url: https://twitter.com/mvsde
+        attributes:
+          rel: me
       - title: GitHub
         url: https://github.com/mvsde
+        attributes:
+          rel: me
       - title: LinkedIn
         url: https://linkedin.com/in/fynn
+        attributes:
+          rel: me
   - title: Open source
     links:
       - title: miyagi for VS Code
