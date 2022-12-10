@@ -1,5 +1,4 @@
-/* https://bugs.chromium.org/p/chromium/issues/detail?id=1345181 */
-/* @layer third-party, global, typography, layouts, components, utilities; */
+@layer third-party, global, typography, layouts, components, utilities;
 
 @import "./css/global.css" layer(global);
 @import "./css/typography.css" layer(typography);

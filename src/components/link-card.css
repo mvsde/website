@@ -1,0 +1,26 @@
+.link-card__list {
+  list-style: none;
+
+  display: grid;
+  gap: 0.25em;
+
+  margin: 0;
+  padding: 0;
+
+  /* Optically adjust space before and after list. */
+  margin-block: -0.5em;
+}
+
+.link-card__item {
+  margin: 0;
+  padding: 0;
+}
+
+.link-card__link {
+  display: block;
+  padding-block: 0.25em;
+}
+
+.link-card__link:not(:hover) {
+  text-decoration: none;
+}

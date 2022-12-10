@@ -2,15 +2,15 @@
 id: 69d559e8-4b86-4ce6-bb36-e10416f6db4d
 title: Hi, I’m Fynn Becker
 description: Frontend developer, video game collector, interested in tech and computer things, cyclist, Shinson Hapkido 🥋, Star Wars and Star Trek 🖖🏻
-layout: LHome.vue
+layout: LDefault.vue
 social:
   image:
-    src: media/portrait-square.jpg
-    alt: Portrait of Fynn Becker.
+    src: media/blahaj-square.jpg
+    alt: Portrait of Fynn Becker, lying on their back on a red couch together with an Ikea Blåhaj toy shark.
 hero:
-  image: media/portrait.jpg
-  alt: Portrait of Fynn Becker.
-lists:
+  image: media/blahaj.jpg
+  alt: Portrait of Fynn Becker, lying on their back on a red couch together with an Ikea Blåhaj toy shark.
+cards:
   - title: From the site
     links:
       - title: Blog

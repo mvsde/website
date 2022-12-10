@@ -12,6 +12,8 @@ defineProps({
 		<h2 class="card__title">
 			{{ title }}
 		</h2>
-		<slot />
+		<div class="card__content">
+			<slot />
+		</div>
 	</section>
 </template>
