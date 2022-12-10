@@ -63,7 +63,7 @@ module.exports = function (eleventyConfig) {
 }
 ```
 
-## \<script setup>
+## `<script setup>`
 
 Vue 3 SFCs support a really handy “boilerplate shortcut”: `<script setup>`. It allows skipping the whole `export`ing and lets you [directly declare data and methods](https://vuejs.org/api/sfc-script-setup.html#script-setup). To make Eleventy’s data and methods available, we need a workaround leveraging Vue’s Composition API.
 

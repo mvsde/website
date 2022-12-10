@@ -47,7 +47,7 @@ module.exports = function (eleventyConfig) {
 
 Vue SFCs can’t have `<!doctype html`> at the beginning of the template, so an Eleventy transform is included automatically which adds the doctype to all HTML files.
 
-### \<script setup> and Composition API
+### `<script setup>` and Composition API
 
 The plugin exports Vue Composition API methods for accessing the [current page’s data](https://www.11ty.dev/docs/data/) and [JavaScript shortodes](https://www.11ty.dev/docs/shortcodes/) in `<script setup>`.
 
@@ -63,7 +63,7 @@ const { image, ... } = useMethods()
 </script>
 
 <template>
-  <h1>{{ title }}</h1>
+  <h1>{% raw %}{{ title }}{% endraw %}</h1>
   <div v-html="content" />
 </template>
 ```
