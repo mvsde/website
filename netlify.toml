@@ -76,6 +76,14 @@
   to = "/blog/down-the-rabbit-hole/"
   status = 301
 
+# Social
+
+[[redirects]]
+  from = "https://mastodon.fynn.be/*"
+  to = "https://mastodon.social/@mvsde"
+  status = 302
+  force = true
+
 # 404
 
 [[redirects]]
