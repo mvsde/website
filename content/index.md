@@ -31,24 +31,24 @@ cards:
         url: https://twitter.com/mvsde
         attributes:
           rel: me
-      - title: GitHub
-        url: https://github.com/mvsde
-        attributes:
-          rel: me
+      - title: Twitter Archive
+        url: https://twitter.fynn.be
       - title: LinkedIn
         url: https://linkedin.com/in/fynn
         attributes:
           rel: me
   - title: Open source
     links:
+      - title: GitHub
+        url: https://github.com/mvsde
+        attributes:
+          rel: me
       - title: miyagi for VS Code
         url: https://github.com/miyagi-dev/vscode-miyagi
       - title: Pangolin.js
         url: https://pangolinjs.org
       - title: This website
         url: https://github.com/mvsde/website
-      - title: More projects
-        url: https://github.com/mvsde?tab=repositories
 ---
 
 ## About me
