@@ -38,7 +38,7 @@
 		"prism-themes": "^1.9.0"
 	},
 	"devDependencies": {
-		"@11ty/eleventy": "^2.0.0-canary.18",
+		"@11ty/eleventy": "^2.0.0-canary.20",
 		"@11ty/eleventy-img": "^2.0.1",
 		"@11ty/eleventy-plugin-rss": "^1.2.0",
 		"@11ty/eleventy-plugin-syntaxhighlight": "^4.2.0",
@@ -46,9 +46,8 @@
 		"@pangolinjs/eslint-config": "^7.0.0",
 		"@pangolinjs/stylelint-config": "^3.0.1",
 		"cssnano": "^5.1.14",
-		"esbuild": "^0.16.7",
-		"eslint": "^8.29.0",
-		"eslint-config-standard": "^17.0.0",
+		"esbuild": "^0.16.9",
+		"eslint": "^8.30.0",
 		"eslint-plugin-vue": "^9.8.0",
 		"markdown-it-attrs": "^4.1.6",
 		"markdown-it-bracketed-spans": "^1.0.1",
