@@ -1,18 +1,10 @@
 .card {
-  background: var(--color-content-background);
-  border-radius: var(--border-radius-small);
-  box-shadow: var(--box-shadow-small);
-
-  overflow: hidden;
-}
-
-.card__title {
-  margin-block: 0;
   padding: var(--content-highlight-inset);
 
   background: var(--color-background);
+  border-radius: var(--border-radius-small);
 }
 
-.card__content {
-  padding: var(--content-highlight-inset);
+.card__title {
+  margin-block-start: 0;
 }
