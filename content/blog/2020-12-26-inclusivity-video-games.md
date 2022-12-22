@@ -7,7 +7,7 @@ date: 2020-12-26T07:36:00Z
 
 Video games and software development share an unfortunate “feature”: Both are dominated by white men. But recently some progress could be made on either front. Developers share their experiences with gatekeeping, sexism, and racism; and more video games tell inclusive stories with diverse characters.
 
-Don’t get me wrong: This is just the beginning. For each small success, a huge pile of rottenness waits to be poked. This I learned while [expressing my dismay for John Bain’s views on GamerGate](https://twitter.com/mvsde/status/1331893390666035201). Apparently daring to speak his name immediately [summons the Gamergate apologists](https://twitter.com/mvsde/status/1332281128070344704). As important as it is to unearth the bad, we should also praise the achievements along the way.
+Don’t get me wrong: This is just the beginning. For each small success, a huge pile of rottenness waits to be poked. This I learned while [expressing my dismay for John Bain’s views on GamerGate](https://twitter.fynn.be/1331893390666035201/). Apparently daring to speak his name immediately [summons the Gamergate apologists](https://twitter.fynn.be/1332281128070344704/). As important as it is to unearth the bad, we should also praise the achievements along the way.
 
 Contrary to widespread belief [I’m not a big time gamer](https://steamcommunity.com/id/mvsde/). Yes, I do own an enormous amount of video games. However, I rarely play them because most games are too complicated for me. Thank you, dear game developer who implements a _super-duper easy mode_, I’m grateful indeed! That aside, over the years a handful of games crossed my path that feature an inclusive story and gameplay mechanics.
 

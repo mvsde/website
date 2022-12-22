@@ -24,7 +24,7 @@ hero:
 
 * [Dell XPS 15 9500](https://www.dell.com/)
 * [Acer XR382CQK](https://www.acer.com/ac/en/US/content/model/UM.TX2AA.002)
-* [Custom-built gaming PC](https://twitter.com/MVSde/status/1471513083994533892)
+* [Custom-built gaming PC](https://twitter.fynn.be/1471513083994533892/)
 * [Logitech G502 Lightspeed](https://www.logitechg.com/products/gaming-mice/g502-lightspeed-wireless-gaming-mouse.html)
 * [Logitech G915 TKL Lightspeed](https://www.logitechg.com/products/gaming-keyboards/g915-tkl-wireless.html)
 * [Gamers Nexus Component Mousepad](https://store.gamersnexus.net/products/gn-component-blueblack-mousepad)

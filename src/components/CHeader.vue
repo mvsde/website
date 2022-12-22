@@ -28,10 +28,10 @@ const links = [
 		},
 	},
 	{
-		url: 'https://twitter.com/mvsde',
+		url: 'https://twitter.fynn.be',
 		icon: 'twitter',
 		attributes: {
-			'aria-label': 'Twitter',
+			'aria-label': 'Twitter (archive)',
 			rel: 'me',
 		},
 	},

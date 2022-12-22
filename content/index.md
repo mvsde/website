@@ -27,22 +27,18 @@ cards:
         url: https://mastodon.social/@mvsde
         attributes:
           rel: me
-      - title: Twitter
-        url: https://twitter.com/mvsde
+      - title: Twitter (archive)
+        url: https://twitter.fynn.be
+      - title: GitHub
+        url: https://github.com/mvsde
         attributes:
           rel: me
-      - title: Twitter Archive
-        url: https://twitter.fynn.be
       - title: LinkedIn
         url: https://linkedin.com/in/fynn
         attributes:
           rel: me
   - title: Open source
     links:
-      - title: GitHub
-        url: https://github.com/mvsde
-        attributes:
-          rel: me
       - title: miyagi for VS Code
         url: https://github.com/miyagi-dev/vscode-miyagi
       - title: Pangolin.js
@@ -61,6 +57,6 @@ cards:
 💻 Interested in tech and computer things
 🥋 [Shinson Hapkido](http://www.shinsonhapkido.org) blue belt
 🚴🏻 Active member of the cyclists club ADFC
-🖖🏻 Huge [Star Wars](https://twitter.com/mvsde/status/1408409600643190788) and [Star Trek](https://twitter.com/mvsde/status/1400519056374046726) nerd
+🖖🏻 Huge [Star Wars](https://twitter.fynn.be/1408409600643190788/) and [Star Trek](https://twitter.fynn.be/1400519056374046726/) nerd
 🏠 Living near Hamburg, Germany
 {% endemojiList %}

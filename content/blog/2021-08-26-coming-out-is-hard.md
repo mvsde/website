@@ -17,11 +17,11 @@ It is 23:30 o’clock, I can’t sleep, and there’s this blog post idea that�
 
 I’m open about being [bisexual/pansexual, sometimes grayish asexual](../straight-until-proven-fabulous/), and I recently published that I’m a [non-binary person](../down-the-rabbit-hole/). But that’s all online. I don’t know why it’s so much easier for me to tell hundreds of people on Twitter about my queerness, than to talk to a single person in real life. There’s literally _one_ friend I could bring myself to talk to, a friend I very deeply trust and respect. Even that cost me quite the effort.
 
-Funnily enough, my most popular tweet to date has 123 likes, thousands of views, and sparked an interesting and civilized debate. It was in response to another tweet and goes like this:
+Funnily enough, my most popular tweet (as of the time of writing) has over 100 likes, thousands of views, and sparked an interesting and civilized debate. It was in response to another tweet and goes like this:
 
 > That’s exactly why I’m not very open about being non-binary. Not only do Germany and the German language have no real concept of non-binary people. I’m also afraid of any repercussions from coming out in real life. It’s like making myself into a prime target for whatever 😕
 >
-> — [Tweet by @mvsde](https://twitter.com/mvsde/status/1429308025303617536), written on 2021-08-22 at 07:02 AM.
+> — [Tweet by @mvsde](https://twitter.fynn.be/1429308025303617536/), written on 2021-08-22 at 07:02 AM.
 
 Short side note: italicized emojis look weird. Browsers shouldn’t apply faux italics to _images_, which emojis kind of are. Luckily there’s a handy CSS rule called `font-synthesis` that can be set to `none`.
 

@@ -5,7 +5,7 @@ description: A short history of the indefinite German pronoun “man” and a su
 date: 2022-07-31T17:21:00Z
 ---
 
-I recently observed a [new trend in progressive German](https://twitter.com/mvsde/status/1551278470017204227), new to me at least, which means it’s “dissecting gender in the German language time” again. Today we take a look at the German word _man_{lang=de translate=no}, not to be confused with the English _man_{lang=en translate=no}. Although they seem similar and share the same origin, they have different meanings:
+I recently observed a [new trend in progressive German](https://twitter.fynn.be/1551278470017204227/), new to me at least, which means it’s “dissecting gender in the German language time” again. Today we take a look at the German word _man_{lang=de translate=no}, not to be confused with the English _man_{lang=en translate=no}. Although they seem similar and share the same origin, they have different meanings:
 
 [man]{lang=de translate=no} (German)
 : one, you, they (indefinite pronoun)
