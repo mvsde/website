@@ -40,11 +40,11 @@ Open-source software is free to use, but that does not mean it is free to make. 
 
 Please stop feeding tech giants with even more data about literally every person that dares to use a web browser. You can self-host [Matomo](https://matomo.org) or [Umami](https://umami.is), or use privacy-focused analytics providers like [Fathom](https://usefathom.com) or [Plausible](https://plausible.io).
 
-### [Deceptive dark patterns](https://www.darkpatterns.org) are shady tricks
+### [Deceptive design](https://www.deceptive.design/) is shady at best
 
-They actively harm the user experience and deceive those who are not aware of deceptive dark patterns. The web is a friendlier place if you are honest with your intentions.
+Deceptive design actively harms the user experience and deceives those who are not aware of these patterns. The web is a friendlier place if you are honest with your intentions.
 
-The phrase “dark pattern” is problematic. [Jeremy Keith](https://adactio.com) proposes _[deceptive dark pattern](https://adactio.com/journal/18192)_ as a temporary solution until we can drop the “dark”.
+This is also known as “dark patterns” which is [a problematic term](https://adactio.com/journal/18192).
 
 ## Open source license
 
