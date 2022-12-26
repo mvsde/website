@@ -9,7 +9,7 @@ social:
     alt: Non-binary pride flag (horizontal stripes in yellow, white, purple, black).
 ---
 
-[Übersicht](../) · [Englisch](../en/)
+[Übersicht](../){hreflang=en} · [Englisch](../en/){hreflang=en}
 
 ## Name
 
@@ -29,7 +29,7 @@ social:
 ## Anrede
 
 {% emojiList %}
-✅ **Keine Anrede**
+✅ **keine Anrede**
 👍 Person
 ❌ Frau
 ❌ Herr
@@ -43,3 +43,18 @@ social:
 ❌ Frau
 ❌ Mann
 {% endemojiList %}
+
+## Beispiele
+
+> **Fynn** ist Frontend-**Entwickler*in**.<br>
+> **Dey** ist Frontend-**Entwickler*in**.<br>
+> **They** ist Frontend-**Entwickler*in**.
+
+> fynn.be ist **deren** Website.<br>
+> fynn.be ist **their** Website.
+
+> Ich bin **denen** kürzlich begegnet.<br>
+> Ich bin **them** kürzlich begegnet.
+
+> Ich habe **dey** auf Mastodon entdeckt.<br>
+> Ich habe **them** auf Mastodon entdeckt.

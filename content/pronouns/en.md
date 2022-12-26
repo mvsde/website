@@ -8,7 +8,7 @@ social:
     alt: Non-binary pride flag (horizontal stripes in yellow, white, purple, black).
 ---
 
-[Overview](../) · [German](../de/)
+[Overview](../) · [German](../de/){hreflang=de}
 
 ## Name
 
@@ -40,3 +40,14 @@ social:
 ❌ woman
 ❌ man
 {% endemojiList %}
+
+## Examples
+
+> **Fynn** is a frontend developer.<br>
+> **They** are a frontend developer.
+
+> fynn.be is **their** website.
+
+> I’ve met **them** recently.
+
+> I’ve found **them** on Mastodon.
