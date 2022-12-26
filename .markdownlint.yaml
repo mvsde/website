@@ -3,6 +3,7 @@ no-trailing-spaces:
   br_spaces: 0
 no-inline-html:
   allowed_elements: [span, br, small, strong, u]
+no-blanks-blockquote: false
 ul-style:
   style: asterisk
 ol-prefix:
