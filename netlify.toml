@@ -1,3 +1,5 @@
+# Build
+
 [build]
   command = "npm run build"
   publish = "dist"
@@ -5,6 +7,8 @@
 [build.environment]
   NODE_VERSION = "17"
   NPM_FLAGS = "--force"
+
+# Plugins
 
 [[plugins]]
   package = "netlify-plugin-cache"
@@ -14,7 +18,9 @@
       "dist/img"
     ]
 
-# fynn.netlify.app
+# Redirects
+
+## fynn.netlify.app
 
 [[redirects]]
   from = "https://fynn.netlify.app/*"
@@ -22,7 +28,7 @@
   status = 302
   force = true
 
-# mvsde.com
+## mvsde.com
 
 [[redirects]]
   from = "https://mvsde.com/*"
@@ -30,7 +36,27 @@
   status = 302
   force = true
 
-# fynn.lgbt
+## fynn.lgbt
+
+[[redirects]]
+  from = "https://www.fynn.lgbt/*"
+  to = "https://fynn.lgbt/"
+  status = 302
+  force = true
+
+[[redirects]]
+  from = "https://fynn.lgbt/*"
+  to = "https://fynn.be/pronouns/en/"
+  status = 302
+  force = true
+  conditions = {Language = ["en"]}
+
+[[redirects]]
+  from = "https://fynn.lgbt/*"
+  to = "https://fynn.be/pronouns/de/"
+  status = 302
+  force = true
+  conditions = {Language = ["de"]}
 
 [[redirects]]
   from = "https://fynn.lgbt/*"
@@ -39,7 +65,7 @@
   force = true
 
 [[redirects]]
-  from = "https://www.fynn.lgbt/*"
+  from = "https://fynn.lgbt/*"
   to = "https://fynn.be/pronouns/"
   status = 302
   force = true
@@ -56,15 +82,15 @@
   status = 302
   force = true
 
-# talks.fynn.be
+## talks.fynn.be
 
 [[redirects]]
   from = "https://talks.fynn.be/*"
-  to = "https://fynn.be/talks/"
+  to = "https://fynn.be/talks/:splat"
   status = 302
   force = true
 
-# Page redirects
+## Page redirects
 
 [[redirects]]
   from = "/blog/return-of-fabulousness/"
@@ -76,7 +102,7 @@
   to = "/blog/down-the-rabbit-hole/"
   status = 301
 
-# Social
+## Social
 
 [[redirects]]
   from = "https://mastodon.fynn.be/*"
@@ -84,7 +110,7 @@
   status = 302
   force = true
 
-# 404
+## 404
 
 [[redirects]]
   from = "/*"
