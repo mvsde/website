@@ -27,7 +27,7 @@ Short side note: italicized emojis look weird. Browsers shouldn’t apply faux i
 
 Whoops, I guess I wandered a bit from the actual subject. Let’s conclude this rambling blog post somehow!
 
-People who follow me on Twitter probably know that I’m queer.
+People who follow me on social media probably know that I’m queer.
 
 People who don’t, don’t.
 

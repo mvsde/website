@@ -38,5 +38,5 @@ You can learn more about how I like to be addressed on my [pronouns overview pag
 
 ### Accusative
 
-> [Ich habe **dey** auf Twitter gefunden.]{lang=de translate=no}<br>
-> <small>Translation: I’ve found **them** on Twitter.</small>
+> [Ich habe **dey** auf Mastodon entdeckt.]{lang=de translate=no}<br>
+> <small>Translation: I’ve found **them** on Mastodon.</small>

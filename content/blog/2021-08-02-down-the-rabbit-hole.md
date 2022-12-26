@@ -20,7 +20,7 @@ updates:
 
 “Fabulousness” is a fantastic word, isn’t it? Right up there with everyone’s all-time favorite frontend term “CSS selector specificity”. In case you haven’t noticed, I really like to [dig into languages](../german-language-and-gender/). Etymology is an interesting topic aswell, but that’s content for some future blog posts. Let’s get back to queerness.
 
-First, my pronouns were _he/him_. I guess that’s the default someone who is _assigned male at birth_ (amab) puts in their Twitter bio. You know, _straight by default_ and nobody tells you something else might be possible.
+First, my pronouns were _he/him_. I guess that’s the default someone who is _assigned male at birth_ (amab) puts in their social media bio. You know, _straight by default_ and nobody tells you something else might be possible.
 
 Then I changed my pronouns to _he/they_. I have no idea why I did this. There was a sudden urge to see how this looks. Maybe I wanted to promote and normalize the usage of a neutral pronoun? I strongly believe we should start using _they_ by default until we definitely know how someone wants to be addressed.
 
