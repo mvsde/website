@@ -8,5 +8,9 @@ social:
     alt: Non-binary pride flag (horizontal stripes in yellow, white, purple, black).
 ---
 
-* [English](en/)
-* [Deutsch](de/){lang=de hreflang=de}
+If you’re unsure how to refer to me, please have a look at these pages in English and German where I wrote down my pronouns and some usage examples.
+
+{% emojiList %}
+☕ [English](en/)
+🥔 [Deutsch](de/){lang=de hreflang=de}
+{% endemojiList %}

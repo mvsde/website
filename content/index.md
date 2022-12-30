@@ -52,9 +52,9 @@ cards:
 ## About me
 
 {% emojiList %}
-🏳️‍⚧️ I’m non-binary, my pronouns are [they/them](/pronouns/){lang=en translate=no}
+🏳️‍⚧️ Non-binary trans, pronouns are [they/them](/pronouns/){lang=en translate=no}
 🧑🏻‍💻 Frontend developer at [Factorial](https://www.factorial.io/)
-🧙🏻 Open sourcerer
+🧙🏻 Open sourcerer (sometimes)
 🎮 Video game collector
 💻 Interested in tech and computer things
 🥋 [Shinson Hapkido](http://www.shinsonhapkido.org) blue belt
