@@ -27,8 +27,10 @@ cards:
         url: https://mastodon.social/@mvsde
         attributes:
           rel: me
-      - title: Twitter (archive)
-        url: https://twitter.fynn.be
+      - title: Twitter
+        url: https://twitter.com/mvsde
+        attributes:
+          rel: me
       - title: GitHub
         url: https://github.com/mvsde
         attributes:
