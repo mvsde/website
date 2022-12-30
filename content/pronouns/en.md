@@ -8,7 +8,9 @@ social:
     alt: Non-binary pride flag (horizontal stripes in yellow, white, purple, black).
 ---
 
-[Overview](../) · [German](../de/){hreflang=de}
+Hi there, I’m a [non-binary person](https://en.wikipedia.org/wiki/Non-binary_gender) and use pronouns that may be unfamiliar to you. I compiled a short overview and some examples to help you get started.
+
+This page is also available in [German](../de/){hreflang=de}.
 
 ## Name
 

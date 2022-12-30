@@ -6,10 +6,12 @@ language: de
 social:
   image:
     src: media/non-binary-flag-square.svg
-    alt: Non-binary pride flag (horizontal stripes in yellow, white, purple, black).
+    alt: Non-binary Pride-Flagge (horizontale Streifen in gelb, weiß, lila und schwarz).
 ---
 
-[Übersicht](../){hreflang=en} · [Englisch](../en/){hreflang=en}
+Hi, ich bin eine [nicht-binäre Person](https://de.wikipedia.org/wiki/Nichtbinäre_Geschlechtsidentität) und verwende Pronomen, die vielleicht ungewohnt für dich sind. Hier ist ein kurzer Überblick und einige Beispiele, um dir zu helfen.
+
+Diese Seite gibt es auch auf [Englisch](../en/){hreflang=en}.
 
 ## Name
 
@@ -38,7 +40,7 @@ social:
 ## Bezugnahme
 
 {% emojiList %}
-✅ **Sternchen-Form**
+✅ **Sternchen-Form** (*)
 👍 Person
 ❌ Frau
 ❌ Mann
@@ -56,5 +58,5 @@ social:
 > Ich bin **denen** kürzlich begegnet.<br>
 > Ich bin **them** kürzlich begegnet.
 
-> Ich habe **dey** auf Mastodon entdeckt.<br>
-> Ich habe **them** auf Mastodon entdeckt.
+> Ich habe **dey** auf Mastodon gefunden.<br>
+> Ich habe **them** auf Mastodon gefunden.
