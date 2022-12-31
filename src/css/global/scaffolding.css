@@ -1,38 +1,38 @@
 *,
 ::before,
 ::after {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
 }
 
 html {
-  font-family: var(--font-family-text);
-  font-synthesis: none;
-  line-height: var(--line-height-text);
-  color: var(--color-text);
+	font-family: var(--font-family-text);
+	font-synthesis: none;
+	line-height: var(--line-height-text);
+	color: var(--color-text);
 
-  background: var(--color-background);
+	background: var(--color-background);
 }
 
 img,
 svg,
 iframe {
-  max-inline-size: 100%;
-  block-size: auto;
-  vertical-align: middle;
+	max-inline-size: 100%;
+	block-size: auto;
+	vertical-align: middle;
 }
 
 img,
 iframe {
-  background: var(--color-background);
-  border-radius: var(--border-radius-small);
+	background: var(--color-background);
+	border-radius: var(--border-radius-small);
 }
 
 iframe {
-  border: 0;
+	border: 0;
 }
 
 button {
-  font: inherit;
+	font: inherit;
 }

@@ -15,14 +15,14 @@ defineProps({
 
 <template>
 	<CCard :title="title">
-		<ul class="link-card__list">
+		<ul class="LinkCard-list">
 			<li
 				v-for="link in links"
 				:key="link.url"
-				class="link-card__item"
+				class="LinkCard-item"
 			>
 				<a
-					class="link-card__link"
+					class="LinkCard-link"
 					:href="link.url"
 					v-bind="link.attributes"
 				>

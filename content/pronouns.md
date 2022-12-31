@@ -12,4 +12,4 @@ If you’re unsure how to refer to me, please have a look at these pages in Engl
 
 * [☕]{aria-hidden=true} [English](en/)
 * [🥔]{aria-hidden=true} [Deutsch](de/){lang=de hreflang=de}
-{.u-emoji-list}
+{.u-emojiList}

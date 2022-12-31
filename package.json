@@ -44,7 +44,7 @@
 		"@11ty/eleventy-plugin-syntaxhighlight": "^4.2.0",
 		"@mvsde/eleventy-plugin-vue": "^0.1.1",
 		"@pangolinjs/eslint-config": "^7.0.0",
-		"@pangolinjs/stylelint-config": "^3.0.1",
+		"@pangolinjs/stylelint-config": "^4.0.0",
 		"cssnano": "^5.1.14",
 		"esbuild": "^0.16.12",
 		"eslint": "^8.31.0",

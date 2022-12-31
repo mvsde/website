@@ -1,40 +1,40 @@
-.content__title {
-  margin-block: 0.5em 1em;
-  font-size: calc(1.25em + 2.5vw);
+.LayoutContent-title {
+	margin-block: 0.5em 1em;
+	font-size: calc(1.25em + 2.5vw);
 }
 
-.content__wrapper {
-  padding-block: calc(2em + 2vw);
-  background: var(--color-content-background);
+.LayoutContent-wrapper {
+	padding-block: calc(2em + 2vw);
+	background: var(--color-content-background);
 }
 
-.content__wrapper--hero {
-  margin-block-start: var(--content-hero-bleed);
+.LayoutContent-wrapper--hero {
+	margin-block-start: var(--content-hero-bleed);
 }
 
-.content__inner {
-  max-inline-size: var(--content-inner-width);
+.LayoutContent-inner {
+	max-inline-size: var(--content-inner-width);
 }
 
-.content__inner > :first-child {
-  margin-block-start: 0;
+.LayoutContent-inner > :first-child {
+	margin-block-start: 0;
 }
 
-.content__inner > :last-child {
-  margin-block-end: 0;
+.LayoutContent-inner > :last-child {
+	margin-block-end: 0;
 }
 
 /* Use :where() to decrease specificity. */
-:where(.content__inner) img {
-  margin-block-end: 1em;
+:where(.LayoutContent-inner) img {
+	margin-block-end: 1em;
 }
 
 @media (min-width: 70rem) {
-  .content__title {
-    font-size: 3em;
-  }
+	.LayoutContent-title {
+		font-size: 3em;
+	}
 
-  .content__wrapper {
-    padding-block: 3.5em;
-  }
+	.LayoutContent-wrapper {
+		padding-block: 3.5em;
+	}
 }

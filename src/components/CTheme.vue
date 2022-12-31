@@ -21,19 +21,19 @@ const themes = [
 </script>
 
 <template>
-	<div class="theme js-theme">
-		<h2 class="theme__heading">
+	<div class="Theme js-Theme">
+		<h2 class="Theme-heading">
 			Theme:
 		</h2>
 
 		<button
 			v-for="theme in themes"
 			:key="theme.theme"
-			class="theme__button js-theme-button"
+			class="Theme-button js-Theme-button"
 			:data-theme="theme.theme"
 		>
 			<CIcon
-				class="theme__icon"
+				class="Theme-icon"
 				:name="theme.icon"
 			/>
 			{{ theme.title }}

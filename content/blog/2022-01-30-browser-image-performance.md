@@ -26,7 +26,7 @@ Paint time
 
 ## Methodology
 
-::: note
+::: Note
 _Disclaimer:_ I have no idea how scientific the following approach is. The numbers match expectations, though.
 :::
 

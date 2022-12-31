@@ -1,24 +1,24 @@
 blockquote {
-  position: relative;
-  padding-inline-start: 1em;
-  font-style: italic;
+	position: relative;
+	padding-inline-start: 1em;
+	font-style: italic;
 }
 
 blockquote::before {
-  content: "»";
-  pointer-events: none;
+	content: "»";
+	pointer-events: none;
 
-  position: absolute;
+	position: absolute;
 
-  /* Optically align with start. */
-  inset-inline-start: -0.1em;
+	/* Optically align with start. */
+	inset-inline-start: -0.1em;
 
-  font-size: 1.25em;
-  font-weight: 700;
-  line-height: 1.1;
-  color: var(--color-brand);
+	font-size: 1.25em;
+	font-weight: bold;
+	line-height: 1.1;
+	color: var(--color-brand);
 }
 
 blockquote em {
-  font-style: normal;
+	font-style: normal;
 }

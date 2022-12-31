@@ -24,7 +24,7 @@ function getHeroImage () {
 		alt: hero.alt,
 		width,
 		sizes,
-		class: 'hero__media',
+		class: 'Hero-media',
 	})
 }
 
@@ -32,7 +32,7 @@ const heroImage = await getHeroImage()
 </script>
 
 <template>
-	<div class="hero">
+	<div class="Hero">
 		<figure>
 			<div
 				v-if="hero.image"
@@ -40,7 +40,7 @@ const heroImage = await getHeroImage()
 			/>
 			<iframe
 				v-else-if="hero.iframe"
-				class="hero__media"
+				class="Hero-media"
 				:title="hero.title"
 				:src="hero.iframe"
 				width="1120"
@@ -48,7 +48,7 @@ const heroImage = await getHeroImage()
 			/>
 			<iframe
 				v-else-if="hero.youtube"
-				class="hero__media u-aspect-ratio-video"
+				class="Hero-media u-aspectRatioVideo"
 				:title="hero.title"
 				:src="`https://www.youtube-nocookie.com/embed/${hero.youtube}`"
 				width="1120"
@@ -59,14 +59,14 @@ const heroImage = await getHeroImage()
 
 			<figcaption
 				v-if="hero.caption"
-				class="hero__caption"
+				class="Hero-caption"
 				v-html="hero.caption"
 			/>
 		</figure>
 
 		<div
 			v-if="cards"
-			class="hero__cards"
+			class="Hero-cards"
 		>
 			<CLinkCard
 				v-for="card in cards"

@@ -2,7 +2,7 @@ const STORAGE_KEY = 'fynn-theme'
 const THEMES = ['system', 'light', 'dark']
 
 const SELECTORS = {
-	theme: '.js-theme',
+	theme: '.js-Theme',
 	css: '#theme-css',
 }
 
@@ -11,20 +11,19 @@ class Theme {
    * @param {HTMLElement} container
    */
 	constructor (container) {
-		this.container = container
+		this.elements = {
+			container,
 
-		/** @type {NodeListOf<HTMLButtonElement>} */
-		this.buttons = container.querySelectorAll('.js-theme-button')
-
-		/** @type {HTMLLinkElement} */
-		this.css = document.querySelector(SELECTORS.css)
+			buttons: /** @type {NodeListOf<HTMLButtonElement>} */ (container.querySelectorAll('.js-Theme-button')),
+			css: /** @type {HTMLLinkElement} */ (document.querySelector(SELECTORS.css)),
+		}
 	}
 
 	init () {
-		this.container.classList.add('is-init')
+		this.elements.container.classList.add('is-init')
 		this.setTheme(localStorage.getItem(STORAGE_KEY))
 
-		for (const button of this.buttons) {
+		for (const button of this.elements.buttons) {
 			button.addEventListener('click', () => this.setTheme(button.dataset.theme))
 		}
 	}
@@ -38,13 +37,13 @@ class Theme {
 		}
 
 		localStorage.setItem(STORAGE_KEY, name)
-		this.css.href = `/theme/${name}.css`
+		this.elements.css.href = `/theme/${name}.css`
 
 		for (const theme of THEMES) {
-			document.documentElement.classList.remove(`is-theme-${theme}`)
+			document.documentElement.classList.remove(`is-${theme}`)
 		}
 
-		document.documentElement.classList.add(`is-theme-${name}`)
+		document.documentElement.classList.add(`is-${name}`)
 	}
 }
 

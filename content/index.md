@@ -60,4 +60,4 @@ cards:
 * [🚴🏻]{aria-hidden=true} Active member of the cyclists club ADFC
 * [🖖🏻]{aria-hidden=true} Huge [Star Wars](https://twitter.fynn.be/1408409600643190788/) and [Star Trek](https://twitter.fynn.be/1400519056374046726/) nerd
 * [🏠]{aria-hidden=true} Living near Hamburg, Germany
-{.u-emoji-list}
+{.u-emojiList}

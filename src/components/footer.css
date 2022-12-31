@@ -1,21 +1,21 @@
-.footer {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  column-gap: 2.5em;
-  row-gap: 1.5em;
+.Footer {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	column-gap: 2.5em;
+	row-gap: 1.5em;
 
-  padding-block: 2em;
+	padding-block: 2em;
 }
 
-.footer__links {
-  display: flex;
-  justify-content: center;
-  gap: 1em;
+.Footer-links {
+	display: flex;
+	justify-content: center;
+	gap: 1em;
 
-  font-weight: 700;
+	font-weight: bold;
 }
 
-.footer__link:not(:hover) {
-  text-decoration: none;
+.Footer-link:not(:hover) {
+	text-decoration: none;
 }

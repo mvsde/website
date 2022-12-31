@@ -72,24 +72,21 @@ const socialImage = await getSocialImage()
 		<body>
 			<CHeader />
 
-			<main
-				class="content"
-				:lang="language"
-			>
-				<h1 class="content__title container">
+			<main :lang="language">
+				<h1 class="LayoutContent-title u-container">
 					<slot name="title" />
 				</h1>
 
 				<div
-					class="content__wrapper"
+					class="LayoutContent-wrapper"
 					:class="{
-						'content__wrapper--hero': hero
+						'LayoutContent-wrapper--hero': hero
 					}"
 				>
 					<CHero v-if="hero" />
 
-					<div class="container">
-						<div class="content__inner">
+					<div class="u-container">
+						<div class="LayoutContent-inner">
 							<slot />
 						</div>
 					</div>

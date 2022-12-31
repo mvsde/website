@@ -18,7 +18,7 @@ const paths = {
 
 <template>
 	<svg
-		class="icon"
+		class="Icon"
 		viewBox="0 0 24 24"
 		width="16"
 		height="16"

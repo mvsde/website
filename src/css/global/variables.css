@@ -1,92 +1,92 @@
 :root {
-  --color-brand: hsl(244deg 55% 41%);
-  --color-text: hsl(221deg 39% 11%);
-  --color-text-muted: hsl(220deg 9% 46%);
-  --color-background: hsl(20deg 30% 96%);
-  --color-content-background: hsl(0deg 0% 100%);
-  --color-highlight-background: hsl(19deg 53% 87%);
-  --color-code-background: var(--color-background);
-  --color-table-border: hsl(218deg 11% 65%);
+	--color-brand: hsl(244deg 55% 41%);
+	--color-text: hsl(221deg 39% 11%);
+	--color-text-muted: hsl(220deg 9% 46%);
+	--color-background: hsl(20deg 30% 96%);
+	--color-content-background: hsl(0deg 0% 100%);
+	--color-highlight-background: hsl(19deg 53% 87%);
+	--color-code-background: var(--color-background);
+	--color-table-border: hsl(218deg 11% 65%);
 
-  --font-family-text: "IBM Plex Sans", sans-serif;
-  --font-family-mono: "IBM Plex Mono", monospace;
+	--font-family-text: "IBM Plex Sans", sans-serif;
+	--font-family-mono: "IBM Plex Mono", monospace;
 
-  --line-height-text: 1.5;
-  --line-height-heading: 1.2;
+	--line-height-text: 1.5;
+	--line-height-heading: 1.2;
 
-  --container-width: 70rem;
-  --container-padding: 1rem;
+	--container-width: 70rem;
+	--container-padding: 1rem;
 
-  --content-hero-bleed: 10rem;
-  --content-inner-width: 40rem;
-  --content-highlight-inset: var(--container-padding);
+	--content-hero-bleed: 10rem;
+	--content-inner-width: 40rem;
+	--content-highlight-inset: var(--container-padding);
 
-  --border-radius-small: 0.1875rem;
+	--border-radius-small: 0.1875rem;
 
-  --box-shadow-small:
-    0 0.0625em 0.5rem hsl(275deg 40% 15% / 0.08),
-    0 0.125em 1rem hsl(275deg 30% 30% / 0.15);
-  --box-shadow-large:
-    0 0.125rem 0.5rem hsl(275deg 40% 15% / 0.1),
-    0 0.25rem 2rem hsl(275deg 30% 10% / 0.4);
+	--box-shadow-small:
+		0 0.0625em 0.5rem hsl(275deg 40% 15% / 8%),
+		0 0.125em 1rem hsl(275deg 30% 30% / 15%);
+	--box-shadow-large:
+		0 0.125rem 0.5rem hsl(275deg 40% 15% / 10%),
+		0 0.25rem 2rem hsl(275deg 30% 10% / 40%);
 
-  color-scheme: light dark;
-  accent-color: var(--color-brand);
+	color-scheme: light dark;
+	accent-color: var(--color-brand);
 }
 
 @media (prefers-color-scheme: dark) {
-  :root {
-    --color-brand: hsl(230deg 94% 82%);
-    --color-text: hsl(210deg 20% 98%);
-    --color-text-muted: hsl(218deg 11% 65%);
-    --color-background: hsl(0deg 0% 0%);
-    --color-content-background: hsl(215deg 28% 17%);
-    --color-highlight-background: hsl(217deg 19% 27%);
-    --color-table-border: hsl(215deg 14% 34%);
+	:root {
+		--color-brand: hsl(230deg 94% 82%);
+		--color-text: hsl(210deg 20% 98%);
+		--color-text-muted: hsl(218deg 11% 65%);
+		--color-background: hsl(0deg 0% 0%);
+		--color-content-background: hsl(215deg 28% 17%);
+		--color-highlight-background: hsl(217deg 19% 27%);
+		--color-table-border: hsl(215deg 14% 34%);
 
-    --box-shadow-small:
-      0 0.0625rem 0.5rem hsl(275deg 50% 20% / 0.3),
-      0 0.125rem 1.5rem hsl(275deg 40% 10% / 0.5);
-    --box-shadow-large:
-      0 0.125rem 1rem hsl(275deg 50% 20% / 0.3),
-      0 0.25rem 2.5rem hsl(275deg 40% 10% / 0.6);
-  }
+		--box-shadow-small:
+			0 0.0625rem 0.5rem hsl(275deg 50% 20% / 30%),
+			0 0.125rem 1.5rem hsl(275deg 40% 10% / 50%);
+		--box-shadow-large:
+			0 0.125rem 1rem hsl(275deg 50% 20% / 30%),
+			0 0.25rem 2.5rem hsl(275deg 40% 10% / 60%);
+	}
 }
 
-.is-theme-light {
-  --color-brand: hsl(244deg 55% 41%);
-  --color-text: hsl(221deg 39% 11%);
-  --color-text-muted: hsl(220deg 9% 46%);
-  --color-background: hsl(20deg 30% 96%);
-  --color-content-background: hsl(0deg 0% 100%);
-  --color-highlight-background: hsl(19deg 53% 87%);
-  --color-table-border: hsl(218deg 11% 65%);
+:where(html).is-light {
+	--color-brand: hsl(244deg 55% 41%);
+	--color-text: hsl(221deg 39% 11%);
+	--color-text-muted: hsl(220deg 9% 46%);
+	--color-background: hsl(20deg 30% 96%);
+	--color-content-background: hsl(0deg 0% 100%);
+	--color-highlight-background: hsl(19deg 53% 87%);
+	--color-table-border: hsl(218deg 11% 65%);
 
-  --box-shadow-small:
-    0 0.0625em 0.5rem hsl(275deg 40% 15% / 0.08),
-    0 0.125em 1rem hsl(275deg 30% 30% / 0.15);
-  --box-shadow-large:
-    0 0.125rem 0.5rem hsl(275deg 40% 15% / 0.1),
-    0 0.25rem 2rem hsl(275deg 30% 10% / 0.4);
+	--box-shadow-small:
+		0 0.0625em 0.5rem hsl(275deg 40% 15% / 8%),
+		0 0.125em 1rem hsl(275deg 30% 30% / 15%);
+	--box-shadow-large:
+		0 0.125rem 0.5rem hsl(275deg 40% 15% / 10%),
+		0 0.25rem 2rem hsl(275deg 30% 10% / 40%);
 
-  color-scheme: light;
+	color-scheme: light;
 }
 
-.is-theme-dark {
-  --color-brand: hsl(230deg 94% 82%);
-  --color-text: hsl(210deg 20% 98%);
-  --color-text-muted: hsl(218deg 11% 65%);
-  --color-background: hsl(0deg 0% 0%);
-  --color-content-background: hsl(215deg 28% 17%);
-  --color-highlight-background: hsl(217deg 19% 27%);
-  --color-table-border: hsl(215deg 14% 34%);
+:where(html).is-dark {
+	--color-brand: hsl(230deg 94% 82%);
+	--color-text: hsl(210deg 20% 98%);
+	--color-text-muted: hsl(218deg 11% 65%);
+	--color-background: hsl(0deg 0% 0%);
+	--color-content-background: hsl(215deg 28% 17%);
+	--color-highlight-background: hsl(217deg 19% 27%);
+	--color-table-border: hsl(215deg 14% 34%);
 
-  --box-shadow-small:
-    0 0.0625rem 0.5rem hsl(275deg 50% 20% / 0.3),
-    0 0.125rem 1.5rem hsl(275deg 40% 10% / 0.5);
-  --box-shadow-large:
-    0 0.125rem 1rem hsl(275deg 50% 20% / 0.3),
-    0 0.25rem 2.5rem hsl(275deg 40% 10% / 0.6);
+	--box-shadow-small:
+		0 0.0625rem 0.5rem hsl(275deg 50% 20% / 30%),
+		0 0.125rem 1.5rem hsl(275deg 40% 10% / 50%);
+	--box-shadow-large:
+		0 0.125rem 1rem hsl(275deg 50% 20% / 30%),
+		0 0.25rem 2.5rem hsl(275deg 40% 10% / 60%);
 
-  color-scheme: dark;
+	color-scheme: dark;
 }

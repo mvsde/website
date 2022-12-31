@@ -47,13 +47,13 @@ const links = [
 </script>
 
 <template>
-	<header class="header container">
-		<nav class="header__nav">
+	<header class="Header u-container">
+		<nav class="Header-nav">
 			<a
 				v-for="link in links"
 				:key="link.url"
 				:href="link.url"
-				class="header__link"
+				class="Header-link"
 				:class="{
 					'is-active': isActivePage({ current: page.url, url: link.url })
 				}"
@@ -63,7 +63,7 @@ const links = [
 				<CIcon
 					v-if="link.icon"
 					:name="link.icon"
-					class="header__icon"
+					class="Header-icon"
 				/>
 				<template v-else>
 					{{ link.text }}

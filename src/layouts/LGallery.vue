@@ -18,7 +18,7 @@ function getGalleryImages () {
 		alt: item.data.title,
 		width: 335,
 		sizes: '(min-width: 544px) 192px, 100vw',
-		class: 'layout-gallery__image',
+		class: 'LayoutGallery-image',
 	})
 
 	const images = items.map(mapImage)
@@ -40,17 +40,17 @@ const galleryImages = await getGalleryImages()
 		/>
 
 		<ol
-			class="layout-gallery__list"
+			class="LayoutGallery-list"
 			:reversed="collection.order !== 'ascending'"
 		>
 			<li
 				v-for="(item, index) in items"
 				:key="item.data.id"
-				class="layout-gallery__item"
+				class="LayoutGallery-item"
 			>
 				<a
 					:href="item.url"
-					class="layout-gallery__link"
+					class="LayoutGallery-link"
 					v-html="galleryImages[index]"
 				/>
 			</li>

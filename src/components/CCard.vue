@@ -8,8 +8,8 @@ defineProps({
 </script>
 
 <template>
-	<section class="card">
-		<h2 class="card__title">
+	<section class="Card">
+		<h2 class="Card-title">
 			{{ title }}
 		</h2>
 		<slot />

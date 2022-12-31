@@ -16,7 +16,7 @@ Diese Seite gibt es auch auf [Englisch](../en/){hreflang=en}.
 ## Name
 
 * [🧑🏻]{aria-hidden=true} **Fynn**
-{.u-emoji-list}
+{.u-emojiList}
 
 ## Pronomen
 
@@ -24,7 +24,7 @@ Diese Seite gibt es auch auf [Englisch](../en/){hreflang=en}.
 * [✅]{ } **they/them**
 * [❌]{ } sie/ihr
 * [❌]{ } er/ihm
-{.u-emoji-list}
+{.u-emojiList}
 
 ## Anrede
 
@@ -32,7 +32,7 @@ Diese Seite gibt es auch auf [Englisch](../en/){hreflang=en}.
 * [👍]{ } Person
 * [❌]{ } Frau
 * [❌]{ } Herr
-{.u-emoji-list}
+{.u-emojiList}
 
 ## Bezugnahme
 
@@ -40,7 +40,7 @@ Diese Seite gibt es auch auf [Englisch](../en/){hreflang=en}.
 * [👍]{ } Person
 * [❌]{ } Frau
 * [❌]{ } Mann
-{.u-emoji-list}
+{.u-emojiList}
 
 ## Beispiele
 

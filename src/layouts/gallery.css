@@ -1,23 +1,23 @@
-.layout-gallery__list {
-  list-style: none;
+.LayoutGallery-list {
+	list-style: none;
 
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(10em, 1fr));
-  grid-gap: 1em;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(10em, 1fr));
+	grid-gap: 1em;
 
-  padding: 0;
-  margin: 0;
+	padding: 0;
+	margin: 0;
 }
 
-.layout-gallery__item {
-  margin: 0;
-  padding: 0;
+.LayoutGallery-item {
+	margin: 0;
+	padding: 0;
 }
 
-.layout-gallery__image {
-  margin: 0;
+.LayoutGallery-image {
+	margin: 0;
 }
 
-.layout-gallery__link {
-  display: block;
+.LayoutGallery-link {
+	display: block;
 }

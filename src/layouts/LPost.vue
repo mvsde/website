@@ -12,7 +12,7 @@ const updatePages = updates?.map(update => getPageData({ collections, url: updat
 <template>
 	<LBase>
 		<template #title>
-			<time class="layout-post__date">
+			<time class="LayoutPost-date">
 				{{ formatDate(date) }}
 			</time>
 			{{ title }}

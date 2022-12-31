@@ -13,13 +13,13 @@ const md = markdown(MARKDOWN_OPTIONS)
 
 // Plugins
 md.use(attrs)
-md.use(container, 'note')
+md.use(container, 'Note')
 md.use(deflist)
 md.use(footnote)
 md.use(spans)
 
 // Custom rules
-md.renderer.rules.table_open = () => '<div class="table-scroll"><table>\n'
+md.renderer.rules.table_open = () => '<div class="Table-scroll"><table>\n'
 md.renderer.rules.table_close = () => '</table></div>\n'
 
 module.exports = md

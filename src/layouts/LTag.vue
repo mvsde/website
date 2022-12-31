@@ -27,15 +27,15 @@ const languageName = new Intl.DisplayNames('en', { type: 'language' })
 		/>
 
 		<ol
-			class="layout-tag__list"
+			class="LayoutTag-list"
 			:reversed="collection.order !== 'ascending'"
 		>
 			<li
 				v-for="item in items"
 				:key="item.data.id"
-				class="layout-tag__item"
+				class="LayoutTag-item"
 			>
-				<span class="layout-tag__meta">
+				<span class="LayoutTag-meta">
 					<time>
 						{{ formatDate(item.date) }}
 					</time>
@@ -44,7 +44,7 @@ const languageName = new Intl.DisplayNames('en', { type: 'language' })
 					</span>
 				</span>
 				<a
-					class="layout-tag__link"
+					class="LayoutTag-link"
 					:href="item.url"
 					:lang="item.data.language"
 					:hreflang="item.data.language"

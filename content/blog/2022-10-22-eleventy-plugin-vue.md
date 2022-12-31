@@ -23,7 +23,7 @@ And third: Most importantly, side projects and open source are fun (they should 
 
 [@mvsde/eleventy-plugin-vue](https://github.com/mvsde/eleventy-plugin-vue) is intended as an alternative for the official Vue plugin. It’s mostly a drop-in replacement but has some API differences. The plugin adds support for Vue SFCs as Eleventy layouts and includes a bunch of convenience methods.
 
-::: note
+::: Note
 _Note:_ The plugin is currently in alpha. It works well with standard Eleventy setups but may not cover every edge case or more involved setups.
 :::
 

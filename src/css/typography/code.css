@@ -1,21 +1,21 @@
 code,
 pre {
-  font-family: var(--font-family-mono);
-  font-size: 0.95em;
-  text-shadow: none;
+	font-family: var(--font-family-mono);
+	font-size: 0.95em;
+	text-shadow: none;
 
-  background: var(--color-code-background);
+	background: var(--color-code-background);
 }
 
 code {
-  padding-inline: 0.2em;
+	padding-inline: 0.2em;
 
-  background: var(--color-code-background);
-  border-radius: var(--border-radius-small);
+	background: var(--color-code-background);
+	border-radius: var(--border-radius-small);
 }
 
 pre {
-  margin-inline: calc(var(--content-highlight-inset) * -1);
-  padding-block: 0.75em;
-  padding-inline: var(--content-highlight-inset);
+	margin-inline: calc(var(--content-highlight-inset) * -1);
+	padding-block: 0.75em;
+	padding-inline: var(--content-highlight-inset);
 }

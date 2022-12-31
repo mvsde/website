@@ -15,14 +15,14 @@ This page is also available in [German](../de/){hreflang=de}.
 ## Name
 
 * [🧑🏻]{aria-hidden=true} **Fynn**
-{.u-emoji-list}
+{.u-emojiList}
 
 ## Pronouns
 
 * [✅]{ } **they/them**
 * [❌]{ } she/her
 * [❌]{ } he/him
-{.u-emoji-list}
+{.u-emojiList}
 
 ## Title
 
@@ -30,14 +30,14 @@ This page is also available in [German](../de/){hreflang=de}.
 * [👍]{ } Mx.
 * [❌]{ } Ms.
 * [❌]{ } Mr.
-{.u-emoji-list}
+{.u-emojiList}
 
 ## Reference
 
 * [✅]{ } **person**
 * [❌]{ } woman
 * [❌]{ } man
-{.u-emoji-list}
+{.u-emojiList}
 
 ## Examples
 
