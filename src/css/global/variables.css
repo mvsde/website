@@ -1,12 +1,52 @@
+/* The theme-dependent variable definitions use a CSS Custom Property switch to reduce declaration repetition. */
+
 :root {
-	--color-brand: hsl(244deg 55% 41%);
-	--color-text: hsl(221deg 39% 11%);
-	--color-text-muted: hsl(220deg 9% 46%);
-	--color-background: hsl(20deg 30% 96%);
-	--color-content-background: hsl(0deg 0% 100%);
-	--color-highlight-background: hsl(19deg 53% 87%);
-	--color-code-background: var(--color-background);
-	--color-table-border: hsl(218deg 11% 65%);
+	/* stylelint-disable-next-line */
+	--true:;
+	--false: initial;
+
+	--color-brand--light: var(--is-theme-light) hsl(244deg 55% 41%);
+	--color-text--light: var(--is-theme-light) hsl(221deg 39% 11%);
+	--color-text-muted--light: var(--is-theme-light) hsl(220deg 9% 46%);
+	--color-background--light: var(--is-theme-light) hsl(20deg 30% 96%);
+	--color-content-background--light: var(--is-theme-light) hsl(0deg 0% 100%);
+	--color-highlight-background--light: var(--is-theme-light) hsl(19deg 53% 87%);
+	--color-table-border--light: var(--is-theme-light) hsl(218deg 11% 65%);
+
+	--color-brand--dark: hsl(230deg 94% 82%);
+	--color-text--dark: hsl(210deg 20% 98%);
+	--color-text-muted--dark: hsl(218deg 11% 65%);
+	--color-background--dark: hsl(0deg 0% 0%);
+	--color-content-background--dark: hsl(215deg 28% 17%);
+	--color-highlight-background--dark: hsl(217deg 19% 27%);
+	--color-table-border--dark: hsl(215deg 14% 34%);
+
+	--box-shadow-small--light:
+		var(--is-theme-light)
+		0 0.0625em 0.5rem hsl(275deg 40% 15% / 8%),
+		0 0.125em 1rem hsl(275deg 30% 30% / 15%);
+	--box-shadow-large--light:
+		var(--is-theme-light)
+		0 0.125rem 0.5rem hsl(275deg 40% 15% / 10%),
+		0 0.25rem 2rem hsl(275deg 30% 10% / 40%);
+
+	--box-shadow-small--dark:
+		0 0.0625rem 0.5rem hsl(275deg 50% 20% / 30%),
+		0 0.125rem 1.5rem hsl(275deg 40% 10% / 50%);
+	--box-shadow-large--dark:
+		0 0.125rem 1rem hsl(275deg 50% 20% / 30%),
+		0 0.25rem 2.5rem hsl(275deg 40% 10% / 60%);
+
+	--color-brand: var(--color-brand--light, var(--color-brand--dark));
+	--color-text: var(--color-text--light, var(--color-text--dark));
+	--color-text-muted: var(--color-text-muted--light, var(--color-text-muted--dark));
+	--color-background: var(--color-background--light, var(--color-background--dark));
+	--color-content-background: var(--color-content-background--light, var(--color-content-background--dark));
+	--color-highlight-background: var(--color-highlight-background--light, var(--color-highlight-background--dark));
+	--color-table-border: var(--color-table-border--light, var(--color-table-border--dark));
+
+	--box-shadow-small: var(--box-shadow-small--light, var(--box-shadow-small--dark));
+	--box-shadow-large: var(--box-shadow-large--light, var(--box-shadow-large--dark));
 
 	--font-family-text: "IBM Plex Sans", sans-serif;
 	--font-family-mono: "IBM Plex Mono", monospace;
@@ -23,70 +63,34 @@
 
 	--border-radius-small: 0.1875rem;
 
-	--box-shadow-small:
-		0 0.0625em 0.5rem hsl(275deg 40% 15% / 8%),
-		0 0.125em 1rem hsl(275deg 30% 30% / 15%);
-	--box-shadow-large:
-		0 0.125rem 0.5rem hsl(275deg 40% 15% / 10%),
-		0 0.25rem 2rem hsl(275deg 30% 10% / 40%);
-
 	color-scheme: light dark;
 	accent-color: var(--color-brand);
 }
 
-@media (prefers-color-scheme: dark) {
-	:root {
-		--color-brand: hsl(230deg 94% 82%);
-		--color-text: hsl(210deg 20% 98%);
-		--color-text-muted: hsl(218deg 11% 65%);
-		--color-background: hsl(0deg 0% 0%);
-		--color-content-background: hsl(215deg 28% 17%);
-		--color-highlight-background: hsl(217deg 19% 27%);
-		--color-table-border: hsl(215deg 14% 34%);
+/* Handle system-defined color scheme. */
 
-		--box-shadow-small:
-			0 0.0625rem 0.5rem hsl(275deg 50% 20% / 30%),
-			0 0.125rem 1.5rem hsl(275deg 40% 10% / 50%);
-		--box-shadow-large:
-			0 0.125rem 1rem hsl(275deg 50% 20% / 30%),
-			0 0.25rem 2.5rem hsl(275deg 40% 10% / 60%);
+@media (prefers-color-scheme: light) {
+	:root {
+		--is-theme-light: var(--true);
 	}
 }
 
-:where(html).is-light {
-	--color-brand: hsl(244deg 55% 41%);
-	--color-text: hsl(221deg 39% 11%);
-	--color-text-muted: hsl(220deg 9% 46%);
-	--color-background: hsl(20deg 30% 96%);
-	--color-content-background: hsl(0deg 0% 100%);
-	--color-highlight-background: hsl(19deg 53% 87%);
-	--color-table-border: hsl(218deg 11% 65%);
+@media (prefers-color-scheme: dark) {
+	:root {
+		--is-theme-light: var(--false);
+	}
+}
 
-	--box-shadow-small:
-		0 0.0625em 0.5rem hsl(275deg 40% 15% / 8%),
-		0 0.125em 1rem hsl(275deg 30% 30% / 15%);
-	--box-shadow-large:
-		0 0.125rem 0.5rem hsl(275deg 40% 15% / 10%),
-		0 0.25rem 2rem hsl(275deg 30% 10% / 40%);
+/* Handle user-selected color scheme. */
+
+:root.is-light {
+	--is-theme-light: var(--true);
 
 	color-scheme: light;
 }
 
-:where(html).is-dark {
-	--color-brand: hsl(230deg 94% 82%);
-	--color-text: hsl(210deg 20% 98%);
-	--color-text-muted: hsl(218deg 11% 65%);
-	--color-background: hsl(0deg 0% 0%);
-	--color-content-background: hsl(215deg 28% 17%);
-	--color-highlight-background: hsl(217deg 19% 27%);
-	--color-table-border: hsl(215deg 14% 34%);
-
-	--box-shadow-small:
-		0 0.0625rem 0.5rem hsl(275deg 50% 20% / 30%),
-		0 0.125rem 1.5rem hsl(275deg 40% 10% / 50%);
-	--box-shadow-large:
-		0 0.125rem 1rem hsl(275deg 50% 20% / 30%),
-		0 0.25rem 2.5rem hsl(275deg 40% 10% / 60%);
+:root.is-dark {
+	--is-theme-light: var(--false);
 
 	color-scheme: dark;
 }
