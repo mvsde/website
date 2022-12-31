@@ -14,34 +14,30 @@ This page is also available in [German](../de/){hreflang=de}.
 
 ## Name
 
-{% emojiList %}
-🧑🏻 **Fynn**
-{% endemojiList %}
+* [🧑🏻]{aria-hidden=true} **Fynn**
+{.u-emoji-list}
 
 ## Pronouns
 
-{% emojiList %}
-✅ **they/them**
-❌ she/her
-❌ he/him
-{% endemojiList %}
+* [✅]{ } **they/them**
+* [❌]{ } she/her
+* [❌]{ } he/him
+{.u-emoji-list}
 
 ## Title
 
-{% emojiList %}
-✅ **no title**
-👍 Mx.
-❌ Ms.
-❌ Mr.
-{% endemojiList %}
+* [✅]{ } **no title**
+* [👍]{ } Mx.
+* [❌]{ } Ms.
+* [❌]{ } Mr.
+{.u-emoji-list}
 
 ## Reference
 
-{% emojiList %}
-✅ **person**
-❌ woman
-❌ man
-{% endemojiList %}
+* [✅]{ } **person**
+* [❌]{ } woman
+* [❌]{ } man
+{.u-emoji-list}
 
 ## Examples
 

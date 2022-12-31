@@ -9,7 +9,6 @@ const pluginSyntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight')
 const { pluginVue } = require('@mvsde/eleventy-plugin-vue')
 
 // Shortcodes
-const shortcodeEmojiList = require('./eleventy/shortcode-emoji-list.js')
 const shortcodeImage = require('./eleventy/shortcode-image.js')
 const shortcodeImagePath = require('./eleventy/shortcode-image-path.js')
 
@@ -52,7 +51,6 @@ module.exports = function (eleventyConfig) {
 	eleventyConfig.addJavaScriptFunction('image', shortcodeImage)
 	eleventyConfig.addJavaScriptFunction('imagePath', shortcodeImagePath)
 	eleventyConfig.addNunjucksAsyncShortcode('image', shortcodeImage)
-	eleventyConfig.addPairedShortcode('emojiList', shortcodeEmojiList)
 
 	return {
 		dir: DIRECTORIES,

@@ -1,11 +1,14 @@
-.list-emoji {
+.u-emoji-list {
+  --emoji-size: 1.75em;
+
   list-style: none;
-  padding-inline-start: 0;
+
+  position: relative;
+  padding-inline-start: var(--emoji-size);
 }
 
-.list-emoji li {
-  display: grid;
-  grid-template-columns: 1.75em 1fr;
-
-  padding-inline-start: 0;
+.u-emoji-list li span:first-child {
+  position: absolute;
+  inset-inline: 0;
+  inline-size: var(--emoji-size);
 }

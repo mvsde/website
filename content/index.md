@@ -51,14 +51,13 @@ cards:
 
 ## About me
 
-{% emojiList %}
-🏳️‍⚧️ Non-binary trans, pronouns are [they/them](/pronouns/){lang=en translate=no}
-🧑🏻‍💻 Frontend developer at [Factorial](https://www.factorial.io/)
-🧙🏻 Open sourcerer (sometimes)
-🎮 Video game collector
-💻 Interested in tech and computer things
-🥋 [Shinson Hapkido](http://www.shinsonhapkido.org) blue belt
-🚴🏻 Active member of the cyclists club ADFC
-🖖🏻 Huge [Star Wars](https://twitter.fynn.be/1408409600643190788/) and [Star Trek](https://twitter.fynn.be/1400519056374046726/) nerd
-🏠 Living near Hamburg, Germany
-{% endemojiList %}
+* [🏳️‍⚧️]{aria-hidden=true} Non-binary trans, pronouns are [they/them](/pronouns/){lang=en translate=no}
+* [🧑🏻‍💻]{aria-hidden=true} Frontend developer at [Factorial](https://www.factorial.io/)
+* [🧙🏻]{aria-hidden=true} Open sourcerer (sometimes)
+* [🎮]{aria-hidden=true} Video game collector
+* [💻]{aria-hidden=true} Interested in tech and computer things
+* [🥋]{aria-hidden=true} [Shinson Hapkido](http://www.shinsonhapkido.org) blue belt
+* [🚴🏻]{aria-hidden=true} Active member of the cyclists club ADFC
+* [🖖🏻]{aria-hidden=true} Huge [Star Wars](https://twitter.fynn.be/1408409600643190788/) and [Star Trek](https://twitter.fynn.be/1400519056374046726/) nerd
+* [🏠]{aria-hidden=true} Living near Hamburg, Germany
+{.u-emoji-list}

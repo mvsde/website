@@ -48,7 +48,7 @@ const heroImage = await getHeroImage()
 			/>
 			<iframe
 				v-else-if="hero.youtube"
-				class="hero__media aspect-ratio-video"
+				class="hero__media u-aspect-ratio-video"
 				:title="hero.title"
 				:src="`https://www.youtube-nocookie.com/embed/${hero.youtube}`"
 				width="1120"

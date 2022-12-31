@@ -15,36 +15,32 @@ Diese Seite gibt es auch auf [Englisch](../en/){hreflang=en}.
 
 ## Name
 
-{% emojiList %}
-🧑🏻 **Fynn**
-{% endemojiList %}
+* [🧑🏻]{aria-hidden=true} **Fynn**
+{.u-emoji-list}
 
 ## Pronomen
 
-{% emojiList %}
-✅ **dey/denen**
-✅ **they/them**
-❌ sie/ihr
-❌ er/ihm
-{% endemojiList %}
+* [✅]{ } **dey/denen**
+* [✅]{ } **they/them**
+* [❌]{ } sie/ihr
+* [❌]{ } er/ihm
+{.u-emoji-list}
 
 ## Anrede
 
-{% emojiList %}
-✅ **keine Anrede**
-👍 Person
-❌ Frau
-❌ Herr
-{% endemojiList %}
+* [✅]{ } **keine Anrede**
+* [👍]{ } Person
+* [❌]{ } Frau
+* [❌]{ } Herr
+{.u-emoji-list}
 
 ## Bezugnahme
 
-{% emojiList %}
-✅ **Sternchen-Form** (*)
-👍 Person
-❌ Frau
-❌ Mann
-{% endemojiList %}
+* [✅]{ } **Sternchen-Form** (*)
+* [👍]{ } Person
+* [❌]{ } Frau
+* [❌]{ } Mann
+{.u-emoji-list}
 
 ## Beispiele
 
