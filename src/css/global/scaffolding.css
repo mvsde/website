@@ -31,6 +31,7 @@ iframe {
 
 iframe {
 	border: 0;
+	inline-size: 100%;
 }
 
 button {
