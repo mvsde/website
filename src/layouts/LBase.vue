@@ -24,11 +24,12 @@ function getSocialImage () {
 	})
 }
 
+const lang = language ?? 'en'
 const socialImage = await getSocialImage()
 </script>
 
 <template>
-	<html lang="en">
+	<html :lang="lang">
 		<head>
 			<!-- eslint-disable vue/html-self-closing vue/max-attributes-per-line -->
 			<meta charset="utf-8">
@@ -52,6 +53,7 @@ const socialImage = await getSocialImage()
 			<meta property="og:type" :content="social?.og_type || 'website'">
 			<meta property="og:url" :content="base + page.url">
 			<meta property="og:title" :content="social?.title || title">
+			<meta property="og:locale" :content="lang">
 
 			<template v-if="socialDescription">
 				<meta name="twitter:description" :content="truncate(socialDescription, 200)">
@@ -72,7 +74,7 @@ const socialImage = await getSocialImage()
 		<body>
 			<CHeader />
 
-			<main :lang="language">
+			<main>
 				<h1 class="LayoutContent-title u-container">
 					<slot name="title" />
 				</h1>
