@@ -10,6 +10,7 @@ const { pluginVue } = require('@mvsde/eleventy-plugin-vue')
 
 // Shortcodes
 const shortcodeImage = require('./eleventy/shortcode-image.js')
+const shortcodeImageFeed = require('./eleventy/shortcode-image-feed.js')
 const shortcodeImagePath = require('./eleventy/shortcode-image-path.js')
 
 const DIRECTORIES = {
@@ -50,7 +51,7 @@ module.exports = function (eleventyConfig) {
 	// Shortcodes
 	eleventyConfig.addJavaScriptFunction('image', shortcodeImage)
 	eleventyConfig.addJavaScriptFunction('imagePath', shortcodeImagePath)
-	eleventyConfig.addNunjucksAsyncShortcode('image', shortcodeImage)
+	eleventyConfig.addNunjucksShortcode('imageFeed', shortcodeImageFeed)
 
 	return {
 		dir: DIRECTORIES,

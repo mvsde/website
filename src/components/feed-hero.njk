@@ -1,15 +1,20 @@
 <figure>
 
 	{% if hero.image %}
-		{% image {
+		{% imageFeed {
 			src: hero.image,
-			alt: hero.alt,
-			width: 1120
+			alt: hero.alt
 		} %}
-	{% elseif hero.youtube %}
+	{% elseif hero.iframe or hero.youtube %}
+		{% if hero.iframe %}
+			{% set src = hero.iframe %}
+		{% endif %}
+		{% if hero.youtube %}
+			{% set src = "https://www.youtube-nocookie.com/embed/" ~ hero.youtube %}
+		{% endif %}
 		<iframe
 			title="{{ hero.title }}"
-			src="https://www.youtube-nocookie.com/embed/{{ hero.youtube }}"
+			src="{{ src }}"
 			width="1120"
 			height="630"
 			allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
