@@ -33,7 +33,7 @@ const heroImage = await getHeroImage()
 
 <template>
 	<div class="Hero">
-		<figure>
+		<figure class="Hero-figure">
 			<div
 				v-if="hero.image"
 				v-html="heroImage"
@@ -45,14 +45,17 @@ const heroImage = await getHeroImage()
 				:src="hero.iframe"
 				width="1120"
 				:style="{ 'aspect-ratio': hero.aspect_ratio }"
+				allow="autoplay; clipboard-write; encrypted-media"
+				allowfullscreen
 			/>
 			<iframe
 				v-else-if="hero.youtube"
-				class="Hero-media u-aspectRatioVideo"
+				class="Hero-media"
 				:title="hero.title"
 				:src="`https://www.youtube-nocookie.com/embed/${hero.youtube}`"
 				width="1120"
 				height="630"
+				:style="{ 'aspect-ratio': hero.aspect_ratio ?? '16 / 9' }"
 				allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
 				allowfullscreen
 			/>

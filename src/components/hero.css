@@ -15,6 +15,10 @@
 	}
 }
 
+.Hero-figure {
+	flex-grow: 1;
+}
+
 .Hero-media {
 	box-shadow: var(--box-shadow-large);
 }
