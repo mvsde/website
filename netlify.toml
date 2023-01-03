@@ -8,6 +8,7 @@
   NODE_VERSION = "17"
   NPM_FLAGS = "--force"
 
+
 # Plugins
 
 [[plugins]]
@@ -17,6 +18,7 @@
     paths = [
       "dist/img"
     ]
+
 
 # Redirects
 
@@ -45,6 +47,18 @@
   force = true
 
 [[redirects]]
+  from = "https://fynn.lgbt/en/*"
+  to = "https://fynn.be/pronouns/en/"
+  status = 302
+  force = true
+
+[[redirects]]
+  from = "https://fynn.lgbt/de/*"
+  to = "https://fynn.be/pronouns/de/"
+  status = 302
+  force = true
+
+[[redirects]]
   from = "https://fynn.lgbt/*"
   to = "https://fynn.be/pronouns/en/"
   status = 302
@@ -61,24 +75,6 @@
 [[redirects]]
   from = "https://fynn.lgbt/*"
   to = "https://fynn.be/pronouns/"
-  status = 302
-  force = true
-
-[[redirects]]
-  from = "https://fynn.lgbt/*"
-  to = "https://fynn.be/pronouns/"
-  status = 302
-  force = true
-
-[[redirects]]
-  from = "https://en.fynn.lgbt/*"
-  to = "https://fynn.be/pronouns/en/"
-  status = 302
-  force = true
-
-[[redirects]]
-  from = "https://de.fynn.lgbt/*"
-  to = "https://fynn.be/pronouns/de/"
   status = 302
   force = true
 
