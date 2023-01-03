@@ -1,15 +1,15 @@
 ---
 id: 69d559e8-4b86-4ce6-bb36-e10416f6db4d
-title: Hi, I’m Fynn Becker
+title: Hello there, I’m Fynn
 description: Frontend developer, video game collector, interested in tech and computer things, cyclist, Shinson Hapkido 🥋, Star Wars and Star Trek 🖖🏻
 layout: LDefault.vue
 social:
   image:
     src: media/blahaj-square.jpg
-    alt: Portrait of Fynn Becker, lying on their back on a red couch together with an Ikea Blåhaj toy shark.
+    alt: Portrait of Fynn, lying on their back on a red couch together with an Ikea Blåhaj toy shark.
 hero:
   image: media/blahaj.jpg
-  alt: Portrait of Fynn Becker, lying on their back on a red couch together with an Ikea Blåhaj toy shark.
+  alt: Portrait of Fynn, lying on their back on a red couch together with an Ikea Blåhaj toy shark.
 cards:
   - title: From the site
     links:
@@ -51,10 +51,11 @@ cards:
 
 ## About me
 
-* [🏳️‍⚧️]{aria-hidden=true} Non-binary trans, pronouns are [they/them](/pronouns/){lang=en translate=no}
+* [🧑🏻]{aria-hidden=true} My full name is _Fynn Becker_, just _Fynn_ is fine though
+* [🏳️‍⚧️]{aria-hidden=true} I’m non-binary trans, my pronouns are [they/them](/pronouns/){lang=en translate=no}
 * [🧑🏻‍💻]{aria-hidden=true} Frontend developer at [Factorial](https://www.factorial.io/)
-* [🧙🏻]{aria-hidden=true} Open sourcerer (sometimes)
-* [🎮]{aria-hidden=true} Video game collector
+* [🧙🏻]{aria-hidden=true} Open sourcerer (sometimes at least)
+* [🎮]{aria-hidden=true} Video game collector (I have way too many)
 * [💻]{aria-hidden=true} Interested in tech and computer things
 * [🥋]{aria-hidden=true} [Shinson Hapkido](http://www.shinsonhapkido.org) blue belt
 * [🚴🏻]{aria-hidden=true} Active member of the cyclists club ADFC
