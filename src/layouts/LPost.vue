@@ -2,11 +2,9 @@
 import { useData } from '@mvsde/eleventy-plugin-vue'
 
 import formatDate from '../utilities/format-date.js'
-import { getPageData } from '../utilities/page.js'
 import LBase from './LBase.vue'
 
-const { collections, title, content, date, updates } = useData()
-const updatePages = updates?.map(update => getPageData({ collections, url: update }))
+const { title, content, date } = useData()
 </script>
 
 <template>
@@ -22,20 +20,5 @@ const updatePages = updates?.map(update => getPageData({ collections, url: updat
 			v-if="content"
 			v-html="content"
 		/>
-
-		<template v-if="updatePages">
-			<hr>
-			<h2>Updates</h2>
-			<ul>
-				<li
-					v-for="update in updatePages"
-					:key="update.url"
-				>
-					<a :href="update.url">
-						{{ update.data.title }}
-					</a>
-				</li>
-			</ul>
-		</template>
 	</LBase>
 </template>

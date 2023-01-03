@@ -4,10 +4,11 @@ import { useData, useMethods } from '@mvsde/eleventy-plugin-vue'
 import CFooter from '../components/CFooter.vue'
 import CHeader from '../components/CHeader.vue'
 import CHero from '../components/CHero.vue'
+import CRelated from '../components/CRelated.vue'
 import { isHomePage } from '../utilities/page.js'
 import truncate from '../utilities/truncate.js'
 
-const { page, language, title, description, social, hero, base, eleventy } = useData()
+const { page, language, title, description, social, hero, related, base, eleventy } = useData()
 const { imagePath } = useMethods()
 
 const socialDescription = social?.description || description
@@ -90,6 +91,8 @@ const socialImage = await getSocialImage()
 					<div class="u-container">
 						<div class="LayoutContent-inner">
 							<slot />
+
+							<CRelated v-if="related" />
 						</div>
 					</div>
 				</div>

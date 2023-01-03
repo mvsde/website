@@ -11,7 +11,7 @@ hero:
   image: media/they-them.jpg
   alt: Rainbow stripes (red, orange, yellow, green, cyan, blue, purple) in the background. Pronouns “they/them” prominently placed black on white in the center.
   caption: Title photo by <a href="https://unsplash.com/@katierainbow">Katie Rainbow</a> on <a href="https://unsplash.com/photos/90bg59HzXxE">Unsplash</a>.
-updates:
+related:
   - /blog/my-german-pronouns/
   - /blog/bye-bye-man-hello-eins/
 ---
