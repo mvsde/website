@@ -18,6 +18,7 @@ const { title, content, date } = useData()
 
 		<div
 			v-if="content"
+			class="u-containerContent"
 			v-html="content"
 		/>
 	</LBase>

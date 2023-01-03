@@ -4,3 +4,19 @@
 	margin-inline: auto;
 	padding-inline: var(--container-padding);
 }
+
+.u-containerContent > :first-child {
+	margin-block-start: 0;
+}
+
+.u-containerContent > :last-child {
+	margin-block-end: 0;
+}
+
+.u-containerContent > :where(h2, h3, h4, h5, h6, p, ul, ol, dl, blockquote, hr) {
+	max-inline-size: var(--content-inner-width);
+}
+
+.u-containerContent > :where(.Note) {
+	max-inline-size: calc(var(--content-inner-width) + var(--content-highlight-inset) * 2);
+}

@@ -12,23 +12,6 @@
 	margin-block-start: var(--content-hero-bleed);
 }
 
-.LayoutContent-inner {
-	max-inline-size: var(--content-inner-width);
-}
-
-.LayoutContent-inner > :first-child {
-	margin-block-start: 0;
-}
-
-.LayoutContent-inner > :last-child {
-	margin-block-end: 0;
-}
-
-/* Use :where() to decrease specificity. */
-:where(.LayoutContent-inner) img {
-	margin-block-end: 1em;
-}
-
 @media (min-width: 70rem) {
 	.LayoutContent-title {
 		font-size: 3em;

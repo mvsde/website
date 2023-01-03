@@ -7,10 +7,8 @@ pre {
 	background: var(--color-background);
 }
 
-code {
+:not(pre) > code {
 	padding-inline: 0.2em;
-
-	background: var(--color-background);
 	border-radius: var(--border-radius-small);
 }
 
@@ -18,4 +16,12 @@ pre {
 	margin-inline: calc(var(--content-highlight-inset) * -1);
 	padding-block: 0.75em;
 	padding-inline: var(--content-highlight-inset);
+
+	border-radius: 0;
+}
+
+@media (min-width: 70rem) {
+	pre {
+		border-radius: var(--border-radius-small);
+	}
 }

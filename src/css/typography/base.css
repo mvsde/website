@@ -45,17 +45,3 @@ hr {
 	border: 0;
 	border-radius: var(--border-radius-small);
 }
-
-@media (min-width: 42rem) {
-	pre,
-	.Note {
-		border-radius: 0 var(--border-radius-small) var(--border-radius-small) 0;
-	}
-}
-
-@media (min-width: 70rem) {
-	pre,
-	.Note {
-		border-radius: var(--border-radius-small);
-	}
-}

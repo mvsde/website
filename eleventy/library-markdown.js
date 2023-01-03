@@ -18,8 +18,12 @@ md.use(deflist)
 md.use(footnote)
 md.use(spans)
 
-// Custom rules
+// Tables
 md.renderer.rules.table_open = () => '<div class="Table-scroll"><table>\n'
 md.renderer.rules.table_close = () => '</table></div>\n'
+
+// Footnotes
+md.renderer.rules.footnote_block_open = () => '<hr><ol class="Footnotes">'
+md.renderer.rules.footnote_block_close = () => '</ol>'
 
 module.exports = md

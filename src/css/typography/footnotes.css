@@ -1,13 +1,12 @@
-/* stylelint-disable selector-class-pattern */
-
-.footnotes {
+.Footnotes {
 	font-size: 0.875em;
 }
 
-.footnote-item > * {
+.Footnotes p {
 	margin: 0;
 }
 
+/* stylelint-disable selector-class-pattern */
 .footnote-ref a,
 .footnote-backref {
 	text-decoration: none;

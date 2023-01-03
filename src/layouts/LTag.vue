@@ -23,6 +23,7 @@ const languageName = new Intl.DisplayNames('en', { type: 'language' })
 
 		<div
 			v-if="content"
+			class="u-containerContent"
 			v-html="content"
 		/>
 

@@ -89,11 +89,8 @@ const socialImage = await getSocialImage()
 					<CHero v-if="hero" />
 
 					<div class="u-container">
-						<div class="LayoutContent-inner">
-							<slot />
-
-							<CRelated v-if="related" />
-						</div>
+						<slot />
+						<CRelated v-if="related" />
 					</div>
 				</div>
 			</main>
