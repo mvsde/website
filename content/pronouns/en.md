@@ -8,7 +8,7 @@ social:
     alt: Non-binary pride flag (horizontal stripes in yellow, white, purple, black).
 ---
 
-Hi there, I’m a [non-binary person](https://en.wikipedia.org/wiki/Non-binary_gender) and use pronouns that may be unfamiliar to you. I compiled a short overview and some examples to help you get started.
+Hi there, I’m a [non-binary person](https://en.wikipedia.org/wiki/Non-binary_gender) and use pronouns that may be unfamiliar to you. I compiled a short list and some examples to help you get started.
 
 This page is also available in [German](../de/){hreflang=de}.
 
@@ -19,33 +19,44 @@ This page is also available in [German](../de/){hreflang=de}.
 
 ## Pronouns
 
-* [✅]{ } **they/them**
-* [❌]{ } she/her
-* [❌]{ } he/him
+* [✅]{aria-label=Yes:} **they/them**/their
+* [❌]{aria-label=No:} she/her
+* [❌]{aria-label=No:} he/him
 {.u-emojiList}
 
 ## Title
 
-* [✅]{ } **no title**
-* [👍]{ } Mx.
-* [❌]{ } Ms.
-* [❌]{ } Mr.
+* [✅]{aria-label=Yes:} **no title**
+* [👍]{aria-label=Ok:} Mx.
+* [❌]{aria-label=No:} Ms.
+* [❌]{aria-label=No:} Mr.
 {.u-emojiList}
 
 ## Reference
 
-* [✅]{ } **person**
-* [❌]{ } woman
-* [❌]{ } man
+* [✅]{aria-label=Yes:} **person**
+* [✅]{aria-label=Yes:} **sibling**
+* [✅]{aria-label=Yes:} **child**
+* [❌]{aria-label=No:} woman
+* [❌]{aria-label=No:} man
+* [❌]{aria-label=No:} sister
+* [❌]{aria-label=No:} brother
+* [❌]{aria-label=No:} daughter
+* [❌]{aria-label=No:} son
 {.u-emojiList}
 
 ## Examples
 
-> **Fynn** is a frontend developer.<br>
-> **They** are a frontend developer.
+> **Fynn** is a programmer.<br>
+> **They** are a programmer.
 
-> fynn.be is **their** website.
+> **Fynn** is a non-binary **person**.
 
-> I’ve met **them** recently.
+> fynn.be is **their** website.<br>
+> fynn.be is **theirs**.
 
+> I’ve met **them** recently.<br>
 > I’ve found **them** on Mastodon.
+
+> **They** are the **sibling** of …<br>
+> **They** are the **child** of …

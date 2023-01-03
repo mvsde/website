@@ -9,7 +9,7 @@ social:
     alt: Non-binary Pride-Flagge (horizontale Streifen in gelb, weiß, lila und schwarz).
 ---
 
-Hi, ich bin eine [nicht-binäre Person](https://de.wikipedia.org/wiki/Nichtbinäre_Geschlechtsidentität) und verwende Pronomen, die vielleicht ungewohnt für dich sind. Hier ist ein kurzer Überblick und einige Beispiele, um dir zu helfen.
+Hi, ich bin eine [nicht-binäre Person](https://de.wikipedia.org/wiki/Nichtbinäre_Geschlechtsidentität) und verwende Pronomen, die vielleicht ungewohnt für dich sind. Hier ist eine kurze Liste und einige Beispiele, um dir zu helfen.
 
 Diese Seite gibt es auch auf [Englisch](../en/){hreflang=en}.
 
@@ -20,33 +20,40 @@ Diese Seite gibt es auch auf [Englisch](../en/){hreflang=en}.
 
 ## Pronomen
 
-* [✅]{ } **dey/denen**
-* [✅]{ } **they/them**
-* [❌]{ } sie/ihr
-* [❌]{ } er/ihm
+* [✅]{aria-label=Ja:} **dey/denen**/deren
+* [✅]{aria-label=Ja:} **they/them**/their
+* [❌]{aria-label=Nein:} sie/ihr
+* [❌]{aria-label=Nein:} er/ihm
 {.u-emojiList}
 
 ## Anrede
 
-* [✅]{ } **keine Anrede**
-* [👍]{ } Person
-* [❌]{ } Frau
-* [❌]{ } Herr
+* [✅]{aria-label=Ja:} **keine Anrede**
+* [❌]{aria-label=Nein:} Frau
+* [❌]{aria-label=Nein:} Herr
 {.u-emojiList}
 
 ## Bezugnahme
 
-* [✅]{ } **Sternchen-Form** (*)
-* [👍]{ } Person
-* [❌]{ } Frau
-* [❌]{ } Mann
+* [✅]{aria-label=Ja:} **Sternchen-Form** (*)
+* [✅]{aria-label=Ja:} **Person**
+* [✅]{aria-label=Ja:} **Geschwister** (singular)
+* [✅]{aria-label=Ja:} **Kind**
+* [❌]{aria-label=Nein:} Frau
+* [❌]{aria-label=Nein:} Mann
+* [❌]{aria-label=Nein:} Schwester
+* [❌]{aria-label=Nein:} Bruder
+* [❌]{aria-label=Nein:} Tochter
+* [❌]{aria-label=Nein:} Sohn
 {.u-emojiList}
 
 ## Beispiele
 
-> **Fynn** ist Frontend-**Entwickler*in**.<br>
-> **Dey** ist Frontend-**Entwickler*in**.<br>
-> **They** ist Frontend-**Entwickler*in**.
+> **Fynn** ist **Programmierer*in**.<br>
+> **Dey** ist **Programmierer*in**.<br>
+> **They** ist **Programmierer*in**.
+
+> **Fynn** ist eine **programmierende Person**.
 
 > fynn.be ist **deren** Website.<br>
 > fynn.be ist **their** Website.
@@ -56,3 +63,6 @@ Diese Seite gibt es auch auf [Englisch](../en/){hreflang=en}.
 
 > Ich habe **dey** auf Mastodon gefunden.<br>
 > Ich habe **them** auf Mastodon gefunden.
+
+> **Dey** ist das **Geschwister** von …<br>
+> **Dey** ist das **Kind** von …
