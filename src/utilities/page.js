@@ -43,3 +43,14 @@ export function isActivePage ({ current, url }) {
 export function getPageData ({ collections, url }) {
 	return collections.all.find(page => page.url === url)
 }
+
+/**
+ * Get tag list for page
+ * @param {string[]} tags
+ * @returns {string[]}
+ */
+export function getTags (tags) {
+	const EXCLUDED_TAGS = ['feed', 'blog', 'talk', 'sunset']
+
+	return tags.filter(tag => !EXCLUDED_TAGS.includes(tag))
+}

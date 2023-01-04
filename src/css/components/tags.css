@@ -1,0 +1,27 @@
+.Tags {
+	list-style: none;
+
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0.5em;
+
+	margin: 0;
+	padding: 0;
+}
+
+.Tags-item {
+	margin: 0;
+	line-height: 1;
+}
+
+.Tags-link {
+	display: block;
+	padding-block: 0.25em;
+	padding-inline: 0.5em;
+
+	text-decoration: none;
+	color: var(--color-text-muted);
+
+	border: 0.0625em solid currentcolor;
+	border-radius: 0.9em;
+}

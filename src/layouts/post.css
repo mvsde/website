@@ -1,9 +1,0 @@
-.LayoutPost-date {
-	display: block;
-	margin-block-end: 0.2em;
-
-	font-family: var(--font-family-text);
-	font-weight: normal;
-	font-size: 0.5em;
-	color: var(--color-text-muted);
-}

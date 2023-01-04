@@ -3,6 +3,9 @@ id: 806a344e-5227-4d6c-88bf-8f40d0f4cb7a
 title: Dropping the “he”
 description: Effective immediately, my pronouns are they/them.
 date: 2021-09-25T09:24:00Z
+tags:
+  - Queer
+  - Language
 social:
   image:
     src: media/they-them-square.jpg

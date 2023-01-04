@@ -3,6 +3,8 @@ id: 8a827afa-e0bc-4bca-a9c9-4c55b74367f5
 title: CSS Custom Property toggles for themes
 description: Use CSS Custom Property toggles to avoid repeating property definitions for light and dark themes.
 date: 2023-01-01T08:44:00Z
+tags: 
+  - Development
 ---
 
 The [prefers-color-scheme](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-color-scheme) CSS media feature provides a convenient method to change a website’s design based on the light or dark theme preference people set in their browser or operating system settings.

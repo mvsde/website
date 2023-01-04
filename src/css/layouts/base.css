@@ -1,0 +1,30 @@
+.LayoutBase-head {
+	margin-block: calc(1rem + 0.7vw) calc(2rem + 1.4vw);
+}
+
+.LayoutBase-title {
+	font-size: calc(1.25rem + 2.5vw);
+}
+
+.LayoutBase-wrapper {
+	padding-block: calc(2rem + 2vw);
+	background: var(--color-content-background);
+}
+
+.LayoutBase-wrapper--hero {
+	margin-block-start: var(--content-hero-bleed);
+}
+
+@media (min-width: 70rem) {
+	.LayoutBase-head {
+		margin-block: 1.5rem 3rem;
+	}
+
+	.LayoutBase-wrapper {
+		padding-block: 3.5rem;
+	}
+
+	.LayoutBase-title {
+		font-size: 3rem;
+	}
+}

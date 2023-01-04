@@ -76,14 +76,17 @@ const socialImage = await getSocialImage()
 			<CHeader />
 
 			<main>
-				<h1 class="LayoutContent-title u-container">
-					<slot name="title" />
-				</h1>
+				<div class="LayoutBase-head u-container">
+					<slot name="before-title" />
+					<h1 class="LayoutBase-title">
+						{{ title }}
+					</h1>
+				</div>
 
 				<div
-					class="LayoutContent-wrapper"
+					class="LayoutBase-wrapper"
 					:class="{
-						'LayoutContent-wrapper--hero': hero
+						'LayoutBase-wrapper--hero': hero
 					}"
 				>
 					<CHero v-if="hero" />

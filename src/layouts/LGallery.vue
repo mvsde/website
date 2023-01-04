@@ -4,7 +4,7 @@ import { useData, useMethods } from '@mvsde/eleventy-plugin-vue'
 import { orderCollection } from '../utilities/collection.js'
 import LBase from './LBase.vue'
 
-const { title, content, collections, collection } = useData()
+const { content, collections, collection } = useData()
 const { image } = useMethods()
 
 const items = orderCollection({
@@ -30,10 +30,6 @@ const galleryImages = await getGalleryImages()
 
 <template>
 	<LBase>
-		<template #title>
-			{{ title }}
-		</template>
-
 		<div
 			v-if="content"
 			class="u-containerContent"

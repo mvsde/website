@@ -1,11 +1,13 @@
 <script setup>
 import { useData } from '@mvsde/eleventy-plugin-vue'
 
+import CTags from '../components/CTags.vue'
 import { orderCollection } from '../utilities/collection.js'
 import formatDate from '../utilities/format-date.js'
+import { getTags } from '../utilities/page.js'
 import LBase from './LBase.vue'
 
-const { title, content, collections, collection } = useData()
+const { content, collections, collection } = useData()
 
 const items = orderCollection({
 	collection: collections[collection.name],
@@ -17,10 +19,6 @@ const languageName = new Intl.DisplayNames('en', { type: 'language' })
 
 <template>
 	<LBase>
-		<template #title>
-			{{ title }}
-		</template>
-
 		<div
 			v-if="content"
 			class="u-containerContent"
@@ -36,14 +34,20 @@ const languageName = new Intl.DisplayNames('en', { type: 'language' })
 				:key="item.data.id"
 				class="LayoutTag-item"
 			>
-				<span class="LayoutTag-meta">
-					<time>
-						{{ formatDate(item.date) }}
-					</time>
-					<span v-if="item.data.language">
-						· {{ languageName.of(item.data.language) }}
+				<div class="LayoutTag-meta">
+					<span>
+						<time>
+							{{ formatDate(item.date) }}
+						</time>
+						<span v-if="item.data.language">
+							· {{ languageName.of(item.data.language) }}
+						</span>
 					</span>
-				</span>
+					<CTags
+						class="LayoutTag-tags"
+						:items="getTags(item.data.tags)"
+					/>
+				</div>
 				<a
 					class="LayoutTag-link"
 					:href="item.url"

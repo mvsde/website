@@ -3,6 +3,8 @@ id: b9b52287-79e6-48a9-9147-78cf1f8c9fc7
 title: Why I built my own Vue plugin for Eleventy
 description: Why and how I built my own Vue plugin for Eleventy.
 date: 2022-10-22T07:05:00Z
+tags:
+  - Development
 ---
 
 In [Eleventy + Vue 3](../eleventy-vue/) I explained how to use the [@11ty/eleventy-plugin-vue](https://github.com/11ty/eleventy-plugin-vue) and [Vue Single-File Components](https://vuejs.org/guide/scaling-up/sfc.html) (SFCs) for Eleventy layouts. I then went on and built my own Vue plugin for Eleventy. _But why?_ one might ask.

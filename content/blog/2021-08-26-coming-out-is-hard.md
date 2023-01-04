@@ -3,6 +3,8 @@ id: 41826230-84f8-480b-8c1e-b8a827e3d5d3
 title: Coming out is hard, actually
 description: This post is a tad rambly, but it’s a topic I worry quite a bit about lately.
 date: 2021-08-26T22:15:00Z
+tags:
+  - Queer
 social:
   image:
     src: media/rainbow-bag-square.jpg

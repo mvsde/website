@@ -1,19 +1,26 @@
 <script setup>
 import { useData } from '@mvsde/eleventy-plugin-vue'
 
+import CTags from '../components/CTags.vue'
 import formatDate from '../utilities/format-date.js'
+import { getTags } from '../utilities/page.js'
 import LBase from './LBase.vue'
 
-const { title, content, date } = useData()
+const { content, date, tags } = useData()
 </script>
 
 <template>
 	<LBase>
-		<template #title>
-			<time class="LayoutPost-date">
-				{{ formatDate(date) }}
-			</time>
-			{{ title }}
+		<template #before-title>
+			<div class="LayoutPost-meta">
+				<time class="LayoutPost-date">
+					{{ formatDate(date) }}
+				</time>
+				<CTags
+					class="LayoutPost-tags"
+					:items="getTags(tags)"
+				/>
+			</div>
 		</template>
 
 		<div

@@ -4,10 +4,15 @@ h3,
 h4,
 h5,
 h6 {
-	margin-block-start: 1.5em;
-	margin-block-end: 0.5em;
-
 	line-height: var(--line-height-heading);
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin-block: 1.5em 0.5em;
 }
 
 p,

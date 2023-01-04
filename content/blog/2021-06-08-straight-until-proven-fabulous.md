@@ -3,6 +3,8 @@ id: e2f5d98a-e837-494b-ad1a-dc3469abe3d1
 title: Straight until proven fabulous
 description: Talking about sexuality is hard. That’s why I prefer to write.
 date: 2021-06-08T06:56:00Z
+tags:
+  - Queer
 social:
   image:
     src: media/rainbow-art-square.jpg

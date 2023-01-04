@@ -3,6 +3,9 @@ id: c45220d3-7fee-4de9-a91d-a6cd373754f9
 title: My German pronouns
 description: It’s finally time for some neo-pronouns. Say hello to “dey/denen”!
 date: 2022-04-17T11:06:00Z
+tags:
+  - Queer
+  - Language
 related:
   - /blog/bye-bye-man-hello-eins/
 ---
