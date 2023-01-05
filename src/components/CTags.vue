@@ -8,10 +8,7 @@ defineProps({
 </script>
 
 <template>
-	<ul
-		v-if="items.length"
-		class="Tags"
-	>
+	<ul class="Tags">
 		<li
 			v-for="item in items"
 			:key="item"
@@ -20,9 +17,7 @@ defineProps({
 			<a
 				:href="`/tag/${item.toLowerCase()}/`"
 				class="Tags-link"
-			>
-				{{ item }}
-			</a>
+			>#{{ item }}</a>
 		</li>
 	</ul>
 </template>

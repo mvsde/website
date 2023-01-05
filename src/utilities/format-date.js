@@ -1,9 +1,9 @@
 /**
- * Format date object.
+ * Format date as ISO format YYYY-MM-DD.
  *
  * @param {Date} date
  * @returns {string}
  */
-export default function (date) {
+export function formatISODate (date) {
 	return date.toISOString().slice(0, 10)
 }

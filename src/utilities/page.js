@@ -45,12 +45,17 @@ export function getPageData ({ collections, url }) {
 }
 
 /**
- * Get tag list for page
+ * Get filtered tag list for page
  * @param {string[]} tags
- * @returns {string[]}
+ * @returns {string[]|null}
  */
-export function getTags (tags) {
+export function filterTags (tags) {
 	const EXCLUDED_TAGS = ['feed', 'blog', 'talk', 'sunset']
+	const filteredTags = tags.filter(tag => !EXCLUDED_TAGS.includes(tag))
 
-	return tags.filter(tag => !EXCLUDED_TAGS.includes(tag))
+	if (!filteredTags.length) {
+		return null
+	}
+
+	return filteredTags
 }

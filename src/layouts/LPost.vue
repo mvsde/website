@@ -2,8 +2,8 @@
 import { useData } from '@mvsde/eleventy-plugin-vue'
 
 import CTags from '../components/CTags.vue'
-import formatDate from '../utilities/format-date.js'
-import { getTags } from '../utilities/page.js'
+import { formatISODate } from '../utilities/format-date.js'
+import { filterTags } from '../utilities/page.js'
 import LBase from './LBase.vue'
 
 const { content, date, tags } = useData()
@@ -13,13 +13,12 @@ const { content, date, tags } = useData()
 	<LBase>
 		<template #before-title>
 			<div class="LayoutPost-meta">
-				<time class="LayoutPost-date">
-					{{ formatDate(date) }}
+				<time>
+					{{ formatISODate(date) }}
 				</time>
-				<CTags
-					class="LayoutPost-tags"
-					:items="getTags(tags)"
-				/>
+				<span v-if="filterTags(tags)">
+					· <CTags :items="filterTags(tags)" />
+				</span>
 			</div>
 		</template>
 

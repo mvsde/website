@@ -3,8 +3,8 @@ import { useData } from '@mvsde/eleventy-plugin-vue'
 
 import CTags from '../components/CTags.vue'
 import { orderCollection } from '../utilities/collection.js'
-import formatDate from '../utilities/format-date.js'
-import { getTags } from '../utilities/page.js'
+import { formatISODate } from '../utilities/format-date.js'
+import { filterTags } from '../utilities/page.js'
 import LBase from './LBase.vue'
 
 const { content, collections, collection } = useData()
@@ -35,18 +35,15 @@ const languageName = new Intl.DisplayNames('en', { type: 'language' })
 				class="LayoutTag-item"
 			>
 				<div class="LayoutTag-meta">
-					<span>
-						<time>
-							{{ formatDate(item.date) }}
-						</time>
-						<span v-if="item.data.language">
-							· {{ languageName.of(item.data.language) }}
-						</span>
+					<time>
+						{{ formatISODate(item.date) }}
+					</time>
+					<span v-if="item.data.language">
+						· {{ languageName.of(item.data.language) }}
 					</span>
-					<CTags
-						class="LayoutTag-tags"
-						:items="getTags(item.data.tags)"
-					/>
+					<span v-if="filterTags(item.data.tags)">
+						· <CTags :items="filterTags(item.data.tags)" />
+					</span>
 				</div>
 				<a
 					class="LayoutTag-link"
