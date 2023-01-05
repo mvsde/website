@@ -46,7 +46,7 @@
 		"@pangolinjs/eslint-config": "^7.0.0",
 		"@pangolinjs/stylelint-config": "^4.0.0",
 		"cssnano": "^5.1.14",
-		"esbuild": "^0.16.13",
+		"esbuild": "^0.16.14",
 		"eslint": "^8.31.0",
 		"eslint-plugin-vue": "^9.8.0",
 		"markdown-it-attrs": "^4.1.6",
