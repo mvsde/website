@@ -1,5 +1,5 @@
 const STORAGE_KEY = 'fynn-theme'
-const THEMES = ['system', 'light', 'dark']
+const THEMES = ['auto', 'light', 'dark']
 
 const SELECTORS = {
 	theme: '.js-Theme',
@@ -29,11 +29,11 @@ class Theme {
 	}
 
 	/**
-   * @param {'system'|'light'|'dark'} name
+   * @param {'auto'|'light'|'dark'} name
    */
 	setTheme (name) {
 		if (!THEMES.includes(name)) {
-			name = 'system'
+			name = 'auto'
 		}
 
 		localStorage.setItem(STORAGE_KEY, name)

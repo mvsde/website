@@ -68,7 +68,7 @@ const socialImage = await getSocialImage()
 			</template>
 
 			<component :is="'script'" type="module" src="/main.js"></component>
-			<link id="theme-css" rel="stylesheet" href="/theme/system.css">
+			<link id="theme-css" rel="stylesheet" href="/theme/auto.css">
 			<link rel="stylesheet" href="/main.css">
 			<!-- eslint-enable vue/html-self-closing vue/max-attributes-per-line -->
 		</head>

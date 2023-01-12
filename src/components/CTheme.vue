@@ -3,9 +3,9 @@ import CIcon from './CIcon.vue'
 
 const themes = [
 	{
-		title: 'System',
-		icon: 'system',
-		theme: 'system',
+		title: 'Auto',
+		icon: 'monitor',
+		theme: 'auto',
 	},
 	{
 		title: 'Light',
