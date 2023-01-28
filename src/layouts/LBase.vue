@@ -6,12 +6,9 @@ import CHeader from '../components/CHeader.vue'
 import CHero from '../components/CHero.vue'
 import CRelated from '../components/CRelated.vue'
 import { isHomePage } from '../utilities/page.js'
-import truncate from '../utilities/truncate.js'
 
 const { page, language, title, description, social, hero, related, base, eleventy } = useData()
 const { imagePath } = useMethods()
-
-const socialDescription = social?.description || description
 
 function getSocialImage () {
 	if (!social?.image) {
@@ -20,7 +17,7 @@ function getSocialImage () {
 
 	return imagePath({
 		src: social.image.src,
-		width: 1000,
+		width: 500,
 		format: 'jpeg',
 	})
 }
@@ -32,7 +29,7 @@ const socialImage = await getSocialImage()
 <template>
 	<html :lang="lang">
 		<head>
-			<!-- eslint-disable vue/html-self-closing vue/max-attributes-per-line -->
+			<!-- eslint-disable vue/max-attributes-per-line -->
 			<meta charset="utf-8">
 			<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -47,30 +44,26 @@ const socialImage = await getSocialImage()
 			<meta name="theme-color" content="#3730a3" media="(prefers-color-scheme: light)">
 			<meta name="theme-color" content="#a5b4fc" media="(prefers-color-scheme: dark)">
 
-			<meta name="twitter:card" :content="social?.twitter_card || 'summary'">
-			<meta name="twitter:site" content="@mvsde">
-			<meta name="twitter:title" :content="truncate(social?.title || title, 70)">
-
-			<meta property="og:type" :content="social?.og_type || 'website'">
+			<meta property="og:site_name" content="fynn.be">
+			<meta property="og:type" :content="social?.type || 'website'">
 			<meta property="og:url" :content="base + page.url">
-			<meta property="og:title" :content="social?.title || title">
+			<meta property="og:title" :content="title">
+			<meta property="og:description" :content="description">
 			<meta property="og:locale" :content="lang">
 
-			<template v-if="socialDescription">
-				<meta name="twitter:description" :content="truncate(socialDescription, 200)">
-				<meta property="og:description" :content="socialDescription">
-			</template>
+			<meta name="twitter:card" content="summary">
 
 			<template v-if="socialImage">
-				<meta name="twitter:image" :content="base + socialImage">
-				<meta name="twitter:image:alt" :content="truncate(social.image.alt, 420)">
 				<meta property="og:image" :content="base + socialImage">
+				<meta property="og:image:alt" :content="social.image.alt">
+				<meta property="og:image:width" content="500">
+				<meta property="og:image:height" content="500">
 			</template>
 
-			<component :is="'script'" type="module" src="/main.js"></component>
+			<component :is="'script'" type="module" src="/main.js" />
 			<link id="theme-css" rel="stylesheet" href="/theme/auto.css">
 			<link rel="stylesheet" href="/main.css">
-			<!-- eslint-enable vue/html-self-closing vue/max-attributes-per-line -->
+			<!-- eslint-enable vue/max-attributes-per-line -->
 		</head>
 		<body>
 			<CHeader />
