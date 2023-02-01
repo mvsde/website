@@ -38,8 +38,8 @@
 		"prism-themes": "^1.9.0"
 	},
 	"devDependencies": {
-		"@11ty/eleventy": "^2.0.0-beta.2",
-		"@11ty/eleventy-img": "^2.0.1",
+		"@11ty/eleventy": "^2.0.0-beta.3",
+		"@11ty/eleventy-img": "^3.0.0",
 		"@11ty/eleventy-plugin-rss": "^1.2.0",
 		"@11ty/eleventy-plugin-syntaxhighlight": "^4.2.0",
 		"@mvsde/eleventy-plugin-vue": "^0.1.1",
@@ -47,7 +47,7 @@
 		"@pangolinjs/stylelint-config": "^4.0.0",
 		"cssnano": "^5.1.14",
 		"esbuild": "^0.17.5",
-		"eslint": "^8.32.0",
+		"eslint": "^8.33.0",
 		"eslint-plugin-vue": "^9.9.0",
 		"markdown-it-attrs": "^4.1.6",
 		"markdown-it-bracketed-spans": "^1.0.1",
