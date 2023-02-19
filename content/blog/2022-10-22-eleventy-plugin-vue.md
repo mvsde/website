@@ -65,8 +65,8 @@ const { image, ... } = useMethods()
 </script>
 
 <template>
-  <h1>{% raw %}{{ title }}{% endraw %}</h1>
-  <div v-html="content" />
+	<h1>{% raw %}{{ title }}{% endraw %}</h1>
+	<div v-html="content" />
 </template>
 ```
 

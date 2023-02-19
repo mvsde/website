@@ -1,6 +1,9 @@
 line-length: false
 no-trailing-spaces:
   br_spaces: 0
+no-hard-tabs:
+  code_blocks: false
+  spaces_per_tab: 2
 no-inline-html:
   allowed_elements: [span, br, small, strong, u]
 no-blanks-blockquote: false

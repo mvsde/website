@@ -25,16 +25,16 @@ Vue SFCs don’t have a `doctype` by default, they are supposed to be rendered a
 
 ```html
 <template>
-  <html lang="en">
-    <head>
-      <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>{% raw %}{{ title }}{% endraw %}</title>
-    </head>
-    <body>
-      <main v-html="content" />
-    </body>
-  </html>
+	<html lang="en">
+		<head>
+			<meta charset="utf-8">
+			<meta name="viewport" content="width=device-width, initial-scale=1.0">
+			<title>{% raw %}{{ title }}{% endraw %}</title>
+		</head>
+		<body>
+			<main v-html="content" />
+		</body>
+	</html>
 </template>
 ```
 
@@ -44,14 +44,14 @@ Vue SFCs don’t have a `doctype` by default, they are supposed to be rendered a
 const DOCTYPE = '<!DOCTYPE html>'
 
 module.exports = function (content, outputPath) {
-  const isHTMLFile = outputPath.endsWith('.html')
-  const hasDoctype = content.trim().toLowerCase().startsWith(DOCTYPE.toLowerCase())
+	const isHTMLFile = outputPath.endsWith('.html')
+	const hasDoctype = content.trim().toLowerCase().startsWith(DOCTYPE.toLowerCase())
 
-  if (isHTMLFile && !hasDoctype) {
-    return `${DOCTYPE}${content}`
-  }
+	if (isHTMLFile && !hasDoctype) {
+		return `${DOCTYPE}${content}`
+	}
 
-  return content
+	return content
 }
 ```
 
@@ -61,7 +61,7 @@ module.exports = function (content, outputPath) {
 const transformDoctype = require('./transform-doctype.js')
 
 module.exports = function (eleventyConfig) {
-  eleventyConfig.addTransform('doctype', transformDoctype)
+	eleventyConfig.addTransform('doctype', transformDoctype)
 }
 ```
 
@@ -76,14 +76,14 @@ import { getCurrentInstance } from 'vue'
 
 /** Returns global methods including universal filters and shortcodes. */
 export function useMethods () {
-  const app = getCurrentInstance()
-  return app.appContext.mixins[0].methods
+	const app = getCurrentInstance()
+	return app.appContext.mixins[0].methods
 }
 
 /** Returns global data and page data. */
 export function useData () {
-  const app = getCurrentInstance()
-  return app.appContext.mixins[1].data()
+	const app = getCurrentInstance()
+	return app.appContext.mixins[1].data()
 }
 ```
 
@@ -100,16 +100,16 @@ const css = getVueComponentCssForPage(page.url)
 </script>
 
 <template>
-  <!-- CSS from Vue SFCs. -->
-  {% raw %}{{ css }}{% endraw %}
+	<!-- CSS from Vue SFCs. -->
+	{% raw %}{{ css }}{% endraw %}
 
-  <!-- Eleventy page data object. -->
-  {% raw %}{{ page }}{% endraw %}
+	<!-- Eleventy page data object. -->
+	{% raw %}{{ page }}{% endraw %}
 
-  <!-- Page content, usually the rendered Markdown. -->
-  {% raw %}{{ content }}{% endraw %}
+	<!-- Page content, usually the rendered Markdown. -->
+	{% raw %}{{ content }}{% endraw %}
 
-  <!-- Other metadata declared in Markdown frontmatter. -->
-  {% raw %}{{ title }} {{ description }} …{% endraw %}
+	<!-- Other metadata declared in Markdown frontmatter. -->
+	{% raw %}{{ title }} {{ description }} …{% endraw %}
 </template>
 ```

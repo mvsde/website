@@ -17,10 +17,10 @@ Consider the following basic light theme:
 
 ```css
 :root {
-  --color-text: black;
-  --color-background: white;
+	--color-text: black;
+	--color-background: white;
 
-  color-scheme: light dark;
+	color-scheme: light dark;
 }
 ```
 
@@ -28,10 +28,10 @@ Now let’s add a dark theme by switching the properties:
 
 ```css
 @media (prefers-color-scheme: dark) {
-  :root {
-    --color-text: white;
-    --color-background: black;
-  }
+	:root {
+		--color-text: white;
+		--color-background: black;
+	}
 }
 ```
 
@@ -39,17 +39,17 @@ For the site-specific theme switch (powerd by JS) we need even more CSS to overr
 
 ```css
 :root.is-light {
-  --color-text: black;
-  --color-background: white;
+	--color-text: black;
+	--color-background: white;
 
-  color-scheme: light;
+	color-scheme: light;
 }
 
 :root.is-dark {
-  --color-text: white;
-  --color-background: black;
+	--color-text: white;
+	--color-background: black;
 
-  color-scheme: dark;
+	color-scheme: dark;
 }
 ```
 
@@ -61,36 +61,36 @@ To avoid repeating definitions, we can set up “intermediate” variables that 
 
 ```css
 :root {
-  --color-text--light: black;
-  --color-text--dark: white;
-  --color-background--light: white;
-  --color-background--dark: black;
+	--color-text--light: black;
+	--color-text--dark: white;
+	--color-background--light: white;
+	--color-background--dark: black;
 
-  --color-text: var(--color-text--light);
-  --color-background: var(--color-background--light);
+	--color-text: var(--color-text--light);
+	--color-background: var(--color-background--light);
 
-  color-scheme: light dark;
+	color-scheme: light dark;
 }
 
 @media (prefers-color-scheme: dark) {
-  :root {
-    --color-text: var(--color-text--dark);
-    --color-background: var(--color-background--dark);
-  }
+	:root {
+		--color-text: var(--color-text--dark);
+		--color-background: var(--color-background--dark);
+	}
 }
 
 :root.is-light {
-  --color-text: var(--color-text--light);
-  --color-background: var(--color-background--dark);
+	--color-text: var(--color-text--light);
+	--color-background: var(--color-background--dark);
 
-  color-scheme: light;
+	color-scheme: light;
 }
 
 :root.is-dark {
-  --color-text: var(--color-text--dark);
-  --color-background: var(--color-background--dark);
+	--color-text: var(--color-text--dark);
+	--color-background: var(--color-background--dark);
 
-  color-scheme: dark;
+	color-scheme: dark;
 }
 ```
 
@@ -104,8 +104,8 @@ The code will be more readable later on if we first create “boolean type” va
 
 ```css
 :root {
-  --true:;
-  --false: initial;
+	--true:;
+	--false: initial;
 }
 ```
 
@@ -113,21 +113,21 @@ Now we can create our toggle variable `--is-light-theme`:
 
 ```css
 :root {
-  --is-light-theme: var(--true);
+	--is-light-theme: var(--true);
 }
 
 @media (prefers-color-scheme: dark) {
-  :root {
-    --is-light-theme: var(--false);
-  }
+	:root {
+		--is-light-theme: var(--false);
+	}
 }
 
 :root.is-light {
-  --is-light-theme: var(--true);
+	--is-light-theme: var(--true);
 }
 
 :root.is-dark {
-  --is-light-theme: var(--false);
+	--is-light-theme: var(--false);
 }
 ```
 
@@ -135,10 +135,10 @@ Then we set up our base variables, but this time we prefix all light ones with o
 
 ```css
 :root {
-  --color-text--light: var(--is-light-theme) black;
-  --color-text--dark: white;
-  --color-background--light: var(--is-light-theme) white;
-  --color-background--dark: black;
+	--color-text--light: var(--is-light-theme) black;
+	--color-text--dark: white;
+	--color-background--light: var(--is-light-theme) white;
+	--color-background--dark: black;
 }
 ```
 
@@ -150,8 +150,8 @@ The following `var(…)`s take the light variable as the first parameter and the
 
 ```css
 :root {
-  --color-text: var(--color-text--light, var(--color-text--dark));
-  --color-background: var(--color-background--light, var(--color-background--dark));
+	--color-text: var(--color-text--light, var(--color-text--dark));
+	--color-background: var(--color-background--light, var(--color-background--dark));
 }
 ```
 
@@ -161,36 +161,36 @@ Finally we put all the code together and add the `color-scheme` property so the 
 
 ```css
 :root {
-  --true:;
-  --false: initial;
+	--true:;
+	--false: initial;
 
-  --is-light-theme: var(--true);
+	--is-light-theme: var(--true);
 
-  --color-text--light: var(--is-light-theme) black;
-  --color-text--dark: white;
-  --color-background--light: var(--is-light-theme) white;
-  --color-background--dark: black;
+	--color-text--light: var(--is-light-theme) black;
+	--color-text--dark: white;
+	--color-background--light: var(--is-light-theme) white;
+	--color-background--dark: black;
 
-  --color-text: var(--color-text--light, var(--color-text--dark));
-  --color-background: var(--color-background--light, var(--color-background--dark));
+	--color-text: var(--color-text--light, var(--color-text--dark));
+	--color-background: var(--color-background--light, var(--color-background--dark));
 
-  color-scheme: light dark;
+	color-scheme: light dark;
 }
 
 @media (prefers-color-scheme: dark) {
-  :root {
-    --is-light-theme: var(--false);
-  }
+	:root {
+		--is-light-theme: var(--false);
+	}
 }
 
 :root.is-light {
-  --is-light-theme: var(--true);
-  color-scheme: light;
+	--is-light-theme: var(--true);
+	color-scheme: light;
 }
 
 :root.is-dark {
-  --is-light-theme: var(--false);
-  color-scheme: dark;
+	--is-light-theme: var(--false);
+	color-scheme: dark;
 }
 ```
 

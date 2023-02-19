@@ -25,8 +25,8 @@ We then create “regions” with the `v-scope` keyword. This is also the place 
 
 ```html
 <div v-scope="{ count: 0 }">
-  {% raw %}{{ count }}{% endraw %}
-  <button @click="count++">Increment</button>
+	{% raw %}{{ count }}{% endraw %}
+	<button @click="count++">Increment</button>
 </div>
 ```
 
@@ -38,7 +38,7 @@ You can also use petite-vue for more “conventional” Vue apps. In this case t
 
 ```html
 <form id="search">
-  …
+	…
 </form>
 ```
 
@@ -48,11 +48,11 @@ In our JavaScript file we can define complex methods and also use imported code 
 import { createApp } from 'https://unpkg.com/petite-vue?module'
 
 createApp({
-  results: [],
+	results: [],
 
-  async getResults (search) {
-    …
-  }
+	async getResults (search) {
+		…
+	}
 }).mount('#search')
 ```
 
@@ -64,9 +64,9 @@ Take a look at the following HTML:
 
 ```html
 <ul>
-  <li v-for="item in items">
-    {% raw %}{{ item }}{% endraw %}
-  </li>
+	<li v-for="item in items">
+		{% raw %}{{ item }}{% endraw %}
+	</li>
 </ul>
 ```
 
@@ -80,9 +80,9 @@ The solution to this problem is the `v-cloak` attribute:
 
 ```html
 <ul v-cloak>
-  <li v-for="item in items">
-    {% raw %}{{ item }}{% endraw %}
-  </li>
+	<li v-for="item in items">
+		{% raw %}{{ item }}{% endraw %}
+	</li>
 </ul>
 ```
 
@@ -90,6 +90,6 @@ The `v-cloak` attribute will be removed when petite-vue is ready. Pairing this w
 
 ```css
 [v-cloak] {
-  display: none !important;
+	display: none !important;
 }
 ```
