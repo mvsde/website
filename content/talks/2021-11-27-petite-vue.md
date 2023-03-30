@@ -1,0 +1,17 @@
+---
+id: 42ef6813-bc4f-4865-9577-ff3ef3f6c68c
+title: petite-vue
+description: Sprinkling interactivity on HTML ✨
+date: 2021-11-27T15:47:00Z
+tags:
+  - Development
+hero:
+  iframe: https://petite-vue.talks.fynn.be/
+  title: Slides for the talk “petite-vue”
+  aspect_ratio: 16 / 9
+  caption: Click inside the slides and use the left and right keyboard arrow keys or the buttons in the bottom left corner to navigate the slides.
+---
+
+It doesn’t always have to be a full-fledged frontend framework. [petite-vue](https://github.com/vuejs/petite-vue) is an alternative Vue distribution for small-scale interactivity.
+
+The [slides are available online](https://petite-vue.talks.fynn.be/) and they are [open source](https://github.com/mvsde/petite-vue-talk). No recording.
