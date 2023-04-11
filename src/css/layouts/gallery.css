@@ -15,7 +15,10 @@
 }
 
 .LayoutGallery-image {
+	aspect-ratio: 4 / 3;
 	margin: 0;
+
+	object-fit: cover;
 }
 
 .LayoutGallery-link {
