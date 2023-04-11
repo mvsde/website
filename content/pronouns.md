@@ -13,6 +13,5 @@ related:
 
 If you’re unsure how to refer to me, please have a look at these pages in English and German where I wrote down my pronouns and some usage examples.
 
-* [🌐]{aria-hidden=true} [English](en/)
-* [🥔]{aria-hidden=true} [Deutsch](de/){lang=de hreflang=de}
-{.u-emojiList}
+* [English](en/)
+* [Deutsch](de/){lang=de hreflang=de}
