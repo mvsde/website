@@ -46,8 +46,8 @@
 		"@pangolinjs/eslint-config": "^7.0.1",
 		"@pangolinjs/stylelint-config": "^4.0.0",
 		"cssnano": "^6.0.0",
-		"esbuild": "^0.17.14",
-		"eslint": "^8.37.0",
+		"esbuild": "^0.17.16",
+		"eslint": "^8.38.0",
 		"eslint-plugin-vue": "^9.10.0",
 		"markdown-it-attrs": "^4.1.6",
 		"markdown-it-bracketed-spans": "^1.0.1",
@@ -61,6 +61,6 @@
 		"postcss-html": "^1.5.0",
 		"postcss-import": "^15.1.0",
 		"postcss-url": "^10.1.3",
-		"stylelint": "^15.3.0"
+		"stylelint": "^15.4.0"
 	}
 }
