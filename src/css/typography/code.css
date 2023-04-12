@@ -2,7 +2,7 @@ code,
 pre {
 	font-family: var(--font-family-mono);
 	font-size: 0.95em;
-	text-shadow: none;
+	tab-size: 2;
 
 	background: var(--color-background);
 }
@@ -24,4 +24,71 @@ pre {
 	pre {
 		border-radius: var(--border-radius-small);
 	}
+}
+
+/* stylelint-disable selector-class-pattern */
+
+.token.comment {
+	color: var(--color-code-comment);
+}
+
+.token.property {
+	color: var(--color-code-property);
+}
+
+.token.attr-name {
+	color: var(--color-code-attr-name);
+}
+
+.token.attr-value {
+	color: var(--color-code-attr-value);
+}
+
+.token.key {
+	color: var(--color-code-key);
+}
+
+.token.selector {
+	color: var(--color-code-selector);
+}
+
+.token.tag,
+.token.tag > .punctuation:is(:first-child, :last-child) {
+	color: var(--color-code-tag);
+}
+
+.token.keyword {
+	color: var(--color-code-keyword);
+}
+
+.token.important {
+	color: var(--color-code-important);
+}
+
+.token.punctuation {
+	color: var(--color-code-punctuation);
+}
+
+.token.interpolation-punctuation {
+	color: var(--color-code-interpolation);
+}
+
+.token.string {
+	color: var(--color-code-string);
+}
+
+.token.number {
+	color: var(--color-code-number);
+}
+
+.token.function {
+	color: var(--color-code-function);
+}
+
+.token.parameter {
+	color: var(--color-code-parameter);
+}
+
+.token.rule {
+	color: var(--color-code-rule);
 }

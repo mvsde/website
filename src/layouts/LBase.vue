@@ -29,7 +29,7 @@ const socialImage = await getSocialImage()
 <template>
 	<html :lang="lang">
 		<head>
-			<!-- eslint-disable vue/max-attributes-per-line -->
+			<!-- eslint-disable vue/max-attributes-per-line vue/no-v-text-v-html-on-component -->
 			<meta charset="utf-8">
 			<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -60,10 +60,12 @@ const socialImage = await getSocialImage()
 				<meta property="og:image:height" content="500">
 			</template>
 
-			<component :is="'script'" type="module" src="/main.js" />
-			<link id="theme-css" rel="stylesheet" href="/theme/auto.css">
+			<component :is="'script'">
+				const theme = localStorage.getItem(`fynn-theme`) ?? `auto`;
+				document.documentElement.setAttribute(`data-theme`, theme);
+			</component>
 			<link rel="stylesheet" href="/main.css">
-			<!-- eslint-enable vue/max-attributes-per-line -->
+			<!-- eslint-enable vue/max-attributes-per-line vue/no-v-text-v-html-on-component -->
 		</head>
 		<body>
 			<CHeader />

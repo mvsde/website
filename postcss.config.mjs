@@ -1,6 +1,6 @@
 import path from 'node:path'
 
-import pluginCSSnano from 'cssnano'
+import cssnano from 'cssnano'
 import pluginImport from 'postcss-import'
 import pluginURL from 'postcss-url'
 
@@ -17,7 +17,7 @@ import pluginURL from 'postcss-url'
 
 const IS_PRODUCTION = process.env.NODE_ENV === 'production'
 
-/** @type {PluginURLOptions} */
+/** @type {PluginURLOptions[]} */
 const urlOptions = [
 	{
 		filter: '**/*.woff2',
@@ -36,6 +36,6 @@ export default {
 	plugins: [
 		pluginImport(),
 		pluginURL(urlOptions),
-		IS_PRODUCTION && pluginCSSnano(),
+		IS_PRODUCTION && cssnano(),
 	],
 }
