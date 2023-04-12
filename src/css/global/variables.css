@@ -83,13 +83,13 @@
 
 /* Handle user-selected color scheme. */
 
-:root.is-light {
+:root[data-theme="light"] {
 	--is-theme-light: var(--true);
 
 	color-scheme: light;
 }
 
-:root.is-dark {
+:root[data-theme="dark"] {
 	--is-theme-light: var(--false);
 
 	color-scheme: dark;

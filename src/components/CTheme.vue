@@ -3,7 +3,7 @@ import CIcon from './CIcon.vue'
 
 const themes = [
 	{
-		title: 'Auto',
+		title: 'System',
 		icon: 'monitor',
 		theme: 'auto',
 	},
@@ -21,22 +21,25 @@ const themes = [
 </script>
 
 <template>
-	<div class="Theme js-Theme">
+	<div class="Theme">
 		<h2 class="Theme-heading">
 			Theme:
 		</h2>
 
 		<button
-			v-for="theme in themes"
-			:key="theme.theme"
-			class="Theme-button js-Theme-button"
-			:data-theme="theme.theme"
+			v-for="{ title, icon, theme } in themes"
+			:key="theme"
+			class="Theme-button"
+			:onclick="`
+				document.documentElement.setAttribute('data-theme', '${theme}');
+				localStorage.setItem('fynn-theme', '${theme}');
+			`"
 		>
 			<CIcon
 				class="Theme-icon"
-				:name="theme.icon"
+				:name="icon"
 			/>
-			{{ theme.title }}
+			{{ title }}
 		</button>
 	</div>
 </template>

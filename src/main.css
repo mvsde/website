@@ -1,4 +1,4 @@
-@layer third-party, global, typography, layouts, components, utilities;
+@layer global, typography, layouts, components, utilities;
 
 @import "./css/global.css" layer(global);
 @import "./css/typography.css" layer(typography);

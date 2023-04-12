@@ -3,11 +3,9 @@
 	"private": true,
 	"scripts": {
 		"dev:site": "NODE_ENV=development URL=http://localhost:8080 eleventy --incremental --serve",
-		"dev:js": "$npm_package_config_js --watch",
 		"dev:css": "$npm_package_config_css --watch --env development",
-		"build": "npm run build:site && npm run build:js && npm run build:css",
+		"build": "npm run build:site && npm run build:css",
 		"build:site": "NODE_ENV=production eleventy",
-		"build:js": "$npm_package_config_js --minify",
 		"build:css": "$npm_package_config_css --env production",
 		"lint": "npm run lint:js && npm run lint:css && npm run lint:markdown",
 		"lint:js": "eslint \"**/*.{js,vue}\"",
@@ -29,8 +27,7 @@
 		"node": ">=17"
 	},
 	"config": {
-		"js": "esbuild src/main.js --bundle --format=esm --sourcemap --outdir=dist",
-		"css": "postcss src/main.css src/theme --base src --dir dist"
+		"css": "postcss src/main.css --base src --dir dist"
 	},
 	"dependencies": {
 		"@fontsource/ibm-plex-mono": "^4.5.13",
@@ -46,7 +43,6 @@
 		"@pangolinjs/eslint-config": "^7.0.1",
 		"@pangolinjs/stylelint-config": "^4.0.0",
 		"cssnano": "^6.0.0",
-		"esbuild": "^0.17.16",
 		"eslint": "^8.38.0",
 		"eslint-plugin-vue": "^9.10.0",
 		"markdown-it-attrs": "^4.1.6",

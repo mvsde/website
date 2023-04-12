@@ -6,10 +6,6 @@
 	gap: 0.5em;
 }
 
-.Theme:not(.is-init) {
-	display: none;
-}
-
 .Theme-heading {
 	display: inline;
 	margin: 0;
