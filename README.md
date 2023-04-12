@@ -14,7 +14,6 @@ npm install
 
 ```bash
 npm run dev:site
-npm run dev:js
 npm run dev:css
 ```
 
@@ -26,7 +25,6 @@ npm run build
 
 # Individual tasks
 npm run build:site
-npm run build:js
 npm run build:css
 ```
 
