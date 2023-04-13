@@ -29,7 +29,7 @@ const socialImage = await getSocialImage()
 <template>
 	<html :lang="lang">
 		<head>
-			<!-- eslint-disable vue/max-attributes-per-line vue/no-v-text-v-html-on-component -->
+			<!-- eslint-disable vue/max-attributes-per-line -->
 			<meta charset="utf-8">
 			<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -65,7 +65,7 @@ const socialImage = await getSocialImage()
 				document.documentElement.setAttribute(`data-theme`, theme);
 			</component>
 			<link rel="stylesheet" href="/main.css">
-			<!-- eslint-enable vue/max-attributes-per-line vue/no-v-text-v-html-on-component -->
+			<!-- eslint-enable vue/max-attributes-per-line -->
 		</head>
 		<body>
 			<CHeader />
