@@ -5,7 +5,7 @@ const Image = require('@11ty/eleventy-img')
  * @param {Object<string, string>} attributes Attributes list
  * @returns {string[]}
  */
-function generateHTMLAttributes (attributes) {
+function generateHTMLAttributes(attributes) {
 	return Object.entries(attributes)
 		.filter(([name, value]) => value !== null)
 		.map(([name, value]) => `${name}="${value}"`)
@@ -46,16 +46,15 @@ module.exports = async function ({ src, width, sizes, ...attributes }) {
 		height: defaultSource.height,
 	}
 
-	const sources = Object.values(metadata)
-		.map(source => {
-			const sourceAttributes = {
-				type: source[0].sourceType,
-				srcset: source.map(entry => entry.srcset).join(', '),
-				sizes: sizes ?? null,
-			}
+	const sources = Object.values(metadata).map((source) => {
+		const sourceAttributes = {
+			type: source[0].sourceType,
+			srcset: source.map((entry) => entry.srcset).join(', '),
+			sizes: sizes ?? null,
+		}
 
-			return `<source ${generateHTMLAttributes(sourceAttributes).join('\n')}>`
-		})
+		return `<source ${generateHTMLAttributes(sourceAttributes).join('\n')}>`
+	})
 
 	const picture = `
     <picture>

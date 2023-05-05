@@ -2,7 +2,6 @@
 	--emoji-size: 1.75em;
 
 	list-style: none;
-
 	position: relative;
 	padding-inline-start: var(--emoji-size);
 }

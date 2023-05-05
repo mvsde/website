@@ -32,7 +32,7 @@ The following question has been asked:
 A few examples for gender-neutral language in German were given and the participants answered as follows:
 
 |                   | 2021 | 2020 |
-|-------------------|-----:|-----:|
+| ----------------- | ---: | ---: |
 | **Approval**      | 26 % | 35 % |
 | **Refusal**       | 65 % | 56 % |
 | **Not specified** |  9 % |  9 % |

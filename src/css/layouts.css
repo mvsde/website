@@ -1,4 +1,4 @@
-@import "./layouts/base.css";
-@import "./layouts/gallery.css";
-@import "./layouts/post.css";
-@import "./layouts/tag.css";
+@import url('./layouts/base.css');
+@import url('./layouts/gallery.css');
+@import url('./layouts/post.css');
+@import url('./layouts/tag.css');

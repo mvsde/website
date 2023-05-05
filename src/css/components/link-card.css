@@ -1,9 +1,7 @@
 .LinkCard-list {
 	list-style: none;
-
 	display: grid;
 	gap: 0.25em;
-
 	margin: 0;
 	padding: 0;
 

@@ -9,27 +9,24 @@
 	gap: 0.5em 1em;
 }
 
-@media (min-width: 27rem) {
+@media (width >= 27rem) {
 	.Header-nav::after {
 		--color-yellow: hsl(58deg 97% 60%);
 		--color-white: hsl(0deg 0% 99%);
 		--color-purple: hsl(274deg 57% 58%);
 		--color-black: hsl(0deg 0% 17%);
 
-		content: "";
-
+		content: '';
 		block-size: 1.5em;
 		aspect-ratio: 4;
 		margin-inline-start: auto;
-
-		background:
-			linear-gradient(
-				to right,
-				var(--color-yellow) 25%,
-				var(--color-white) 25% 50%,
-				var(--color-purple) 50% 75%,
-				var(--color-black) 75%
-			);
+		background: linear-gradient(
+			to right,
+			var(--color-yellow) 25%,
+			var(--color-white) 25% 50%,
+			var(--color-purple) 50% 75%,
+			var(--color-black) 75%
+		);
 		border-radius: var(--border-radius-small);
 	}
 }

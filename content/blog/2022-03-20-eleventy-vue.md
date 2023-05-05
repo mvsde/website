@@ -27,8 +27,8 @@ Vue SFCs don’t have a `doctype` by default, they are supposed to be rendered a
 <template>
 	<html lang="en">
 		<head>
-			<meta charset="utf-8">
-			<meta name="viewport" content="width=device-width, initial-scale=1.0">
+			<meta charset="utf-8" />
+			<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 			<title>{% raw %}{{ title }}{% endraw %}</title>
 		</head>
 		<body>
@@ -75,13 +75,13 @@ Vue 3 SFCs support a really handy “boilerplate shortcut”: `<script setup>`. 
 import { getCurrentInstance } from 'vue'
 
 /** Returns global methods including universal filters and shortcodes. */
-export function useMethods () {
+export function useMethods() {
 	const app = getCurrentInstance()
 	return app.appContext.mixins[0].methods
 }
 
 /** Returns global data and page data. */
-export function useData () {
+export function useData() {
 	const app = getCurrentInstance()
 	return app.appContext.mixins[1].data()
 }
@@ -91,12 +91,12 @@ export function useData () {
 
 ```html
 <script setup>
-import { useMethods, useData } from './use-global.js'
+	import { useMethods, useData } from './use-global.js'
 
-const { getVueComponentCssForPage } = useMethods()
-const { title, description, page, content } = useData()
+	const { getVueComponentCssForPage } = useMethods()
+	const { title, description, page, content } = useData()
 
-const css = getVueComponentCssForPage(page.url)
+	const css = getVueComponentCssForPage(page.url)
 </script>
 
 <template>

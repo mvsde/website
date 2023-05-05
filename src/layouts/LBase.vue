@@ -10,7 +10,7 @@ import { isHomePage } from '../utilities/page.js'
 const { page, language, title, description, social, hero, related, base, eleventy } = useData()
 const { imagePath } = useMethods()
 
-function getSocialImage () {
+function getSocialImage() {
 	if (!social?.image) {
 		return
 	}
@@ -29,43 +29,42 @@ const socialImage = await getSocialImage()
 <template>
 	<html :lang="lang">
 		<head>
-			<!-- eslint-disable vue/max-attributes-per-line -->
-			<meta charset="utf-8">
-			<meta name="viewport" content="width=device-width, initial-scale=1.0">
+			<meta charset="utf-8" />
+			<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
 			<title>{{ isHomePage(page.url) ? '' : `${title} | ` }}Fynn Becker</title>
-			<meta v-if="description" name="description" :content="description">
-			<meta name="generator" :content="eleventy.generator">
+			<meta v-if="description" name="description" :content="description" />
+			<meta name="generator" :content="eleventy.generator" />
 
-			<link href="/feed.xml" type="application/atom+xml" rel="alternate">
+			<link href="/feed.xml" type="application/atom+xml" rel="alternate" />
 
-			<link rel="icon" href="/favicon.ico" sizes="any">
-			<link rel="icon" href="/favicon.svg" type="image/svg+xml">
-			<meta name="theme-color" content="#3730a3" media="(prefers-color-scheme: light)">
-			<meta name="theme-color" content="#a5b4fc" media="(prefers-color-scheme: dark)">
+			<link rel="icon" href="/favicon.ico" sizes="any" />
+			<link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+			<meta name="theme-color" content="#3730a3" media="(prefers-color-scheme: light)" />
+			<meta name="theme-color" content="#a5b4fc" media="(prefers-color-scheme: dark)" />
 
-			<meta property="og:site_name" content="fynn.be">
-			<meta property="og:type" :content="social?.type || 'website'">
-			<meta property="og:url" :content="base + page.url">
-			<meta property="og:title" :content="title">
-			<meta property="og:description" :content="description">
-			<meta property="og:locale" :content="lang">
+			<meta property="og:site_name" content="fynn.be" />
+			<meta property="og:type" :content="social?.type || 'website'" />
+			<meta property="og:url" :content="base + page.url" />
+			<meta property="og:title" :content="title" />
+			<meta property="og:description" :content="description" />
+			<meta property="og:locale" :content="lang" />
 
-			<meta name="twitter:card" content="summary">
+			<meta name="twitter:card" content="summary" />
 
 			<template v-if="socialImage">
-				<meta property="og:image" :content="base + socialImage">
-				<meta property="og:image:alt" :content="social.image.alt">
-				<meta property="og:image:width" content="500">
-				<meta property="og:image:height" content="500">
+				<meta property="og:image" :content="base + socialImage" />
+				<meta property="og:image:alt" :content="social.image.alt" />
+				<meta property="og:image:width" content="500" />
+				<meta property="og:image:height" content="500" />
 			</template>
 
+			<!-- prettier-ignore -->
 			<component :is="'script'">
 				const theme = localStorage.getItem(`fynn-theme`) ?? `auto`;
 				document.documentElement.setAttribute(`data-theme`, theme);
 			</component>
-			<link rel="stylesheet" href="/main.css">
-			<!-- eslint-enable vue/max-attributes-per-line -->
+			<link rel="stylesheet" href="/main.css" />
 		</head>
 		<body>
 			<CHeader />
@@ -81,7 +80,7 @@ const socialImage = await getSocialImage()
 				<div
 					class="LayoutBase-wrapper"
 					:class="{
-						'LayoutBase-wrapper--hero': hero
+						'LayoutBase-wrapper--hero': hero,
 					}"
 				>
 					<CHero v-if="hero" />

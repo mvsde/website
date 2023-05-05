@@ -6,14 +6,12 @@ import CLinkCard from './CLinkCard.vue'
 const { hero, cards } = useData()
 const { image } = useMethods()
 
-function getHeroImage () {
+function getHeroImage() {
 	if (!hero.image) {
 		return
 	}
 
-	const width = cards
-		? 864
-		: 1120
+	const width = cards ? 864 : 1120
 
 	const sizes = cards
 		? '(min-width: 1120px) 800px, (min-width: 864px) 66vw, 100vw'
@@ -34,10 +32,7 @@ const heroImage = await getHeroImage()
 <template>
 	<div class="Hero">
 		<figure class="Hero-figure">
-			<div
-				v-if="hero.image"
-				v-html="heroImage"
-			/>
+			<div v-if="hero.image" v-html="heroImage" />
 			<iframe
 				v-else-if="hero.iframe"
 				class="Hero-media"
@@ -60,23 +55,11 @@ const heroImage = await getHeroImage()
 				allowfullscreen
 			/>
 
-			<figcaption
-				v-if="hero.caption"
-				class="Hero-caption"
-				v-html="hero.caption"
-			/>
+			<figcaption v-if="hero.caption" class="Hero-caption" v-html="hero.caption" />
 		</figure>
 
-		<div
-			v-if="cards"
-			class="Hero-cards"
-		>
-			<CLinkCard
-				v-for="card in cards"
-				:key="card.title"
-				:title="card.title"
-				:links="card.links"
-			/>
+		<div v-if="cards" class="Hero-cards">
+			<CLinkCard v-for="card in cards" :key="card.title" :title="card.title" :links="card.links" />
 		</div>
 	</div>
 </template>

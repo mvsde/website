@@ -33,9 +33,5 @@ export default {
 	map: {
 		inline: false,
 	},
-	plugins: [
-		pluginImport(),
-		pluginURL(urlOptions),
-		IS_PRODUCTION && cssnano(),
-	],
+	plugins: [pluginImport(), pluginURL(urlOptions), IS_PRODUCTION && cssnano()],
 }

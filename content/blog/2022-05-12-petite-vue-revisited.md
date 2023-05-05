@@ -37,9 +37,7 @@ Check out this [basic menu button example](https://codepen.io/mvsde/pen/mdMmGer)
 You can also use petite-vue for more “conventional” Vue apps. In this case the HTML acts as a template which we then use in JavaScript as our [mounting point](https://github.com/vuejs/petite-vue#explicit-mount-target):
 
 ```html
-<form id="search">
-	…
-</form>
+<form id="search">…</form>
 ```
 
 In our JavaScript file we can define complex methods and also use imported code defined elsewhere in our application:
@@ -64,15 +62,13 @@ Take a look at the following HTML:
 
 ```html
 <ul>
-	<li v-for="item in items">
-		{% raw %}{{ item }}{% endraw %}
-	</li>
+	<li v-for="item in items">{% raw %}{{ item }}{% endraw %}</li>
 </ul>
 ```
 
 Until JavaScript has loaded, it will look like this:
 
-* {% raw %}{{ item }}{% endraw %}
+- {% raw %}{{ item }}{% endraw %}
 
 Let’s call it _a flash of un-compiled content_. Since petite-vue is really small, the flash shouldn’t take too long. But for slow network speeds or when JavaScript fails to load altogether, the UX isn’t that great.
 
@@ -80,9 +76,7 @@ The solution to this problem is the `v-cloak` attribute:
 
 ```html
 <ul v-cloak>
-	<li v-for="item in items">
-		{% raw %}{{ item }}{% endraw %}
-	</li>
+	<li v-for="item in items">{% raw %}{{ item }}{% endraw %}</li>
 </ul>
 ```
 

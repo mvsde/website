@@ -3,15 +3,15 @@ id: eb7a276f-f52d-4fde-911f-e5ec882909af
 title: The Sanctuary
 description: The very beginning of how I (slowly) figured out I’m non-binary.
 date: 2023-01-28T08:18:00Z
-tags: 
+tags:
   - Queer
 social:
   image:
     src: media/adira-and-gray-square.jpg
-    alt: "Scene form Star Trek: Discovery. A dimply lit room aboard a starship. The non-binary human Adira Tal leans against a table and looks intently at someone outside the frame."
+    alt: 'Scene form Star Trek: Discovery. A dimply lit room aboard a starship. The non-binary human Adira Tal leans against a table and looks intently at someone outside the frame.'
 hero:
   image: media/adira-and-gray.jpg
-  alt: "Scene from Star Trek: Discovery. The non-binary human Adira Tal and the trans man Gray Tal play some sort of sci-fi board game in a dimly lit room aboard a starship."
+  alt: 'Scene from Star Trek: Discovery. The non-binary human Adira Tal and the trans man Gray Tal play some sort of sci-fi board game in a dimly lit room aboard a starship.'
   caption: 'Star Trek: Discovery Season 4 Episode 6 “Stormy Weather” by <a href="https://intl.startrek.com/gallery/first-look-star-trek-discovery-stormy-weather/star-trek-discovery-stormy-weather-3024/30">StarTrek.com</a>.'
 related:
   - /blog/down-the-rabbit-hole/

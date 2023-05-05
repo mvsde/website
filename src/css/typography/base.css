@@ -27,13 +27,10 @@ pre,
 
 a {
 	color: var(--color-brand);
-
 	word-wrap: break-word;
 	word-break: break-all;
 	word-break: break-word;
-
-	/* Rounded corners for focus outline. */
-	border-radius: var(--border-radius-small);
+	border-radius: var(--border-radius-small); /* Rounded corners for focus outline. */
 }
 
 a:focus {
@@ -45,7 +42,6 @@ a:focus {
 hr {
 	block-size: 0.25em;
 	margin-block: 2em;
-
 	background: var(--color-highlight-background);
 	border: 0;
 	border-radius: var(--border-radius-small);

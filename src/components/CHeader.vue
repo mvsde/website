@@ -55,16 +55,12 @@ const links = [
 				:href="link.url"
 				class="Header-link"
 				:class="{
-					'is-active': isActivePage({ current: page.url, url: link.url })
+					'is-active': isActivePage({ current: page.url, url: link.url }),
 				}"
 				:aria-current="isCurrentPage({ current: page.url, url: link.url }) ? 'page' : undefined"
 				v-bind="link.attributes"
 			>
-				<CIcon
-					v-if="link.icon"
-					:name="link.icon"
-					class="Header-icon"
-				/>
+				<CIcon v-if="link.icon" :name="link.icon" class="Header-icon" />
 				<template v-else>
 					{{ link.text }}
 				</template>

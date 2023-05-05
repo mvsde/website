@@ -15,7 +15,7 @@ Contrary to widespread belief [I’m not a big time gamer](https://steamcommunit
 
 ## The Elder Scrolls V: Skyrim
 
-At first glance, _The Elder Scrolls V: Skyrim_ doesn’t present itself as particularly focused on inclusivity. However, one of the core strengths of open world and role-playing games is their openness: The player can create a character to their liking and more or less do whatever they want. In case of Skyrim [same-sex and interracial marriage](https://elderscrolls.fandom.com/wiki/Marriage_(Skyrim)) is possible. For a game released in 2011 this can be considered quite progressive.
+At first glance, _The Elder Scrolls V: Skyrim_ doesn’t present itself as particularly focused on inclusivity. However, one of the core strengths of open world and role-playing games is their openness: The player can create a character to their liking and more or less do whatever they want. In case of Skyrim [same-sex and interracial marriage](<https://elderscrolls.fandom.com/wiki/Marriage_(Skyrim)>) is possible. For a game released in 2011 this can be considered quite progressive.
 
 ## Tomb Raider
 

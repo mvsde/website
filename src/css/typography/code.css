@@ -3,7 +3,6 @@ pre {
 	font-family: var(--font-family-mono);
 	font-size: 0.95em;
 	tab-size: 2;
-
 	background: var(--color-background);
 }
 
@@ -16,19 +15,15 @@ pre {
 	margin-inline: calc(var(--content-highlight-inset) * -1);
 	padding-block: 0.75em;
 	padding-inline: var(--content-highlight-inset);
-
 	overflow-x: auto;
-
 	border-radius: 0;
 }
 
-@media (min-width: 70rem) {
+@media (width >= 70rem) {
 	pre {
 		border-radius: var(--border-radius-small);
 	}
 }
-
-/* stylelint-disable selector-class-pattern */
 
 .token.comment {
 	color: var(--color-code-comment);

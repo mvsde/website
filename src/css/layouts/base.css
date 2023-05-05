@@ -15,7 +15,7 @@
 	margin-block-start: var(--content-hero-bleed);
 }
 
-@media (min-width: 70rem) {
+@media (width >= 70rem) {
 	.LayoutBase-head {
 		margin-block: 1.5rem 3rem;
 	}

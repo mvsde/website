@@ -1,6 +1,5 @@
 .Card {
 	padding: var(--content-highlight-inset);
-
 	background: var(--color-background);
 	border-radius: var(--border-radius-small);
 }

@@ -3,7 +3,7 @@ id: 8a827afa-e0bc-4bca-a9c9-4c55b74367f5
 title: CSS Custom Property toggles for themes
 description: Use CSS Custom Property toggles to avoid repeating property definitions for light and dark themes.
 date: 2023-01-01T08:44:00Z
-tags: 
+tags:
   - Development
 ---
 
@@ -104,7 +104,7 @@ The code will be more readable later on if we first create “boolean type” va
 
 ```css
 :root {
-	--true:;
+	--true: ;
 	--false: initial;
 }
 ```
@@ -161,7 +161,7 @@ Finally we put all the code together and add the `color-scheme` property so the 
 
 ```css
 :root {
-	--true:;
+	--true: ;
 	--false: initial;
 
 	--is-light-theme: var(--true);

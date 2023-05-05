@@ -1,8 +1,7 @@
 /* The theme-dependent variable definitions use a CSS Custom Property switch to reduce declaration repetition. */
 
 :root {
-	/* stylelint-disable-next-line */
-	--true:;
+	--true: ;
 	--false: initial;
 
 	/* Base colors */
@@ -88,21 +87,13 @@
 
 	/* Shadows */
 
-	--box-shadow-small--light:
-		var(--is-theme-light)
-		0 0.0625em 0.5rem hsl(275deg 40% 15% / 8%),
+	--box-shadow-small--light: var(--is-theme-light) 0 0.0625em 0.5rem hsl(275deg 40% 15% / 8%),
 		0 0.125em 1rem hsl(275deg 30% 30% / 15%);
-	--box-shadow-large--light:
-		var(--is-theme-light)
-		0 0.125rem 0.5rem hsl(275deg 40% 15% / 10%),
+	--box-shadow-large--light: var(--is-theme-light) 0 0.125rem 0.5rem hsl(275deg 40% 15% / 10%),
 		0 0.25rem 2rem hsl(275deg 30% 10% / 40%);
 
-	--box-shadow-small--dark:
-		0 0.0625rem 0.5rem hsl(275deg 50% 20% / 30%),
-		0 0.125rem 1.5rem hsl(275deg 40% 10% / 50%);
-	--box-shadow-large--dark:
-		0 0.125rem 1rem hsl(275deg 50% 20% / 30%),
-		0 0.25rem 2.5rem hsl(275deg 40% 10% / 60%);
+	--box-shadow-small--dark: 0 0.0625rem 0.5rem hsl(275deg 50% 20% / 30%), 0 0.125rem 1.5rem hsl(275deg 40% 10% / 50%);
+	--box-shadow-large--dark: 0 0.125rem 1rem hsl(275deg 50% 20% / 30%), 0 0.25rem 2.5rem hsl(275deg 40% 10% / 60%);
 
 	/* Shadows mappings */
 
@@ -111,8 +102,8 @@
 
 	/* Typography */
 
-	--font-family-text: "IBM Plex Sans", sans-serif;
-	--font-family-mono: "IBM Plex Mono", monospace;
+	--font-family-text: 'IBM Plex Sans', sans-serif;
+	--font-family-mono: 'IBM Plex Mono', monospace;
 
 	--line-height-text: 1.5;
 	--line-height-heading: 1.2;
@@ -150,13 +141,13 @@
 
 /* Handle user-selected color scheme. */
 
-:root[data-theme="light"] {
+:root[data-theme='light'] {
 	--is-theme-light: var(--true);
 
 	color-scheme: light;
 }
 
-:root[data-theme="dark"] {
+:root[data-theme='dark'] {
 	--is-theme-light: var(--false);
 
 	color-scheme: dark;

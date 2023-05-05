@@ -2,7 +2,6 @@
 	margin-inline: calc(var(--content-highlight-inset) * -1);
 	padding-block: 0.75em;
 	padding-inline: var(--content-highlight-inset);
-
 	background: var(--color-highlight-background);
 }
 
@@ -10,14 +9,14 @@
 	margin-block-end: 0;
 }
 
-@media (min-width: 42rem) {
+@media (width >= 42rem) {
 	.Note {
 		border-start-end-radius: var(--border-radius-small);
 		border-end-end-radius: var(--border-radius-small);
 	}
 }
 
-@media (min-width: 70rem) {
+@media (width >= 70rem) {
 	.Note {
 		border-radius: var(--border-radius-small);
 	}

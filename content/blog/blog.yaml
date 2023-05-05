@@ -1,4 +1,4 @@
-permalink: "{{ page.filePathStem }}/"
+permalink: '{{ page.filePathStem }}/'
 layout: LPost.vue
 tags:
   - blog

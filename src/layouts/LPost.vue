@@ -16,16 +16,10 @@ const { content, date, tags } = useData()
 				<time>
 					{{ formatISODate(date) }}
 				</time>
-				<span v-if="filterTags(tags)">
-					· <CTags :items="filterTags(tags)" />
-				</span>
+				<span v-if="filterTags(tags)"> · <CTags :items="filterTags(tags)" /></span>
 			</div>
 		</template>
 
-		<div
-			v-if="content"
-			class="u-containerContent"
-			v-html="content"
-		/>
+		<div v-if="content" class="u-containerContent" v-html="content" />
 	</LBase>
 </template>

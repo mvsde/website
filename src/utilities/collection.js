@@ -5,7 +5,7 @@
  * @param {'ascending'|'descending'} [options.order]
  * @returns {Array}
  */
-export function orderCollection ({ collection, order = 'descending' }) {
+export function orderCollection({ collection, order = 'descending' }) {
 	if (order === 'descending') {
 		return collection.slice().reverse()
 	}

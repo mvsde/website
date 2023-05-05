@@ -15,54 +15,54 @@ Diese Seite gibt es auch auf [Englisch](../en/){hreflang=en}.
 
 ## Name
 
-* [🧑🏻]{aria-hidden=true} **Fynn**
-{.u-emojiList}
+- [🧑🏻]{aria-hidden=true} **Fynn**
+  {.u-emojiList}
 
 ## Pronomen
 
-* [✅]{aria-label=Ja:} **dey/denen**/deren
-* [✅]{aria-label=Ja:} **they/them**/their
-* [❌]{aria-label=Nein:} sie/ihr
-* [❌]{aria-label=Nein:} er/ihm
-{.u-emojiList}
+- [✅]{aria-label=Ja:} **dey/denen**/deren
+- [✅]{aria-label=Ja:} **they/them**/their
+- [❌]{aria-label=Nein:} sie/ihr
+- [❌]{aria-label=Nein:} er/ihm
+  {.u-emojiList}
 
 ## Anrede
 
-* [✅]{aria-label=Ja:} **keine Anrede**
-* [❌]{aria-label=Nein:} Frau
-* [❌]{aria-label=Nein:} Herr
-{.u-emojiList}
+- [✅]{aria-label=Ja:} **keine Anrede**
+- [❌]{aria-label=Nein:} Frau
+- [❌]{aria-label=Nein:} Herr
+  {.u-emojiList}
 
 ## Bezugnahme
 
-* [✅]{aria-label=Ja:} **Sternchen-Form** (*)
-* [✅]{aria-label=Ja:} **Person**
-* [✅]{aria-label=Ja:} **Geschwister** (singular)
-* [✅]{aria-label=Ja:} **Kind**
-* [❌]{aria-label=Nein:} Frau
-* [❌]{aria-label=Nein:} Mann
-* [❌]{aria-label=Nein:} Schwester
-* [❌]{aria-label=Nein:} Bruder
-* [❌]{aria-label=Nein:} Tochter
-* [❌]{aria-label=Nein:} Sohn
-{.u-emojiList}
+- [✅]{aria-label=Ja:} **Sternchen-Form** (\*)
+- [✅]{aria-label=Ja:} **Person**
+- [✅]{aria-label=Ja:} **Geschwister** (singular)
+- [✅]{aria-label=Ja:} **Kind**
+- [❌]{aria-label=Nein:} Frau
+- [❌]{aria-label=Nein:} Mann
+- [❌]{aria-label=Nein:} Schwester
+- [❌]{aria-label=Nein:} Bruder
+- [❌]{aria-label=Nein:} Tochter
+- [❌]{aria-label=Nein:} Sohn
+  {.u-emojiList}
 
 ## Beispiele
 
-> **Fynn** ist **Programmierer*in**.<br>
-> **Dey** ist **Programmierer*in**.<br>
-> **They** ist **Programmierer*in**.
+> **Fynn** ist **Programmierer\*in**.  
+> **Dey** ist **Programmierer\*in**.  
+> **They** ist **Programmierer\*in**.
 
 > **Fynn** ist eine **programmierende Person**.
 
-> fynn.be ist **deren** Website.<br>
+> fynn.be ist **deren** Website.  
 > fynn.be ist **their** Website.
 
-> Ich bin **denen** kürzlich begegnet.<br>
+> Ich bin **denen** kürzlich begegnet.  
 > Ich bin **them** kürzlich begegnet.
 
-> Ich habe **dey** auf Mastodon gefunden.<br>
+> Ich habe **dey** auf Mastodon gefunden.  
 > Ich habe **them** auf Mastodon gefunden.
 
-> **Dey** ist das **Geschwister** von …<br>
+> **Dey** ist das **Geschwister** von …  
 > **Dey** ist das **Kind** von …

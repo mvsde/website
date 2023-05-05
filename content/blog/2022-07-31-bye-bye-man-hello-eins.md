@@ -20,12 +20,12 @@ I recently observed a [new trend in progressive German](https://twitter.fynn.be/
 Take this random English sentence I just came up with:
 
 > **One** does not simply walk into Mordor.
-{lang=en translate=no}
+> {lang=en translate=no}
 
 It translates to Duden[^1]-approved German like this:
 
 > **Man** spaziert nicht einfach nach Mordor.
-{lang=de translate=no}
+> {lang=de translate=no}
 
 This is a very common pronoun used for general statements in German.
 
@@ -33,12 +33,12 @@ This is a very common pronoun used for general statements in German.
 
 The history of the modern German _man_{lang=de translate=no} can be traced back all the way to the common ancestor of most European languages, Proto-Indo-European:
 
-* Proto-Indo-European: _*mon-_, _*men-_{lang=ine translate=no}
-  * Proto-Germanic: _*mann-_{lang=gem translate=no}
-    * Proto-West Germanic: _*mann_{lang=gmw translate=no}
-      * Old High German: _man_{lang=goh translate=no}
-        * Middle High German: _man_{lang=gmh translate=no}
-          * German: _Mann_, _man_{lang=de translate=no}
+- Proto-Indo-European: _\*mon-_, _\*men-_{lang=ine translate=no}
+  - Proto-Germanic: _\*mann-_{lang=gem translate=no}
+    - Proto-West Germanic: _\*mann_{lang=gmw translate=no}
+      - Old High German: _man_{lang=goh translate=no}
+        - Middle High German: _man_{lang=gmh translate=no}
+          - German: _Mann_, _man_{lang=de translate=no}
 
 And there we have it: _man_{lang=de translate=no} and _Mann_{lang=de translate=no} (translates to the English _man_{lang=en translate=no}) are basically the same word, they are even pronounced the same way. Head over to [Wiktionary](https://en.wiktionary.org/wiki/Reconstruction:Proto-Germanic/mann-) which is an absolute treasure if you want to learn more about Etymology aka the history of words.
 
@@ -63,6 +63,6 @@ Meet the new indefinite German pronoun **eins**{lang=de translate=no}.
 It is a direct replacement for _man_{lang=de translate=no}, so it doesn’t even require that much rethinking:
 
 > **Eins** spaziert nicht einfach nach Mordor.
-{lang=de translate=no}
+> {lang=de translate=no}
 
 [^1]: The _Duden_ is the most well-known German dictionary. The actual “standards body” for German is the _Council for German Orthography_. While the _Duden_ is becoming increasingly progressive, the _Council_ is [staffed by a bunch of boomers](https://www.rechtschreibrat.com/ueber-den-rat/), so, we can safely ignore it.

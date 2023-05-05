@@ -36,7 +36,7 @@ module.exports = function (eleventyConfig) {
 	eleventyConfig.addPassthroughCopy(COPY_FILES)
 
 	// Data
-	eleventyConfig.addDataExtension('yaml', contents => yaml.load(contents))
+	eleventyConfig.addDataExtension('yaml', (contents) => yaml.load(contents))
 	eleventyConfig.addGlobalData('base', process.env.URL)
 	eleventyConfig.addGlobalData('layout', 'LDefault.vue')
 

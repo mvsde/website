@@ -22,9 +22,7 @@ const themes = [
 
 <template>
 	<div class="Theme">
-		<h2 class="Theme-heading">
-			Theme:
-		</h2>
+		<h2 class="Theme-heading">Theme:</h2>
 
 		<button
 			v-for="{ title, icon, theme } in themes"
@@ -35,10 +33,7 @@ const themes = [
 				localStorage.setItem('fynn-theme', '${theme}');
 			`"
 		>
-			<CIcon
-				class="Theme-icon"
-				:name="icon"
-			/>
+			<CIcon class="Theme-icon" :name="icon" />
 			{{ title }}
 		</button>
 	</div>

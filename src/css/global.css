@@ -1,3 +1,3 @@
-@import "./global/variables.css";
-@import "./global/fonts.css";
-@import "./global/scaffolding.css";
+@import url('./global/variables.css');
+@import url('./global/fonts.css');
+@import url('./global/scaffolding.css');

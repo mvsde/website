@@ -4,6 +4,6 @@
  * @param {Date} date
  * @returns {string}
  */
-export function formatISODate (date) {
+export function formatISODate(date) {
 	return date.toISOString().slice(0, 10)
 }

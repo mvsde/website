@@ -3,7 +3,7 @@
  * @param {string} page Current page URL
  * @returns {boolean}
  */
-export function isHomePage (page) {
+export function isHomePage(page) {
 	return page === '/'
 }
 
@@ -14,7 +14,7 @@ export function isHomePage (page) {
  * @param {string} options.url Comparison URL
  * @returns {boolean}
  */
-export function isCurrentPage ({ current, url }) {
+export function isCurrentPage({ current, url }) {
 	return current === url
 }
 
@@ -25,7 +25,7 @@ export function isCurrentPage ({ current, url }) {
  * @param {string} options.url Comparison URL
  * @returns {boolean}
  */
-export function isActivePage ({ current, url }) {
+export function isActivePage({ current, url }) {
 	if (isHomePage(url)) {
 		return isCurrentPage({ current, url })
 	}
@@ -40,8 +40,8 @@ export function isActivePage ({ current, url }) {
  * @param {string} options.url URL for page
  * @returns {Array}
  */
-export function getPageData ({ collections, url }) {
-	return collections.all.find(page => page.url === url)
+export function getPageData({ collections, url }) {
+	return collections.all.find((page) => page.url === url)
 }
 
 /**
@@ -49,9 +49,9 @@ export function getPageData ({ collections, url }) {
  * @param {string[]} tags
  * @returns {string[]|null}
  */
-export function filterTags (tags) {
+export function filterTags(tags) {
 	const EXCLUDED_TAGS = ['feed', 'blog', 'talk', 'sunset']
-	const filteredTags = tags.filter(tag => !EXCLUDED_TAGS.includes(tag))
+	const filteredTags = tags.filter((tag) => !EXCLUDED_TAGS.includes(tag))
 
 	if (!filteredTags.length) {
 		return null

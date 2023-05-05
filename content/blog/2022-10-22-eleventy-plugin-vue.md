@@ -41,7 +41,7 @@ npm install --save-dev @mvsde/eleventy-plugin-vue
 const { pluginVue } = require('@mvsde/eleventy-plugin-vue')
 
 module.exports = function (eleventyConfig) {
-  eleventyConfig.addPlugin(pluginVue)
+	eleventyConfig.addPlugin(pluginVue)
 }
 ```
 
@@ -55,13 +55,13 @@ The plugin exports Vue Composition API methods for accessing the [current pageâ€
 
 ```html
 <script setup>
-import { useData, useMethods } from '@mvsde/eleventy-plugin-vue'
+	import { useData, useMethods } from '@mvsde/eleventy-plugin-vue'
 
-// Data supplied by Eleventy and the data cascade
-const { page, title, content, ... } = useData()
+	// Data supplied by Eleventy and the data cascade
+	const { page, title, content, ... } = useData()
 
-// JavaScript shortcodes defined in Eleventy configuration
-const { image, ... } = useMethods()
+	// JavaScript shortcodes defined in Eleventy configuration
+	const { image, ... } = useMethods()
 </script>
 
 <template>

@@ -5,14 +5,10 @@ blockquote {
 }
 
 blockquote::before {
-	content: "»";
+	content: '»';
 	pointer-events: none;
-
 	position: absolute;
-
-	/* Optically align with start. */
-	inset-inline-start: -0.1em;
-
+	inset-inline-start: -0.1em; /* Optically align with start. */
 	font-size: 1.25em;
 	font-weight: bold;
 	line-height: 1.1;

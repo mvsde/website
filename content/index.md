@@ -51,13 +51,13 @@ cards:
 
 ## About me
 
-* My full name is _Fynn Becker_, just _Fynn_ is fine though
-* I’m non-binary trans, my pronouns are [they/them](/pronouns/){lang=en translate=no}
-* Frontend developer at [Factorial](https://www.factorial.io/)
-* Open sourcerer (sometimes at least)
-* Video game collector (I have way too many)
-* Interested in tech and computer things
-* [Shinson Hapkido](http://www.shinsonhapkido.org) blue belt
-* Active member of the cyclists club ADFC
-* Huge [Star Wars](https://twitter.fynn.be/1408409600643190788/) and [Star Trek](https://twitter.fynn.be/1400519056374046726/) nerd
-* Living near Hamburg, Germany
+- My full name is _Fynn Becker_, just _Fynn_ is fine though
+- I’m non-binary trans, my pronouns are [they/them](/pronouns/){lang=en translate=no}
+- Frontend developer at [Factorial](https://www.factorial.io/)
+- Open sourcerer (sometimes at least)
+- Video game collector (I have way too many)
+- Interested in tech and computer things
+- [Shinson Hapkido](http://www.shinsonhapkido.org) blue belt
+- Active member of the cyclists club ADFC
+- Huge [Star Wars](https://twitter.fynn.be/1408409600643190788/) and [Star Trek](https://twitter.fynn.be/1400519056374046726/) nerd
+- Living near Hamburg, Germany

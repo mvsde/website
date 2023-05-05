@@ -13,5 +13,5 @@ related:
 
 If you’re unsure how to refer to me, please have a look at these pages in English and German where I wrote down my pronouns and some usage examples.
 
-* [English](en/)
-* [Deutsch](de/){lang=de hreflang=de}
+- [English](en/)
+- [Deutsch](de/){lang=de hreflang=de}

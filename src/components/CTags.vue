@@ -9,15 +9,8 @@ defineProps({
 
 <template>
 	<ul class="Tags">
-		<li
-			v-for="item in items"
-			:key="item"
-			class="Tags-item"
-		>
-			<a
-				:href="`/tag/${item.toLowerCase()}/`"
-				class="Tags-link"
-			>#{{ item }}</a>
+		<li v-for="item in items" :key="item" class="Tags-item">
+			<a :href="`/tag/${item.toLowerCase()}/`" class="Tags-link">#{{ item }}</a>
 		</li>
 	</ul>
 </template>

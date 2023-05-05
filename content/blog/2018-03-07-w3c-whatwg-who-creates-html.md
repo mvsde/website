@@ -23,7 +23,7 @@ While WHATWG advanced HTML, the W3C hasn’t been sitting idle. According to Wik
 
 [W3C endorsed the latest changes to WHATWG](https://www.w3.org/blog/2017/12/whatwg-working-mode-changes/) in an official blog post, hoping for a greater collaboration between both organizations. _Michael Champion_, part of the WHATWG Steering Group, states on Twitter:
 
-> […] Living Standards are what "evergreen" browsers require, those of us who resisted have seen the light. But those who didn't think the Living Standards needed a patent policy have also seen the light I suppose.  This reset is cold water on lots of old flame wars.
+> […] Living Standards are what "evergreen" browsers require, those of us who resisted have seen the light. But those who didn't think the Living Standards needed a patent policy have also seen the light I suppose. This reset is cold water on lots of old flame wars.
 >
 > — [Tweet by @mc2hampion](https://twitter.com/mc2hampion/status/940476343447203845), written on 2017-12-12 at 08:00 AM.
 

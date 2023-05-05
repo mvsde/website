@@ -1,11 +1,10 @@
 .LayoutPost-meta {
 	margin-block-end: 0.5em;
-
 	font-size: calc(1rem + 0.7vw);
 	color: var(--color-text-muted);
 }
 
-@media (min-width: 70rem) {
+@media (width >= 70rem) {
 	.LayoutPost-meta {
 		font-size: 1.5rem;
 	}

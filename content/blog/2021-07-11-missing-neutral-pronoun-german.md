@@ -16,22 +16,22 @@ In October of 2020, I wrote a blog post about [the gender problem with the Germa
 _Teacher_, _cyclist_, or _astronaut_ – these English words don’t have any gender, but the German translation is always masculine first:
 
 > Lehrer, Radfahrer oder Astronaut
-{lang=de translate=no}
+> {lang=de translate=no}
 
 The German feminine form must be explicitly derived from the masculine one:
 
 > Lehrer**in**, Radfahrer**in** oder Astronaut**in**
-{lang=de translate=no}
+> {lang=de translate=no}
 
 Thankfully, a lot of progress has been made over the last couple of years. Namely the combination of the masculine and feminine form into a new neutral one:
 
-> Lehrer<strong>&ast;</strong>in, Radfahrer<strong>&ast;</strong>in oder Astronaut<strong>&ast;</strong>in
-{lang=de translate=no}
+> Lehrer<strong>\*</strong>in, Radfahrer<strong>\*</strong>in oder Astronaut<strong>\*</strong>in
+> {lang=de translate=no}
 
 But how is such a construct pronounced? This is a perfect segue to the _glottal stop_, which is a short pause inside or at the end of a spoken word. In English the glottal stop is most often heard when words or syllables end in plosives like _t_ or _k_:
 
 > ligh<u>t</u>, apar<u>t</u>ment, no<u>t</u>ebook, ba<u>ck</u>seat
-{lang=en translate=no}
+> {lang=en translate=no}
 
 Inserting short pauses slowly becomes more common in spoken German for the “neutralized” nouns to match the written form:
 
@@ -44,7 +44,7 @@ Colons and glottal stops inside nouns are a huge win on German’s path to becom
 The German language lacks a neutral pronoun. The binary pronouns _she_ and _he_ have direct translations, but there is no equivalent for _singular they_. Yes, the _plural they_ has a translation, but it cannot easily be used in a singular way. The reason is a terribly overloaded word:
 
 | Type             | English                       | German                           |
-|------------------|-------------------------------|----------------------------------|
+| ---------------- | ----------------------------- | -------------------------------- |
 | Singular pronoun | [she]{lang=en translate=no}   | [sie]{lang=de translate=no}      |
 | Plural pronoun   | [they]{lang=en translate=no}  | [sie]{lang=de translate=no}      |
 | Formal address   | [you]{lang=en translate=no}   | [Sie]{lang=de translate=no}      |

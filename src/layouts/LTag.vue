@@ -19,38 +19,18 @@ const languageName = new Intl.DisplayNames('en', { type: 'language' })
 
 <template>
 	<LBase>
-		<div
-			v-if="content"
-			class="u-containerContent"
-			v-html="content"
-		/>
+		<div v-if="content" class="u-containerContent" v-html="content" />
 
-		<ol
-			class="LayoutTag-list"
-			:reversed="collection.order !== 'ascending'"
-		>
-			<li
-				v-for="item in items"
-				:key="item.data.id"
-				class="LayoutTag-item"
-			>
+		<ol class="LayoutTag-list" :reversed="collection.order !== 'ascending'">
+			<li v-for="item in items" :key="item.data.id" class="LayoutTag-item">
 				<div class="LayoutTag-meta">
 					<time>
 						{{ formatISODate(item.date) }}
 					</time>
-					<span v-if="item.data.language">
-						· {{ languageName.of(item.data.language) }}
-					</span>
-					<span v-if="filterTags(item.data.tags)">
-						· <CTags :items="filterTags(item.data.tags)" />
-					</span>
+					<span v-if="item.data.language"> · {{ languageName.of(item.data.language) }}</span>
+					<span v-if="filterTags(item.data.tags)"> · <CTags :items="filterTags(item.data.tags)" /></span>
 				</div>
-				<a
-					class="LayoutTag-link"
-					:href="item.url"
-					:lang="item.data.language"
-					:hreflang="item.data.language"
-				>
+				<a class="LayoutTag-link" :href="item.url" :lang="item.data.language" :hreflang="item.data.language">
 					{{ item.data.title }}
 				</a>
 			</li>
