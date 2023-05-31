@@ -30,8 +30,8 @@
 		"css": "postcss src/main.css --base src --dir dist"
 	},
 	"dependencies": {
-		"@fontsource/ibm-plex-mono": "^4.5.13",
-		"@fontsource/ibm-plex-sans": "^4.5.13",
+		"@fontsource/ibm-plex-mono": "^5.0.2",
+		"@fontsource/ibm-plex-sans": "^5.0.2",
 		"prism-themes": "^1.9.0"
 	},
 	"devDependencies": {
@@ -41,12 +41,12 @@
 		"@11ty/eleventy-plugin-syntaxhighlight": "^5.0.0",
 		"@mvsde/eleventy-plugin-vue": "^0.1.1",
 		"cssnano": "^6.0.1",
-		"eslint": "^8.39.0",
+		"eslint": "^8.41.0",
 		"eslint-config-prettier": "^8.8.0",
 		"eslint-plugin-import": "^2.27.5",
-		"eslint-plugin-n": "^15.7.0",
+		"eslint-plugin-n": "^16.0.0",
 		"eslint-plugin-promise": "^6.1.1",
-		"eslint-plugin-vue": "^9.11.0",
+		"eslint-plugin-vue": "^9.14.1",
 		"markdown-it-attrs": "^4.1.6",
 		"markdown-it-bracketed-spans": "^1.0.1",
 		"markdown-it-container": "^3.0.0",
@@ -54,12 +54,12 @@
 		"markdown-it-footnote": "^3.0.3",
 		"markdownlint-cli2": "^0.7.1",
 		"netlify-plugin-cache": "^1.0.3",
-		"postcss": "^8.4.23",
+		"postcss": "^8.4.24",
 		"postcss-cli": "^10.1.0",
 		"postcss-html": "^1.5.0",
 		"postcss-import": "^15.1.0",
 		"postcss-url": "^10.1.3",
-		"stylelint": "^15.6.1",
+		"stylelint": "^15.6.2",
 		"stylelint-config-standard": "^33.0.0"
 	}
 }
