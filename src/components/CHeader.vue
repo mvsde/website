@@ -28,18 +28,18 @@ const links = [
 		},
 	},
 	{
-		url: 'https://twitter.com/mvsde',
-		icon: 'twitter',
-		attributes: {
-			'aria-label': 'Twitter',
-			rel: 'me',
-		},
-	},
-	{
 		url: 'https://github.com/mvsde',
 		icon: 'github',
 		attributes: {
 			'aria-label': 'GitHub',
+			rel: 'me',
+		},
+	},
+	{
+		url: 'https://www.linkedin.com/in/fynn/',
+		icon: 'linkedin',
+		attributes: {
+			'aria-label': 'LinkedIn',
 			rel: 'me',
 		},
 	},
