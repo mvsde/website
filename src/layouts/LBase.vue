@@ -33,6 +33,14 @@ const socialImage = await getSocialImage()
 			<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
 			<title>{{ isHomePage(page.url) ? '' : `${title} | ` }}Fynn Becker</title>
+
+			<!-- prettier-ignore -->
+			<component :is="'script'">
+				const theme = localStorage.getItem(`fynn-theme`) ?? `auto`;
+				document.documentElement.setAttribute(`data-theme`, theme);
+			</component>
+			<link rel="stylesheet" href="/main.css" />
+
 			<meta v-if="description" name="description" :content="description" />
 			<meta name="generator" :content="eleventy.generator" />
 
@@ -58,13 +66,6 @@ const socialImage = await getSocialImage()
 				<meta property="og:image:width" content="500" />
 				<meta property="og:image:height" content="500" />
 			</template>
-
-			<!-- prettier-ignore -->
-			<component :is="'script'">
-				const theme = localStorage.getItem(`fynn-theme`) ?? `auto`;
-				document.documentElement.setAttribute(`data-theme`, theme);
-			</component>
-			<link rel="stylesheet" href="/main.css" />
 		</head>
 		<body>
 			<CHeader />
