@@ -27,10 +27,6 @@ cards:
         url: https://mastodon.social/@mvsde
         attributes:
           rel: me
-      - title: Twitter
-        url: https://twitter.com/mvsde
-        attributes:
-          rel: me
       - title: GitHub
         url: https://github.com/mvsde
         attributes:
