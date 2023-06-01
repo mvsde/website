@@ -23,6 +23,7 @@ function getHeroImage() {
 		width,
 		sizes,
 		class: 'Hero-media',
+		fetchpriority: 'high',
 	})
 }
 
