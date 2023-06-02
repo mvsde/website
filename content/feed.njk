@@ -7,7 +7,7 @@ eleventyExcludeFromCollections: true
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<title>Fynn Becker</title>
 	<subtitle>Updates from Fynn’s personal website.</subtitle>
-	<updated>{{ collections.feed | getNewestCollectionItemDate | dateToRfc3339 }}</updated>
+	<updated>{{ collections.feed|getNewestCollectionItemDate|dateToRfc3339 }}</updated>
 	<icon>{{ base }}/favicon.svg</icon>
 
 	<link href="{{ base }}/{{ permalink }}" rel="self"/>
@@ -20,21 +20,21 @@ eleventyExcludeFromCollections: true
 	</author>
 
 	{% for post in collections.feed %}
-		{% set absolutePostUrl %}{{ post.url | url | absoluteUrl(base) }}{% endset %}
+		{% set absolutePostUrl %}{{ post.url|url|absoluteUrl(base) }}{% endset %}
 		{% set hero = post.data.hero %}
 		{% set hero_markup %}{% include "feed-hero.njk" %}{% endset %}
 
 		<entry>
 			<title>{{ post.data.title }}</title>
 			<link href="{{ absolutePostUrl }}"/>
-			<updated>{{ post.date | dateToRfc3339 }}</updated>
+			<updated>{{ post.date|dateToRfc3339 }}</updated>
 			<id>urn:uuid:{{ post.data.id }}</id>
 			{% if post.data.summary %}
 				<summary>{{ post.data.description }}</summary>
 			{% endif %}
 			<content type="html">
 				{% if hero %}{{ hero_markup }}{% endif %}
-				{{ post.templateContent | htmlToAbsoluteUrls(absolutePostUrl) }}
+				{{ post.templateContent|htmlToAbsoluteUrls(absolutePostUrl) }}
 			</content>
 		</entry>
 	{% endfor %}

@@ -30,7 +30,7 @@ const COPY_FILES = {
 
 /**
  * Eleventy configuration
- * @param {Object} eleventyConfig Eleventy configuration
+ * @param {import("@11ty/eleventy/src/UserConfig")} eleventyConfig Eleventy configuration
  */
 module.exports = function (eleventyConfig) {
 	eleventyConfig.addPassthroughCopy(COPY_FILES)
