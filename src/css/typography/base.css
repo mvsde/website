@@ -5,6 +5,7 @@ h4,
 h5,
 h6 {
 	line-height: var(--line-height-heading);
+	text-wrap: balance;
 }
 
 h2,
@@ -33,7 +34,7 @@ a {
 	border-radius: var(--border-radius-small); /* Rounded corners for focus outline. */
 }
 
-a:focus {
+a:focus-visible {
 	text-decoration: none;
 	outline: 0.125em solid currentcolor;
 	outline-offset: 0.125em;
