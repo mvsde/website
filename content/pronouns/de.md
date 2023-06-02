@@ -19,8 +19,8 @@ Diese Seite gibt es auch auf [Englisch](../en/){hreflang=en}.
 
 ## Pronomen
 
-- [✅]{aria-label=Ja:} **dey/denen**/deren
 - [✅]{aria-label=Ja:} **they/them**/their
+- [👍]{aria-label=Ok:} **dey/denen**/deren
 - [❌]{aria-label=Nein:} sie/ihr
 - [❌]{aria-label=Nein:} er/ihm
   {.u-emojiList}
@@ -49,19 +49,17 @@ Diese Seite gibt es auch auf [Englisch](../en/){hreflang=en}.
 ## Beispiele
 
 > **Fynn** ist **Programmierer\*in**.  
-> **Dey** ist **Programmierer\*in**.  
-> **They** ist **Programmierer\*in**.
+> **They** ist **Programmierer\*in**.  
+> **Dey** ist **Programmierer\*in**.
 
-> **Fynn** ist eine **programmierende Person**.
+> fynn.be ist **their** Website.  
+> fynn.be ist **deren** Website.
 
-> fynn.be ist **deren** Website.  
-> fynn.be ist **their** Website.
+> Ich bin **them** kürzlich begegnet.  
+> Ich bin **denen** kürzlich begegnet.
 
-> Ich bin **denen** kürzlich begegnet.  
-> Ich bin **them** kürzlich begegnet.
+> Ich habe **them** auf Mastodon gefunden.  
+> Ich habe **dey** auf Mastodon gefunden.
 
-> Ich habe **dey** auf Mastodon gefunden.  
-> Ich habe **them** auf Mastodon gefunden.
-
-> **Dey** ist das **Geschwister** von …  
-> **Dey** ist das **Kind** von …
+> **They** ist das **Geschwister** von …  
+> **They** ist das **Kind** von …
