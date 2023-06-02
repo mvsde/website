@@ -36,3 +36,9 @@ iframe {
 button {
 	font: inherit;
 }
+
+@media (prefers-reduced-motion: no-preference) {
+	[style*='--view-transition-name'] {
+		view-transition-name: var(--view-transition-name);
+	}
+}

@@ -7,7 +7,7 @@ import CHero from '../components/CHero.vue'
 import CRelated from '../components/CRelated.vue'
 import { isHomePage } from '../utilities/page.js'
 
-const { page, language, title, description, social, hero, related, base, eleventy } = useData()
+const { id, page, language, title, description, social, hero, related, base, eleventy } = useData()
 const { imagePath } = useMethods()
 
 function getSocialImage() {
@@ -31,6 +31,7 @@ const socialImage = await getSocialImage()
 		<head>
 			<meta charset="utf-8" />
 			<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+			<meta name="view-transition" content="same-origin" />
 
 			<title>{{ isHomePage(page.url) ? '' : `${title} | ` }}Fynn Becker</title>
 
@@ -73,7 +74,12 @@ const socialImage = await getSocialImage()
 			<main>
 				<div class="LayoutBase-head u-container">
 					<slot name="before-title" />
-					<h1 class="LayoutBase-title">
+					<h1
+						class="LayoutBase-title"
+						:style="{
+							'--view-transition-name': id && `title-${id}`,
+						}"
+					>
 						{{ title }}
 					</h1>
 				</div>

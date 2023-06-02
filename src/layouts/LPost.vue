@@ -6,13 +6,18 @@ import { formatISODate } from '../utilities/format-date.js'
 import { filterTags } from '../utilities/page.js'
 import LBase from './LBase.vue'
 
-const { content, date, tags } = useData()
+const { id, content, date, tags } = useData()
 </script>
 
 <template>
 	<LBase>
 		<template #before-title>
-			<div class="LayoutPost-meta">
+			<div
+				class="LayoutPost-meta"
+				:style="{
+					'--view-transition-name': id && `meta-${id}`,
+				}"
+			>
 				<time>
 					{{ formatISODate(date) }}
 				</time>
