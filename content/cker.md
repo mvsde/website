@@ -1,5 +1,4 @@
 ---
-id: 39b4c480-46b7-4fe4-a369-50a2ee5bceed
 title: fynn.be/cker
 description: That’s a funny URL, isn’t it? 😎
 hero:

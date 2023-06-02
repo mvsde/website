@@ -1,5 +1,4 @@
 ---
-id: 330d32ba-4a8b-4747-8cb5-9d93d917e367
 title: Ethics
 description: I take up a strong stance on ethical behavior in general and ethical web development in particular.
 social:

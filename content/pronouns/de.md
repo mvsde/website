@@ -1,5 +1,4 @@
 ---
-id: c41dcac2-9789-42cd-874e-1060b2241942
 title: Deutsche Pronomen
 description: Meine deutschen Pronomen, Anrede und Wörter, um auf mich Bezug zu nehmen.
 language: de

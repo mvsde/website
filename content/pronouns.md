@@ -1,5 +1,4 @@
 ---
-id: cb83b4a7-754e-4579-85f6-5c45225f6d76
 title: Pronouns
 description: Learn about my pronouns and how to address me.
 social:
