@@ -1,20 +1,20 @@
 .Theme {
-	display: flex;
-	justify-content: center;
 	align-items: center;
+	display: flex;
 	flex-wrap: wrap;
 	gap: 0.5em;
+	justify-content: center;
 }
 
 .Theme-heading {
 	display: inline;
-	margin: 0;
 	font-size: 1em;
+	margin: 0;
 }
 
 .Theme-button {
-	display: flex;
 	align-items: center;
+	display: flex;
 	gap: 0.375em;
 	padding-inline: 0.25em;
 }

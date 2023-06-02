@@ -1,17 +1,17 @@
 .Footer {
-	display: flex;
-	flex-wrap: wrap;
 	align-items: center;
 	column-gap: 2.5em;
-	row-gap: 1.5em;
+	display: flex;
+	flex-wrap: wrap;
 	padding-block: 2em;
+	row-gap: 1.5em;
 }
 
 .Footer-links {
 	display: flex;
-	justify-content: center;
-	gap: 1em;
 	font-weight: bold;
+	gap: 1em;
+	justify-content: center;
 }
 
 .Footer-link:not(:hover) {

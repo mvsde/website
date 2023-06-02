@@ -1,18 +1,18 @@
 blockquote {
-	position: relative;
-	padding-inline-start: 1em;
 	font-style: italic;
+	padding-inline-start: 1em;
+	position: relative;
 }
 
 blockquote::before {
+	color: var(--color-brand);
 	content: '»';
-	pointer-events: none;
-	position: absolute;
-	inset-inline-start: -0.1em; /* Optically align with start. */
 	font-size: 1.25em;
 	font-weight: bold;
+	inset-inline-start: -0.1em; /* Optically align with start. */
 	line-height: 1.1;
-	color: var(--color-brand);
+	pointer-events: none;
+	position: absolute;
 }
 
 blockquote em {

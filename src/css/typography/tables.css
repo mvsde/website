@@ -4,11 +4,11 @@ table {
 
 th,
 td {
+	border: 0.0625em var(--color-table-border);
+	border-block-end-style: solid;
+	border-inline-end-style: solid;
 	padding-block: 0.375em;
 	padding-inline: 0.5em;
-	border: 0.0625em var(--color-table-border);
-	border-inline-end-style: solid;
-	border-block-end-style: solid;
 }
 
 th {
@@ -16,10 +16,10 @@ th {
 }
 
 :where(th, td):first-child {
-	position: sticky;
-	inset-inline-start: 0;
 	background: var(--color-content-background);
 	border-inline-start-style: solid;
+	inset-inline-start: 0;
+	position: sticky;
 }
 
 :where(thead tr:first-child) th {

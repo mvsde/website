@@ -3,13 +3,13 @@
 }
 
 .LayoutBase-title {
-	inline-size: fit-content;
 	font-size: calc(1.25rem + 2.5vw);
+	inline-size: fit-content;
 }
 
 .LayoutBase-wrapper {
-	padding-block: calc(2rem + 2vw);
 	background: var(--color-content-background);
+	padding-block: calc(2rem + 2vw);
 }
 
 .LayoutBase-wrapper--hero {

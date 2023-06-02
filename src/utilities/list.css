@@ -2,12 +2,12 @@
 	--emoji-size: 1.75em;
 
 	list-style: none;
-	position: relative;
 	padding-inline-start: var(--emoji-size);
+	position: relative;
 }
 
 .u-emojiList li span:first-child {
-	position: absolute;
-	inset-inline: 0;
 	inline-size: var(--emoji-size);
+	inset-inline: 0;
+	position: absolute;
 }

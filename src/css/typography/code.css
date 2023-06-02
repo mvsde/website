@@ -1,22 +1,22 @@
 code,
 pre {
+	background: var(--color-background);
 	font-family: var(--font-family-mono);
 	font-size: 0.95em;
 	tab-size: 2;
-	background: var(--color-background);
 }
 
 :not(pre) > code {
-	padding-inline: 0.2em;
 	border-radius: var(--border-radius-small);
+	padding-inline: 0.2em;
 }
 
 pre {
+	border-radius: 0;
 	margin-inline: calc(var(--content-highlight-inset) * -1);
+	overflow-x: auto;
 	padding-block: 0.75em;
 	padding-inline: var(--content-highlight-inset);
-	overflow-x: auto;
-	border-radius: 0;
 }
 
 @media (width >= 70rem) {

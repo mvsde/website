@@ -7,18 +7,18 @@
 }
 
 html {
+	background: var(--color-background);
+	color: var(--color-text);
 	font-family: var(--font-family-text);
 	font-synthesis: none;
 	line-height: var(--line-height-text);
-	color: var(--color-text);
-	background: var(--color-background);
 }
 
 img,
 svg,
 iframe {
-	max-inline-size: 100%;
 	block-size: auto;
+	max-inline-size: 100%;
 	vertical-align: middle;
 }
 

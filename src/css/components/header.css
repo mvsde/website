@@ -3,9 +3,9 @@
 }
 
 .Header-nav {
+	align-items: center;
 	display: flex;
 	flex-wrap: wrap;
-	align-items: center;
 	gap: 0.5em 1em;
 }
 
@@ -16,10 +16,7 @@
 		--color-purple: hsl(274deg 57% 58%);
 		--color-black: hsl(0deg 0% 17%);
 
-		content: '';
-		block-size: 1.5em;
 		aspect-ratio: 4;
-		margin-inline-start: auto;
 		background: linear-gradient(
 			to right,
 			var(--color-yellow) 25%,
@@ -27,7 +24,10 @@
 			var(--color-purple) 50% 75%,
 			var(--color-black) 75%
 		);
+		block-size: 1.5em;
 		border-radius: var(--border-radius-small);
+		content: '';
+		margin-inline-start: auto;
 	}
 }
 

@@ -1,7 +1,7 @@
 .u-container {
 	inline-size: var(--container-width);
-	max-inline-size: 100%;
 	margin-inline: auto;
+	max-inline-size: 100%;
 	padding-inline: var(--container-padding);
 }
 

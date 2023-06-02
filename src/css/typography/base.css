@@ -27,23 +27,23 @@ pre,
 }
 
 a {
+	border-radius: var(--border-radius-small); /* Rounded corners for focus outline. */
 	color: var(--color-brand);
-	word-wrap: break-word;
 	word-break: break-all;
 	word-break: break-word;
-	border-radius: var(--border-radius-small); /* Rounded corners for focus outline. */
+	word-wrap: break-word;
 }
 
 a:focus-visible {
-	text-decoration: none;
 	outline: 0.125em solid currentcolor;
 	outline-offset: 0.125em;
+	text-decoration: none;
 }
 
 hr {
-	block-size: 0.25em;
-	margin-block: 2em;
 	background: var(--color-highlight-background);
+	block-size: 0.25em;
 	border: 0;
 	border-radius: var(--border-radius-small);
+	margin-block: 2em;
 }

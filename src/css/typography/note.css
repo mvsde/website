@@ -1,8 +1,8 @@
 .Note {
+	background: var(--color-highlight-background);
 	margin-inline: calc(var(--content-highlight-inset) * -1);
 	padding-block: 0.75em;
 	padding-inline: var(--content-highlight-inset);
-	background: var(--color-highlight-background);
 }
 
 .Note > :last-child {
@@ -11,8 +11,8 @@
 
 @media (width >= 42rem) {
 	.Note {
-		border-start-end-radius: var(--border-radius-small);
 		border-end-end-radius: var(--border-radius-small);
+		border-start-end-radius: var(--border-radius-small);
 	}
 }
 
