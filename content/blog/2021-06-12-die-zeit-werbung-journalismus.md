@@ -4,6 +4,8 @@ title: DIE ZEIT und werbefinanzierter Journalismus
 language: de
 description: Werbefinanzierte Medien stehen im direkten Konflikt mit dem notwendigen Vertrauen in seriösen Journalismus.
 date: 2021-06-12T10:10:00Z
+tags:
+  - Politics
 hero:
   image: media/zeit-baerbock-werbung.jpg
   alt: Screenshot der ZEIT-Online-Startseite mit einem übergroßen roten Werbebanner der Organisation Initiative Neue Soziale Marktwirtschaft (INSM) „Annalena und die 10 Verbote“.
