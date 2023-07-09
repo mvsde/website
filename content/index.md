@@ -34,6 +34,10 @@ cards:
         url: https://linkedin.com/in/fynn
         attributes:
           rel: me
+      - title: Twitter (archive)
+        url: https://twitter.fynn.be
+        attributes:
+          rel: me
   - title: Open source
     links:
       - title: miyagi for VS Code
