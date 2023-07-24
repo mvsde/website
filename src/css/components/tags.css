@@ -11,6 +11,10 @@
 	margin: 0;
 }
 
+.Tags-item:not(:last-child)::after {
+	content: ',';
+}
+
 .Tags-link:not(:hover, :focus) {
 	color: currentcolor;
 }
