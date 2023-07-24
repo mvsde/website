@@ -10,7 +10,7 @@ pagination:
     - feed
     - sunset
     - talk
-permalink: 'tag/{{ tag|slugify }}/index.html'
+permalink: 'tags/{{ tag|slugify }}/index.html'
 eleventyComputed:
   title: '{{ tag }}'
   collection:
