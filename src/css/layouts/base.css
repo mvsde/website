@@ -3,7 +3,7 @@
 }
 
 .LayoutBase-title {
-	font-size: calc(1.25rem + 2.5vw);
+	font-size: calc(1.5rem + 2.15vw);
 	inline-size: fit-content;
 }
 

@@ -1,6 +1,6 @@
 blockquote {
 	font-style: italic;
-	padding-inline-start: 1em;
+	padding-inline-start: var(--content-indent);
 	position: relative;
 }
 
@@ -9,7 +9,7 @@ blockquote::before {
 	content: '»';
 	font-size: 1.25em;
 	font-weight: bold;
-	inset-inline-start: -0.1em; /* Optically align with start. */
+	inset-inline-start: 0;
 	line-height: 1.1;
 	pointer-events: none;
 	position: absolute;

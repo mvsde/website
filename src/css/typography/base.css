@@ -4,7 +4,7 @@ h3,
 h4,
 h5,
 h6 {
-	line-height: var(--line-height-heading);
+	line-height: 1.2;
 	text-wrap: balance;
 }
 
@@ -14,6 +14,14 @@ h4,
 h5,
 h6 {
 	margin-block: 1.5em 0.5em;
+}
+
+h2 {
+	font-size: 1.75rem;
+}
+
+h3 {
+	font-size: 1.25rem;
 }
 
 p,

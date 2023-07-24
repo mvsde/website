@@ -9,9 +9,13 @@
 html {
 	background: var(--color-background);
 	color: var(--color-text);
-	font-family: var(--font-family-text);
+	font-family: 'IBM Plex Sans', sans-serif;
 	font-synthesis: none;
-	line-height: var(--line-height-text);
+	line-height: 1.6;
+}
+
+body {
+	font-size: 1.125rem;
 }
 
 img,

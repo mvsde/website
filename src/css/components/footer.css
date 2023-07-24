@@ -3,6 +3,7 @@
 	column-gap: 2.5em;
 	display: flex;
 	flex-wrap: wrap;
+	font-size: 1rem;
 	padding-block: 2em;
 	row-gap: 1.5em;
 }

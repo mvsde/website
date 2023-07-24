@@ -1,6 +1,7 @@
 ul,
-ol {
-	padding-inline-start: 1.125em;
+ol,
+dd {
+	padding-inline-start: var(--content-indent);
 }
 
 ul {

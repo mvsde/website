@@ -100,14 +100,6 @@
 	--box-shadow-small: var(--box-shadow-small--light, var(--box-shadow-small--dark));
 	--box-shadow-large: var(--box-shadow-large--light, var(--box-shadow-large--dark));
 
-	/* Typography */
-
-	--font-family-text: 'IBM Plex Sans', sans-serif;
-	--font-family-mono: 'IBM Plex Mono', monospace;
-
-	--line-height-text: 1.5;
-	--line-height-heading: 1.2;
-
 	/* Sizes */
 
 	--container-width: 70rem;
@@ -116,6 +108,7 @@
 	--content-hero-bleed: 10rem;
 	--content-inner-width: 40rem;
 	--content-highlight-inset: var(--container-padding);
+	--content-indent: 1.125em;
 
 	/* Border radius */
 

@@ -1,7 +1,7 @@
 code,
 pre {
 	background: var(--color-background);
-	font-family: var(--font-family-mono);
+	font-family: 'IBM Plex Mono', monospace;
 	font-size: 0.95em;
 	tab-size: 2;
 }
