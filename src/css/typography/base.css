@@ -34,6 +34,10 @@ pre,
 	margin-block-end: 1em;
 }
 
+p {
+	hyphens: auto;
+}
+
 a {
 	border-radius: var(--border-radius-small); /* Rounded corners for focus outline. */
 	color: var(--color-brand);
