@@ -2,7 +2,7 @@
 
 ## Requirements
 
-- [Node.js](https://nodejs.org)
+- [Node.js 20](https://nodejs.org)
 
 ## Installation
 
@@ -14,7 +14,7 @@ npm install
 
 ```bash
 npm run dev:site
-npm run dev:css
+npm run dev:assets
 ```
 
 ## Production
@@ -25,7 +25,7 @@ npm run build
 
 # Individual tasks
 npm run build:site
-npm run build:css
+npm run build:assets
 ```
 
 ## Linting
@@ -36,6 +36,6 @@ npm run lint
 
 # Individual tasks
 npm run lint:js
-npm run lint:css
+npm run lint:assets
 npm run lint:markdown
 ```
