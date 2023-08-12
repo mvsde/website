@@ -7,6 +7,8 @@ tags:
   - Development
 ---
 
+[[toc]]
+
 Way back in 2004 the _World Wide Web Consortium_ (W3C) decided to abandon HTML and shift its focus to XHTML. Concerned with this move, individuals from Apple, Mozilla, and Opera formed the _Web Hypertext Application Technology Working Group_ (WHATWG) to continue the development of HTML. Notable specifications by WHATWG are HTML (formerly HTML5), the DOM and Fetch standards, and Storage Standards (localStorage).
 
 One might ask: 2004? That’s a long time ago. Why is this story relevant 14 years later at the beginning of 2018?

@@ -11,6 +11,8 @@ hero:
   caption: Title photo by <a href="https://unsplash.com/@markusspiske">Markus Spiske</a> on <a href="https://unsplash.com/photos/n52HL8hmsdg">Unsplash</a>.
 ---
 
+[[toc]]
+
 ## Preamble
 
 I take up a strong stance on ethical behavior in general and ethical web development in particular. The following positions are by no means complete and will be expanded over time.

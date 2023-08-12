@@ -10,13 +10,15 @@ hero:
   alt: Orange illuminated desk with ultra-wide monitor and notebook showing the Ubuntu 19.10 “Eoan Ermine” wallpaper.
 ---
 
+[[toc]]
+
 ## Software
 
 - [Fedora Workstation](https://getfedora.org/en/workstation/)
 - [Google Chrome](https://www.google.com/chrome/)
 - [VS Code](https://code.visualstudio.com)
 - [Black Box](https://gitlab.gnome.org/raggesilver/blackbox)
-- [zsh with Oh My Zsh](https://ohmyz.sh) and [some plugins](https://github.com/mvsde/dotfiles/blob/main/.zshrc)
+- [zsh with Oh My Zsh](https://ohmyz.sh) and [some plugins](https://github.com/mvsde/dotfiles/blob/main/configs/.zshrc)
 - [JetBrains Mono](https://www.jetbrains.com/lp/mono/)
 
 ## Hardware

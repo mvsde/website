@@ -8,6 +8,8 @@ tags:
   - Development
 ---
 
+[[toc]]
+
 ## HTML/DOM validation
 
 For accessibility audits not only the HTML source needs to be validated, but the DOM after JavaScript may have changed it. The [check serialized DOM of the current page](https://validator.w3.org/nu/about.html#extras) bookmarklet automates the manual copy-and-paste task.

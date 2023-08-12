@@ -7,6 +7,8 @@ tags:
   - Development
 ---
 
+[[toc]]
+
 The [prefers-color-scheme](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-color-scheme) CSS media feature provides a convenient method to change a website’s design based on the light or dark theme preference people set in their browser or operating system settings.
 
 This setting is global though, so people can’t indicate a per-website preference. Because some people might want a dark system UI but light websites or the other way around, it is advisable to provide a theme selector on websites, too.
