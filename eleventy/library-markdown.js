@@ -1,3 +1,4 @@
+const anchor = require('markdown-it-anchor').default
 const attrs = require('markdown-it-attrs')
 const container = require('markdown-it-container')
 const deflist = require('markdown-it-deflist')
@@ -11,9 +12,18 @@ const MARKDOWN_OPTIONS = {
 
 const md = markdown(MARKDOWN_OPTIONS)
 
+/** @type {anchor.AnchorOptions} */
+const anchorOptions = {
+	permalink: anchor.permalink.headerLink({ class: 'u-linkHeading' }),
+}
+
+/** @type {[string, container.ContainerOpts?]} */
+const containerNoteOptions = ['Note']
+
 // Plugins
+md.use(anchor, anchorOptions)
 md.use(attrs)
-md.use(container, 'Note')
+md.use(container, ...containerNoteOptions)
 md.use(deflist)
 md.use(footnote)
 md.use(spans)
