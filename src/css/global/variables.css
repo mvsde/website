@@ -114,6 +114,16 @@
 
 	--border-radius-small: 0.1875rem;
 
+	/* Misc */
+
+	--non-binary-pride-flag: linear-gradient(
+		to right,
+		hsl(58deg 97% 60%) 25%,
+		hsl(0deg 0% 99%) 25% 50%,
+		hsl(274deg 57% 58%) 50% 75%,
+		hsl(0deg 0% 17%) 75%
+	);
+
 	accent-color: var(--color-brand);
 	color-scheme: light dark;
 }

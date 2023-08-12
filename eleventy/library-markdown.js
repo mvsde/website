@@ -48,7 +48,7 @@ md.renderer.rules.footnote_block_close = () => '</ol>'
 
 // Table of contents
 md.renderer.rules.tocOpen = () =>
-	`<details class="TOC Note"><summary class="TOC-heading">Table of contents</summary><nav aria-label="Table of contents" class="${tocOptions.containerClass}">`
+	`<details class="TOC Note"><summary class="TOC-heading">Table of contents</summary><nav class="${tocOptions.containerClass}" aria-label="Table of contents">`
 md.renderer.rules.tocClose = () => `</nav></details>`
 
 module.exports = md
