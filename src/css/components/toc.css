@@ -1,0 +1,29 @@
+.TOC {
+	background: var(--color-background);
+	margin-block-end: 2em;
+}
+
+.TOC-heading {
+	cursor: pointer;
+}
+
+.TOC-nav {
+	margin-block-start: 1em;
+}
+
+.TOC-list {
+	margin-block-end: 0;
+}
+
+.TOC-list .TOC-list {
+	list-style: disc;
+}
+
+.TOC-link {
+	color: inherit;
+	text-decoration: none;
+}
+
+.TOC-link:hover {
+	text-decoration: underline;
+}

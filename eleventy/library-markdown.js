@@ -5,6 +5,7 @@ const deflist = require('markdown-it-deflist')
 const footnote = require('markdown-it-footnote')
 const markdown = require('markdown-it')
 const spans = require('markdown-it-bracketed-spans')
+const toc = require('markdown-it-toc-done-right')
 
 const MARKDOWN_OPTIONS = {
 	html: true,
@@ -20,6 +21,14 @@ const anchorOptions = {
 /** @type {[string, container.ContainerOpts?]} */
 const containerNoteOptions = ['Note']
 
+/** @type {Partial<toc.TocOptions>} */
+const tocOptions = {
+	containerClass: 'TOC-nav',
+	listClass: 'TOC-list',
+	itemClass: 'TOC-item',
+	linkClass: 'TOC-link',
+}
+
 // Plugins
 md.use(anchor, anchorOptions)
 md.use(attrs)
@@ -27,6 +36,7 @@ md.use(container, ...containerNoteOptions)
 md.use(deflist)
 md.use(footnote)
 md.use(spans)
+md.use(toc, tocOptions)
 
 // Tables
 md.renderer.rules.table_open = () => '<div class="Table-scroll"><table>\n'
@@ -35,5 +45,10 @@ md.renderer.rules.table_close = () => '</table></div>\n'
 // Footnotes
 md.renderer.rules.footnote_block_open = () => '<hr><ol class="Footnotes">'
 md.renderer.rules.footnote_block_close = () => '</ol>'
+
+// Table of contents
+md.renderer.rules.tocOpen = () =>
+	`<details class="TOC Note"><summary class="TOC-heading">Table of contents</summary><nav aria-label="Table of contents" class="${tocOptions.containerClass}">`
+md.renderer.rules.tocClose = () => `</nav></details>`
 
 module.exports = md
