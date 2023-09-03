@@ -40,11 +40,13 @@ cards:
           rel: me
   - title: Open source
     links:
+      - title: Pride Flags
+        url: https://flag.is
       - title: miyagi for VS Code
-        url: https://github.com/miyagi-dev/vscode-miyagi
+        url: https://marketplace.visualstudio.com/items?itemName=fynn.miyagi
       - title: Pangolin.js
         url: https://pangolinjs.org
-      - title: Personal website
+      - title: This website
         url: https://github.com/mvsde/website
 ---
 
