@@ -198,9 +198,4 @@ Finally we put all the code together and add the `color-scheme` property so the 
 
 ## Demo
 
-<iframe
-  src="https://codepen.io/mvsde/embed/gOjMaWz?default-tab=result"
-  loading="lazy"
-  style="aspect-ratio: 16 / 10"
-  title="Demo for CSS Custom Property toggles for themes"
-></iframe>
+<iframe src="https://codepen.io/mvsde/embed/gOjMaWz?default-tab=result" loading="lazy" style="aspect-ratio: 16 / 10" title="Demo for CSS Custom Property toggles for themes"></iframe>
