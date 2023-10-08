@@ -2,8 +2,7 @@
 title: Tags
 pagination:
   data: collections
-  size: 100
-  generatePageOnEmptyData: true
+  size: Infinity
   alias: tags
   filter:
     - all

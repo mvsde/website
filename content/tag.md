@@ -3,6 +3,7 @@ layout: LTag.vue
 pagination:
   data: collections
   size: 1
+  addAllPagesToCollections: true
   alias: tag
   filter:
     - all
