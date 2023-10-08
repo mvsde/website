@@ -39,7 +39,7 @@ md.use(spans)
 md.use(toc, tocOptions)
 
 // Tables
-md.renderer.rules.table_open = () => '<div class="Table-scroll"><table>\n'
+md.renderer.rules.table_open = () => '<div class="Table-scroll" tabindex="0"><table>\n'
 md.renderer.rules.table_close = () => '</table></div>\n'
 
 // Footnotes
