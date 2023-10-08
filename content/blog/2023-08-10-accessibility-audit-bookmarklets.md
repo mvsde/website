@@ -88,6 +88,10 @@ The [tabindex](https://pauljadam.com/bookmarklets/tabindex.html) bookmarklet hig
 
 The [tables](https://pauljadam.com/bookmarklets/tables.html) bookmarklet highlights `<table>` elements, all of their children (`<caption>`, `<tr>`, `<th>`, `<td>`), and relevant attributes.
 
+### Target size
+
+The [target size](https://github.com/stevefaulkner/targetsize) bookmarklet highlights overlapping elements.
+
 ### Title
 
 The [title](https://pauljadam.com/bookmarklets/title.html) bookmarklet highlights elements with a `title` attribute.
