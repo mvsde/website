@@ -58,7 +58,7 @@ cards:
 - [Open sourcerer](https://github.com/mvsde) (occasionally)
 - [Video game collector](https://steamcommunity.com/id/mvsde/) (obsessively)
 - Interested in tech and computer things
-- [Shinson Hapkido](http://www.shinsonhapkido.org) blue belt
+- [Shinson Hapkido](http://www.shinsonhapkido.org) blue-red belt
 - Active member of the German cyclists club [ADFC](https://www.adfc.de/)
 - Huge [Star Wars](https://twitter.fynn.be/1408409600643190788/) and [Star Trek](https://twitter.fynn.be/1400519056374046726/) nerd
 - Living in the Hamburg, Germany metropolitan area
