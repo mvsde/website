@@ -22,7 +22,7 @@ Take this random English sentence I just came up with:
 > **One** does not simply walk into Mordor.
 > {lang=en translate=no}
 
-It translates to Duden[^1]-approved German like this:
+It translates to Duden[^duden-rechtschreibrat]-approved German like this:
 
 > **Man** spaziert nicht einfach nach Mordor.
 > {lang=de translate=no}
@@ -65,4 +65,4 @@ It is a direct replacement for _man_{lang=de translate=no}, so it doesn’t even
 > **Eins** spaziert nicht einfach nach Mordor.
 > {lang=de translate=no}
 
-[^1]: The _Duden_ is the most well-known German dictionary. The actual “standards body” for German is the _Council for German Orthography_. While the _Duden_ is becoming increasingly progressive, the _Council_ is [staffed by a bunch of boomers](https://www.rechtschreibrat.com/ueber-den-rat/), so, we can safely ignore it.
+[^duden-rechtschreibrat]: The _Duden_ is the most well-known German dictionary. The actual “standards body” for German is the _Council for German Orthography_. While the _Duden_ is becoming increasingly progressive, the _Council_ is [staffed by a bunch of boomers](https://www.rechtschreibrat.com/ueber-den-rat/), so, we can safely ignore it.
