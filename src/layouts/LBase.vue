@@ -33,7 +33,7 @@ const socialImage = await getSocialImage()
 			<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 			<meta name="view-transition" content="same-origin" />
 
-			<title>{{ isHomePage(page.url) ? '' : `${title} | ` }}Fynn Becker</title>
+			<title>{{ isHomePage(page.url) ? '' : `${title} - ` }}Fynn Becker</title>
 
 			<!-- prettier-ignore -->
 			<component :is="'script'">
