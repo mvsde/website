@@ -41,7 +41,7 @@
 		"@11ty/eleventy-plugin-syntaxhighlight": "^5.0.0",
 		"@mvsde/eleventy-plugin-vue": "^0.1.1",
 		"cssnano": "^6.0.3",
-		"esbuild": "^0.19.11",
+		"esbuild": "^0.20.0",
 		"eslint": "^8.56.0",
 		"eslint-config-prettier": "^9.1.0",
 		"eslint-plugin-import": "^2.29.1",
@@ -55,10 +55,10 @@
 		"markdown-it-deflist": "^3.0.0",
 		"markdown-it-footnote": "^4.0.0",
 		"markdown-it-toc-done-right": "^4.2.0",
-		"markdownlint-cli2": "^0.12.0",
+		"markdownlint-cli2": "^0.12.1",
 		"netlify-plugin-cache": "^1.0.3",
 		"postcss-html": "^1.6.0",
-		"stylelint": "^16.1.0",
+		"stylelint": "^16.2.0",
 		"stylelint-config-standard": "^36.0.0",
 		"stylelint-order": "^6.0.4"
 	}
