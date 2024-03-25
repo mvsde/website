@@ -4,22 +4,6 @@
   command = "npm run build"
   publish = "dist"
 
-[build.environment]
-  NODE_VERSION = "17"
-  NPM_FLAGS = "--force"
-
-
-# Plugins
-
-[[plugins]]
-  package = "netlify-plugin-cache"
-
-  [plugins.inputs]
-    paths = [
-      "dist/img"
-    ]
-
-
 # Redirects
 
 ## fynn.netlify.app
