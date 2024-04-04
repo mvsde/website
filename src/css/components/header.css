@@ -20,7 +20,10 @@
 	text-decoration-thickness: 0.125em;
 }
 
+.Header-navLink:has(.Header-navIcon) {
+	display: flex;
+}
+
 .Header-navIcon {
-	display: block;
 	font-size: 1.25em;
 }
