@@ -23,27 +23,14 @@ const languageName = new Intl.DisplayNames('en', { type: 'language' })
 
 		<ol class="LayoutTag-list" :reversed="collection.order !== 'ascending'">
 			<li v-for="item in items" :key="item.data.id" class="LayoutTag-item">
-				<div
-					class="LayoutTag-meta"
-					:style="{
-						'--view-transition-name': item.data.id && `meta-${item.data.id}`,
-					}"
-				>
+				<div class="LayoutTag-meta">
 					<time>
 						{{ formatISODate(item.date) }}
 					</time>
 					<span v-if="item.data.language"> · {{ languageName.of(item.data.language) }}</span>
 					<span v-if="filterTags(item.data.tags)"> · <CTags :items="filterTags(item.data.tags)" /></span>
 				</div>
-				<a
-					class="LayoutTag-link"
-					:href="item.url"
-					:lang="item.data.language"
-					:hreflang="item.data.language"
-					:style="{
-						'--view-transition-name': item.data.id && `title-${item.data.id}`,
-					}"
-				>
+				<a class="LayoutTag-link" :href="item.url" :lang="item.data.language" :hreflang="item.data.language">
 					{{ item.data.title }}
 				</a>
 			</li>

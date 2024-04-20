@@ -31,7 +31,6 @@ const socialImage = await getSocialImage()
 		<head>
 			<meta charset="utf-8" />
 			<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-			<meta name="view-transition" content="same-origin" />
 
 			<title>{{ isHomePage(page.url) ? '' : `${title} - ` }}Fynn Becker</title>
 
@@ -74,12 +73,7 @@ const socialImage = await getSocialImage()
 			<main>
 				<div class="LayoutBase-head u-container">
 					<slot name="before-title" />
-					<h1
-						class="LayoutBase-title"
-						:style="{
-							'--view-transition-name': id && `title-${id}`,
-						}"
-					>
+					<h1 class="LayoutBase-title">
 						{{ title }}
 					</h1>
 				</div>

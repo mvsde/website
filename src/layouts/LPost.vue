@@ -12,12 +12,7 @@ const { id, content, date, tags } = useData()
 <template>
 	<LBase>
 		<template #before-title>
-			<div
-				class="LayoutPost-meta"
-				:style="{
-					'--view-transition-name': id && `meta-${id}`,
-				}"
-			>
+			<div class="LayoutPost-meta">
 				<time>
 					{{ formatISODate(date) }}
 				</time>
