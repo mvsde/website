@@ -10,8 +10,6 @@ hero:
   alt: Orange illuminated desk with ultra-wide monitor and notebook showing the Ubuntu 19.10 “Eoan Ermine” wallpaper.
 ---
 
-[[toc]]
-
 ## Software
 
 - [Fedora Workstation](https://getfedora.org/en/workstation/)
