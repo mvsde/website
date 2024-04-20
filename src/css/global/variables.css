@@ -13,6 +13,7 @@
 	--color-content-background--light: var(--is-theme-light) hsl(0deg 0% 100%);
 	--color-highlight-background--light: var(--is-theme-light) hsl(19deg 53% 87%);
 	--color-table-border--light: var(--is-theme-light) hsl(218deg 11% 65%);
+	--color-target-background--light: var(--is-theme-light) hsl(315deg 82% 83%);
 
 	--color-brand--dark: hsl(230deg 94% 82%);
 	--color-text--dark: hsl(210deg 20% 98%);
@@ -21,6 +22,7 @@
 	--color-content-background--dark: hsl(215deg 28% 17%);
 	--color-highlight-background--dark: hsl(217deg 19% 27%);
 	--color-table-border--dark: hsl(215deg 14% 34%);
+	--color-target-background--dark: hsl(315deg 46% 57%);
 
 	/* Code colors */
 
@@ -67,6 +69,7 @@
 	--color-content-background: var(--color-content-background--light, var(--color-content-background--dark));
 	--color-highlight-background: var(--color-highlight-background--light, var(--color-highlight-background--dark));
 	--color-table-border: var(--color-table-border--light, var(--color-table-border--dark));
+	--color-target-background: var(--color-target-background--light, var(--color-target-background--dark));
 
 	--color-code-comment: var(--color-code-comment--light, var(--color-code-comment--dark));
 	--color-code-property: var(--color-code-property--light, var(--color-code-property--dark));
