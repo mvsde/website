@@ -7,7 +7,7 @@ import CHero from '../components/CHero.vue'
 import CRelated from '../components/CRelated.vue'
 import { isHomePage } from '../utilities/page.js'
 
-const { id, page, language, title, description, social, hero, related, base, eleventy } = useData()
+const { page, language, title, description, social, hero, related, base, eleventy } = useData()
 const { imagePath } = useMethods()
 
 function getSocialImage() {

@@ -6,7 +6,7 @@ import { formatISODate } from '../utilities/format-date.js'
 import { filterTags } from '../utilities/page.js'
 import LBase from './LBase.vue'
 
-const { id, content, date, tags } = useData()
+const { content, date, tags } = useData()
 </script>
 
 <template>
