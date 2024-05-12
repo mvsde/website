@@ -1,14 +1,14 @@
 ---
 title: Hello there, I’m Fynn
-description: Frontend developer, video game collector, interested in tech and computer things, cyclist, Shinson Hapkido 🥋, Star Wars and Star Trek 🖖🏻
+description: Frontend developer, video game collector, interested in tech and computer things, cyclist, Shinson Hapkido, Star Wars and Star Trek.
 layout: LDefault.vue
 social:
   image:
-    src: media/blahaj-square.jpg
-    alt: Portrait of Fynn, lying on their back on a red couch together with an Ikea Blåhaj toy shark.
+    src: media/hiking-square.jpg
+    alt: Fynn climbing down steep metal stairs into a ravine in the Elbe Sandstone Mountains. Tall cliff-like rocks to the left and right.
 hero:
-  image: media/blahaj.jpg
-  alt: Portrait of Fynn, lying on their back on a red couch together with an Ikea Blåhaj toy shark.
+  image: media/hiking.jpg
+  alt: Fynn climbing down steep metal stairs into a ravine in the Elbe Sandstone Mountains. Tall cliff-like rocks to the left and right.
 cards:
   - title: From the site
     links:
@@ -53,7 +53,7 @@ cards:
 ## About me
 
 - My full name is _Fynn Becker_, please call me just _Fynn_
-- I’m non-binary trans, my pronouns are [they/them](/pronouns/en/){lang=en translate=no}
+- I’m non-binary trans, [my pronouns are they/them](/pronouns/en/){lang=en translate=no}
 - Frontend developer at [Factorial](https://www.factorial.io/)
 - [Open sourcerer](https://github.com/mvsde) (occasionally)
 - [Video game collector](https://steamcommunity.com/id/mvsde/) (obsessively)
@@ -61,4 +61,4 @@ cards:
 - [Shinson Hapkido](http://www.shinsonhapkido.org) blue-red belt
 - Active member of the German cyclists club [ADFC](https://www.adfc.de/)
 - Huge [Star Wars](https://twitter.fynn.be/1408409600643190788/) and [Star Trek](https://twitter.fynn.be/1400519056374046726/) nerd
-- Living in the Hamburg, Germany metropolitan area
+- From the Hamburg (Germany) metropolitan area
