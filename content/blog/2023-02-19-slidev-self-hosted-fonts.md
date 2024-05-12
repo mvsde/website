@@ -7,8 +7,6 @@ tags:
   - Development
 ---
 
-[[toc]]
-
 [Slidev](https://sli.dev/) is a fantastic tool for code-focused presentations. [Slides are written in Markdown](https://sli.dev/guide/syntax.html), giving us all the nice features from code documentation like syntax highlighting.
 
 Slidev is built with Vue and Vite and provides a [Single Page Application (SPA) export](https://sli.dev/guide/hosting.html) for static hosting. This is a nice way to “hand out” interactive slides to presentation attendees afterwards.

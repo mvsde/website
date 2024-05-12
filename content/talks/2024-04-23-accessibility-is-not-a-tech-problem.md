@@ -15,8 +15,6 @@ Accessibility is the intersection of user experience and interface design, front
 
 Download the [slides as a PDF](/files/accessibility-is-not-a-tech-problem.pdf).
 
-[[toc]]
-
 ## Links
 
 In order of appearance:

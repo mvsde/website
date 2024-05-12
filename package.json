@@ -54,7 +54,6 @@
 		"markdown-it-container": "^4.0.0",
 		"markdown-it-deflist": "^3.0.0",
 		"markdown-it-footnote": "^4.0.0",
-		"markdown-it-toc-done-right": "^4.2.0",
 		"markdownlint-cli2": "^0.13.0",
 		"netlify-plugin-cache": "^1.0.3",
 		"postcss-html": "^1.7.0",

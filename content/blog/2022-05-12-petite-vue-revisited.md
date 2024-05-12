@@ -7,8 +7,6 @@ tags:
   - Development
 ---
 
-[[toc]]
-
 One key Vue feature is the browser-only build. It doesn’t require any build step, so it allows [experimenting with Vue](https://vuejs.org/guide/quick-start.html#without-build-tools) without having to set up any special environment. [petite-vue](https://github.com/vuejs/petite-vue) takes this approach and provides a library for “sprinkling” interactivity on otherwise server-rendered or static HTML.
 
 petite-vue uses the same familiar template syntax as Vue, but with a reduced feature set getting it down to about 7 KB gzipped compared to Vue’s 33 KB.

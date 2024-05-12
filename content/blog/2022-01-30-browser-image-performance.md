@@ -7,8 +7,6 @@ tags:
   - Development
 ---
 
-[[toc]]
-
 Modern image formats like [WebP](https://en.wikipedia.org/wiki/WebP) and [AVIF](https://en.wikipedia.org/wiki/AVIF) have [spectacular compression improvements](https://jakearchibald.com/2020/avif-has-landed/) over the three decades old JPEG. But they come with a downside: longer encoding and decoding times. While the encoding time is negligible – it only happens once on a server or in a build step – the decoding is done over and over again on the clients.
 
 While researching the topic I came across this [statement by Addy Osmani](https://www.smashingmagazine.com/2021/09/modern-image-formats-avif-webp/#avif-gotchas):
