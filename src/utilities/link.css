@@ -6,6 +6,7 @@
 .u-linkHeading:is(:hover, :focus-visible)::before {
 	color: var(--color-brand);
 	content: '#';
+	content: '#' / '';
 	margin-inline-start: -1em;
 	position: absolute;
 }
