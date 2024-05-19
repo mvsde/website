@@ -2,7 +2,6 @@
 id: bcf5c695-b34d-4fee-8639-8d95a4a5223a
 title: Accessibility is not a tech problem
 description: Accessibility is the intersection of user experience and interface design, frontend and backend development, content management systems, and human beings.
-date: 2024-04-23T17:00:00Z
 tags:
   - Development
 hero:

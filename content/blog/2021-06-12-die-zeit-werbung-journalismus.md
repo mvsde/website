@@ -3,7 +3,6 @@ id: cf1d57a6-9857-49a7-943c-2eb2e5538fdc
 title: DIE ZEIT und werbefinanzierter Journalismus
 language: de
 description: Werbefinanzierte Medien stehen im direkten Konflikt mit dem notwendigen Vertrauen in seriösen Journalismus.
-date: 2021-06-12T10:10:00Z
 tags:
   - Politics
 hero:

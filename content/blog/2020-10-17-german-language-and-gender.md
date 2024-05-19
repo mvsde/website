@@ -2,7 +2,6 @@
 id: e23a0cdd-2f0b-484f-9cd9-9f11196820c2
 title: The German language and gender
 description: I’m thinking a lot about how I can express myself inclusively, be it in written or spoken word.
-date: 2020-10-17T12:39:00Z
 tags:
   - Language
 related:

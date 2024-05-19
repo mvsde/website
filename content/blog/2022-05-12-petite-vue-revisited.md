@@ -2,7 +2,6 @@
 id: 75badf7c-b219-424b-8787-1f5c1801e422
 title: petite-vue revisited
 description: petite-vue is a nice project for enhancing static HTML with some interactivity.
-date: 2022-05-12T11:04:23Z
 tags:
   - Development
 ---

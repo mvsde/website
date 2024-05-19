@@ -6,7 +6,7 @@ import { formatISODate } from '../utilities/format-date.js'
 import { filterTags } from '../utilities/page.js'
 import LBase from './LBase.vue'
 
-const { content, date, tags } = useData()
+const { page, content, tags } = useData()
 </script>
 
 <template>
@@ -14,7 +14,7 @@ const { content, date, tags } = useData()
 		<template #before-title>
 			<div class="LayoutPost-meta">
 				<time>
-					{{ formatISODate(date) }}
+					{{ formatISODate(page.date) }}
 				</time>
 				<span v-if="filterTags(tags)"> · <CTags :items="filterTags(tags)" /></span>
 			</div>

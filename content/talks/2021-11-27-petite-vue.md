@@ -2,7 +2,6 @@
 id: 42ef6813-bc4f-4865-9577-ff3ef3f6c68c
 title: petite-vue
 description: Sprinkling interactivity on HTML ✨
-date: 2021-11-27T15:47:00Z
 tags:
   - Development
 hero:

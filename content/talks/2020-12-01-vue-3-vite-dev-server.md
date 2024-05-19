@@ -3,7 +3,6 @@ id: 5e95658c-4172-4d5e-a0e6-24445fc89968
 title: Vue 3 mit Vite Dev Server
 language: de
 description: Kurze Einführung in den Vite Dev Server für Vue 3 als Alternative zur Vue CLI.
-date: 2020-12-01T16:00:00Z
 tags:
   - Development
 hero:

@@ -7,7 +7,7 @@ eleventyExcludeFromCollections: true
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<title>Fynn Becker</title>
 	<subtitle>Updates from Fynn’s personal website.</subtitle>
-	<updated>{{ collections.feed|getNewestCollectionItemDate|dateToRfc3339 }}</updated>
+	<updated>{{ collections.feed|getNewestCollectionItemDate|formatRSSDate }}</updated>
 	<icon>{{ base }}/favicon.svg</icon>
 
 	<link href="{{ base }}/{{ permalink }}" rel="self"/>
@@ -27,7 +27,7 @@ eleventyExcludeFromCollections: true
 		<entry>
 			<title>{{ post.data.title }}</title>
 			<link href="{{ absolutePostUrl }}"/>
-			<updated>{{ post.date|dateToRfc3339 }}</updated>
+			<published>{{ post.date|formatRSSDate }}</published>
 			<id>urn:uuid:{{ post.data.id }}</id>
 			{% if post.data.summary %}
 				<summary>{{ post.data.description }}</summary>

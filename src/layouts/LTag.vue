@@ -25,7 +25,7 @@ const languageName = new Intl.DisplayNames('en', { type: 'language' })
 			<li v-for="item in items" :key="item.data.id" class="LayoutTag-item">
 				<div class="LayoutTag-meta">
 					<time>
-						{{ formatISODate(item.date) }}
+						{{ formatISODate(item.page.date) }}
 					</time>
 					<span v-if="item.data.language"> · {{ languageName.of(item.data.language) }}</span>
 					<span v-if="filterTags(item.data.tags)"> · <CTags :items="filterTags(item.data.tags)" /></span>

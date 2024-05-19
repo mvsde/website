@@ -2,7 +2,6 @@
 id: e725458d-a338-4c7a-a909-c1fcd90bb7a4
 title: Is it safe to run around like this?
 description: First iteration on my gender non-conforming outfit for special occasions.
-date: 2023-06-02T16:55:00Z
 tags:
   - Queer
 social:

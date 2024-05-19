@@ -13,6 +13,9 @@ const shortcodeImage = require('./eleventy/shortcode-image.js')
 const shortcodeImageFeed = require('./eleventy/shortcode-image-feed.js')
 const shortcodeImagePath = require('./eleventy/shortcode-image-path.js')
 
+// Filters
+const filterFormatRSSDate = require('./eleventy/format-rss-date.js')
+
 const DIRECTORIES = {
 	// Relative to current directory.
 	input: 'content',
@@ -52,6 +55,9 @@ module.exports = function (eleventyConfig) {
 	eleventyConfig.addJavaScriptFunction('image', shortcodeImage)
 	eleventyConfig.addJavaScriptFunction('imagePath', shortcodeImagePath)
 	eleventyConfig.addNunjucksShortcode('imageFeed', shortcodeImageFeed)
+
+	// Filters
+	eleventyConfig.addNunjucksFilter('formatRSSDate', filterFormatRSSDate)
 
 	return {
 		dir: DIRECTORIES,
