@@ -39,17 +39,10 @@ p {
 }
 
 a {
-	border-radius: var(--border-radius-small); /* Rounded corners for focus outline. */
 	color: var(--color-brand);
 	word-break: break-all;
 	word-break: break-word;
 	word-wrap: break-word;
-}
-
-a:focus-visible {
-	outline: 0.125em solid currentcolor;
-	outline-offset: 0.125em;
-	text-decoration: none;
 }
 
 hr {

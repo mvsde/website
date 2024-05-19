@@ -41,8 +41,20 @@ button {
 	font: inherit;
 }
 
+:focus-visible,
 :target {
-	border-radius: var(--border-radius-small); /* Rounded corners for target outline. */
-	outline: 0.125em solid var(--color-target-background);
+	/* Rounded corners for outline. */
+	border-radius: var(--border-radius-small);
 	outline-offset: 0.125em;
+	outline-style: solid;
+}
+
+:focus-visible {
+	outline-color: currentcolor;
+	outline-width: 0.125rem;
+}
+
+:target {
+	outline-color: var(--color-target-background);
+	outline-width: 0.25rem;
 }
