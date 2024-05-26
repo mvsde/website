@@ -11,7 +11,7 @@ social:
 hero:
   image: media/adira-and-gray.jpg
   alt: 'Scene from Star Trek: Discovery. The non-binary human Adira Tal and the trans man Gray Tal play some sort of sci-fi board game in a dimly lit room aboard a starship.'
-  caption: 'Star Trek: Discovery Season 4 Episode 6 “Stormy Weather” by <a href="https://intl.startrek.com/gallery/first-look-star-trek-discovery-stormy-weather/star-trek-discovery-stormy-weather-3024/30">StarTrek.com</a>.'
+  caption: 'Cover photo by <a href="https://intl.startrek.com/gallery/first-look-star-trek-discovery-stormy-weather/star-trek-discovery-stormy-weather-3024/30">StarTrek.com</a>. Star Trek: Discovery, Season 4, Episode 6, “Stormy Weather”.'
 related:
   - /blog/down-the-rabbit-hole/
   - /blog/dropping-the-he/

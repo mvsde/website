@@ -8,7 +8,7 @@ social:
 hero:
   image: media/planet-over-profit.jpg
   alt: Group of eco protestors, one holding a paper sign reading “Planet over Profit”.
-  caption: Title photo by <a href="https://unsplash.com/@markusspiske">Markus Spiske</a> on <a href="https://unsplash.com/photos/n52HL8hmsdg">Unsplash</a>.
+  caption: Cover photo by <a href="https://unsplash.com/@markusspiske">Markus Spiske</a> on <a href="https://unsplash.com/photos/n52HL8hmsdg">Unsplash</a>.
 ---
 
 ## Preamble
