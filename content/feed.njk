@@ -30,7 +30,7 @@ eleventyExcludeFromCollections: true
 			<published>{{ post.date|formatRSSDate }}</published>
 			<updated>{{ post.date|formatRSSDate }}</updated>
 			<id>urn:uuid:{{ post.data.id }}</id>
-			{% if post.data.summary %}
+			{% if post.data.description %}
 				<summary>{{ post.data.description }}</summary>
 			{% endif %}
 			<content type="html">
