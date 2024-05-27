@@ -12,7 +12,7 @@ hero:
 
 Accessibility is the intersection of user experience and interface design, frontend and backend development, content management systems, and _human beings_.
 
-Download the [slides as a PDF](/files/accessibility-is-not-a-tech-problem.pdf).
+Download the [slides as a PDF (30 MB)](/files/accessibility-is-not-a-tech-problem.pdf).
 
 ## Links
 

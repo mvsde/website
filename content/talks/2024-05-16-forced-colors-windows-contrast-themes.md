@@ -12,7 +12,7 @@ hero:
 
 A showcase of _Windows contrast themes_ and the potential issues when _forced colors_ aren’t considered during development.
 
-Download the [slides as a PDF](/files/forced-colors-windows-contrast-themes.pdf).
+Download the [slides as a PDF (9 MB)](/files/forced-colors-windows-contrast-themes.pdf).
 
 ## Links
 
