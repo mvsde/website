@@ -20,7 +20,7 @@ related:
 
 I’ve written quite a lot about my _queer journey_, but the spark that started it all is still missing on this blog. So, let’s get into that, it involves one of my favorite things: _Star Trek!_
 
-4 December 2020
+4 December 2020.
 
 Star Trek: Discovery Season 3 Episode 8 “The Sanctuary” is airing in Germany.
 
