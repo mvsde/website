@@ -1,7 +1,7 @@
 ---
 id: 3fc087cd-02b8-4de3-a020-998d2b3d4bc5
 title: 'Farewell Star Trek: Discovery'
-description: 'Star Trek: Discovery was a milestone for the Trek universe. 8 years later, it’s time to say goodbye.'
+description: 'Star Trek: Discovery was a milestone for the Trek universe. 7 years later, it’s time to say goodbye.'
 tags:
   - Movies
 social:
@@ -14,7 +14,7 @@ hero:
   caption: Cover image by <a href="https://www.themoviedb.org/tv/67198-star-trek-discovery/images/posters">TMDB</a>.
 ---
 
-**8** years, **5** seasons, and **65** episodes later, _Star Trek: Discovery_ is over.
+**7** years, **5** seasons, and **65** episodes later, _Star Trek: Discovery_ is over.
 
 As far as I’m concerned, an incredibly important show in the _Star Trek_ universe in particular but also for TV in general. But let’s start at the beginning, or rather the beginning of the end.
 
