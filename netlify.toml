@@ -14,6 +14,20 @@
   status = 302
   force = true
 
+[[redirects]]
+  from = "https://main--fynn.netlify.app/*"
+  to = "https://fynn.be/:splat"
+  status = 302
+  force = true
+
+## fynn.is
+
+[[redirects]]
+  from = "https://fynn.is/*"
+  to = "https://fynn.be/:splat"
+  status = 302
+  force = true
+
 ## mvsde.com
 
 [[redirects]]
