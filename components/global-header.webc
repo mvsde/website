@@ -1,0 +1,15 @@
+<header webc:root="override" class="Header">
+	<div class="u-container">
+		<element-nav :@items="$data.header.navigation" @label="Main"></element-nav>
+	</div>
+</header>
+
+<style webc:bucket="components.global">
+	.Header {
+		background: var(--color-SiteBackground);
+		inset-block-start: 0;
+		margin-block-end: 2rem;
+		padding-block: 0.75rem;
+		position: sticky;
+	}
+</style>

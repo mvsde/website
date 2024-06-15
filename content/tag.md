@@ -1,5 +1,5 @@
 ---
-layout: LTag.vue
+layout: tag.webc
 pagination:
   data: collections
   size: 1
@@ -11,9 +11,9 @@ pagination:
     - feed
     - sunset
     - talk
-permalink: 'tags/{{ tag|slugify }}/index.html'
+permalink: "tags/{{ tag|slugify }}/index.html"
 eleventyComputed:
-  title: '{{ tag }}'
+  title: "{{ tag }}"
   collection:
-    name: '{{ tag }}'
+    name: "{{ tag }}"
 ---

@@ -5,13 +5,6 @@ description: Right and far-right parties are becoming more popular by the day. W
 tags:
   - Politics
   - Queer
-social:
-  image:
-    src: media/dark-tunnel-square.jpg
-    alt: Photo of a tunnel at night. The surroundings are pitch-black, only the tunnel interior is brightly lit. The tunnel is not that long, the darkness on the other side is still visible.
-hero:
-  image: media/dark-tunnel.jpg
-  alt: Photo of a tunnel at night. The surroundings are pitch-black, only the tunnel interior is brightly lit. The tunnel is not that long, the darkness on the other side is still visible.
 related:
   - /blog/angst/
   - /blog/pride-outfit-v1/

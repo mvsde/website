@@ -1,5 +1,0 @@
-# Lint configuration files
-!.eslintrc.js
-
-# Ignore during linting
-dist

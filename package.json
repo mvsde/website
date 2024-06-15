@@ -1,20 +1,21 @@
 {
 	"name": "@mvsde/website",
+	"version": "2.0.0",
 	"private": true,
+	"type": "module",
 	"scripts": {
-		"dev:site": "NODE_ENV=development URL=http://localhost:8080 eleventy --incremental --serve",
-		"dev:assets": "$npm_package_config_assets --watch",
-		"build": "npm run build:site && npm run build:assets",
-		"build:site": "NODE_ENV=production URL=$URL eleventy",
-		"build:assets": "$npm_package_config_assets --minify",
-		"lint": "npm run lint:js && npm run lint:css && npm run lint:markdown",
-		"lint:js": "eslint '**/*.{js,vue}'",
-		"lint:css": "stylelint '**/*.{css,vue}'",
-		"lint:markdown": "markdownlint-cli2 '**/*.md' '!node_modules'"
+		"dev": "URL=http://localhost:8080 eleventy --incremental --serve",
+		"build": "URL=$URL eleventy",
+		"format": "prettier --write .",
+		"lint": "node --run lint:css && node --run lint:js && node --run lint:markdown && node --run lint:format",
+		"lint:css": "stylelint '**/*.{css,webc}'",
+		"lint:js": "eslint",
+		"lint:markdown": "markdownlint-cli2 '**/*.md' '!node_modules'",
+		"lint:format": "prettier --check ."
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/mvsde/website.git"
+		"url": "git+https://github.com/mvsde/website.git"
 	},
 	"author": "Fynn Becker <post@fynn.be>",
 	"license": "UNLICENSED",
@@ -24,41 +25,31 @@
 	},
 	"homepage": "https://fynn.be",
 	"engines": {
-		"node": ">=21"
-	},
-	"config": {
-		"assets": "esbuild --bundle src/main.css --loader:.woff2=file --asset-names=assets/[hash] --sourcemap --outdir=dist"
-	},
-	"dependencies": {
-		"@fontsource/ibm-plex-mono": "^5.0.13",
-		"@fontsource/ibm-plex-sans": "^5.0.20",
-		"prism-themes": "^1.9.0"
+		"node": ">=22"
 	},
 	"devDependencies": {
-		"@11ty/eleventy": "^2.0.1",
+		"@11ty/eleventy": "^3.0.0-alpha.13",
 		"@11ty/eleventy-img": "^4.0.2",
-		"@11ty/eleventy-plugin-rss": "^1.2.0",
+		"@11ty/eleventy-plugin-rss": "^2.0.1",
 		"@11ty/eleventy-plugin-syntaxhighlight": "^5.0.0",
-		"@mvsde/eleventy-plugin-vue": "^0.1.1",
-		"cssnano": "^7.0.1",
-		"esbuild": "^0.21.4",
-		"eslint": "^8.57.0",
-		"eslint-config-prettier": "^9.1.0",
-		"eslint-plugin-import": "^2.29.1",
-		"eslint-plugin-n": "^17.7.0",
-		"eslint-plugin-promise": "^6.2.0",
-		"eslint-plugin-vue": "^9.26.0",
-		"markdown-it-anchor": "^9.0.1",
+		"@11ty/eleventy-plugin-webc": "^0.11.2",
+		"@eslint/js": "^9.5.0",
+		"eslint": "^9.5.0",
+		"eslint-plugin-simple-import-sort": "^12.1.0",
+		"globals": "^15.6.0",
 		"markdown-it-attrs": "^4.1.6",
 		"markdown-it-bracketed-spans": "^1.0.1",
 		"markdown-it-container": "^4.0.0",
 		"markdown-it-deflist": "^3.0.0",
 		"markdown-it-footnote": "^4.0.0",
 		"markdownlint-cli2": "^0.13.0",
-		"netlify-plugin-cache": "^1.0.3",
 		"postcss-html": "^1.7.0",
+		"prettier": "^3.3.2",
 		"stylelint": "^16.6.1",
-		"stylelint-config-standard": "^36.0.0",
+		"stylelint-config-standard": "^36.0.1",
 		"stylelint-order": "^6.0.4"
+	},
+	"overrides": {
+		"@11ty/eleventy-plugin-bundle": "^2.0.2"
 	}
 }

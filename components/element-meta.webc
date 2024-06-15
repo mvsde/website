@@ -1,0 +1,18 @@
+<div webc:root="override" class="Meta">
+	<time webc:if="date" @text="formatDate(date)"></time>
+	<span webc:if="language" @text="formatLanguage(language)"></span>
+	<element-tags webc:if="tags" :@items="tags" @variant="inline"></element-tags>
+</div>
+
+<style webc:bucket="components.element">
+	.Meta {
+		display: flex;
+		flex-wrap: wrap;
+		font-variant-numeric: tabular-nums;
+
+		> :not(:last-child)::after {
+			content: "·";
+			margin-inline: 0.5rem;
+		}
+	}
+</style>

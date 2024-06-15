@@ -1,5 +1,5 @@
-permalink: '{{ page.filePathStem }}/'
-layout: LPost.vue
+permalink: "{{ page.filePathStem }}/"
+layout: post.webc
 tags:
   - blog
   - feed

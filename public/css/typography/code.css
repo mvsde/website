@@ -1,0 +1,87 @@
+:not(pre) > code,
+pre {
+	background: var(--color-HighlightBackground);
+	border-radius: var(--size-border-radius);
+	font-family: var(--typo-Code-font-family);
+	font-size: var(--typo-Code-font-size);
+	tab-size: 2;
+
+	@media (forced-colors) {
+		border: 0.0625rem solid;
+	}
+}
+
+:not(pre) > code {
+	padding-block: 0.1em 0.2em;
+	padding-inline: 0.4em;
+}
+
+pre {
+	overflow-x: auto;
+	padding: 1em;
+}
+
+.token.comment {
+	color: var(--color-Code-comment);
+}
+
+.token.property {
+	color: var(--color-Code-property);
+}
+
+.token.attr-name {
+	color: var(--color-Code-attrName);
+}
+
+.token.attr-value {
+	color: var(--color-Code-attrValue);
+}
+
+.token.key {
+	color: var(--color-Code-key);
+}
+
+.token.selector {
+	color: var(--color-Code-selector);
+}
+
+.token.tag,
+.token.tag > .punctuation:is(:first-child, :last-child) {
+	color: var(--color-Code-tag);
+}
+
+.token.keyword {
+	color: var(--color-Code-keyword);
+}
+
+.token.important {
+	color: var(--color-Code-important);
+}
+
+.token.punctuation {
+	color: var(--color-Code-punctuation);
+}
+
+.token.interpolation-punctuation {
+	color: var(--color-Code-interpolation);
+}
+
+.token.string {
+	color: var(--color-Code-string);
+}
+
+.token.number {
+	color: var(--color-Code-number);
+}
+
+.token.function {
+	color: var(--color-Code-function);
+}
+
+.token.parameter {
+	color: var(--color-Code-parameter);
+}
+
+.token.rule {
+	color: var(--color-Code-rule);
+}

@@ -1,0 +1,50 @@
+<nav webc:root="override" class="Nav" :aria-label="label">
+	<ul class="Nav-list">
+		<li webc:for="item of items">
+			<a
+				:class="`Nav-link ${isActivePage({ current: $data.page.url, url: item.url }) ? 'is-active' : ''}`"
+				:href="item.url"
+				:aria-current="isCurrentPage({ current: $data.page.url, url: item.url }) ? 'page' : null"
+				:aria-label="item.icon ? item.text : null"
+				@attributes="item.attributes"
+			>
+				<element-icon
+					webc:if="item.icon"
+					class="Nav-icon"
+					:@name="item.icon"
+				></element-icon>
+				<span webc:else @text="item.text"></span>
+			</a>
+		</li>
+	</ul>
+</nav>
+
+<style webc:bucket="components.element">
+	.Nav-list {
+		align-items: center;
+		display: flex;
+		flex-wrap: wrap;
+		gap: 1em;
+		list-style: none;
+	}
+
+	.Nav-link {
+		color: inherit;
+		display: block;
+		font-weight: 600;
+		text-decoration: none;
+
+		&:hover,
+		&.is-active {
+			color: var(--color-Brand);
+			text-decoration: underline;
+			text-decoration-thickness: 0.1em;
+			text-underline-offset: 0.4em;
+		}
+	}
+
+	.Nav-icon {
+		display: block;
+		font-size: 1.25em;
+	}
+</style>

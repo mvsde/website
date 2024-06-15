@@ -1,0 +1,57 @@
+<script webc:setup>
+	function getPages(name, order) {
+		return orderCollection({
+			collection: $data.collections[name],
+			order: order,
+		});
+	}
+</script>
+
+<page-base webc:nokeep>
+	<element-rich-text webc:if="content">
+		<template @raw="content" webc:nokeep></template>
+	</element-rich-text>
+
+	<ol class="LayoutTag-list" :reversed="$data.collection.order !== 'ascending'">
+		<li
+			webc:for="page of getPages($data.collection.name, $data.collection.order)"
+			class="LayoutTag-item"
+		>
+			<a
+				class="LayoutTag-link"
+				:href="page.url"
+				:lang="page.data.language !== 'en' && page.data.language"
+				:hreflang="page.data.language !== 'en' && page.data.language"
+				@text="page.data.title"
+			></a>
+			<element-meta
+				class="LayoutTag-meta"
+				:@date="page.date"
+				:@language="page.data.language === 'en' ? null : page.data.language"
+				:@tags="filterTags(page.data.tags)"
+			></element-meta>
+		</li>
+	</ol>
+</page-base>
+
+<style webc:bucket="layouts">
+	.LayoutTag-list {
+		display: grid;
+		gap: 2.5rem;
+		list-style: none;
+	}
+
+	.LayoutTag-meta {
+		margin-block-start: 0.25rem;
+	}
+
+	.LayoutTag-link {
+		font-size: 1.375rem;
+		font-weight: 650;
+		text-decoration: none;
+
+		&:hover {
+			text-decoration: underline;
+		}
+	}
+</style>

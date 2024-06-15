@@ -44,7 +44,7 @@ In its default configuration the _Image Performance Measurement_ tool does the f
 
 ### Slow device
 
-Specifications: Intel Core 2 Duo T6400, 4 GB RAM, SATA1 HDD
+Specifications: Intel Core 2 Duo T6400, 4 GB RAM, SATA1 HDD.
 
 | Type      | Size (kB) | Response (ms) | Decode (ms) | Paint (ms) | Total (ms) |
 | --------- | --------: | ------------: | ----------: | ---------: | ---------: |
@@ -56,7 +56,7 @@ Specifications: Intel Core 2 Duo T6400, 4 GB RAM, SATA1 HDD
 
 ### Fast device
 
-Specifications: Intel Core i7-10750H, 32 GB RAM, NVMe SSD
+Specifications: Intel Core i7-10750H, 32 GB RAM, NVMe SSD.
 
 | Type      | Size (kB) | Response (ms) | Decode (ms) | Paint (ms) | Total (ms) |
 | --------- | --------: | ------------: | ----------: | ---------: | ---------: |

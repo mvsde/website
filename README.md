@@ -2,40 +2,41 @@
 
 ## Requirements
 
-- [Node.js 20](https://nodejs.org)
+- [Node.js 22](https://nodejs.org)
 
 ## Installation
 
-```bash
+```sh
 npm install
 ```
 
-## Development
+## Development server
 
-```bash
-npm run dev:site
-npm run dev:assets
+```sh
+node --run dev
 ```
 
-## Production
+## Production build
 
-```bash
-# All tasks
-npm run build
+```sh
+node --run build
+```
 
-# Individual tasks
-npm run build:site
-npm run build:assets
+## Formatting
+
+```sh
+node --run format
 ```
 
 ## Linting
 
-```bash
+```sh
 # All tasks
-npm run lint
+node --run lint
 
 # Individual tasks
-npm run lint:js
-npm run lint:assets
-npm run lint:markdown
+node --run lint:css
+node --run lint:js
+node --run lint:markdown
+node --run lint:format
 ```

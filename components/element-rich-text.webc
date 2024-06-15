@@ -1,0 +1,116 @@
+<div webc:root="override" class="RichText">
+	<slot></slot>
+</div>
+
+<style webc:bucket="components.element">
+	.RichText {
+		font-size: var(--typo-RichText-font-size);
+		line-height: var(--typo-RichText-line-height);
+
+		/* Inline size */
+
+		p,
+		ul,
+		ol,
+		dt,
+		dd,
+		hr,
+		.Note {
+			max-inline-size: 36em;
+		}
+
+		iframe {
+			inline-size: 100%;
+		}
+
+		/* Margin block */
+
+		h2,
+		h3,
+		h4,
+		h5,
+		h6 {
+			margin-block-start: 1.5em;
+		}
+
+		p,
+		ul,
+		ol,
+		dt,
+		pre,
+		iframe,
+		table,
+		.Note {
+			margin-block-start: 1em;
+		}
+
+		li,
+		li > :is(ul, ol) {
+			margin-block-start: 0.3em;
+		}
+
+		> :first-child {
+			margin-block-start: 0;
+		}
+
+		/* Margin inline start */
+
+		ul:not([class]),
+		ol,
+		dd {
+			margin-inline-start: 1em;
+		}
+
+		/* Customizations */
+
+		dt {
+			color: var(--color-Brand);
+		}
+
+		blockquote {
+			border-inline-start: 0.25em solid var(--color-Brand);
+			padding-inline-start: 0.75em;
+		}
+
+		hr {
+			background: var(--color-Brand);
+			block-size: 0.15em;
+			border: none;
+			margin-block: 2em;
+		}
+
+		/* Tables */
+
+		table {
+			border-collapse: collapse;
+			font-variant-numeric: tabular-nums;
+		}
+
+		th,
+		td {
+			border: 0.1em solid var(--color-Brand);
+			padding-block: 0.2em;
+			padding-inline: 0.5em;
+		}
+
+		th {
+			background: var(--color-HighlightBackground);
+		}
+
+		/* Note */
+
+		.Note {
+			background: var(--color-HighlightBackground);
+			border-radius: var(--size-border-radius);
+			padding: 1em;
+
+			> :first-child {
+				margin-block-start: 0;
+			}
+
+			@media (forced-colors) {
+				border: 0.0625rem solid;
+			}
+		}
+	}
+</style>

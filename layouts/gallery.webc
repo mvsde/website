@@ -1,0 +1,58 @@
+<script webc:setup>
+	function getPages(name, order) {
+		return orderCollection({
+			collection: $data.collections[name],
+			order: order,
+		});
+	}
+</script>
+
+<page-base webc:nokeep>
+	<element-rich-text webc:if="content">
+		<template @raw="content" webc:nokeep></template>
+	</element-rich-text>
+
+	<ol
+		class="LayoutGallery-list"
+		:reversed="$data.collection.order !== 'ascending'"
+	>
+		<li
+			webc:for="page of getPages($data.collection.name, $data.collection.order)"
+			class="LayoutGallery-item"
+		>
+			<a
+				class="LayoutGallery-link"
+				:href="page.url"
+				:aria-label="page.data.title"
+			>
+				<img
+					class="LayoutGallery-image"
+					:src="`/../${page.data.hero.image}`"
+					:alt="page.data.hero.alt"
+					loading="lazy"
+					sizes="(width >= 1024px) 230px, (width >= 872px) 25vw, (width >= 656px) 33vw, (width >= 400px) 50vw, 100vw"
+					eleventy:widths="407,814,1628"
+				/>
+			</a>
+		</li>
+	</ol>
+</page-base>
+
+<style webc:bucket="layouts">
+	.LayoutGallery-list {
+		display: grid;
+		gap: 1.5rem;
+		grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
+		list-style: none;
+	}
+
+	.LayoutGallery-link,
+	.LayoutGallery-image {
+		block-size: 100%;
+		display: block;
+	}
+
+	.LayoutGallery-image {
+		object-fit: cover;
+	}
+</style>

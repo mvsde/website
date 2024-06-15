@@ -1,0 +1,65 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	background: var(--color-SiteBackground);
+	color: var(--color-SiteText);
+	color-scheme: light dark;
+	font-family: var(--typo-Default-font-family);
+	font-synthesis: none;
+	hyphens: auto;
+	line-height: var(--typo-Default-line-height);
+}
+
+body {
+	display: grid;
+	grid-template-rows: min-content 1fr min-content;
+	min-block-size: 100svh;
+}
+
+iframe {
+	border: none;
+
+	@media (forced-colors) {
+		border: 0.0625rem solid;
+	}
+}
+
+img,
+svg,
+iframe {
+	block-size: auto;
+	max-inline-size: 100%;
+	vertical-align: middle;
+}
+
+img,
+iframe {
+	border-radius: var(--size-border-radius);
+}
+
+a {
+	color: var(--color-Brand);
+	text-underline-offset: 0.1em;
+}
+
+sup {
+	line-height: 1;
+
+	a {
+		text-decoration: none;
+	}
+}
+
+::marker {
+	color: var(--color-Brand);
+}
+
+:focus-visible {
+	border-radius: var(--size-border-radius);
+	outline: 0.125rem solid var(--color-Brand);
+	outline-offset: 0.2em;
+}

@@ -40,49 +40,52 @@ Vue SFCs don’t have a `doctype` by default, they are supposed to be rendered a
 ### transform-doctype.js
 
 ```js
-const DOCTYPE = '<!DOCTYPE html>'
+const DOCTYPE = "<!DOCTYPE html>";
 
 module.exports = function (content, outputPath) {
-	const isHTMLFile = outputPath.endsWith('.html')
-	const hasDoctype = content.trim().toLowerCase().startsWith(DOCTYPE.toLowerCase())
+	const isHTMLFile = outputPath.endsWith(".html");
+	const hasDoctype = content
+		.trim()
+		.toLowerCase()
+		.startsWith(DOCTYPE.toLowerCase());
 
 	if (isHTMLFile && !hasDoctype) {
-		return `${DOCTYPE}${content}`
+		return `${DOCTYPE}${content}`;
 	}
 
-	return content
-}
+	return content;
+};
 ```
 
 ### eleventy.config.js
 
 ```js
-const transformDoctype = require('./transform-doctype.js')
+const transformDoctype = require("./transform-doctype.js");
 
 module.exports = function (eleventyConfig) {
-	eleventyConfig.addTransform('doctype', transformDoctype)
-}
+	eleventyConfig.addTransform("doctype", transformDoctype);
+};
 ```
 
-## `<script setup>`
+## \<script setup>
 
 Vue 3 SFCs support a really handy “boilerplate shortcut”: `<script setup>`. It allows skipping the whole `export`ing and lets you [directly declare data and methods](https://vuejs.org/api/sfc-script-setup.html#script-setup). To make Eleventy’s data and methods available, we need a workaround leveraging Vue’s Composition API.
 
 ### use-global.js
 
 ```js
-import { getCurrentInstance } from 'vue'
+import { getCurrentInstance } from "vue";
 
 /** Returns global methods including universal filters and shortcodes. */
 export function useMethods() {
-	const app = getCurrentInstance()
-	return app.appContext.mixins[0].methods
+	const app = getCurrentInstance();
+	return app.appContext.mixins[0].methods;
 }
 
 /** Returns global data and page data. */
 export function useData() {
-	const app = getCurrentInstance()
-	return app.appContext.mixins[1].data()
+	const app = getCurrentInstance();
+	return app.appContext.mixins[1].data();
 }
 ```
 
@@ -90,12 +93,12 @@ export function useData() {
 
 ```html
 <script setup>
-	import { useMethods, useData } from './use-global.js'
+	import { useMethods, useData } from "./use-global.js";
 
-	const { getVueComponentCssForPage } = useMethods()
-	const { title, description, page, content } = useData()
+	const { getVueComponentCssForPage } = useMethods();
+	const { title, description, page, content } = useData();
 
-	const css = getVueComponentCssForPage(page.url)
+	const css = getVueComponentCssForPage(page.url);
 </script>
 
 <template>

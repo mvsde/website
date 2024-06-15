@@ -1,66 +1,94 @@
-const yaml = require('js-yaml')
+import { eleventyImageTransformPlugin as pluginImage } from "@11ty/eleventy-img";
+import pluginRSS from "@11ty/eleventy-plugin-rss";
+import pluginSyntaxHighlight from "@11ty/eleventy-plugin-syntaxhighlight";
+import pluginWebc from "@11ty/eleventy-plugin-webc";
+import yaml from "js-yaml";
 
-// Libraries
-const libraryMarkdown = require('./eleventy/library-markdown.js')
+import * as filters from "./eleventy/filters/index.js";
+import * as functions from "./eleventy/functions/index.js";
+import libraryMarkdown from "./eleventy/libraries/markdown.js";
+import imageFeed from "./eleventy/shortcodes/image-feed.js";
 
-// Plugins
-const pluginRSS = require('@11ty/eleventy-plugin-rss')
-const pluginSyntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight')
-const { pluginVue } = require('@mvsde/eleventy-plugin-vue')
-
-// Shortcodes
-const shortcodeImage = require('./eleventy/shortcode-image.js')
-const shortcodeImageFeed = require('./eleventy/shortcode-image-feed.js')
-const shortcodeImagePath = require('./eleventy/shortcode-image-path.js')
-
-// Filters
-const filterFormatRSSDate = require('./eleventy/format-rss-date.js')
-
-const DIRECTORIES = {
+const directories = {
 	// Relative to current directory.
-	input: 'content',
-	output: 'dist',
+	input: "content",
+	output: "build",
 
 	// Relative to `content` directory.
-	layouts: '../src/layouts',
-	includes: '../src/components',
-}
+	layouts: "../layouts",
+	includes: "../components",
+	data: "../data",
+};
 
 // Relative to current directory.
-const COPY_FILES = {
-	public: '/',
+const passthroughCopyList = {
+	public: "/",
+};
+
+/**
+ * Add CSS Cascade Layer to bundle
+ * @param {string} content Bundle content
+ * @returns {string}
+ */
+function bundleAddLayer(content) {
+	const bucket = this.buckets[0];
+
+	if (!bucket) {
+		return content;
+	}
+
+	const layeredContent = `@layer ${bucket} {
+		${content}
+	}`;
+
+	return layeredContent;
 }
+
+const pluginWebcOptions = {
+	components: "components/**/*.webc",
+	bundlePluginOptions: {
+		toFileDirectory: "css/bundle",
+		transforms: [bundleAddLayer],
+	},
+};
 
 /**
  * Eleventy configuration
- * @param {import("@11ty/eleventy/src/UserConfig")} eleventyConfig Eleventy configuration
+ * @param {import("@11ty/eleventy/src/UserConfig").default} eleventyConfig Eleventy configuration
  */
-module.exports = function (eleventyConfig) {
-	eleventyConfig.addPassthroughCopy(COPY_FILES)
+export default function (eleventyConfig) {
+	// Passthrough copy
+	eleventyConfig.setServerPassthroughCopyBehavior("passthrough");
+	eleventyConfig.addPassthroughCopy(passthroughCopyList);
 
 	// Data
-	eleventyConfig.addDataExtension('yaml', (contents) => yaml.load(contents))
-	eleventyConfig.addGlobalData('base', process.env.URL)
-	eleventyConfig.addGlobalData('layout', 'LDefault.vue')
+	eleventyConfig.addDataExtension("yaml", (contents) => yaml.load(contents));
+	eleventyConfig.addGlobalData("base", process.env.URL);
 
 	// Libraries
-	eleventyConfig.setLibrary('md', libraryMarkdown)
+	eleventyConfig.setLibrary("md", libraryMarkdown);
 
 	// Plugins
-	eleventyConfig.addPlugin(pluginRSS)
-	eleventyConfig.addPlugin(pluginSyntaxHighlight)
-	eleventyConfig.addPlugin(pluginVue)
+	eleventyConfig.addPlugin(pluginImage);
+	eleventyConfig.addPlugin(pluginRSS);
+	eleventyConfig.addPlugin(pluginSyntaxHighlight);
+	eleventyConfig.addPlugin(pluginWebc, pluginWebcOptions);
 
 	// Shortcodes
-	eleventyConfig.addJavaScriptFunction('image', shortcodeImage)
-	eleventyConfig.addJavaScriptFunction('imagePath', shortcodeImagePath)
-	eleventyConfig.addNunjucksShortcode('imageFeed', shortcodeImageFeed)
+	eleventyConfig.addNunjucksShortcode("imageFeed", imageFeed);
 
 	// Filters
-	eleventyConfig.addNunjucksFilter('formatRSSDate', filterFormatRSSDate)
+	for (const [name, method] of Object.entries(filters)) {
+		eleventyConfig.addFilter(name, method);
+	}
+
+	// Functions
+	for (const [name, method] of Object.entries(functions)) {
+		eleventyConfig.addJavaScriptFunction(name, method);
+	}
 
 	return {
-		dir: DIRECTORIES,
-		markdownTemplateEngine: 'njk',
-	}
+		dir: directories,
+		markdownTemplateEngine: "njk",
+	};
 }

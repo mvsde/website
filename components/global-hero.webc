@@ -1,0 +1,44 @@
+<figure webc:root="override" class="Hero">
+	<img
+		webc:if="$data.hero.image"
+		class="Hero-media"
+		:src="`/../${$data.hero.image}`"
+		:alt="$data.hero.alt"
+		sizes="(width > 1024px) 992px, 100vw"
+		eleventy:widths="496,992,1984"
+	/>
+
+	<iframe
+		webc:if="$data.hero.iframe"
+		class="Hero-media"
+		:title="$data.hero.title"
+		:src="$data.hero.iframe"
+		:style="`aspect-ratio: ${$data.hero.aspect_ratio}`"
+		width="1280"
+		height="720"
+		allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+		allowfullscreen
+	></iframe>
+
+	<figcaption
+		webc:if="$data.hero.caption"
+		class="Hero-caption"
+		@raw="$data.hero.caption"
+	></figcaption>
+</figure>
+
+<style webc:bucket="components.global">
+	.Hero {
+		display: grid;
+		gap: 0.5rem;
+		margin-block-end: 2rem;
+	}
+
+	.Hero-media {
+		inline-size: 100%;
+	}
+
+	.Hero-caption {
+		font-style: italic;
+	}
+</style>

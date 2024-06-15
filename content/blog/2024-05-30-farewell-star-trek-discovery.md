@@ -1,16 +1,16 @@
 ---
 id: 3fc087cd-02b8-4de3-a020-998d2b3d4bc5
-title: 'Farewell Star Trek: Discovery'
-description: 'Star Trek: Discovery was a milestone for the Trek universe. 7 years later, it’s time to say goodbye.'
+title: "Farewell Star Trek: Discovery"
+description: "Star Trek: Discovery was a milestone for the Trek universe. 7 years later, it’s time to say goodbye."
 tags:
   - Movies
 social:
   image:
     src: media/star-trek-discovery-poster-square.jpg
-    alt: 'Stylized art poster for Star Trek: Discovery only using basic shapes and colors. A sunset gradient from orange to purple. The Discovery starship silhouette zooms across. A big white circle representing a sun in the sky and a few smaller dots the stars. At the bottom the Star Trek: Discovery logo in black lettering.'
+    alt: "Stylized art poster for Star Trek: Discovery only using basic shapes and colors. A sunset gradient from orange to purple. The Discovery starship silhouette zooms across. A big white circle representing a sun in the sky and a few smaller dots the stars. At the bottom the Star Trek: Discovery logo in black lettering."
 hero:
   image: media/star-trek-discovery-poster.jpg
-  alt: 'Stylized art poster for Star Trek: Discovery only using basic shapes and colors. A thick black border frames a sunset gradient from orange to purple. The Discovery starship silhouette zooms across. A big white circle representing a sun in the sky and a few smaller dots the stars. At the bottom, a small Michael Burnham silhouette against the sunset. Above her the Star Trek: Discovery logo in black lettering.'
+  alt: "Stylized art poster for Star Trek: Discovery only using basic shapes and colors. A thick black border frames a sunset gradient from orange to purple. The Discovery starship silhouette zooms across. A big white circle representing a sun in the sky and a few smaller dots the stars. At the bottom, a small Michael Burnham silhouette against the sunset. Above her the Star Trek: Discovery logo in black lettering."
   caption: Cover image by <a href="https://www.themoviedb.org/tv/67198-star-trek-discovery/images/posters">TMDB</a>.
 ---
 

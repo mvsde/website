@@ -1,0 +1,5 @@
+<page-base webc:nokeep>
+	<element-rich-text webc:if="content">
+		<template @raw="content" webc:nokeep></template>
+	</element-rich-text>
+</page-base>

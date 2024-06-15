@@ -1,0 +1,5 @@
+navigation:
+  - text: Imprint
+    url: /imprint/
+  - text: Feed
+    url: /feed.xml

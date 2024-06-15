@@ -76,7 +76,7 @@ The word “[Lehrkraft]{lang=de translate=no}” (teaching staff) is grammatical
 
 Rephrasing, relative clauses, and passive voice are additional tools for gender neutral language:
 
-> **Die Lehrkraft** braucht einen Stift, um die Prüfung zu korrigieren.  
+> **Die Lehrkraft** braucht einen Stift, um die Prüfung zu korrigieren.\
 > Für die Korrektur der Prüfung, braucht **die Lehrkraft** einen Stift.
 > {lang=de translate=no}
 

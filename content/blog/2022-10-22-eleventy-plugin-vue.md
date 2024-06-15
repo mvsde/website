@@ -37,18 +37,18 @@ npm install --save-dev @mvsde/eleventy-plugin-vue
 ### Eleventy configuration
 
 ```js
-const { pluginVue } = require('@mvsde/eleventy-plugin-vue')
+const { pluginVue } = require("@mvsde/eleventy-plugin-vue");
 
 module.exports = function (eleventyConfig) {
-	eleventyConfig.addPlugin(pluginVue)
-}
+	eleventyConfig.addPlugin(pluginVue);
+};
 ```
 
 ### Doctype transform
 
 Vue SFCs can’t have `<!doctype html`> at the beginning of the template, so an Eleventy transform is included automatically which adds the doctype to all HTML files.
 
-### `<script setup>` and Composition API
+### \<script setup> and Composition API
 
 The plugin exports Vue Composition API methods for accessing the [current page’s data](https://www.11ty.dev/docs/data/) and [JavaScript shortodes](https://www.11ty.dev/docs/shortcodes/) in `<script setup>`.
 

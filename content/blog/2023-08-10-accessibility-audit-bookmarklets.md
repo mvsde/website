@@ -99,7 +99,7 @@ The [title](https://pauljadam.com/bookmarklets/title.html) bookmarklet highlight
 
 For some audit steps it may be useful to view the page without any CSS. The [disable CSS](https://gist.github.com/mvsde/d339346e2c6b38ac37eaccd377cf7b20#file-disable-css-js) bookmarklet removes all external stylesheets, `<style>` elements, and `style` attributes.
 
-### Open `<details>`
+### Open \<details>
 
 Sites like FAQs may have _a lot_ of `<details>` elements. Instead of opening them manually, the [open details](https://gist.github.com/mvsde/d339346e2c6b38ac37eaccd377cf7b20#file-open-details-js) bookmarklet automatically opens _all_ `<details>` elements on the page.
 

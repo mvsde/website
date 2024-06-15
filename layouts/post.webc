@@ -1,0 +1,18 @@
+<page-base webc:nokeep>
+	<element-meta
+		slot="after-title"
+		class="LayoutPost-meta"
+		:@date="$data.page.date"
+		:@tags="filterTags($data.tags)"
+	></element-meta>
+
+	<element-rich-text webc:if="content">
+		<template @raw="content" webc:nokeep></template>
+	</element-rich-text>
+</page-base>
+
+<style webc:bucket="layouts">
+	.LayoutPost-meta {
+		margin-block-start: 0.5rem;
+	}
+</style>

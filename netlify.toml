@@ -1,117 +1,117 @@
 # Build
 
 [build]
-  command = "npm run build"
-  publish = "dist"
+	command = "node --run build"
+	publish = "build"
 
 # Redirects
 
 ## fynn.netlify.app
 
 [[redirects]]
-  from = "https://fynn.netlify.app/*"
-  to = "https://fynn.be/:splat"
-  status = 302
-  force = true
+	from = "https://fynn.netlify.app/*"
+	to = "https://fynn.be/:splat"
+	status = 302
+	force = true
 
 [[redirects]]
-  from = "https://main--fynn.netlify.app/*"
-  to = "https://fynn.be/:splat"
-  status = 302
-  force = true
+	from = "https://main--fynn.netlify.app/*"
+	to = "https://fynn.be/:splat"
+	status = 302
+	force = true
 
 ## fynn.is
 
 [[redirects]]
-  from = "https://fynn.is/*"
-  to = "https://fynn.be/:splat"
-  status = 302
-  force = true
+	from = "https://fynn.is/*"
+	to = "https://fynn.be/:splat"
+	status = 302
+	force = true
 
 ## mvsde.com
 
 [[redirects]]
-  from = "https://mvsde.com/*"
-  to = "https://fynn.be/:splat"
-  status = 302
-  force = true
+	from = "https://mvsde.com/*"
+	to = "https://fynn.be/:splat"
+	status = 302
+	force = true
 
 ## fynn.lgbt
 
 [[redirects]]
-  from = "https://www.fynn.lgbt/*"
-  to = "https://fynn.lgbt/"
-  status = 302
-  force = true
+	from = "https://www.fynn.lgbt/*"
+	to = "https://fynn.lgbt/"
+	status = 302
+	force = true
 
 [[redirects]]
-  from = "https://fynn.lgbt/en/*"
-  to = "https://fynn.be/pronouns/en/"
-  status = 302
-  force = true
+	from = "https://fynn.lgbt/en/*"
+	to = "https://fynn.be/pronouns/en/"
+	status = 302
+	force = true
 
 [[redirects]]
-  from = "https://fynn.lgbt/de/*"
-  to = "https://fynn.be/pronouns/de/"
-  status = 302
-  force = true
+	from = "https://fynn.lgbt/de/*"
+	to = "https://fynn.be/pronouns/de/"
+	status = 302
+	force = true
 
 [[redirects]]
-  from = "https://fynn.lgbt/*"
-  to = "https://fynn.be/pronouns/en/"
-  status = 302
-  force = true
-  conditions = {Language = ["en"]}
+	from = "https://fynn.lgbt/*"
+	to = "https://fynn.be/pronouns/en/"
+	status = 302
+	force = true
+	conditions = {Language = ["en"]}
 
 [[redirects]]
-  from = "https://fynn.lgbt/*"
-  to = "https://fynn.be/pronouns/de/"
-  status = 302
-  force = true
-  conditions = {Language = ["de"]}
+	from = "https://fynn.lgbt/*"
+	to = "https://fynn.be/pronouns/de/"
+	status = 302
+	force = true
+	conditions = {Language = ["de"]}
 
 [[redirects]]
-  from = "https://fynn.lgbt/*"
-  to = "https://fynn.be/pronouns/"
-  status = 302
-  force = true
+	from = "https://fynn.lgbt/*"
+	to = "https://fynn.be/pronouns/"
+	status = 302
+	force = true
 
 ## talks.fynn.be
 
 [[redirects]]
-  from = "https://talks.fynn.be/*"
-  to = "https://fynn.be/talks/:splat"
-  status = 302
-  force = true
+	from = "https://talks.fynn.be/*"
+	to = "https://fynn.be/talks/:splat"
+	status = 302
+	force = true
 
 ## Page redirects
 
 [[redirects]]
-  from = "/tag/*"
-  to = "/tags/:splat"
-  status = 301
+	from = "/tag/*"
+	to = "/tags/:splat"
+	status = 301
 
 [[redirects]]
-  from = "/blog/return-of-fabulousness/"
-  to = "/blog/down-the-rabbit-hole/"
-  status = 301
+	from = "/blog/return-of-fabulousness/"
+	to = "/blog/down-the-rabbit-hole/"
+	status = 301
 
 [[redirects]]
-  from = "/blog/exploring-fabulousness/"
-  to = "/blog/down-the-rabbit-hole/"
-  status = 301
+	from = "/blog/exploring-fabulousness/"
+	to = "/blog/down-the-rabbit-hole/"
+	status = 301
 
 ## Social
 
 [[redirects]]
-  from = "https://mastodon.fynn.be/*"
-  to = "https://mastodon.social/@mvsde"
-  status = 302
-  force = true
+	from = "https://mastodon.fynn.be/*"
+	to = "https://mastodon.social/@mvsde"
+	status = 302
+	force = true
 
 ## 404
 
 [[redirects]]
-  from = "/*"
-  to = "/404.html"
-  status = 404
+	from = "/*"
+	to = "/404.html"
+	status = 404

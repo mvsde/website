@@ -12,6 +12,7 @@ jobs:
         with:
           node-version: 22
       - run: npm ci
-      - run: npm run lint:js
-      - run: npm run lint:css
-      - run: npm run lint:markdown
+      - run: node --run lint:js
+      - run: node --run lint:css
+      - run: node --run lint:markdown
+      - run: node --run lint:format

@@ -1,6 +1,6 @@
 ---
 title: Sunset
-layout: LGallery.vue
+layout: gallery.webc
 collection:
   name: sunset
   order: ascending

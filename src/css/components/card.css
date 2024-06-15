@@ -1,9 +1,0 @@
-.Card {
-	background: var(--color-background);
-	border-radius: var(--border-radius-small);
-	padding: var(--content-highlight-inset);
-}
-
-.Card-title {
-	margin-block-start: 0;
-}

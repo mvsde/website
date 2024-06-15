@@ -1,7 +1,0 @@
-@layer global, typography, layouts, components, utilities;
-
-@import url('./css/global.css') layer(global);
-@import url('./css/typography.css') layer(typography);
-@import url('./css/layouts.css') layer(layouts);
-@import url('./css/components.css') layer(components);
-@import url('./css/utilities.css') layer(utilities);
