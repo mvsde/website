@@ -23,9 +23,9 @@ Kirchentwiete 37-39\
 
 ### Fonts
 
-- [Teko](https://fonts.google.com/specimen/Teko)
-- [Work Sans](https://fonts.google.com/specimen/Work+Sans)
-- [JetBrains Mono](https://fonts.google.com/specimen/JetBrains+Mono)
+- Headings: [Teko](https://fonts.google.com/specimen/Teko) by [Indian Type Foundry](https://www.indiantypefoundry.com/)
+- Text: [Work Sans](https://fonts.google.com/specimen/Work+Sans) by [Wei Huang](https://weiweihuanghuang.github.io/)
+- Code: [JetBrains Mono](https://fonts.google.com/specimen/JetBrains+Mono) by [JetBrains](https://www.jetbrains.com/)
 
 ### Icons
 
