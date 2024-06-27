@@ -1,5 +1,6 @@
 ---
 title: Tags
+layout: tags.webc
 pagination:
   data: collections
   size: Infinity
@@ -11,6 +12,3 @@ pagination:
     - sunset
     - talk
 ---
-
-{% for tag in tags|sort %}- [{{ tag }}](/tags/{{ tag|lower }}/)
-{% endfor %}

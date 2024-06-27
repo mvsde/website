@@ -1,0 +1,33 @@
+<page-base webc:nokeep>
+	<element-rich-text webc:if="content">
+		<template @raw="content" webc:nokeep></template>
+	</element-rich-text>
+
+	<ul class="LayoutTags-list">
+		<li class="LayoutTags-item" webc:for="tag of tags.toSorted()">
+			<a
+				class="LayoutTags-link"
+				:href="`/tags/${tag.toLowerCase()}`"
+				@text="tag"
+			></a>
+		</li>
+	</ul>
+</page-base>
+
+<style webc:bucket="layouts">
+	.LayoutTags-list {
+		display: grid;
+		gap: 1.5rem;
+		list-style: none;
+	}
+
+	.LayoutTags-link {
+		font-size: 1.375rem;
+		font-weight: 650;
+		text-decoration: none;
+
+		&:hover {
+			text-decoration: underline;
+		}
+	}
+</style>
