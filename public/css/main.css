@@ -9,6 +9,7 @@
 /* Global */
 
 @import url("global/fonts.css") layer(global);
+@import url("global/fonts-fallback.css") layer(global);
 @import url("global/base.css") layer(global);
 
 /* Typography */
