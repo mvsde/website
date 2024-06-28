@@ -7,9 +7,12 @@
 	</div>
 </footer>
 
-<style webc:bucket="components.global">
+<style>
+	@layer components.globals;
+
 	.Footer {
-		margin-block-start: 2rem;
-		padding-block: 1rem;
+		border-block-start: var(--size-border-width-divider) solid currentcolor;
+		margin-block-start: 3rem;
+		padding-block: 0.75rem;
 	}
 </style>

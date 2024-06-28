@@ -1,5 +1,5 @@
 :root {
-	/* Border radius */
+	/* Border width */
 
-	--size-border-radius: 0.25rem;
+	--size-border-width-divider: 0.125rem;
 }

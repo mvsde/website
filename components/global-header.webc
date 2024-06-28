@@ -4,12 +4,25 @@
 	</div>
 </header>
 
-<style webc:bucket="components.global">
+<style>
+	@layer components.globals;
+
 	.Header {
+		animation-fill-mode: both;
+		animation-name: header-border;
+		animation-range: 1rem 2rem;
+		animation-timeline: scroll(root);
 		background: var(--color-SiteBackground);
+		border-block-end: var(--size-border-width-divider) solid transparent;
 		inset-block-start: 0;
 		margin-block-end: 2rem;
 		padding-block: 0.75rem;
 		position: sticky;
+	}
+
+	@keyframes header-border {
+		to {
+			border-block-end-color: currentcolor;
+		}
 	}
 </style>

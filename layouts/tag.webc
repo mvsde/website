@@ -7,7 +7,7 @@
 	}
 </script>
 
-<page-base webc:nokeep>
+<base-page webc:nokeep>
 	<element-rich-text webc:if="content">
 		<template @raw="content" webc:nokeep></template>
 	</element-rich-text>
@@ -32,9 +32,11 @@
 			></element-meta>
 		</li>
 	</ol>
-</page-base>
+</base-page>
 
-<style webc:bucket="layouts">
+<style>
+	@layer layouts;
+
 	.LayoutTag-list {
 		display: grid;
 		gap: 2.5rem;

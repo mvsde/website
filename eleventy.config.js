@@ -8,6 +8,7 @@ import * as filters from "./eleventy/filters/index.js";
 import * as functions from "./eleventy/functions/index.js";
 import libraryMarkdown from "./eleventy/libraries/markdown.js";
 import imageFeed from "./eleventy/shortcodes/image-feed.js";
+import bundleCSSLayer from "./eleventy/transforms/bundle-css-layer.js";
 
 const directories = {
 	// Relative to current directory.
@@ -25,30 +26,11 @@ const passthroughCopyList = {
 	public: "/",
 };
 
-/**
- * Add CSS Cascade Layer to bundle
- * @param {string} content Bundle content
- * @returns {string}
- */
-function bundleAddLayer(content) {
-	const bucket = this.buckets[0];
-
-	if (!bucket) {
-		return content;
-	}
-
-	const layeredContent = `@layer ${bucket} {
-		${content}
-	}`;
-
-	return layeredContent;
-}
-
 const pluginWebcOptions = {
 	components: "components/**/*.webc",
 	bundlePluginOptions: {
 		toFileDirectory: "css/bundle",
-		transforms: [bundleAddLayer],
+		transforms: [bundleCSSLayer],
 	},
 };
 

@@ -7,7 +7,7 @@ tags:
 hero:
   iframe: https://pitch.com/embed-link/8fu9f8
   title: Slides for the talk “Accessibility is not a tech problem”
-  aspect_ratio: 1.595
+  aspect_ratio: 1.593
 ---
 
 Accessibility is the intersection of user experience and interface design, frontend and backend development, content management systems, and _human beings_.

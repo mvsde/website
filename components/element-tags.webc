@@ -8,7 +8,9 @@
 	</li>
 </ul>
 
-<style webc:bucket="components.element">
+<style>
+	@layer components.elements;
+
 	.Tags {
 		display: flex;
 		flex-wrap: wrap;

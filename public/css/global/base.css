@@ -20,14 +20,6 @@ body {
 	min-block-size: 100svh;
 }
 
-iframe {
-	border: none;
-
-	@media (forced-colors) {
-		border: 0.0625rem solid;
-	}
-}
-
 img,
 svg,
 iframe {
@@ -36,14 +28,14 @@ iframe {
 	vertical-align: middle;
 }
 
-img,
 iframe {
-	border-radius: var(--size-border-radius);
+	background: var(--color-HighlightBackground);
+	border: var(--size-border-width-divider) solid currentcolor;
 }
 
 a {
 	color: var(--color-Brand);
-	text-underline-offset: 0.1em;
+	text-underline-offset: 0.15em;
 }
 
 sup {
@@ -59,7 +51,6 @@ sup {
 }
 
 :focus-visible {
-	border-radius: var(--size-border-radius);
 	outline: 0.125rem solid var(--color-Brand);
 	outline-offset: 0.2em;
 }

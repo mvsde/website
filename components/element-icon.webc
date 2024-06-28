@@ -21,7 +21,9 @@
 	<path :d="paths[name]" />
 </svg>
 
-<style webc:bucket="components.element">
+<style>
+	@layer components.elements;
+
 	.Icon {
 		block-size: 1em;
 		fill: currentcolor;

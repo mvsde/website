@@ -4,7 +4,9 @@
 	<element-tags webc:if="tags" :@items="tags" @variant="inline"></element-tags>
 </div>
 
-<style webc:bucket="components.element">
+<style>
+	@layer components.elements;
+
 	.Meta {
 		display: flex;
 		flex-wrap: wrap;

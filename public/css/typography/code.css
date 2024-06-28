@@ -1,7 +1,6 @@
 :not(pre) > code,
 pre {
 	background: var(--color-HighlightBackground);
-	border-radius: var(--size-border-radius);
 	font-family: var(--typo-Code-font-family);
 	font-size: var(--typo-Code-font-size);
 	tab-size: 2;
@@ -19,69 +18,69 @@ pre {
 pre {
 	overflow-x: auto;
 	padding: 1em;
-}
 
-.token.comment {
-	color: var(--color-Code-comment);
-}
+	.comment {
+		color: var(--color-Code-comment);
+	}
 
-.token.property {
-	color: var(--color-Code-property);
-}
+	.punctuation {
+		color: var(--color-Code-punctuation);
+	}
 
-.token.attr-name {
-	color: var(--color-Code-attrName);
-}
+	.interpolation-punctuation {
+		color: var(--color-Code-interpolation);
+	}
 
-.token.attr-value {
-	color: var(--color-Code-attrValue);
-}
+	.keyword {
+		color: var(--color-Code-keyword);
+	}
 
-.token.key {
-	color: var(--color-Code-key);
-}
+	.tag,
+	.tag > .punctuation:is(:first-child, :last-child) {
+		color: var(--color-Code-tag);
+	}
 
-.token.selector {
-	color: var(--color-Code-selector);
-}
+	.attr-name {
+		color: var(--color-Code-attrName);
+	}
 
-.token.tag,
-.token.tag > .punctuation:is(:first-child, :last-child) {
-	color: var(--color-Code-tag);
-}
+	.attr-value {
+		color: var(--color-Code-attrValue);
+	}
 
-.token.keyword {
-	color: var(--color-Code-keyword);
-}
+	.rule {
+		color: var(--color-Code-rule);
+	}
 
-.token.important {
-	color: var(--color-Code-important);
-}
+	.selector {
+		color: var(--color-Code-selector);
+	}
 
-.token.punctuation {
-	color: var(--color-Code-punctuation);
-}
+	.property {
+		color: var(--color-Code-property);
+	}
 
-.token.interpolation-punctuation {
-	color: var(--color-Code-interpolation);
-}
+	.key {
+		color: var(--color-Code-key);
+	}
 
-.token.string {
-	color: var(--color-Code-string);
-}
+	.important {
+		color: var(--color-Code-important);
+	}
 
-.token.number {
-	color: var(--color-Code-number);
-}
+	.function {
+		color: var(--color-Code-function);
+	}
 
-.token.function {
-	color: var(--color-Code-function);
-}
+	.parameter {
+		color: var(--color-Code-parameter);
+	}
 
-.token.parameter {
-	color: var(--color-Code-parameter);
-}
+	.string {
+		color: var(--color-Code-string);
+	}
 
-.token.rule {
-	color: var(--color-Code-rule);
+	.number {
+		color: var(--color-Code-number);
+	}
 }

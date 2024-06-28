@@ -52,7 +52,7 @@ Specifications: Intel Core 2 Duo T6400, 4 GB RAM, SATA1 HDD.
 | **.jpg**  |  177.5786 |     241.13594 |    29.14996 |    0.08198 |  270.36788 |
 | **.webp** |  126.1962 |     222.16746 |    28.57188 |    0.07598 |  250.81532 |
 
-<small>[Raw data for the slow device](https://gist.github.com/mvsde/babe7a3c07e0fb5f7b0529580216d357)</small>
+<small>[Raw data for the slow device](https://gist.github.com/mvsde/babe7a3c07e0fb5f7b0529580216d357).</small>
 
 ### Fast device
 
@@ -64,7 +64,7 @@ Specifications: Intel Core i7-10750H, 32 GB RAM, NVMe SSD.
 | **.jpg**  |  177.5786 |      195.2597 |     9.84462 |    0.02324 |   205.1275 |
 | **.webp** |  126.1962 |      188.9901 |    11.29712 |    0.02318 |   200.3104 |
 
-<small>[Raw data for the fast device](https://gist.github.com/mvsde/3e42f33723b0cfff296f01bedc0dea94)</small>
+<small>[Raw data for the fast device](https://gist.github.com/mvsde/3e42f33723b0cfff296f01bedc0dea94).</small>
 
 ## Takeaway
 

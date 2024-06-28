@@ -1,4 +1,4 @@
-<page-base webc:nokeep>
+<base-page webc:nokeep>
 	<element-rich-text webc:if="content">
 		<template @raw="content" webc:nokeep></template>
 	</element-rich-text>
@@ -12,9 +12,11 @@
 			></a>
 		</li>
 	</ul>
-</page-base>
+</base-page>
 
-<style webc:bucket="layouts">
+<style>
+	@layer layouts;
+
 	.LayoutTags-list {
 		display: grid;
 		gap: 1.5rem;

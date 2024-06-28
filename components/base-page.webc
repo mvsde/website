@@ -8,14 +8,46 @@
 			@text="isHomePage($data.page.url) ? 'Fynn Becker' : `${$data.title} - Fynn Becker`"
 		></title>
 
+		<!-- CSS -->
+
+		<link rel="stylesheet" href="/css/main.css" webc:keep />
+		<link rel="stylesheet" :href="getBundleFileUrl('css')" webc:keep />
+
+		<!-- Preload -->
+
+		<link
+			rel="preload"
+			href="/fonts/teko-latin-600-normal.woff2"
+			as="font"
+			type="font/woff2"
+			crossorigin
+		/>
+		<link
+			rel="preload"
+			href="/fonts/work-sans-latin-wght-normal.woff2"
+			as="font"
+			type="font/woff2"
+			crossorigin
+		/>
+		<link
+			rel="preload"
+			href="/fonts/work-sans-latin-wght-italic.woff2"
+			as="font"
+			type="font/woff2"
+			crossorigin
+		/>
+
+		<!-- Meta data -->
+
 		<meta
 			webc:if="$data.description"
 			name="description"
 			:content="$data.description"
 		/>
 		<meta name="generator" :content="$data.eleventy.generator" />
-
 		<link href="/feed.xml" type="application/atom+xml" rel="alternate" />
+
+		<!-- Theme -->
 
 		<link rel="icon" href="/favicon.ico" sizes="any" />
 		<link rel="icon" href="/favicon.svg" type="image/svg+xml" />
@@ -30,12 +62,16 @@
 			media="(prefers-color-scheme: dark)"
 		/>
 
+		<!-- Open Graph text -->
+
 		<meta property="og:site_name" content="fynn.be" />
 		<meta property="og:type" :content="$data.social?.type ?? 'website'" />
 		<meta property="og:url" :content="$data.base + $data.page.url" />
 		<meta property="og:title" :content="$data.title" />
 		<meta property="og:description" :content="$data.description" />
 		<meta property="og:locale" :content="$data.language" />
+
+		<!-- Open Graph image -->
 
 		<template webc:if="$data.social?.image" webc:nokeep>
 			<meta
@@ -46,23 +82,6 @@
 			<meta property="og:image:width" content="500" />
 			<meta property="og:image:height" content="500" />
 		</template>
-
-		<link rel="stylesheet" href="/css/main.css" webc:keep />
-		<link
-			rel="stylesheet"
-			:href="getBundleFileUrl('css', 'components.element')"
-			webc:keep
-		/>
-		<link
-			rel="stylesheet"
-			:href="getBundleFileUrl('css', 'components.global')"
-			webc:keep
-		/>
-		<link
-			rel="stylesheet"
-			:href="getBundleFileUrl('css', 'layouts')"
-			webc:keep
-		/>
 	</head>
 	<body>
 		<global-header></global-header>
@@ -72,8 +91,11 @@
 				<h1 @text="$data.title"></h1>
 				<slot name="after-title"></slot>
 			</hgroup>
+
 			<global-hero webc:if="$data.hero"></global-hero>
+
 			<slot></slot>
+
 			<global-related webc:if="$data.related"></global-related>
 		</main>
 

@@ -1,4 +1,4 @@
-<page-base webc:nokeep>
+<base-page webc:nokeep>
 	<element-meta
 		slot="after-title"
 		class="LayoutPost-meta"
@@ -9,9 +9,11 @@
 	<element-rich-text webc:if="content">
 		<template @raw="content" webc:nokeep></template>
 	</element-rich-text>
-</page-base>
+</base-page>
 
-<style webc:bucket="layouts">
+<style>
+	@layer layouts;
+
 	.LayoutPost-meta {
 		margin-block-start: 0.5rem;
 	}

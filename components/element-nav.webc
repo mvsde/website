@@ -19,7 +19,9 @@
 	</ul>
 </nav>
 
-<style webc:bucket="components.element">
+<style>
+	@layer components.elements;
+
 	.Nav-list {
 		align-items: center;
 		display: flex;
@@ -38,8 +40,8 @@
 		&.is-active {
 			color: var(--color-Brand);
 			text-decoration: underline;
-			text-decoration-thickness: 0.1em;
-			text-underline-offset: 0.4em;
+			text-decoration-thickness: var(--size-border-width-divider);
+			text-underline-offset: 0.375rem;
 		}
 	}
 

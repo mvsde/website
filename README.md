@@ -22,14 +22,6 @@ node --run dev
 node --run build
 ```
 
-## Fonts
-
-Generate fonts fallback CSS file:
-
-```sh
-node generate-fonts-fallback.js
-```
-
 ## Formatting
 
 ```sh

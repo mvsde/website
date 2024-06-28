@@ -2,7 +2,9 @@
 	<slot></slot>
 </div>
 
-<style webc:bucket="components.element">
+<style>
+	@layer components.elements;
+
 	.RichText {
 		font-size: var(--typo-RichText-font-size);
 		line-height: var(--typo-RichText-line-height);
@@ -68,40 +70,21 @@
 		}
 
 		blockquote {
-			border-inline-start: 0.25em solid var(--color-Brand);
-			padding-inline-start: 0.75em;
+			border-inline-start: var(--size-border-width-divider) solid currentcolor;
+			padding-inline-start: calc(1em - var(--size-border-width-divider));
 		}
 
 		hr {
-			background: var(--color-Brand);
-			block-size: 0.15em;
+			background: currentcolor;
+			block-size: var(--size-border-width-divider);
 			border: none;
 			margin-block: 2em;
-		}
-
-		/* Tables */
-
-		table {
-			border-collapse: collapse;
-			font-variant-numeric: tabular-nums;
-		}
-
-		th,
-		td {
-			border: 0.1em solid var(--color-Brand);
-			padding-block: 0.2em;
-			padding-inline: 0.5em;
-		}
-
-		th {
-			background: var(--color-HighlightBackground);
 		}
 
 		/* Note */
 
 		.Note {
 			background: var(--color-HighlightBackground);
-			border-radius: var(--size-border-radius);
 			padding: 1em;
 
 			> :first-child {

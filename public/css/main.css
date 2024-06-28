@@ -1,4 +1,4 @@
-@layer global, typography, components.element, components.global, layouts, utilities;
+@layer global, components.elements, components.globals, layouts, utilities;
 
 /* Tokens */
 
@@ -9,24 +9,14 @@
 /* Global */
 
 @import url("global/fonts.css") layer(global);
-@import url("global/fonts-fallback.css") layer(global);
 @import url("global/base.css") layer(global);
 
 /* Typography */
 
-@import url("typography/code.css") layer(typography);
-@import url("typography/headings.css") layer(typography);
-
-/* Components */
-
-/* Automatically bundled by Eleventy */
-
-/* Layouts */
-
-/* Automatically bundled by Eleventy */
+@import url("typography/code.css") layer(global);
+@import url("typography/headings.css") layer(global);
+@import url("typography/table.css") layer(global);
 
 /* Utilities */
 
-@import url("utilities/container.css");
-@import url("utilities/list.css");
-@import url("utilities/scroll.css");
+@import url("utilities.css") layer(utilities);
