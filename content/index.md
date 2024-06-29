@@ -1,6 +1,6 @@
 ---
 title: Hello there, I’m Fynn
-description: Frontend developer, video game collector, interested in tech and computer things, cyclist, Shinson Hapkido, Star Wars and Star Trek.
+description: Welcome to my personal space on the web where I publish longer form articles than on social media.
 social:
   image:
     src: media/hiking-square.jpg
@@ -9,22 +9,22 @@ social:
 
 ## About me
 
-- My full name is _Fynn Becker_, please call me just _Fynn_
-- I’m non-binary, my [pronouns are they/them](/pronouns/en/)
-- I come from the Hamburg, Germany metropolitan area
-- Senior frontend developer at [Factorial](https://www.factorial.io/)
-- Occasional [open sourcerer](https://github.com/mvsde)
-- Obsessive [video game collector](https://steamcommunity.com/id/mvsde/)
-- [Shinson Hapkido](http://www.shinsonhapkido.org) blue-red belt
-- Active member of the German cyclists club [ADFC](https://www.adfc.de/)
-- Huge [Star Wars](https://twitter.fynn.be/1408409600643190788/) and [Star Trek](https://twitter.fynn.be/1400519056374046726/) nerd
-- Sometimes I take [photos of sunsets](/sunset/)
+My full name is _Fynn Becker_, but please call me just _Fynn_. My gender is non-binary, and I go by _they/them_ pronouns. I created a handy [pronouns guide](/pronouns/en/) with examples if you’re unsure how to use them. I live in the metropolitan area of Hamburg, Germany.
+
+At [Factorial](https://www.factorial.io/), I work as a senior frontend developer with a focus on web accessibility. Occasionally, I also work on a handful of [open source projects](https://github.com/mvsde).
+
+I practice [Shinson Hapkido](http://www.shinsonhapkido.org) martial arts in our small Dojang in Buchholz. As an active member of the cyclists clubs [ADFC](https://www.adfc.de/){hreflang=de} and [Buchholz fährt Rad](https://buchholz-faehrt-rad.de/){lang=de hreflang=de}, I lobby for the mobility transition.
+
+When something [Star Wars](https://twitter.fynn.be/1408409600643190788/) or [Star Trek](/blog/farewell-star-trek-discovery/) is published, I _will_ consume it. What I don’t consume are all the [video games I obsessively collected](https://steamcommunity.com/id/mvsde/). There are also [photos of sunsets](/sunset/), which I collect too.
 
 ## Social media
 
 - [Mastodon](https://mastodon.social/@mvsde){rel=me}
 - [GitHub](https://github.com/mvsde){rel=me}
 - [LinkedIn](https://linkedin.com/in/fynn){rel=me}
+- [DEV Community](https://dev.to/fynn){rel=me}
+- [Steam Community](https://steamcommunity.com/id/mvsde/){rel=me}
+- [GOG.com](https://www.gog.com/u/mvsde){rel=me}
 - [Twitter archive](https://twitter.fynn.be){rel=me}
 
 ## Open source
