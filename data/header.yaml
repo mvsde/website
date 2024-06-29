@@ -1,6 +1,8 @@
 navigation:
   - text: About
     url: /
+  - text: Projects
+    url: /projects/
   - text: Blog
     url: /blog/
   - text: Talks

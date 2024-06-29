@@ -27,13 +27,6 @@ When something [Star Wars](https://twitter.fynn.be/1408409600643190788/) or [Sta
 - [GOG.com](https://www.gog.com/u/mvsde){rel=me}
 - [Twitter archive](https://twitter.fynn.be){rel=me}
 
-## Open source
-
-- [flag.is](https://github.com/mvsde/flag.is)
-- [miyagi for VS Code](https://github.com/miyagi-dev/vscode-miyagi)
-- [mailbox](https://github.com/mvsde/mailbox)
-- [Website](https://github.com/mvsde/website)
-
 ## Adventure time
 
 ![Fynn climbing down steep metal stairs into a ravine in the Elbe Sandstone Mountains, tall cliff-like rocks to the left and right.](/../media/hiking.jpg){sizes="(width > 640px) 640px, 100vw" eleventy:widths=640,1280}
