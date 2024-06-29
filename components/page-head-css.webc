@@ -11,6 +11,7 @@
 <!--- Global --->
 <link rel="stylesheet" href="../css/global/base.css" />
 <link rel="stylesheet" href="../css/global/fonts.css" />
+<link rel="stylesheet" href="../css/global/fonts-fallback.css" />
 
 <!--- Typography --->
 <link rel="stylesheet" href="../css/typography/code.css" />

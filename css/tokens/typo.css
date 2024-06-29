@@ -2,11 +2,13 @@
 
 :root {
 	/* Default */
-	--typo-Default-font-family: "Work Sans", "Roboto", "Noto Sans", sans-serif;
+	--typo-Default-font-family: "Work Sans", "Work Sans Fallback: Roboto",
+		"Work Sans Fallback: Noto Sans", "Work Sans Fallback: Arial", sans-serif;
 	--typo-Default-line-height: 1.4;
 
 	/* Heading */
-	--typo-Heading-font-family: "Teko", "Impact", "Arial Narrow", sans-serif;
+	--typo-Heading-font-family: "Teko", "Teko Fallback: Roboto",
+		"Teko Fallback: Noto Sans", "Teko Fallback: Arial", sans-serif;
 	--typo-Heading-font-weight: 600;
 	--typo-Heading-line-height: 1;
 
