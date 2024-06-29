@@ -1,5 +1,4 @@
 ---
-id: 806a344e-5227-4d6c-88bf-8f40d0f4cb7a
 title: Dropping the “he”
 description: Effective immediately, my pronouns are they/them.
 tags:

@@ -1,5 +1,4 @@
 ---
-id: 8dc35fdf-fd74-4701-baeb-fbb251e0eee2
 title: Owning your pronouns page
 description: Using Netlify redirect conditions with a short domain to automatically serve a pronouns page in the correct language.
 tags:

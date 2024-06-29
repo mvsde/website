@@ -1,5 +1,4 @@
 ---
-id: 8e9d3abb-293c-449a-9979-b9b541959c48
 title: Eleventy + Vue 3
 description: Tips and tricks for using Vue 3 Single File Components as templates for Eleventy.
 tags:

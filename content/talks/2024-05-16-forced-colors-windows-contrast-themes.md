@@ -1,5 +1,4 @@
 ---
-id: 721542a3-0a10-4345-bc77-864ec63dfbca
 title: Forced colors and Windows contrast themes
 description: A showcase of Windows contrast themes and the potential issues when forced colors aren’t considered during development.
 tags:

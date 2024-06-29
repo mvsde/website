@@ -1,5 +1,4 @@
 ---
-id: 42ef6813-bc4f-4865-9577-ff3ef3f6c68c
 title: petite-vue
 description: Sprinkling interactivity on HTML ✨
 tags:

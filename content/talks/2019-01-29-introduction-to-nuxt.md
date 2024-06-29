@@ -1,5 +1,4 @@
 ---
-id: c65d97a3-cdeb-4d38-8000-7e33ad5eaa05
 title: Introduction to Nuxt.js
 description: Server side rendering made easy.
 tags:

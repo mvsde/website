@@ -1,5 +1,4 @@
 ---
-id: eb7a276f-f52d-4fde-911f-e5ec882909af
 title: The Sanctuary
 description: The very beginning of how I (slowly) figured out I’m non-binary.
 tags:

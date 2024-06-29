@@ -1,5 +1,4 @@
 ---
-id: 8dd5c5f2-b96c-4ec5-8fed-ed0890f8ee27
 title: Bye-bye “man”, say hello to “eins”
 description: A short history of the indefinite German pronoun “man” and a suggestion for how we can replace it.
 tags:

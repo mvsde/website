@@ -1,5 +1,4 @@
 ---
-id: 3fc087cd-02b8-4de3-a020-998d2b3d4bc5
 title: "Farewell Star Trek: Discovery"
 description: "Star Trek: Discovery was a milestone for the Trek universe. 7 years later, it’s time to say goodbye."
 tags:

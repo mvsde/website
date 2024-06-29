@@ -2,34 +2,40 @@
 permalink: feed.xml
 layout: false
 eleventyExcludeFromCollections: true
+
+metadata:
+  title: Fynn Becker
+  description: Personal website and playground for experiments.
+  icon: favicon.svg
+  author:
+    name: Fynn Becker
+    email: post@fynn.be
 ---
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="{{ language }}">
-	<title>Fynn Becker</title>
-	<subtitle>Updates from Fynn’s personal website.</subtitle>
+	<title>{{ metadata.title }}</title>
+	<subtitle>{{ metadata.description }}</subtitle>
+	<icon>{{ metadata.icon|htmlBaseUrl(base) }}</icon>
 	<updated>{{ collections.feed|getNewestCollectionItemDate|formatRSSDate }}</updated>
-	<icon>{{ base }}/favicon.svg</icon>
-
-	<link href="{{ base }}/{{ permalink }}" rel="self"/>
-	<link href="{{ base }}/"/>
-	<id>{{ base }}/</id>
-
+	<id>{{ base|addPathPrefixToFullUrl }}</id>
+	<link href="{{ permalink|htmlBaseUrl(base) }}" rel="self"/>
+	<link href="{{ base|addPathPrefixToFullUrl }}"/>
 	<author>
-		<name>Fynn Becker</name>
-		<email>post@fynn.be</email>
+		<name>{{ metadata.author.name }}</name>
+		<email>{{ metadata.author.email }}</email>
 	</author>
 
-	{% for post in collections.feed %}
-		{% set absolutePostUrl = post.url|htmlBaseUrl(base) %}
+	{% for post in collections.feed|reverse %}
+		{% set absolute_post_url = post.url|htmlBaseUrl(base) %}
+
 		{% set hero = post.data.hero %}
 		{% set hero_markup %}{% include "feed-hero.njk" %}{% endset %}
 
 		<entry>
 			<title>{{ post.data.title }}</title>
-			<link href="{{ absolutePostUrl }}"/>
-			<published>{{ post.date|formatRSSDate }}</published>
+			<link href="{{ absolute_post_url }}"/>
 			<updated>{{ post.date|formatRSSDate }}</updated>
-			<id>urn:uuid:{{ post.data.id }}</id>
+			<id>{{ absolute_post_url }}</id>
 			{% if post.data.description %}
 				<summary>{{ post.data.description }}</summary>
 			{% endif %}

@@ -1,5 +1,4 @@
 ---
-id: 4acd0bfd-de22-43ac-a363-5b9637f3e55e
 title: Performance of modern image formats
 description: Modern image formats have spectacular compression improvements. But how fast are they overall?
 tags:

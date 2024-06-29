@@ -1,5 +1,4 @@
 ---
-id: 8a827afa-e0bc-4bca-a9c9-4c55b74367f5
 title: CSS Custom Property toggles for themes
 description: Use CSS Custom Property toggles to avoid repeating property definitions for light and dark themes.
 tags:

@@ -1,5 +1,4 @@
 ---
-id: b9b52287-79e6-48a9-9147-78cf1f8c9fc7
 title: Why I built my own Vue plugin for Eleventy
 description: Why and how I built my own Vue plugin for Eleventy.
 tags:

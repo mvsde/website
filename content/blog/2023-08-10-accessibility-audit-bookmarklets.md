@@ -1,5 +1,4 @@
 ---
-id: f1dc57d8-66ad-44cb-a87f-edba00a4328e
 title: Bookmarklets for accessibility audits
 description: Collection of useful bookmarklets for WCAG/BITV accessibility audits.
 tags:

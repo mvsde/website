@@ -1,5 +1,4 @@
 ---
-id: 30eee145-5939-4a8a-a4d6-a0831f4e6d8a
 title: Self-hosted fonts in Slidev
 description: How to self-host custom fonts in Slidev for GDPR compliance.
 tags:
