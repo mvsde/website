@@ -1,0 +1,11 @@
+<script webc:setup>
+	function getTitle(data) {
+		if (isHomePage(data.page.url)) {
+			return "Fynn Becker";
+		}
+
+		return `${data.title} - Fynn Becker`;
+	}
+</script>
+
+<title @text="getTitle($data)"></title>

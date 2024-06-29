@@ -9,7 +9,7 @@
 </ul>
 
 <style>
-	@layer components.elements;
+	@layer elements;
 
 	.Tags {
 		display: flex;

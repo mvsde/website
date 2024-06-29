@@ -1,0 +1,26 @@
+<style webc:keep>
+	@layer base, elements, layouts, page, utilities;
+
+	/* Tokens */
+
+	@import url("/css/tokens/colors.css") layer(base);
+	@import url("/css/tokens/sizes.css") layer(base);
+	@import url("/css/tokens/typo.css") layer(base);
+
+	/* Global */
+
+	@import url("/css/global/fonts.css") layer(base);
+	@import url("/css/global/base.css") layer(base);
+
+	/* Typography */
+
+	@import url("/css/typography/code.css") layer(base);
+	@import url("/css/typography/headings.css") layer(base);
+	@import url("/css/typography/table.css") layer(base);
+
+	/* Utilities */
+
+	@import url("/css/utilities.css") layer(utilities);
+</style>
+
+<link rel="stylesheet" :href="getBundleFileUrl('css')" webc:keep />

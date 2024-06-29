@@ -32,7 +32,3 @@ h5 {
 h6 {
 	font-size: 1rem;
 }
-
-hgroup:has(h1) {
-	margin-block-end: clamp(2rem, 4.7vw, 3rem);
-}

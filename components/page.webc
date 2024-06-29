@@ -1,0 +1,49 @@
+<!doctype html>
+<html :lang="$data.language">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<template webc:is="page-head-title" webc:nokeep></template>
+		<template webc:is="page-head-css" webc:nokeep></template>
+		<template webc:is="page-head-preload" webc:nokeep></template>
+		<template webc:is="page-head-meta" webc:nokeep></template>
+		<template webc:is="page-head-og" webc:nokeep></template>
+	</head>
+	<body>
+		<page-header></page-header>
+
+		<main class="Page-main u-container">
+			<div class="Page-title">
+				<h1 @text="$data.title"></h1>
+				<slot name="after-title"></slot>
+			</div>
+			<page-hero webc:if="$data.hero" class="Page-hero"></page-hero>
+			<slot></slot>
+			<page-related webc:if="$data.related" class="Page-related"></page-related>
+		</main>
+
+		<page-footer></page-footer>
+	</body>
+</html>
+
+<style>
+	@layer page;
+
+	.Page-main {
+		margin-block-end: 3rem;
+		margin-block-start: 2rem;
+	}
+
+	.Page-title {
+		margin-block-end: clamp(2rem, 4.7vw, 3rem);
+	}
+
+	.Page-hero {
+		margin-block-end: 2rem;
+	}
+
+	.Page-related {
+		margin-block-start: 2rem;
+	}
+</style>

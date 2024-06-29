@@ -3,7 +3,7 @@
 </div>
 
 <style>
-	@layer components.elements;
+	@layer elements;
 
 	.RichText {
 		font-size: var(--typo-RichText-font-size);

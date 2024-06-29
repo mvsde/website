@@ -5,7 +5,7 @@
 </div>
 
 <style>
-	@layer components.elements;
+	@layer elements;
 
 	.Meta {
 		display: flex;

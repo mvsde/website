@@ -20,7 +20,7 @@
 </nav>
 
 <style>
-	@layer components.elements;
+	@layer elements;
 
 	.Nav-list {
 		align-items: center;

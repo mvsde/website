@@ -22,7 +22,7 @@
 </svg>
 
 <style>
-	@layer components.elements;
+	@layer elements;
 
 	.Icon {
 		block-size: 1em;

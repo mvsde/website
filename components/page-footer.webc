@@ -8,11 +8,10 @@
 </footer>
 
 <style>
-	@layer components.globals;
+	@layer page;
 
 	.Footer {
 		border-block-start: var(--size-border-width-divider) solid currentcolor;
-		margin-block-start: 3rem;
 		padding-block: 0.75rem;
 	}
 </style>

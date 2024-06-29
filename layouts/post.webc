@@ -1,4 +1,4 @@
-<base-page webc:nokeep>
+<page webc:nokeep>
 	<element-meta
 		slot="after-title"
 		class="LayoutPost-meta"
@@ -9,7 +9,7 @@
 	<element-rich-text webc:if="content">
 		<template @raw="content" webc:nokeep></template>
 	</element-rich-text>
-</base-page>
+</page>
 
 <style>
 	@layer layouts;

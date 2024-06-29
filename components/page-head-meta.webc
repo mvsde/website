@@ -1,0 +1,22 @@
+<meta
+	webc:if="$data.description"
+	name="description"
+	:content="$data.description"
+/>
+<meta name="generator" :content="$data.eleventy.generator" />
+
+<link href="/feed.xml" type="application/atom+xml" rel="alternate" />
+
+<link rel="icon" href="/favicon.ico" sizes="any" />
+<link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+
+<meta
+	name="theme-color"
+	content="#3730a3"
+	media="(prefers-color-scheme: light)"
+/>
+<meta
+	name="theme-color"
+	content="#a5b4fc"
+	media="(prefers-color-scheme: dark)"
+/>

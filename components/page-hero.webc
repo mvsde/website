@@ -28,12 +28,11 @@
 </figure>
 
 <style>
-	@layer components.globals;
+	@layer page;
 
 	.Hero {
 		display: grid;
 		gap: 0.5rem;
-		margin-block-end: 2rem;
 	}
 
 	.Hero-media {
