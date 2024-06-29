@@ -1,5 +1,5 @@
 permalink: "{{ page.filePathStem }}/"
-layout: post.webc
+layout: post
 tags:
   - blog
   - feed

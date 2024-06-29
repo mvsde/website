@@ -1,6 +1,6 @@
 ---
 title: Tags
-layout: tags.webc
+layout: tags
 pagination:
   data: collections
   size: Infinity

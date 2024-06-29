@@ -1,6 +1,6 @@
 ---
 title: Sunset
-layout: gallery.webc
+layout: gallery
 collection:
   name: sunset
   order: ascending

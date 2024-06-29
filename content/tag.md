@@ -1,5 +1,5 @@
 ---
-layout: tag.webc
+layout: tag
 pagination:
   data: collections
   size: 1
