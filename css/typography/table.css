@@ -1,3 +1,5 @@
+@layer base;
+
 table {
 	border-collapse: collapse;
 	font-variant-numeric: tabular-nums;
@@ -24,4 +26,8 @@ td:has(> strong:only-child) {
 th,
 td > strong:only-child {
 	font-weight: 600;
+}
+
+.Table {
+	overflow-x: auto;
 }

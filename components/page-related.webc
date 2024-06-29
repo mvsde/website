@@ -4,12 +4,18 @@
 	}
 </script>
 
-<section webc:root="override" class="Related">
+<section webc:root="override">
 	<h2>Related</h2>
 
 	<ul class="Related-list">
 		<li webc:for="page of getPages($data.related)">
-			<a :href="page.url" @text="page.data.title"></a>
+			<a class="Related-link" :href="page.url" @text="page.data.title"></a>
+			<element-meta
+				class="LayoutTag-meta"
+				:@date="page.date"
+				:@language="page.data.language === 'en' ? null : page.data.language"
+				:@tags="filterTags(page.data.tags)"
+			></element-meta>
 		</li>
 	</ul>
 </section>
@@ -18,7 +24,13 @@
 	@layer page;
 
 	.Related-list {
-		margin-block-start: 0.5rem;
-		padding-inline-start: 1em;
+		display: grid;
+		gap: 0.5rem;
+		list-style: none;
+		margin-block-start: 1.125rem;
+	}
+
+	.Related-link {
+		font-size: 1.125rem;
 	}
 </style>

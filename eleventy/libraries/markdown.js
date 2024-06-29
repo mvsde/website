@@ -23,11 +23,11 @@ md.use(spans);
 
 // Tables
 md.renderer.rules.table_open = () =>
-	`<div class="u-scrollHorizontal" tabindex="0"><table>\n`;
+	`<div class="Table" tabindex="0"><table>\n`;
 md.renderer.rules.table_close = () => `</table></div>\n`;
 
 // Footnotes
-md.renderer.rules.footnote_block_open = () => `<hr><ol>`;
-md.renderer.rules.footnote_block_close = () => `</ol></section>`;
+md.renderer.rules.footnote_block_open = () => `<h2>Footnotes</h2><ol>`;
+md.renderer.rules.footnote_block_close = () => `</ol>`;
 
 export default md;

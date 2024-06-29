@@ -8,17 +8,13 @@
 </script>
 
 <page webc:nokeep>
-	<element-rich-text webc:if="content">
-		<template @raw="content" webc:nokeep></template>
-	</element-rich-text>
-
 	<ol
+		slot="after-content"
 		class="LayoutGallery-list"
 		:reversed="$data.collection.order !== 'ascending'"
 	>
 		<li
 			webc:for="page of getPages($data.collection.name, $data.collection.order)"
-			class="LayoutGallery-item"
 		>
 			<a
 				class="LayoutGallery-link"

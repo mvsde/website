@@ -1,3 +1,5 @@
+@layer base;
+
 :not(pre) > code,
 pre {
 	background: var(--color-HighlightBackground);

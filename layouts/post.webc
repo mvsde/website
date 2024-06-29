@@ -5,10 +5,6 @@
 		:@date="$data.page.date"
 		:@tags="filterTags($data.tags)"
 	></element-meta>
-
-	<element-rich-text webc:if="content">
-		<template @raw="content" webc:nokeep></template>
-	</element-rich-text>
 </page>
 
 <style>

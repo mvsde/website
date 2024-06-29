@@ -8,14 +8,13 @@
 </script>
 
 <page webc:nokeep>
-	<element-rich-text webc:if="content">
-		<template @raw="content" webc:nokeep></template>
-	</element-rich-text>
-
-	<ol class="LayoutTag-list" :reversed="$data.collection.order !== 'ascending'">
+	<ol
+		slot="after-content"
+		class="LayoutTag-list"
+		:reversed="$data.collection.order !== 'ascending'"
+	>
 		<li
 			webc:for="page of getPages($data.collection.name, $data.collection.order)"
-			class="LayoutTag-item"
 		>
 			<a
 				class="LayoutTag-link"
@@ -43,10 +42,6 @@
 		list-style: none;
 	}
 
-	.LayoutTag-meta {
-		margin-block-start: 0.25rem;
-	}
-
 	.LayoutTag-link {
 		font-size: 1.375rem;
 		font-weight: 650;
@@ -55,5 +50,9 @@
 		&:hover {
 			text-decoration: underline;
 		}
+	}
+
+	.LayoutTag-meta {
+		margin-block-start: 0.25rem;
 	}
 </style>

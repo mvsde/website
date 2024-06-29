@@ -29,7 +29,7 @@ const passthroughCopyList = {
 const pluginWebcOptions = {
 	components: "components/**/*.webc",
 	bundlePluginOptions: {
-		toFileDirectory: "css/bundle",
+		toFileDirectory: "css",
 		transforms: [bundleCSSLayer],
 	},
 };

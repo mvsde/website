@@ -1,4 +1,4 @@
-/* Container */
+@layer utilities;
 
 .u-container {
 	inline-size: 100%;
@@ -6,16 +6,4 @@
 	max-inline-size: 64rem;
 	min-inline-size: 0;
 	padding-inline: 1rem;
-}
-
-/* Lists */
-
-.u-listUnstyled {
-	list-style: none;
-}
-
-/* Overflow */
-
-.u-scrollHorizontal {
-	overflow-x: auto;
 }

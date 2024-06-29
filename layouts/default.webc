@@ -1,5 +1,1 @@
-<page webc:nokeep>
-	<element-rich-text webc:if="content">
-		<template @raw="content" webc:nokeep></template>
-	</element-rich-text>
-</page>
+<page webc:nokeep></page>

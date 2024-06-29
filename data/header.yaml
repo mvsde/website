@@ -5,21 +5,3 @@ navigation:
     url: /blog/
   - text: Talks
     url: /talks/
-  - text: Feed
-    url: /feed.xml
-    icon: feed
-  - text: Mastodon
-    url: https://mastodon.social/@mvsde
-    icon: mastodon
-    attributes:
-      rel: me
-  - text: GitHub
-    url: https://github.com/mvsde
-    icon: github
-    attributes:
-      rel: me
-  - text: LinkedIn
-    url: https://www.linkedin.com/in/fynn/
-    icon: linkedin
-    attributes:
-      rel: me

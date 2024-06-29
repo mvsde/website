@@ -13,7 +13,7 @@
 					class="Nav-icon"
 					:@name="item.icon"
 				></element-icon>
-				<span webc:else @text="item.text"></span>
+				<template webc:else @text="item.text" webc:nokeep></template>
 			</a>
 		</li>
 	</ul>

@@ -1,6 +1,6 @@
-<div webc:root="override" class="RichText">
+<section webc:root="override" class="RichText">
 	<slot></slot>
-</div>
+</section>
 
 <style>
 	@layer elements;
@@ -11,38 +11,18 @@
 
 		/* Inline size */
 
-		p,
-		ul,
-		ol,
-		dt,
-		dd,
-		hr,
-		.Note {
-			max-inline-size: 36em;
+		> :not(pre, .Table) {
+			max-inline-size: 40rem;
 		}
 
 		iframe {
 			inline-size: 100%;
+			max-inline-size: 100%;
 		}
 
 		/* Margin block */
 
-		h2,
-		h3,
-		h4,
-		h5,
-		h6 {
-			margin-block-start: 1.5em;
-		}
-
-		p,
-		ul,
-		ol,
-		dt,
-		pre,
-		iframe,
-		table,
-		.Note {
+		> :not(h2, h3, h4, h5, h6) {
 			margin-block-start: 1em;
 		}
 
@@ -57,13 +37,17 @@
 
 		/* Margin inline start */
 
-		ul:not([class]),
+		ul,
 		ol,
 		dd {
 			margin-inline-start: 1em;
 		}
 
 		/* Customizations */
+
+		li > p:only-child {
+			margin-block-start: 0;
+		}
 
 		dt {
 			color: var(--color-Brand);
@@ -72,28 +56,6 @@
 		blockquote {
 			border-inline-start: var(--size-border-width-divider) solid currentcolor;
 			padding-inline-start: calc(1em - var(--size-border-width-divider));
-		}
-
-		hr {
-			background: currentcolor;
-			block-size: var(--size-border-width-divider);
-			border: none;
-			margin-block: 2em;
-		}
-
-		/* Note */
-
-		.Note {
-			background: var(--color-HighlightBackground);
-			padding: 1em;
-
-			> :first-child {
-				margin-block-start: 0;
-			}
-
-			@media (forced-colors) {
-				border: 0.0625rem solid;
-			}
 		}
 	}
 </style>

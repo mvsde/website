@@ -18,9 +18,15 @@
 				<h1 @text="$data.title"></h1>
 				<slot name="after-title"></slot>
 			</div>
+
 			<page-hero webc:if="$data.hero" class="Page-hero"></page-hero>
-			<slot></slot>
-			<page-related webc:if="$data.related" class="Page-related"></page-related>
+
+			<element-rich-text webc:if="$data.content">
+				<template @raw="$data.content" webc:nokeep></template>
+			</element-rich-text>
+			<slot name="after-content"></slot>
+
+			<page-related webc:if="$data.related"></page-related>
 		</main>
 
 		<page-footer></page-footer>
@@ -41,9 +47,5 @@
 
 	.Page-hero {
 		margin-block-end: 2rem;
-	}
-
-	.Page-related {
-		margin-block-start: 2rem;
 	}
 </style>

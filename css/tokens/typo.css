@@ -1,3 +1,5 @@
+@layer base;
+
 :root {
 	/* Default */
 	--typo-Default-font-family: "Work Sans", "Roboto", "Noto Sans", sans-serif;

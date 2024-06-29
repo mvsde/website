@@ -1,6 +1,11 @@
 <header webc:root="override" class="Header">
-	<div class="u-container">
+	<div class="Header-container u-container">
 		<element-nav :@items="$data.header.navigation" @label="Main"></element-nav>
+		<element-nav
+			class="Header-social"
+			:@items="$data.social.navigation"
+			@label="Social"
+		></element-nav>
 	</div>
 </header>
 
@@ -17,6 +22,17 @@
 		inset-block-start: 0;
 		padding-block: 0.75rem;
 		position: sticky;
+	}
+
+	.Header-container {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	@media (width < 29rem) {
+		.Header-social {
+			display: none;
+		}
 	}
 
 	@keyframes header-border {
