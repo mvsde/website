@@ -1,3 +1,5 @@
+<meta property="fediverse:creator" content="@mvsde@mastodon.social" />
+
 <meta property="og:site_name" content="fynn.be" />
 <meta property="og:type" :content="$data.social?.type ?? 'website'" />
 <meta property="og:url" :content="$data.base + $data.page.url" />
