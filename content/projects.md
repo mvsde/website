@@ -24,6 +24,13 @@ VS Code extension for the component library tool _miyagi_.
 - [_miyagi for VS Code_ website](https://marketplace.visualstudio.com/items?itemName=fynn.miyagi)
 - [_miyagi for VS Code_ source code](https://github.com/miyagi-dev/vscode-miyagi)
 
+## WebC for VS Code
+
+VS Code extension for the JS template language _WebC_.
+
+- [_WebC for VS Code_ website](https://marketplace.visualstudio.com/items?itemName=fynn.vscode-webc)
+- [_WebC for VS Code_ source code](https://github.com/mvsde/vscode-webc/)
+
 ## Mailbox
 
 Small wrapper around MJML and Nodemailer for an integrated HTML email development experience.
