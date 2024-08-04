@@ -39,9 +39,9 @@ _Star Trek: Discovery_ is different from any other _Trek_ that came before. The 
 
 Instead of that one token People of Color character, we got multiple ones and with Sonequa Martin-Green a fantastic lead actor. And this is just the beginning: A gay couple, brilliant non-human characters, Tig Notaro. The list goes on.
 
-In season 3, the _Discovery_ makes a time jump into the far future, leaving behind the _Star Trek_ legacy, giving us new and exciting characters. I already touched on this in my article [The Sanctuary](/blog/the-sanctuary/), but I want to again express my deep gratitude for introducing a non-binary (Adira Tal) and a trans (Gray Tal) character to the show.
+In season 3, the _Discovery_ makes a time jump into the far future, leaving behind the _Star Trek_ legacy, giving us new and exciting characters. I already touched on this in my article [The Sanctuary](blog/2023-01-28-the-sanctuary.md), but I want to again express my deep gratitude for introducing a non-binary (Adira Tal) and a trans (Gray Tal) character to the show.
 
-_Discovery_ played a significant role in my own [gender questioning journey](/blog/dropping-the-he/). I consider this show a milestone in on-screen representation.
+_Discovery_ played a significant role in my own [gender questioning journey](blog/2021-09-25-dropping-the-he.md). I consider this show a milestone in on-screen representation.
 
 ## The future
 

@@ -1,3 +1,4 @@
+import { InputPathToUrlTransformPlugin as pluginInputPathToURL } from "@11ty/eleventy";
 import { eleventyImageTransformPlugin as pluginImage } from "@11ty/eleventy-img";
 import pluginRSS from "@11ty/eleventy-plugin-rss";
 import pluginSyntaxHighlight from "@11ty/eleventy-plugin-syntaxhighlight";
@@ -7,18 +8,23 @@ import yaml from "js-yaml";
 import * as filters from "./eleventy/filters/index.js";
 import * as functions from "./eleventy/functions/index.js";
 import libraryMarkdown from "./eleventy/libraries/markdown.js";
-import imageFeed from "./eleventy/shortcodes/image-feed.js";
+import parserDate from "./eleventy/parsers/date.js";
+import shortcodeImageFeed from "./eleventy/shortcodes/image-feed.js";
 import bundleCSSLayer from "./eleventy/transforms/bundle-css-layer.js";
 
-const directories = {
-	// Relative to current directory.
-	input: "content",
-	output: "build",
+export const config = {
+	dir: {
+		// Relative to current directory.
+		input: "content",
+		output: "build",
 
-	// Relative to `content` directory.
-	layouts: "../layouts",
-	includes: "../components",
-	data: "../data",
+		// Relative to `content` directory.
+		layouts: "../layouts",
+		includes: "../components",
+		data: "../data",
+	},
+
+	markdownTemplateEngine: "njk",
 };
 
 // Relative to current directory.
@@ -36,7 +42,7 @@ const pluginWebcOptions = {
 
 /**
  * Eleventy configuration
- * @param {import("@11ty/eleventy/src/UserConfig").default} eleventyConfig Eleventy configuration
+ * @param {import("@11ty/eleventy").UserConfig} eleventyConfig Eleventy configuration
  */
 export default function (eleventyConfig) {
 	// Passthrough copy
@@ -44,6 +50,7 @@ export default function (eleventyConfig) {
 	eleventyConfig.addPassthroughCopy(passthroughCopyList);
 
 	// Data
+	eleventyConfig.addDateParsing(parserDate);
 	eleventyConfig.addDataExtension("yaml", (contents) => yaml.load(contents));
 	eleventyConfig.addGlobalData("base", process.env.URL);
 
@@ -52,12 +59,13 @@ export default function (eleventyConfig) {
 
 	// Plugins
 	eleventyConfig.addPlugin(pluginImage);
+	eleventyConfig.addPlugin(pluginInputPathToURL);
 	eleventyConfig.addPlugin(pluginRSS);
 	eleventyConfig.addPlugin(pluginSyntaxHighlight);
 	eleventyConfig.addPlugin(pluginWebc, pluginWebcOptions);
 
 	// Shortcodes
-	eleventyConfig.addNunjucksShortcode("imageFeed", imageFeed);
+	eleventyConfig.addNunjucksShortcode("imageFeed", shortcodeImageFeed);
 
 	// Filters
 	for (const [name, method] of Object.entries(filters)) {
@@ -68,9 +76,4 @@ export default function (eleventyConfig) {
 	for (const [name, method] of Object.entries(functions)) {
 		eleventyConfig.addJavaScriptFunction(name, method);
 	}
-
-	return {
-		dir: directories,
-		markdownTemplateEngine: "njk",
-	};
 }

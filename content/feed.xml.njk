@@ -16,7 +16,7 @@ metadata:
 	<title>{{ metadata.title }}</title>
 	<subtitle>{{ metadata.description }}</subtitle>
 	<icon>{{ metadata.icon|htmlBaseUrl(base) }}</icon>
-	<updated>{{ collections.feed|getNewestCollectionItemDate|formatRSSDate }}</updated>
+	<updated>{{ collections.feed|getNewestCollectionItemDate|dateToRfc3339 }}</updated>
 	<id>{{ base|addPathPrefixToFullUrl }}</id>
 	<link href="{{ permalink|htmlBaseUrl(base) }}" rel="self"/>
 	<link href="{{ base|addPathPrefixToFullUrl }}"/>
@@ -34,7 +34,7 @@ metadata:
 		<entry>
 			<title>{{ post.data.title }}</title>
 			<link href="{{ absolute_post_url }}"/>
-			<updated>{{ post.date|formatRSSDate }}</updated>
+			<updated>{{ post.date|dateToRfc3339 }}</updated>
 			<id>{{ absolute_post_url }}</id>
 			{% if post.data.description %}
 				<summary>{{ post.data.description }}</summary>

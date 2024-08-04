@@ -1,9 +1,9 @@
 navigation:
   - text: About
-    url: /
+    url: index.md
   - text: Projects
-    url: /projects/
+    url: projects.md
   - text: Blog
-    url: /blog/
+    url: blog.md
   - text: Talks
-    url: /talks/
+    url: talks.md

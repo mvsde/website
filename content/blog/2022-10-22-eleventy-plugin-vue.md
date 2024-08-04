@@ -5,7 +5,7 @@ tags:
   - Development
 ---
 
-In [Eleventy + Vue 3](../eleventy-vue/) I explained how to use the [@11ty/eleventy-plugin-vue](https://github.com/11ty/eleventy-plugin-vue) and [Vue Single-File Components](https://vuejs.org/guide/scaling-up/sfc.html) (SFCs) for Eleventy layouts. I then went on and built my own Vue plugin for Eleventy. _But why?_ one might ask.
+In [Eleventy + Vue 3](blog/2022-03-20-eleventy-vue.md) I explained how to use the [@11ty/eleventy-plugin-vue](https://github.com/11ty/eleventy-plugin-vue) and [Vue Single-File Components](https://vuejs.org/guide/scaling-up/sfc.html) (SFCs) for Eleventy layouts. I then went on and built my own Vue plugin for Eleventy. _But why?_ one might ask.
 
 First, the most obvious reason: The official @11ty/eleventy-plugin-vue is kinda unmaintained. Which is not that bad, since all the actual templating magic is handled by Vue and its template compiler. But there are a few quirks and workarounds needed, especially in combination with `<script setup>`.
 

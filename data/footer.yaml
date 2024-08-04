@@ -1,5 +1,5 @@
 navigation:
   - text: Imprint
-    url: /imprint/
+    url: imprint.md
   - text: Feed
     url: /feed.xml
