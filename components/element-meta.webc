@@ -11,10 +11,10 @@
 		display: flex;
 		flex-wrap: wrap;
 		font-variant-numeric: tabular-nums;
+	}
 
-		> :not(:last-child)::after {
-			content: "·";
-			margin-inline: 0.5rem;
-		}
+	.Meta > :not(:last-child)::after {
+		content: "·";
+		margin-inline: 0.5rem;
 	}
 </style>

@@ -20,10 +20,10 @@
 
 	.Tags-item {
 		display: flex;
+	}
 
-		&:not(:last-child)::after {
-			content: ",";
-		}
+	.Tags-item:not(:last-child)::after {
+		content: ",";
 	}
 
 	.Tags-link {
