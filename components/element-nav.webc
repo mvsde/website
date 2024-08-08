@@ -1,10 +1,35 @@
+<script webc:setup>
+	function getActiveClass({ $data, item }) {
+		const current = $data.page.url;
+		const url = inputPathToUrl(item.url);
+
+		if (isActivePage({ current, url })) {
+			return "is-active";
+		}
+
+		return "";
+	}
+
+	function getCurrentValue({ $data, item }) {
+		const current = $data.page.url;
+		const url = inputPathToUrl(item.url);
+
+		if (isCurrentPage({ current, url })) {
+			return "page";
+		}
+
+		return null;
+	}
+</script>
+
 <nav webc:root="override" class="Nav" :aria-label="label">
 	<ul class="Nav-list">
 		<li webc:for="item of items">
 			<a
-				:class="`Nav-link ${isActivePage({ current: $data.page.url, url: item.url }) ? 'is-active' : ''}`"
+				class="Nav-link"
+				:class="getActiveClass({ $data, item })"
 				:href="item.url"
-				:aria-current="isCurrentPage({ current: $data.page.url, url: item.url }) ? 'page' : null"
+				:aria-current="getCurrentValue({ $data, item })"
 				:aria-label="item.icon ? item.text : null"
 				@attributes="item.attributes"
 			>
