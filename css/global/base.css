@@ -48,6 +48,18 @@ sup {
 	}
 }
 
+kbd {
+	background: var(--color-HighlightBackground);
+	box-shadow: 0.1em 0.1em currentcolor;
+	font-family: var(--typo-Code-font-family);
+	font-size: var(--typo-Code-font-size);
+	padding-inline: 0.2em;
+
+	@media (forced-colors) {
+		border: 0.0625rem solid;
+	}
+}
+
 ::marker {
 	color: var(--color-Brand);
 }
