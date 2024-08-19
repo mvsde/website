@@ -17,9 +17,33 @@ pre {
 	padding-inline: 0.4em;
 }
 
+pre > code {
+	display: inline-block;
+	padding: 1em;
+}
+
+/* Language label */
+
+pre::before {
+	background: var(--color-HighlightBackground);
+	content: attr(data-language);
+	display: block;
+	inset-inline-start: 0;
+	padding-block: 0.2em;
+	padding-inline: 1em;
+	position: sticky;
+}
+
+@media (forced-colors) {
+	pre::before {
+		border-block-end: 0.0625rem solid;
+	}
+}
+
+/* Syntax highlighting */
+
 pre {
 	overflow-x: auto;
-	padding: 1em;
 
 	.comment {
 		color: var(--color-Code-comment);

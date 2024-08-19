@@ -22,6 +22,7 @@
 		inset-block-start: 0;
 		padding-block: 0.75rem;
 		position: sticky;
+		z-index: 1;
 	}
 
 	.Header-container {

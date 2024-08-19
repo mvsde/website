@@ -7,6 +7,7 @@ import yaml from "js-yaml";
 
 import * as filters from "./eleventy/filters/index.js";
 import * as functions from "./eleventy/functions/index.js";
+import { syntaxLanguages } from "./eleventy/languages.js";
 import libraryMarkdown from "./eleventy/libraries/markdown.js";
 import parserDate from "./eleventy/parsers/date.js";
 import shortcodeImageFeed from "./eleventy/shortcodes/image-feed.js";
@@ -30,6 +31,12 @@ export const config = {
 // Relative to current directory.
 const passthroughCopyList = {
 	public: "/",
+};
+
+const pluginSyntaxHighlightOptions = {
+	preAttributes: {
+		"data-language": ({ language }) => syntaxLanguages[language] ?? language,
+	},
 };
 
 const pluginWebcOptions = {
@@ -61,7 +68,7 @@ export default function (eleventyConfig) {
 	eleventyConfig.addPlugin(pluginImage);
 	eleventyConfig.addPlugin(pluginInputPathToURL);
 	eleventyConfig.addPlugin(pluginRSS);
-	eleventyConfig.addPlugin(pluginSyntaxHighlight);
+	eleventyConfig.addPlugin(pluginSyntaxHighlight, pluginSyntaxHighlightOptions);
 	eleventyConfig.addPlugin(pluginWebc, pluginWebcOptions);
 
 	// Shortcodes
