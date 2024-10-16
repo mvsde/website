@@ -50,6 +50,6 @@ The German language lacks a neutral pronoun. The binary pronouns _she_ and _he_ 
 
 There is a lot of debate and some new pronouns have been proposed. Nothing stuck and nothing is official. The best stop-gap solution is avoiding pronouns completely. Instead of “Dear Ms Adira Tal”, an email or letter can begin with “Hello Adira Tal” to respect the pronoun preference “they”. See how I snuck in [some Star Trek lore](https://memory-alpha.fandom.com/wiki/Adira_Tal) 😏?
 
-The highest court of the state of Hesse confirmed that [a binary greeting “Ms” or “Mr” invades the personal rights](https://ordentliche-gerichtsbarkeit.hessen.de/pressemitteilungen/obligatorische-angabe-von-%E2%80%9Eherr%E2%80%9C-oder-%E2%80%9Efrau%E2%80%9C-verletzt-person-mit-nicht-bin%C3%A4rer). Forms must provide a third non-binary choice and the “official” gender of a person according to the registered civil status is irrelevant. Everyone may choose whatever address they prefer.
+The highest court of the state of Hesse confirmed that [a binary greeting “Ms” or “Mr” invades the personal rights](https://www.lareda.hessenrecht.hessen.de/perma?d=LARE220003034){hreflang=de}. Forms must provide a third non-binary choice and the “official” gender of a person according to the registered civil status is irrelevant. Everyone may choose whatever address they prefer.
 
 Court decisions like these are great for certain use cases. But sometimes a pronoun is absolutely necessary to construct a grammatically correct sentence. So, a neutral pronoun is still missing.
