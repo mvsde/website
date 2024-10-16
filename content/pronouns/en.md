@@ -9,7 +9,7 @@ social:
 
 Hi there, I’m a [non-binary person](https://en.wikipedia.org/wiki/Non-binary_gender) and use pronouns that may be unfamiliar to you. I compiled a short list and some examples to help you get started.
 
-This page is also available in [German](pronouns/de.md){hreflang=de}.
+This page is also available in [German](de.md){hreflang=de}.
 
 ## Name
 

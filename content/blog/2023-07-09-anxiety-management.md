@@ -9,7 +9,7 @@ related:
   - /blog/pride-outfit-v1/
 ---
 
-A year ago, I wrote about [angst](blog/2022-07-17-angst.md). Back then, Twitter was still going strong, and every day was “fighting against TERFs” day. I since switched exclusively to [Mastodon](https://mastodon.social/@mvsde) as my only social network and it’s going great. Yes, Mastodon and the Fediverse have issues, but not having to deal with TERFs is so worth it. Also, the Fediverse isn’t owned by a right-wing neo-liberal asshole (aka Elon Musk). Please get off Twitter and give the Fediverse another try, it has come a long way since fall of 2022.
+A year ago, I wrote about [angst](2022-07-17-angst.md). Back then, Twitter was still going strong, and every day was “fighting against TERFs” day. I since switched exclusively to [Mastodon](https://mastodon.social/@mvsde) as my only social network and it’s going great. Yes, Mastodon and the Fediverse have issues, but not having to deal with TERFs is so worth it. Also, the Fediverse isn’t owned by a right-wing neo-liberal asshole (aka Elon Musk). Please get off Twitter and give the Fediverse another try, it has come a long way since fall of 2022.
 
 Anyway, even though I got rid of Twitter doesn’t mean the “outside world” is suddenly looking any better.
 

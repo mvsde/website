@@ -10,7 +10,7 @@ social:
 
 Hi, ich bin eine [nicht-binäre Person](https://de.wikipedia.org/wiki/Nichtbinäre_Geschlechtsidentität) und verwende Pronomen, die vielleicht ungewohnt für dich sind. Hier ist eine kurze Liste und einige Beispiele, um dir zu helfen.
 
-Diese Seite gibt es auch auf [Englisch](pronouns/en.md){hreflang=en}.
+Diese Seite gibt es auch auf [Englisch](en.md){hreflang=en}.
 
 ## Name
 

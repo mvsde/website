@@ -7,7 +7,7 @@ tags:
 
 ## Background
 
-“Huh?” you might ask, “didn’t you develop a custom [Vue plugin for Eleventy](blog/2022-10-22-eleventy-plugin-vue.md) just for your website?”
+“Huh?” you might ask, “didn’t you develop a custom [Vue plugin for Eleventy](2022-10-22-eleventy-plugin-vue.md) just for your website?”
 
 Yes, in 2022 I spent a lot of time setting up my website with statically rendered Vue templates. Back then, the officially supported list of template languages for Eleventy was already long. But to be honest, the “old-school” JavaScript-based templating languages were (and still are) lacking when it comes to developer experience.
 

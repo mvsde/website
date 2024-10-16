@@ -18,7 +18,7 @@ related:
   - /blog/bye-bye-man-hello-eins/
 ---
 
-“Fabulousness” is a fantastic word, isn’t it? Right up there with everyone’s all-time favorite frontend term “CSS selector specificity”. In case you haven’t noticed, I really like to [dig into languages](blog/2020-10-17-german-language-and-gender.md). Etymology is an interesting topic aswell, but that’s content for some future blog posts. Let’s get back to queerness.
+“Fabulousness” is a fantastic word, isn’t it? Right up there with everyone’s all-time favorite frontend term “CSS selector specificity”. In case you haven’t noticed, I really like to [dig into languages](2020-10-17-german-language-and-gender.md). Etymology is an interesting topic aswell, but that’s content for some future blog posts. Let’s get back to queerness.
 
 First, my pronouns were _he/him_. I guess that’s the default someone who is _assigned male at birth_ (amab) puts in their social media bio. You know, _straight by default_ and nobody tells you something else might be possible.
 
@@ -26,11 +26,11 @@ Then I changed my pronouns to _he/they_. I have no idea why I did this. There wa
 
 Finally (for now at least) I switched the pronoun order to _they/he_. This doesn’t look like a big change, but for me it has been the realization that I’m non-binary first and male second. I am non-binary. I don’t identify with “maleness”. Here’s how I came to this conclusion.
 
-I never strived to behave “male-like”. I’m not a “big, strong guy”. I don’t like to “boss others around”. I don’t want to be _insert male cliché here_. That’s intrinsic to my self and in part due to me being an introvert. And yet there’s more to the story, [feelings I started to discover and explore in the last few years](blog/2021-06-08-straight-until-proven-fabulous.md). Feelings I couldn’t explain because of a knowledge gap. Then the following started to occur more often…
+I never strived to behave “male-like”. I’m not a “big, strong guy”. I don’t like to “boss others around”. I don’t want to be _insert male cliché here_. That’s intrinsic to my self and in part due to me being an introvert. And yet there’s more to the story, [feelings I started to discover and explore in the last few years](2021-06-08-straight-until-proven-fabulous.md). Feelings I couldn’t explain because of a knowledge gap. Then the following started to occur more often…
 
 Every time someone calls me “Mr. Becker” or writes me an email or letter starting with “Dear Mr. Becker” I cringe inside. I want to respond “Please, I’m just Fynn. I’m not Mr. Becker.” But until recently I didn’t know one could exist outside the binary spectrum of _female_ and _male_. I tolerated “Mr. Becker” and have to for the foreseeable future, because – you guessed it – Germany isn’t ready for non-binary people.
 
-The German language has [no neutral pronoun](blog/2021-07-11-missing-neutral-pronoun-german.md). Even if I wanted to, I can’t be addressed neutrally hence the _he_ has to stick for now. And then there is the law. Oh my! Welcome to conservative-town.
+The German language has [no neutral pronoun](2021-07-11-missing-neutral-pronoun-german.md). Even if I wanted to, I can’t be addressed neutrally hence the _he_ has to stick for now. And then there is the law. Oh my! Welcome to conservative-town.
 
 Germany’s transgender law is four decades old and desperately needs overhauling. The Federal Constitutional Court – Germany’s supreme court – declared many regulations unconstitutional. Attempts by left-wing opposition parties to adopt a new law were blocked by the ruling parties; one of which is right-wing (CDU), the other one was once a strong labor party (SPD) but is now basically non-existing and deteriorated into a CDU partner in crime.
 

@@ -19,7 +19,7 @@ related:
 
 Until recently my pronouns were _they_ or _he_. I kept the _he_ for the sake of convenience and because I’m still afraid of fully coming out to everyone. But the _he_ is starting to feel like baggage from a past self that is no longer me. So, effective immediately, my pronouns are _they/them_.
 
-I have no idea how this will translate to my native language German. As you may be aware, [German is a long way off gender neutrality](blog/2020-10-17-german-language-and-gender.md) and [still doesn’t have a neutral pronoun](blog/2021-07-11-missing-neutral-pronoun-german.md). While there are ways around the first problem, the missing pronoun is challenging.
+I have no idea how this will translate to my native language German. As you may be aware, [German is a long way off gender neutrality](2020-10-17-german-language-and-gender.md) and [still doesn’t have a neutral pronoun](2021-07-11-missing-neutral-pronoun-german.md). While there are ways around the first problem, the missing pronoun is challenging.
 
 But more concerning is the lack of acceptance for gender-neutral language in Germany. Two recent studies show 65 to 75 % of participants reject the usage of gender-neutral language in media outlets. The [study conducted by Infratest dimap](https://de.wikipedia.org/wiki/Geschlechtergerechte_Sprache#dimap2021) even shows a decline in acceptance.
 

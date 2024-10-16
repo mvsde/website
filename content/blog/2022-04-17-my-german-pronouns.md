@@ -8,7 +8,7 @@ related:
   - /blog/bye-bye-man-hello-eins/
 ---
 
-You may remember me complaining about the [missing neutral pronoun in German](blog/2021-07-11-missing-neutral-pronoun-german.md). Well, unfortunately it’s still missing, and I don’t want to wait for an “official” one any longer. So, I finally decided on a neo-pronoun:
+You may remember me complaining about the [missing neutral pronoun in German](2021-07-11-missing-neutral-pronoun-german.md). Well, unfortunately it’s still missing, and I don’t want to wait for an “official” one any longer. So, I finally decided on a neo-pronoun:
 
 **dey/denen**{lang=de translate=no} (equivalent to the English singular _they/them_{lang=en translate=no}).
 
@@ -18,7 +18,7 @@ For those familiar with German, this pronoun isn’t that neo after all. Only _d
 | ----------- | --------------------------- | ----------------------------- | ----------------------------- | --------------------------- |
 | **Pronoun** | [dey]{lang=de translate=no} | [deren]{lang=de translate=no} | [denen]{lang=de translate=no} | [dey]{lang=de translate=no} |
 
-You can learn more about how I like to be addressed on my [pronouns overview page](pronouns.md). And if you think this is way too complicated: I also have a name (Fynn) that you can always use instead of pronouns. Though you already pick correct pronouns for every _binary_ person out there. It would be great if you could also use correct pronouns for _non-binary_ people like me.
+You can learn more about how I like to be addressed on my [pronouns overview page](../pronouns.md). And if you think this is way too complicated: I also have a name (Fynn) that you can always use instead of pronouns. Though you already pick correct pronouns for every _binary_ person out there. It would be great if you could also use correct pronouns for _non-binary_ people like me.
 
 ## Usage examples
 
