@@ -13,12 +13,12 @@ This page is also available in [German](de.md){hreflang=de}.
 
 ## Name
 
-- [🧑🏻]{aria-hidden=true} **Fynn**
+- [🧑🏻]{aria-hidden=true} **{{ author.name }}**
   {.u-listUnstyled}
 
 ## Pronouns
 
-- [✅]{role=img aria-label=Yes:} **they/them**/their
+- [✅]{role=img aria-label=Yes:} **they/them**
 - [❌]{role=img aria-label=No:} she/her
 - [❌]{role=img aria-label=No:} he/him
   {.u-listUnstyled}
@@ -46,10 +46,10 @@ This page is also available in [German](de.md){hreflang=de}.
 
 ## Examples
 
-> **Fynn** is a programmer.\
+> **{{ author.name }}** is a programmer.\
 > **They** are a programmer.
 
-> **Fynn** is a non-binary **person**.
+> **{{ author.name }}** is a non-binary **person**.
 
 > fynn.be is **their** website.\
 > fynn.be is **theirs**.

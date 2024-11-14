@@ -1,4 +1,4 @@
-# Fynn’s personal website
+# Personal website and playground for experiments
 
 ## Requirements
 

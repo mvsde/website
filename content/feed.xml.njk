@@ -4,16 +4,12 @@ layout: false
 eleventyExcludeFromCollections: true
 
 metadata:
-  title: Fynn Becker
-  description: Personal website and playground for experiments.
+  description: Personal website and playground for experiments
   icon: favicon.svg
-  author:
-    name: Fynn Becker
-    email: post@fynn.be
 ---
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="{{ language }}">
-	<title>{{ metadata.title }}</title>
+	<title>{{ author.fullName }}</title>
 	<subtitle>{{ metadata.description }}</subtitle>
 	<icon>{{ metadata.icon|htmlBaseUrl(base) }}</icon>
 	<updated>{{ collections.feed|getNewestCollectionItemDate|dateToRfc3339 }}</updated>
@@ -21,8 +17,8 @@ metadata:
 	<link href="{{ permalink|htmlBaseUrl(base) }}" rel="self"/>
 	<link href="{{ base|addPathPrefixToFullUrl }}"/>
 	<author>
-		<name>{{ metadata.author.name }}</name>
-		<email>{{ metadata.author.email }}</email>
+		<name>{{ author.fullName }}</name>
+		<email>{{ author.email }}</email>
 	</author>
 
 	{% for post in collections.feed|reverse %}

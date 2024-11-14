@@ -29,11 +29,11 @@ In order of appearance:
 - [Contact GOV.UK](https://www.gov.uk/contact/govuk), GOV.UK
 - [Welcome to Beacon](https://critrole.com/beacon/), Critical Role
 - [DocMorris Kontaktformular](https://www.docmorris.de/kontaktformular), DocMorris
-- [Form inputs code demo](https://codepen.io/mvsde/pen/YzMyBjP?editors=1100), Fynn Becker on CodePen
+- [Form inputs code demo](https://codepen.io/mvsde/pen/YzMyBjP?editors=1100), {{ author.name }} on CodePen
 
 ### Resources
 
 - [Change color contrast in Windows](https://support.microsoft.com/windows/change-color-contrast-in-windows-fedc744c-90ac-69df-aed5-c8a90125e696), Microsoft Support
 - [Emulate CSS media feature `forced-colors`](https://developer.chrome.com/docs/devtools/rendering/emulate-css/#emulate_css_media_feature_forced-colors), Chrome for Developers
 - [CSS forced-colors](https://developer.mozilla.org/docs/Web/CSS/@media/forced-colors), MDN Web Docs
-- [Code demo collection](https://codepen.io/collection/BNbpee), Fynn Becker on CodePen
+- [Code demo collection](https://codepen.io/collection/BNbpee), {{ author.name }} on CodePen

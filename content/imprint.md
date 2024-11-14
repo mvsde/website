@@ -5,13 +5,13 @@ description: Required legal disclosure for websites from German citizens.
 
 ## Contact
 
-Fynn Becker
+{{ author.fullName }}
 
 ℅ Factorial GmbH\
 Kirchentwiete 37-39\
 22765 Hamburg
 
-[post@fynn.be](mailto:post@fynn.be)
+[{{ author.email }}](mailto:{{ author.email }})
 
 ## Credits
 
@@ -29,4 +29,4 @@ Kirchentwiete 37-39\
 
 ### Icons
 
-- [Phosphor Icons](https://phosphoricons.com/)
+- [Phosphor Icons](https://phosphoricons.com/) by [Helena Zhang](https://helenazhang.com/) and [Tobias Fried](https://tobiasfried.com/)

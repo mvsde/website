@@ -6,10 +6,10 @@ tags:
 social:
   image:
     src: media/pride-outfit-v1-square.jpg
-    alt: Photo of Fynn standing in a living room in front of a red couch with a Blåhaj plush shark. They wear a dark red and black checkered shirt, a dark gray skirt, and black tights. They look to their right out of a window and their right knee is slightly angled upwards.
+    alt: Photo of Fynn Ellie standing in a living room in front of a red couch with a Blåhaj plush shark. They wear a dark red and black checkered shirt, a dark gray skirt, and black tights. They look to their right out of a window and their right knee is slightly angled upwards.
 hero:
   image: media/pride-outfit-v1.jpg
-  alt: Photo of Fynn standing in a living room in front of a red couch with a Blåhaj plush shark. They wear a dark red and black checkered shirt, a dark gray skirt, black tights, and rainbow pride flag colored sneakers. They look to their right out of a window and their right knee is slightly angled upwards.
+  alt: Photo of Fynn Ellie standing in a living room in front of a red couch with a Blåhaj plush shark. They wear a dark red and black checkered shirt, a dark gray skirt, black tights, and rainbow pride flag colored sneakers. They look to their right out of a window and their right knee is slightly angled upwards.
 related:
   - /blog/angst/
   - /blog/coming-out-is-hard/

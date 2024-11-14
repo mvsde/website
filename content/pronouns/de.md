@@ -14,13 +14,13 @@ Diese Seite gibt es auch auf [Englisch](en.md){hreflang=en}.
 
 ## Name
 
-- [🧑🏻]{aria-hidden=true} **Fynn**
+- [🧑🏻]{aria-hidden=true} **{{ author.name }}**
   {.u-listUnstyled}
 
 ## Pronomen
 
-- [✅]{role=img aria-label=Ja:} **they/them**/their
-- [👍]{role=img aria-label=Ok:} **dey/denen**/deren
+- [✅]{role=img aria-label=Ja:} **they/them**
+- [👍]{role=img aria-label=Ok:} **dey/denen**
 - [❌]{role=img aria-label=Nein:} sie/ihr
 - [❌]{role=img aria-label=Nein:} er/ihm
   {.u-listUnstyled}
@@ -48,7 +48,7 @@ Diese Seite gibt es auch auf [Englisch](en.md){hreflang=en}.
 
 ## Beispiele
 
-> **Fynn** ist **Programmierer\*in**.\
+> **{{ author.name }}** ist **Programmierer\*in**.\
 > **They** ist **Programmierer\*in**.\
 > **Dey** ist **Programmierer\*in**.
 
