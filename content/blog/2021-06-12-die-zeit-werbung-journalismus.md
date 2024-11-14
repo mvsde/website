@@ -7,7 +7,7 @@ tags:
 hero:
   image: media/zeit-baerbock-werbung.jpg
   alt: Screenshot der ZEIT-Online-Startseite mit einem übergroßen roten Werbebanner der Organisation Initiative Neue Soziale Marktwirtschaft (INSM) „Annalena und die 10 Verbote“.
-  caption: Titelbild von <a href="https://twitter.com/jlbrts">Johannes Lamberts</a> auf <a href="https://twitter.com/jlbrts/status/1403287953649061888">Twitter</a>.
+  caption: Titelbild von <a href="https://www.lamberts.dev/">Johannes Lamberts</a> auf <a href="https://web.archive.org/web/20210611094835/https://twitter.com/jlbrts/status/1403287953649061888">Twitter</a>.
 ---
 
 Journalismus kann mit zwei Mitteln finanziert werden:
