@@ -2,7 +2,7 @@
 
 ## Requirements
 
-- [Node.js 22](https://nodejs.org)
+- [Node.js 23](https://nodejs.org)
 
 ## Installation
 

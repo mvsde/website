@@ -1,11 +1,11 @@
 @layer base;
 
 @font-face {
-	ascent-override: 145.9389%;
-	descent-override: 72.3601%;
-	font-family: "Teko Fallback: Roboto";
-	size-adjust: 65.6439%;
-	src: local("Roboto"), local("Roboto-Regular");
+	ascent-override: 129.9193%;
+	descent-override: 64.4172%;
+	font-family: "Teko Fallback: Roboto Condensed";
+	size-adjust: 73.7381%;
+	src: local("Roboto Condensed Regular"), local("RobotoCondensed-Regular");
 }
 
 @font-face {
