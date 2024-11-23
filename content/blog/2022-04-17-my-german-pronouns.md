@@ -6,6 +6,7 @@ tags:
   - Queer
 related:
   - /blog/bye-bye-man-hello-eins/
+  - /blog/selbstbestimmt/
 ---
 
 You may remember me complaining about the [missing neutral pronoun in German](2021-07-11-missing-neutral-pronoun-german.md). Well, unfortunately it’s still missing, and I don’t want to wait for an “official” one any longer. So, I finally decided on a neo-pronoun:

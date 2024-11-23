@@ -15,6 +15,7 @@ related:
   - /blog/down-the-rabbit-hole/
   - /blog/dropping-the-he/
   - /blog/my-german-pronouns/
+  - /blog/selbstbestimmt/
 ---
 
 I’ve written quite a lot about my _queer journey_, but the spark that started it all is still missing on this blog. So, let’s get into that, it involves one of my favorite things: _Star Trek!_

@@ -15,6 +15,7 @@ hero:
 related:
   - /blog/my-german-pronouns/
   - /blog/bye-bye-man-hello-eins/
+  - /blog/selbstbestimmt/
 ---
 
 Until recently my pronouns were _they_ or _he_. I kept the _he_ for the sake of convenience and because I’m still afraid of fully coming out to everyone. But the _he_ is starting to feel like baggage from a past self that is no longer me. So, effective immediately, my pronouns are _they/them_.
