@@ -13,7 +13,7 @@ This page is also available in [German](de.md){hreflang=de}.
 
 ## Name
 
-- [🧑🏻]{aria-hidden=true} **{{ author.name }}**
+- [🧑🏻]{aria-hidden=true} **{{ author.name }}** <small>{{ author.nameIPA }}</small>
   {.u-listUnstyled}
 
 ## Pronouns

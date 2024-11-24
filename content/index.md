@@ -15,7 +15,7 @@ I practice [Shinson Hapkido](http://www.shinsonhapkido.org){lang=de hreflang=de}
 
 When something [Star Wars](https://twitter.fynn.be/1408409600643190788/) or [Star Trek](/blog/farewell-star-trek-discovery/) is published, I _will_ consume it. What I don’t consume are all the [video games I obsessively collected](https://steamcommunity.com/id/mvsde/). There are also [photos of sunsets](sunset.md), which I collect too.
 
-My full name is _{{ author.fullName }}_, but please call me just _Fynn_ or _Ellie_. I’m non-binary and go by _they/them_ pronouns. I created a handy [pronouns guide](pronouns/en.md) with examples if you’re unsure how to use them. I live in the metropolitan area of Hamburg, which some would call the most beautiful city in Germany.
+My full name is _{{ author.fullName }}_ <small>({{ author.fullNameIPA }})</small>, but please call me just _{{ author.name }}_ <small>({{ author.nameIPA }})</small>. I’m non-binary and go by _they/them_ pronouns. I created a handy [pronouns guide](pronouns/en.md) with examples if you’re unsure how to use them. I live in the metropolitan area of Hamburg, which some claim to be the most beautiful city in Germany.
 
 ## Social media
 
