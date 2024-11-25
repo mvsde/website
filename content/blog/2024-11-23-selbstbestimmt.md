@@ -30,4 +30,4 @@ I opted for keeping _Fynn_ because I do like that name, it’s short, not overly
 
 I don’t have any preference which first name you use, could be just one of them or both. _Fynn_, _Ellie_, or _Fynn Ellie_ are all fine.
 
-A second first name also gives me the opportunity to “phase out” my last name for day-to-day use while still having a unique name. This is really exciting because I seriously dislike my last name and now I can slowly get rid of it.
+A second first name also gives me the opportunity to “phase out” my last name _Becker_ for day-to-day use while still having a unique name. This is really exciting because I seriously dislike my last name and now I can slowly get rid of it.
