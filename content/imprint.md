@@ -8,8 +8,8 @@ description: Required legal disclosure for websites from German citizens.
 {{ author.fullName }}
 
 ℅ Factorial GmbH\
-Kirchentwiete 37-39\
-22765 Hamburg
+Langenfelder Straße 93\
+22769 Hamburg
 
 [{{ author.email }}](mailto:{{ author.email }})
 
