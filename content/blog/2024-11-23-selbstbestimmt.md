@@ -22,7 +22,7 @@ The SBGG allows anyone to change their legal gender and first names without the 
 
 Three months ago, I sent my application to the _Standesamt_{lang=de} (civil registry office), because there’s this weird 3-month waiting period in the SBGG. We can’t make things too easy, right? Still dealing with German bureaucracy after all!
 
-Then mid-November 2024, I had an in-person appointment with the _Standesamt_{lang=de} to declare my gender and first names, paid 30 €, and was done 15 minutes later. Could’ve been even faster if the scanner wasn’t broken. But hey, Windows and scanner drivers, I know that pain. A week later, I paid another 22.50 € to get new birth certificates which arrived today. The important paperwork is done.
+Then mid-November 2024, I had an in-person appointment with the _Standesamt_{lang=de} to declare my gender and first names, paid 30 €, and was done 15 minutes later. Could’ve been even faster if the scanner wasn’t broken. But hey, Windows and scanner drivers, I know that pain. A week later, I paid another 22.50 € to get new birth certificates which arrived today. The important paperwork is done. Next up 37.00 € for a new national ID card and that’s that. 90.00 € in total for the whole process.
 
 I’m “certified” non-binary now, or in German legal terms I’m _diverse_, and my new first names are _Fynn Ellie_.
 
