@@ -4,6 +4,8 @@ description: Effective immediately, my pronouns are they/them.
 tags:
   - Language
   - Queer
+related:
+  - Personal journey
 social:
   image:
     src: media/they-them-square.jpg
@@ -12,10 +14,6 @@ hero:
   image: media/they-them.jpg
   alt: Rainbow stripes (red, orange, yellow, green, cyan, blue, purple) in the background. Pronouns “they/them” prominently placed black on white in the center.
   caption: Cover photo by <a href="https://unsplash.com/@katierainbow">Katie Rainbow</a> on <a href="https://unsplash.com/photos/90bg59HzXxE">Unsplash</a>.
-related:
-  - /blog/my-german-pronouns/
-  - /blog/bye-bye-man-hello-eins/
-  - /blog/selbstbestimmt/
 ---
 
 Until recently my pronouns were _they_ or _he_. I kept the _he_ for the sake of convenience and because I’m still afraid of fully coming out to everyone. But the _he_ is starting to feel like baggage from a past self that is no longer me. So, effective immediately, my pronouns are _they/them_.

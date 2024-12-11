@@ -3,6 +3,8 @@ title: Selbstbestimmt
 description: Say hello to Fynn Ellie, I’m “certified” non-binary now.
 tags:
   - Queer
+related:
+  - Personal journey
 social:
   image:
     src: media/rainbow-and-clouds-square.jpg
@@ -11,9 +13,6 @@ hero:
   image: media/rainbow-and-clouds.jpg
   alt: "Rolling green hills covered with the occasional low-hanging white cloud. A rainbow beams almost straight up into the golden sky."
   caption: Cover photo by <a href="https://unsplash.com/@cbarbalis">Steve Johnson</a> on <a href="https://unsplash.com/photos/2YuukJh3_Cs">Unsplash</a>.
-related:
-  - /blog/down-the-rabbit-hole/
-  - /blog/dropping-the-he/
 ---
 
 Germany’s government just broke up after what amounts to years of backstabbing each other. But it has passed one important new law for queer rights: The lovely named _Gesetz über die Selbstbestimmung in Bezug auf den Geschlechtseintrag_{lang=de}. Just rolls of the tongue. Peak German. Let’s shorten it to _SBGG_ from here on.

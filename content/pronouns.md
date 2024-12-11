@@ -6,8 +6,7 @@ social:
     src: media/non-binary-flag-square.svg
     alt: Non-binary pride flag (horizontal stripes in yellow, white, purple, black).
 related:
-  - /blog/dropping-the-he/
-  - /blog/my-german-pronouns/
+  - Journey
 ---
 
 If you’re unsure how to refer to me, please have a look at these pages in English and German where I wrote down my pronouns and some usage examples.

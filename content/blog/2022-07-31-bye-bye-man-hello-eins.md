@@ -3,6 +3,8 @@ title: Bye-bye “man”, say hello to “eins”
 description: A short history of the indefinite German pronoun “man” and a suggestion for how we can replace it.
 tags:
   - Language
+related:
+  - German and gender
 ---
 
 I recently observed a [new trend in progressive German](https://twitter.fynn.be/1551278470017204227/), new to me at least, which means it’s “dissecting gender in the German language time” again. Today we take a look at the German word _man_{lang=de translate=no}, not to be confused with the English _man_{lang=en translate=no}. Although they seem similar and share the same origin, they have different meanings:

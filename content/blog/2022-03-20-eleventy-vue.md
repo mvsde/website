@@ -4,7 +4,7 @@ description: Tips and tricks for using Vue 3 Single File Components as templates
 tags:
   - Development
 related:
-  - /blog/eleventy-plugin-vue/
+  - Site engineering
 ---
 
 [Eleventy](https://www.11ty.dev/) supports numerous [template languages](https://www.11ty.dev/docs/languages/) out of the box. Unfortunately, a lot of these languages lack a key feature: good tooling aka developer experience (DX). Visual Studio Code integration is spotty, and linters or formatters are rare. Enter [eleventy-plugin-vue](https://github.com/11ty/eleventy-plugin-vue) – fully static pre-rendered Vue templates for Eleventy. And with Vue we can use all sorts of nice tools: Vetur or Volar for VSCode, ESLint, and Prettier.

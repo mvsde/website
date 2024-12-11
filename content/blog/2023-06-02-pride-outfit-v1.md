@@ -3,6 +3,8 @@ title: Is it safe to run around like this?
 description: First iteration on my gender non-conforming outfit for special occasions.
 tags:
   - Queer
+related:
+  - Personal journey
 social:
   image:
     src: media/pride-outfit-v1-square.jpg
@@ -10,9 +12,6 @@ social:
 hero:
   image: media/pride-outfit-v1.jpg
   alt: Photo of Fynn Ellie standing in a living room in front of a red couch with a Blåhaj plush shark. They wear a dark red and black checkered shirt, a dark gray skirt, black tights, and rainbow pride flag colored sneakers. They look to their right out of a window and their right knee is slightly angled upwards.
-related:
-  - /blog/angst/
-  - /blog/coming-out-is-hard/
 ---
 
 I’m working again on my pride outfit for occasions like birthday parties and weddings and so on. I never had so much fun thinking about and experimenting with clothing. Part of my queer journey is also discovering that I actually care about fashion, just not about the heteronormative kind.

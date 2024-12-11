@@ -4,8 +4,7 @@ description: I’m thinking a lot about how I can express myself inclusively, be
 tags:
   - Language
 related:
-  - /blog/missing-neutral-pronoun-german/
-  - /blog/bye-bye-man-hello-eins/
+  - German and gender
 ---
 
 I’m thinking a lot about how I can express myself inclusively, be it in written or spoken word. [For English this is a solved problem](https://en.wikipedia.org/wiki/Singular_they), all it takes is the willpower to _actually do it_. But my native language – German – has a unique challenge: Every noun is attached to one or sometimes multiple genders. These genders are the well-known _feminine_, _masculine_, and _neuter_.

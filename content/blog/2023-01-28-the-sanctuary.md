@@ -3,6 +3,8 @@ title: The Sanctuary
 description: The very beginning of how I (slowly) figured out I’m non-binary.
 tags:
   - Queer
+related:
+  - Personal journey
 social:
   image:
     src: media/adira-and-gray-square.jpg
@@ -11,11 +13,6 @@ hero:
   image: media/adira-and-gray.jpg
   alt: "Scene from Star Trek: Discovery. The non-binary human Adira Tal and the trans man Gray Tal play some sort of sci-fi board game in a dimly lit room aboard a starship."
   caption: 'Cover photo by <a href="https://intl.startrek.com/gallery/first-look-star-trek-discovery-stormy-weather/star-trek-discovery-stormy-weather-3024/30">StarTrek.com</a>. Star Trek: Discovery, Season 4, Episode 6, “Stormy Weather”.'
-related:
-  - /blog/down-the-rabbit-hole/
-  - /blog/dropping-the-he/
-  - /blog/my-german-pronouns/
-  - /blog/selbstbestimmt/
 ---
 
 I’ve written quite a lot about my _queer journey_, but the spark that started it all is still missing on this blog. So, let’s get into that, it involves one of my favorite things: _Star Trek!_

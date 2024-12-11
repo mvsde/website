@@ -3,6 +3,8 @@ title: Coming out is hard, actually
 description: This post is a tad rambly, but it’s a topic I worry quite a bit about lately.
 tags:
   - Queer
+related:
+  - Personal journey
 social:
   image:
     src: media/rainbow-bag-square.jpg

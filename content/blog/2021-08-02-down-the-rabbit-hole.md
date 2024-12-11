@@ -3,6 +3,8 @@ title: Down the rabbit hole
 description: The second part of my identity exploration. It’s going to be non-binary, like a quantum particle.
 tags:
   - Queer
+related:
+  - Personal journey
 social:
   image:
     src: media/cave-square.jpg
@@ -11,12 +13,6 @@ hero:
   image: media/cave.jpg
   alt: Lonely person standing on moss-covered rocks in a beam of light in a huge cavern.
   caption: Cover photo by <a href="https://unsplash.com/@dburka">Daniel Burka</a> on <a href="https://unsplash.com/photos/facU72FcKBI">Unsplash</a>.
-related:
-  - /blog/coming-out-is-hard/
-  - /blog/dropping-the-he/
-  - /blog/my-german-pronouns/
-  - /blog/bye-bye-man-hello-eins/
-  - /blog/selbstbestimmt/
 ---
 
 “Fabulousness” is a fantastic word, isn’t it? Right up there with everyone’s all-time favorite frontend term “CSS selector specificity”. In case you haven’t noticed, I really like to [dig into languages](2020-10-17-german-language-and-gender.md). Etymology is an interesting topic aswell, but that’s content for some future blog posts. Let’s get back to queerness.

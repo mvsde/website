@@ -5,8 +5,7 @@ tags:
   - Language
   - Queer
 related:
-  - /blog/bye-bye-man-hello-eins/
-  - /blog/selbstbestimmt/
+  - Personal journey
 ---
 
 ::: Note

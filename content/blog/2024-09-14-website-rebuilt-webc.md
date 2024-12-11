@@ -3,6 +3,8 @@ title: I rebuilt my website from scratch with WebC
 description: The background and design decisions that went into my new website.
 tags:
   - Development
+related:
+  - Site engineering
 ---
 
 ## Background

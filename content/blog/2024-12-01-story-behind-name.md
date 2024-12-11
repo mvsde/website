@@ -4,7 +4,7 @@ description: When I changed my legal gender, I added “Ellie” as a second fir
 tags:
   - Queer
 related:
-  - /blog/selbstbestimmt/
+  - Personal journey
 ---
 
 ## The ministry and the name rules
