@@ -1,3 +1,5 @@
+import process from "node:process";
+
 import { InputPathToUrlTransformPlugin as pluginInputPathToURL } from "@11ty/eleventy";
 import { eleventyImageTransformPlugin as pluginImage } from "@11ty/eleventy-img";
 import pluginRSS from "@11ty/eleventy-plugin-rss";
@@ -12,6 +14,8 @@ import libraryMarkdown from "./eleventy/libraries/markdown.js";
 import parserDate from "./eleventy/parsers/date.js";
 import shortcodeImageFeed from "./eleventy/shortcodes/image-feed.js";
 import bundleCSSLayer from "./eleventy/transforms/bundle-css-layer.js";
+
+/** @import UserConfig from "@11ty/eleventy/UserConfig" */
 
 export const config = {
 	dir: {
@@ -49,7 +53,7 @@ const pluginWebcOptions = {
 
 /**
  * Eleventy configuration
- * @param {import("@11ty/eleventy").UserConfig} eleventyConfig Eleventy configuration
+ * @param {UserConfig} eleventyConfig Eleventy configuration
  */
 export default function (eleventyConfig) {
 	// Passthrough copy
