@@ -14,6 +14,7 @@ html {
 	font-synthesis: none;
 	hyphens: auto;
 	line-height: var(--typo-Default-line-height);
+	scroll-padding-block-start: 4rem;
 }
 
 body {
