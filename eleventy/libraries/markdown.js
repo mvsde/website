@@ -1,9 +1,11 @@
+import { attrs } from "@mdit/plugin-attrs";
+import { container } from "@mdit/plugin-container";
+import { dl } from "@mdit/plugin-dl";
+import { footnote } from "@mdit/plugin-footnote";
 import markdown from "markdown-it";
-import attrs from "markdown-it-attrs";
 import spans from "markdown-it-bracketed-spans";
-import container from "markdown-it-container";
-import deflist from "markdown-it-deflist";
-import footnote from "markdown-it-footnote";
+
+/** @import {MarkdownItContainerOptions} from '@mdit/plugin-container' */
 
 const markdownOptions = {
 	html: true,
@@ -11,19 +13,18 @@ const markdownOptions = {
 
 const md = markdown(markdownOptions);
 
-/** @type {[string, container.ContainerOpts?]} */
-const containerNoteOptions = ["Note"];
+/** @type {MarkdownItContainerOptions} */
+const containerNoteOptions = { name: "Note" };
 
 // Plugins
 md.use(attrs);
-md.use(container, ...containerNoteOptions);
-md.use(deflist);
+md.use(container, containerNoteOptions);
+md.use(dl);
 md.use(footnote);
 md.use(spans);
 
 // Tables
-md.renderer.rules.table_open = () =>
-	`<div class="Table" tabindex="0"><table>\n`;
+md.renderer.rules.table_open = () => `<div class="Table"><table>\n`;
 md.renderer.rules.table_close = () => `</table></div>\n`;
 
 // Footnotes

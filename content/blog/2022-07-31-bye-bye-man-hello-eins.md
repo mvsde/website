@@ -33,12 +33,12 @@ This is a very common pronoun used for general statements in German.
 
 The history of the modern German _man_{lang=de translate=no} can be traced back all the way to the common ancestor of most European languages, Proto-Indo-European:
 
-- Proto-Indo-European: _\*mon-_, _\*men-_{lang=ine translate=no}
+- Proto-Indo-European: _\*mon-_{lang=ine translate=no}, _\*men-_{lang=ine translate=no}
   - Proto-Germanic: _\*mann-_{lang=gem translate=no}
     - Proto-West Germanic: _\*mann_{lang=gmw translate=no}
       - Old High German: _man_{lang=goh translate=no}
         - Middle High German: _man_{lang=gmh translate=no}
-          - German: _Mann_, _man_{lang=de translate=no}
+          - German: _Mann_{lang=de translate=no}, _man_{lang=de translate=no}
 
 And there we have it: _man_{lang=de translate=no} and _Mann_{lang=de translate=no} (translates to the English _man_{lang=en translate=no}) are basically the same word, they are even pronounced the same way. Head over to [Wiktionary](https://en.wiktionary.org/wiki/Reconstruction:Proto-Germanic/mann-) which is an absolute treasure if you want to learn more about Etymology aka the history of words.
 
