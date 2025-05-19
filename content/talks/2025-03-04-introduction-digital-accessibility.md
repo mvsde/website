@@ -4,12 +4,14 @@ description: What are disabilities and barriers? How can accessibility and assis
 tags:
   - Development
 hero:
-  iframe: https://pitch.com/embed-link/hsve5g
-  title: Slides for the talk “Introduction to digital accessibility”
-  aspect_ratio: 1.593
+  iframe: https://www.youtube-nocookie.com/embed/aTZVdXt9HnQ
+  title: Video recording of the talk “Introduction to digital accessibility”
+  aspect_ratio: 16 / 9
 ---
 
 What are disabilities and barriers? How can accessibility and assistive technology help disabled people? What guidelines and laws are relevant for web designers and developers?
+
+The [slides are available online](https://pitch.com/embed-link/hsve5g).
 
 ## Links
 
