@@ -6,7 +6,7 @@ tags:
 hero:
   iframe: https://pitch.com/embed-link/w2wc4w
   title: Slides for the talk “Forced colors and Windows contrast themes”
-  aspect_ratio: 1.593
+  aspect_ratio: 1.59
 ---
 
 A showcase of _Windows contrast themes_ and the potential issues when _forced colors_ aren’t considered during development.
