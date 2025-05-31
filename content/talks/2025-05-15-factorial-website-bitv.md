@@ -11,3 +11,5 @@ hero:
 ---
 
 Die [Factorial-Website](https://www.factorial.io/) ist seit März 2025 barrierefrei nach BITV und WCAG 2.2. Der Weg dahin war jedoch lang und wir haben viel gelernt.
+
+Die [Slides sind als PDF-Download verfügbar (4 MB)](/files/factorial-website-bitv.pdf).
