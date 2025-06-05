@@ -5,7 +5,7 @@ tags:
   - Development
 hero:
   iframe: https://www.youtube-nocookie.com/embed/aTZVdXt9HnQ
-  title: Video recording of the talk “Introduction to digital accessibility”
+  title: Video of the talk “Introduction to digital accessibility”
   aspect_ratio: 16 / 9
 ---
 

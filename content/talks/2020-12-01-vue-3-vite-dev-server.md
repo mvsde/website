@@ -6,7 +6,7 @@ tags:
   - Development
 hero:
   iframe: https://www.youtube-nocookie.com/embed/Wyj0O2EdQeQ
-  title: Video-Aufnahme des Talks „Vue 3 mit Vite Dev Server“
+  title: Video des Talks „Vue 3 mit Vite Dev Server“
   aspect_ratio: 16 / 9
 ---
 
