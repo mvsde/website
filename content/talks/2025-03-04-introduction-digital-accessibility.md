@@ -3,6 +3,7 @@ title: Introduction to digital accessibility
 description: What are disabilities and barriers? How can accessibility and assistive technology help disabled people? What guidelines and laws are relevant for web designers and developers?
 tags:
   - Development
+  - Politics
 hero:
   iframe: https://www.youtube-nocookie.com/embed/aTZVdXt9HnQ
   title: Video of the talk “Introduction to digital accessibility”

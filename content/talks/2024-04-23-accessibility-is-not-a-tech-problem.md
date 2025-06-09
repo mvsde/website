@@ -3,6 +3,7 @@ title: Accessibility is not a tech problem
 description: Accessibility is the intersection of user experience and interface design, frontend and backend development, content management systems, and human beings.
 tags:
   - Development
+  - Politics
 hero:
   iframe: https://pitch.com/embed-link/8fu9f8
   title: Slides for the talk “Accessibility is not a tech problem”
