@@ -28,6 +28,10 @@ td > strong:only-child {
 	font-weight: 600;
 }
 
+thead th[colspan] {
+	text-align: center;
+}
+
 .Table {
 	overflow-x: auto;
 }
