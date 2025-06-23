@@ -4,9 +4,9 @@ description: The JavaScript Date API is bad, so bad in fact that developers rath
 tags:
   - Development
 hero:
-  iframe: https://pitch.com/embed-link/x7bvz4
-  title: Slides for the talk “Tackling Temporal Troubles”
-  aspect_ratio: 1.59
+  iframe: https://www.youtube-nocookie.com/embed/6XaoBocYJ54
+  title: Video of the talk “Tackling Temporal Troubles”
+  aspect_ratio: 16 / 9
 ---
 
 The JavaScript Date API is bad, so bad in fact that developers rather use third-party libraries instead. It’s time for an upgrade that has been years in the making: The Temporal API for handling dates, time, and timezones.
