@@ -9,8 +9,10 @@ related:
 ---
 
 ::: Note
-I prefer the English pronouns _they/them_{lang=en translate=no} to also be used in German. But read on if you don’t feel comfortable using English words in German sentences.
+I no longer use _dey/denen_{lang=de translate=no} in German. Head on over to the blog post [revisiting my German pronouns](2025-07-05-revisiting-my-german-pronouns.md) for the latest update.
 :::
+
+I prefer the English pronouns _they/them_{lang=en translate=no} to also be used in German. But read on if you don’t feel comfortable using English words in German sentences.
 
 You may remember me complaining about the [missing neutral pronoun in German](2021-07-11-missing-neutral-pronoun-german.md). Well, unfortunately it’s still missing, and I don’t want to wait for an “official” one any longer. So, I finally decided on a neo-pronoun:
 

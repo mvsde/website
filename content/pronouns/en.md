@@ -57,5 +57,5 @@ This page is also available in [German](de.md){hreflang=de}.
 > I’ve met **them** recently.\
 > I’ve found **them** on Mastodon.
 
-> **They** are the **sibling** of …\
-> **They** are the **child** of …
+> **They** are the **sibling** of…\
+> **They** are the **child** of…

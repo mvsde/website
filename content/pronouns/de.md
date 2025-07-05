@@ -20,8 +20,7 @@ Diese Seite gibt es auch auf [Englisch](en.md){hreflang=en}.
 ## Pronomen
 
 - [✅]{role=img aria-label=Ja:} **they/them**
-- [👍]{role=img aria-label=Ok:} **dey/denen**
-- [❌]{role=img aria-label=Nein:} sie/ihr
+- [✅]{role=img aria-label=Ok:} **sie/ihr**
 - [❌]{role=img aria-label=Nein:} er/ihm
   {.u-listUnstyled}
 
@@ -50,16 +49,16 @@ Diese Seite gibt es auch auf [Englisch](en.md){hreflang=en}.
 
 > **{{ author.name }}** ist **Programmierer\*in**.\
 > **They** ist **Programmierer\*in**.\
-> **Dey** ist **Programmierer\*in**.
+> **Sie** ist **Programmierer\*in**.
 
 > fynn.be ist **their** Website.\
-> fynn.be ist **deren** Website.
+> fynn.be ist **ihre** Website.
 
 > Ich bin **them** kürzlich begegnet.\
-> Ich bin **denen** kürzlich begegnet.
+> Ich bin **ihr** kürzlich begegnet.
 
 > Ich habe **them** auf Mastodon gefunden.\
-> Ich habe **dey** auf Mastodon gefunden.
+> Ich habe **sie** auf Mastodon gefunden.
 
-> **They** ist das **Geschwister** von …\
-> **They** ist das **Kind** von …
+> **They** ist das **Geschwister** von…\
+> **Sie** ist das **Kind** von…
