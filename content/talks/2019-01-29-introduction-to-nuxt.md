@@ -10,4 +10,7 @@ hero:
   caption: Click inside the slides and use the left and right keyboard arrow keys or the buttons in the bottom left corner to navigate the slides.
 ---
 
-The talk focuses on the routing and sever side parts of [Nuxt.js](https://nuxtjs.org). The [slides are available online](https://nuxt.talks.fynn.be) and they are [open source](https://github.com/mvsde/introduction-to-nuxt). No recording.
+The talk focuses on the routing and sever side parts of [Nuxt.js](https://nuxtjs.org).
+
+- [Interactive slides](https://nuxt.talks.fynn.be)
+- [Interactive slides source code](https://github.com/mvsde/introduction-to-nuxt)

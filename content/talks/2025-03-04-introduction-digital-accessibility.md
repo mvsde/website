@@ -12,7 +12,10 @@ hero:
 
 What are disabilities and barriers? How can accessibility and assistive technology help disabled people? What guidelines and laws are relevant for web designers and developers?
 
-The [slides are available online](https://pitch.com/v/introduction-to-digital-accessibility-hsve5g) or [as a PDF download (3 MB)](/files/introduction-digital-accessibility.pdf).
+- [Interactive slides](https://pitch.com/v/introduction-to-digital-accessibility-hsve5g)
+- [Slides as PDF](/files/introduction-digital-accessibility.pdf) (3 MB)
+- [Text version](https://www.factorial.io/en/blog/introduction-digital-accessibility)
+- [Recording](https://www.youtube.com/watch?v=aTZVdXt9HnQ)
 
 ## Links
 

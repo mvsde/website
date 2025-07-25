@@ -12,4 +12,5 @@ hero:
 
 It doesn’t always have to be a full-fledged frontend framework. [petite-vue](https://github.com/vuejs/petite-vue) is an alternative Vue distribution for small-scale interactivity.
 
-The [slides are available online](https://petite-vue.talks.fynn.be/) and they are [open source](https://github.com/mvsde/petite-vue-talk). No recording.
+- [Interactive slides](https://petite-vue.talks.fynn.be/)
+- [Interactive slides source code](https://github.com/mvsde/petite-vue-talk)

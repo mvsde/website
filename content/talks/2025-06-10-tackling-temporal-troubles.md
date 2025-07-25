@@ -11,7 +11,10 @@ hero:
 
 The JavaScript Date API is bad, so bad in fact that developers rather use third-party libraries instead. It’s time for an upgrade that has been years in the making: The Temporal API for handling dates, time, and timezones.
 
-The [slides are available online](https://pitch.com/v/2025-06-10-hh-js-meetup-tackling-temporal-troubles-x7bvz4) or [as a PDF download (3 MB)](/files/tackling-temporal-troubles.pdf).
+- [Interactive slides](https://pitch.com/v/tackling-temporal-troubles-x7bvz4)
+- [Slides as PDF](/files/tackling-temporal-troubles.pdf) (2 MB)
+- [Text version](https://www.factorial.io/en/blog/javascript-feature-temporal)
+- [Recording](https://www.youtube.com/watch?v=6XaoBocYJ54)
 
 ## Links
 
