@@ -13,9 +13,7 @@
 		class="LayoutTag-list"
 		:reversed="$data.collection.order !== 'ascending'"
 	>
-		<li
-			webc:for="page of getPages($data.collection.name, $data.collection.order)"
-		>
+		<li webc:for="page of getPages($data.collection.name, $data.collection.order)">
 			<a
 				class="LayoutTag-link"
 				:href="page.url"
@@ -34,25 +32,25 @@
 </page>
 
 <style>
-	@layer layouts;
-
-	.LayoutTag-list {
-		display: grid;
-		gap: 2.5rem;
-		list-style: none;
-	}
-
-	.LayoutTag-link {
-		font-size: 1.375rem;
-		font-weight: 650;
-		text-decoration: none;
-
-		&:hover {
-			text-decoration: underline;
+	@layer layouts {
+		.LayoutTag-list {
+			display: grid;
+			gap: 2.5rem;
+			list-style: none;
 		}
-	}
 
-	.LayoutTag-meta {
-		margin-block-start: 0.25rem;
+		.LayoutTag-link {
+			font-size: 1.375rem;
+			font-weight: 650;
+			text-decoration: none;
+
+			&:hover {
+				text-decoration: underline;
+			}
+		}
+
+		.LayoutTag-meta {
+			margin-block-start: 0.25rem;
+		}
 	}
 </style>

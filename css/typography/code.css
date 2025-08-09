@@ -1,112 +1,112 @@
-@layer base;
+@layer base {
+	:not(pre) > code,
+	pre {
+		background: var(--color-HighlightBackground);
+		font-family: var(--typo-Code-font-family);
+		font-size: var(--typo-Code-font-size);
+		tab-size: 2;
 
-:not(pre) > code,
-pre {
-	background: var(--color-HighlightBackground);
-	font-family: var(--typo-Code-font-family);
-	font-size: var(--typo-Code-font-size);
-	tab-size: 2;
+		@media (forced-colors) {
+			border: 0.0625rem solid;
+		}
+	}
+
+	:not(pre) > code {
+		padding-block: 0.1em 0.2em;
+		padding-inline: 0.4em;
+	}
+
+	pre > code {
+		display: inline-block;
+		padding: 1em;
+	}
+
+	/* Language label */
+
+	pre::before {
+		background: var(--color-HighlightBackground);
+		content: attr(data-language);
+		display: block;
+		inset-inline-start: 0;
+		padding-block: 0.2em;
+		padding-inline: 1em;
+		position: sticky;
+	}
 
 	@media (forced-colors) {
-		border: 0.0625rem solid;
-	}
-}
-
-:not(pre) > code {
-	padding-block: 0.1em 0.2em;
-	padding-inline: 0.4em;
-}
-
-pre > code {
-	display: inline-block;
-	padding: 1em;
-}
-
-/* Language label */
-
-pre::before {
-	background: var(--color-HighlightBackground);
-	content: attr(data-language);
-	display: block;
-	inset-inline-start: 0;
-	padding-block: 0.2em;
-	padding-inline: 1em;
-	position: sticky;
-}
-
-@media (forced-colors) {
-	pre::before {
-		border-block-end: 0.0625rem solid;
-	}
-}
-
-/* Syntax highlighting */
-
-pre {
-	overflow-x: auto;
-
-	.comment {
-		color: var(--color-Code-comment);
+		pre::before {
+			border-block-end: 0.0625rem solid;
+		}
 	}
 
-	.punctuation {
-		color: var(--color-Code-punctuation);
-	}
+	/* Syntax highlighting */
 
-	.interpolation-punctuation {
-		color: var(--color-Code-interpolation);
-	}
+	pre {
+		overflow-x: auto;
 
-	.keyword {
-		color: var(--color-Code-keyword);
-	}
+		.comment {
+			color: var(--color-Code-comment);
+		}
 
-	.tag,
-	.tag > .punctuation:is(:first-child, :last-child) {
-		color: var(--color-Code-tag);
-	}
+		.punctuation {
+			color: var(--color-Code-punctuation);
+		}
 
-	.attr-name {
-		color: var(--color-Code-attrName);
-	}
+		.interpolation-punctuation {
+			color: var(--color-Code-interpolation);
+		}
 
-	.attr-value {
-		color: var(--color-Code-attrValue);
-	}
+		.keyword {
+			color: var(--color-Code-keyword);
+		}
 
-	.rule {
-		color: var(--color-Code-rule);
-	}
+		.tag,
+		.tag > .punctuation:is(:first-child, :last-child) {
+			color: var(--color-Code-tag);
+		}
 
-	.selector {
-		color: var(--color-Code-selector);
-	}
+		.attr-name {
+			color: var(--color-Code-attrName);
+		}
 
-	.property {
-		color: var(--color-Code-property);
-	}
+		.attr-value {
+			color: var(--color-Code-attrValue);
+		}
 
-	.key {
-		color: var(--color-Code-key);
-	}
+		.rule {
+			color: var(--color-Code-rule);
+		}
 
-	.important {
-		color: var(--color-Code-important);
-	}
+		.selector {
+			color: var(--color-Code-selector);
+		}
 
-	.function {
-		color: var(--color-Code-function);
-	}
+		.property {
+			color: var(--color-Code-property);
+		}
 
-	.parameter {
-		color: var(--color-Code-parameter);
-	}
+		.key {
+			color: var(--color-Code-key);
+		}
 
-	.string {
-		color: var(--color-Code-string);
-	}
+		.important {
+			color: var(--color-Code-important);
+		}
 
-	.number {
-		color: var(--color-Code-number);
+		.function {
+			color: var(--color-Code-function);
+		}
+
+		.parameter {
+			color: var(--color-Code-parameter);
+		}
+
+		.string {
+			color: var(--color-Code-string);
+		}
+
+		.number {
+			color: var(--color-Code-number);
+		}
 	}
 }

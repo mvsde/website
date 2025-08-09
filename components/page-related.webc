@@ -26,16 +26,16 @@
 </section>
 
 <style>
-	@layer page;
+	@layer page {
+		.Related-list {
+			display: grid;
+			gap: 0.5rem;
+			list-style: none;
+			margin-block-start: 1.125rem;
+		}
 
-	.Related-list {
-		display: grid;
-		gap: 0.5rem;
-		list-style: none;
-		margin-block-start: 1.125rem;
-	}
-
-	.Related-link {
-		font-size: 1.125rem;
+		.Related-link {
+			font-size: 1.125rem;
+		}
 	}
 </style>

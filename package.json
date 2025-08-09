@@ -6,12 +6,12 @@
 	"scripts": {
 		"dev": "URL=http://localhost:8080 eleventy --incremental --serve",
 		"build": "URL=$URL eleventy",
-		"format": "prettier --write --experimental-cli .",
+		"format": "prettier --write .",
 		"lint": "node --run lint:css && node --run lint:js && node --run lint:markdown && node --run lint:format",
 		"lint:css": "stylelint '**/*.{css,webc}'",
 		"lint:js": "eslint",
 		"lint:markdown": "markdownlint-cli2 '**/*.md' '!node_modules'",
-		"lint:format": "prettier --check --experimental-cli ."
+		"lint:format": "prettier --check ."
 	},
 	"repository": {
 		"type": "git",

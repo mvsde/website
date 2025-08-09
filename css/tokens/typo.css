@@ -1,24 +1,24 @@
-@layer base;
+@layer base {
+	:root {
+		/* Default */
+		--typo-Default-font-family:
+			"Work Sans", "Work Sans Fallback: Roboto", "Work Sans Fallback: Noto Sans",
+			"Work Sans Fallback: Arial", sans-serif;
+		--typo-Default-line-height: 1.4;
 
-:root {
-	/* Default */
-	--typo-Default-font-family:
-		"Work Sans", "Work Sans Fallback: Roboto", "Work Sans Fallback: Noto Sans",
-		"Work Sans Fallback: Arial", sans-serif;
-	--typo-Default-line-height: 1.4;
+		/* Heading */
+		--typo-Heading-font-family:
+			"Teko", "Teko Fallback: Roboto", "Teko Fallback: Noto Sans",
+			"Teko Fallback: Arial", sans-serif;
+		--typo-Heading-font-weight: 600;
+		--typo-Heading-line-height: 1;
 
-	/* Heading */
-	--typo-Heading-font-family:
-		"Teko", "Teko Fallback: Roboto", "Teko Fallback: Noto Sans",
-		"Teko Fallback: Arial", sans-serif;
-	--typo-Heading-font-weight: 600;
-	--typo-Heading-line-height: 1;
+		/* Rich text */
+		--typo-RichText-font-size: 1.125rem;
+		--typo-RichText-line-height: 1.6;
 
-	/* Rich text */
-	--typo-RichText-font-size: 1.125rem;
-	--typo-RichText-line-height: 1.6;
-
-	/* Code */
-	--typo-Code-font-family: "JetBrains Mono", monospace;
-	--typo-Code-font-size: calc(16 / 18 * 1em);
+		/* Code */
+		--typo-Code-font-family: "JetBrains Mono", monospace;
+		--typo-Code-font-size: calc(16 / 18 * 1em);
+	}
 }

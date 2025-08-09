@@ -1,29 +1,23 @@
 <footer webc:root="override" class="Footer">
 	<div class="Footer-container u-container">
-		<element-nav
-			:@items="$data.footer.navigation"
-			@label="Service"
-		></element-nav>
-		<element-nav
-			:@items="$data.social.navigation"
-			@label="Social"
-		></element-nav>
+		<element-nav :@items="$data.footer.navigation" @label="Service"></element-nav>
+		<element-nav :@items="$data.social.navigation" @label="Social"></element-nav>
 	</div>
 </footer>
 
 <style>
-	@layer page;
+	@layer page {
+		.Footer {
+			border-block-start: var(--size-border-width-divider) solid currentcolor;
+			padding-block: 0.75rem;
+		}
 
-	.Footer {
-		border-block-start: var(--size-border-width-divider) solid currentcolor;
-		padding-block: 0.75rem;
-	}
-
-	.Footer-container {
-		column-gap: 2rem;
-		display: flex;
-		flex-wrap: wrap;
-		justify-content: space-between;
-		row-gap: 1rem;
+		.Footer-container {
+			column-gap: 2rem;
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-between;
+			row-gap: 1rem;
+		}
 	}
 </style>

@@ -28,18 +28,18 @@
 </figure>
 
 <style>
-	@layer page;
+	@layer page {
+		.Hero {
+			display: grid;
+			gap: 0.5rem;
+		}
 
-	.Hero {
-		display: grid;
-		gap: 0.5rem;
-	}
+		.Hero-media {
+			inline-size: 100%;
+		}
 
-	.Hero-media {
-		inline-size: 100%;
-	}
-
-	.Hero-caption {
-		font-style: italic;
+		.Hero-caption {
+			font-style: italic;
+		}
 	}
 </style>

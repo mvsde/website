@@ -22,11 +22,11 @@
 </svg>
 
 <style>
-	@layer elements;
-
-	.Icon {
-		block-size: 1em;
-		fill: currentcolor;
-		inline-size: 1em;
+	@layer elements {
+		.Icon {
+			block-size: 1em;
+			fill: currentcolor;
+			inline-size: 1em;
+		}
 	}
 </style>

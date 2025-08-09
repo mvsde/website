@@ -5,16 +5,16 @@
 </div>
 
 <style>
-	@layer elements;
+	@layer elements {
+		.Meta {
+			display: flex;
+			flex-wrap: wrap;
+			font-variant-numeric: tabular-nums;
+		}
 
-	.Meta {
-		display: flex;
-		flex-wrap: wrap;
-		font-variant-numeric: tabular-nums;
-	}
-
-	.Meta > :not(:last-child)::after {
-		content: "·";
-		margin-inline: 0.5rem;
+		.Meta > :not(:last-child)::after {
+			content: "·";
+			margin-inline: 0.5rem;
+		}
 	}
 </style>

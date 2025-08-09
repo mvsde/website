@@ -1,7 +1,7 @@
-@layer base;
+@layer base {
+	:root {
+		/* Border width */
 
-:root {
-	/* Border width */
-
-	--size-border-width-divider: 0.125rem;
+		--size-border-width-divider: 0.125rem;
+	}
 }

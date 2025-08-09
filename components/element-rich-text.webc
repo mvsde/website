@@ -3,59 +3,59 @@
 </section>
 
 <style>
-	@layer elements;
+	@layer elements {
+		.RichText {
+			font-size: var(--typo-RichText-font-size);
+			line-height: var(--typo-RichText-line-height);
 
-	.RichText {
-		font-size: var(--typo-RichText-font-size);
-		line-height: var(--typo-RichText-line-height);
+			/* Inline size */
 
-		/* Inline size */
+			> :not(pre, .Table) {
+				max-inline-size: 40rem;
+			}
 
-		> :not(pre, .Table) {
-			max-inline-size: 40rem;
-		}
+			iframe {
+				inline-size: 100%;
+				max-inline-size: 100%;
+			}
 
-		iframe {
-			inline-size: 100%;
-			max-inline-size: 100%;
-		}
+			/* Margin block */
 
-		/* Margin block */
+			> :not(h2, h3, h4, h5, h6) {
+				margin-block-start: 1em;
+			}
 
-		> :not(h2, h3, h4, h5, h6) {
-			margin-block-start: 1em;
-		}
+			li,
+			li > :is(ul, ol) {
+				margin-block-start: 0.3em;
+			}
 
-		li,
-		li > :is(ul, ol) {
-			margin-block-start: 0.3em;
-		}
+			> :first-child {
+				margin-block-start: 0;
+			}
 
-		> :first-child {
-			margin-block-start: 0;
-		}
+			/* Margin inline start */
 
-		/* Margin inline start */
+			ul,
+			ol,
+			dd {
+				margin-inline-start: 1em;
+			}
 
-		ul,
-		ol,
-		dd {
-			margin-inline-start: 1em;
-		}
+			/* Customizations */
 
-		/* Customizations */
+			li > p:only-child {
+				margin-block-start: 0;
+			}
 
-		li > p:only-child {
-			margin-block-start: 0;
-		}
+			dt {
+				color: var(--color-Brand);
+			}
 
-		dt {
-			color: var(--color-Brand);
-		}
-
-		blockquote {
-			border-inline-start: var(--size-border-width-divider) solid currentcolor;
-			padding-inline-start: calc(1em - var(--size-border-width-divider));
+			blockquote {
+				border-inline-start: var(--size-border-width-divider) solid currentcolor;
+				padding-inline-start: calc(1em - var(--size-border-width-divider));
+			}
 		}
 	}
 </style>

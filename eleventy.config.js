@@ -13,7 +13,6 @@ import { syntaxLanguages } from "./eleventy/languages.js";
 import libraryMarkdown from "./eleventy/libraries/markdown.js";
 import parserDate from "./eleventy/parsers/date.js";
 import shortcodeImageFeed from "./eleventy/shortcodes/image-feed.js";
-import bundleCSSLayer from "./eleventy/transforms/bundle-css-layer.js";
 
 /** @import UserConfig from "@11ty/eleventy/UserConfig" */
 
@@ -46,8 +45,7 @@ const pluginSyntaxHighlightOptions = {
 const pluginWebcOptions = {
 	components: "components/**/*.webc",
 	bundlePluginOptions: {
-		toFileDirectory: "css",
-		transforms: [bundleCSSLayer],
+		toFileDirectory: "bundle",
 	},
 };
 

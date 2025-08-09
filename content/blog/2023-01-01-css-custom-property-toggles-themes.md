@@ -149,10 +149,7 @@ The following `var(…)`s take the light variable as the first parameter and the
 ```css
 :root {
 	--color-text: var(--color-text--light, var(--color-text--dark));
-	--color-background: var(
-		--color-background--light,
-		var(--color-background--dark)
-	);
+	--color-background: var(--color-background--light, var(--color-background--dark));
 }
 ```
 
@@ -173,10 +170,7 @@ Finally we put all the code together and add the `color-scheme` property so the 
 	--color-background--dark: black;
 
 	--color-text: var(--color-text--light, var(--color-text--dark));
-	--color-background: var(
-		--color-background--light,
-		var(--color-background--dark)
-	);
+	--color-background: var(--color-background--light, var(--color-background--dark));
 
 	color-scheme: light dark;
 }

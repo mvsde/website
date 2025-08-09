@@ -1,6 +1,6 @@
-@layer utilities;
-
-.u-listUnstyled {
-	list-style: none;
-	margin-inline-start: 0;
+@layer utilities {
+	.u-listUnstyled {
+		list-style: none;
+		margin-inline-start: 0;
+	}
 }

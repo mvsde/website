@@ -36,32 +36,32 @@
 </html>
 
 <style>
-	@layer page;
+	@layer page {
+		.Page-skipLink {
+			background: var(--color-SiteBackground);
+			inset-block-start: -2rem;
+			justify-self: center;
+			padding-block: 0.25rem;
+			padding-inline: 0.5rem;
+			position: fixed;
+			z-index: 2;
 
-	.Page-skipLink {
-		background: var(--color-SiteBackground);
-		inset-block-start: -2rem;
-		justify-self: center;
-		padding-block: 0.25rem;
-		padding-inline: 0.5rem;
-		position: fixed;
-		z-index: 2;
-
-		&:focus {
-			inset-block-start: 0.5rem;
+			&:focus {
+				inset-block-start: 0.5rem;
+			}
 		}
-	}
 
-	.Page-main {
-		margin-block-end: 3rem;
-		margin-block-start: 2rem;
-	}
+		.Page-main {
+			margin-block-end: 3rem;
+			margin-block-start: 2rem;
+		}
 
-	.Page-title {
-		margin-block-end: clamp(2rem, 4.7vw, 3rem);
-	}
+		.Page-title {
+			margin-block-end: clamp(2rem, 4.7vw, 3rem);
+		}
 
-	.Page-hero {
-		margin-block-end: 2rem;
+		.Page-hero {
+			margin-block-end: 2rem;
+		}
 	}
 </style>

@@ -1,9 +1,9 @@
-@layer utilities;
-
-.u-container {
-	inline-size: 100%;
-	margin-inline: auto;
-	max-inline-size: 64rem;
-	min-inline-size: 0;
-	padding-inline: 1rem;
+@layer utilities {
+	.u-container {
+		inline-size: 100%;
+		margin-inline: auto;
+		max-inline-size: 64rem;
+		min-inline-size: 0;
+		padding-inline: 1rem;
+	}
 }

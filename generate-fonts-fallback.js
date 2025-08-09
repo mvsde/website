@@ -15,10 +15,10 @@ const filepath = "./css/global/fonts-fallback.css";
 const heading = createFontStack([Teko, RobotoCondensed, NotoSans, Arial]);
 const text = createFontStack([WorkSans, Roboto, NotoSans, Arial]);
 
-let code = `@layer base;
-${heading.fontFaces}
-${text.fontFaces}
-`;
+let code = `@layer base {
+	${heading.fontFaces}
+	${text.fontFaces}
+}`;
 
 // Run Stylelint autofixer
 const linterResult = await stylelint.lint({ code, fix: true });

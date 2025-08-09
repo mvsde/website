@@ -1,24 +1,25 @@
 <style webc:keep>
 	@layer base, elements, layouts, page, utilities;
 </style>
-<link rel="stylesheet" :href="getBundleFileUrl('css')" webc:keep />
+<link rel="stylesheet" webc:keep :href="getBundleFileUrl('css', 'shared')" />
+<link rel="stylesheet" webc:keep :href="getBundleFileUrl('css')" />
 
 <!--- Tokens --->
-<link rel="stylesheet" href="../css/tokens/colors.css" />
-<link rel="stylesheet" href="../css/tokens/sizes.css" />
-<link rel="stylesheet" href="../css/tokens/typo.css" />
+<link rel="stylesheet" webc:bucket="shared" href="../css/tokens/colors.css" />
+<link rel="stylesheet" webc:bucket="shared" href="../css/tokens/sizes.css" />
+<link rel="stylesheet" webc:bucket="shared" href="../css/tokens/typo.css" />
 
 <!--- Global --->
-<link rel="stylesheet" href="../css/global/base.css" />
-<link rel="stylesheet" href="../css/global/fonts.css" />
-<link rel="stylesheet" href="../css/global/fonts-fallback.css" />
+<link rel="stylesheet" webc:bucket="shared" href="../css/global/base.css" />
+<link rel="stylesheet" webc:bucket="shared" href="../css/global/fonts.css" />
+<link rel="stylesheet" webc:bucket="shared" href="../css/global/fonts-fallback.css" />
 
 <!--- Typography --->
-<link rel="stylesheet" href="../css/typography/code.css" />
-<link rel="stylesheet" href="../css/typography/container.css" />
-<link rel="stylesheet" href="../css/typography/headings.css" />
-<link rel="stylesheet" href="../css/typography/table.css" />
+<link rel="stylesheet" webc:bucket="shared" href="../css/typography/code.css" />
+<link rel="stylesheet" webc:bucket="shared" href="../css/typography/container.css" />
+<link rel="stylesheet" webc:bucket="shared" href="../css/typography/headings.css" />
+<link rel="stylesheet" webc:bucket="shared" href="../css/typography/table.css" />
 
 <!--- Utilities --->
-<link rel="stylesheet" href="../css/utilities/container.css" />
-<link rel="stylesheet" href="../css/utilities/list.css" />
+<link rel="stylesheet" webc:bucket="shared" href="../css/utilities/container.css" />
+<link rel="stylesheet" webc:bucket="shared" href="../css/utilities/list.css" />

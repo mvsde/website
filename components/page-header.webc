@@ -10,35 +10,35 @@
 </header>
 
 <style>
-	@layer page;
-
-	.Header {
-		animation-fill-mode: both;
-		animation-name: header-border;
-		animation-range: 1rem 2rem;
-		animation-timeline: scroll(root);
-		background: var(--color-SiteBackground);
-		border-block-end: var(--size-border-width-divider) solid transparent;
-		inset-block-start: 0;
-		padding-block: 0.75rem;
-		position: sticky;
-		z-index: 1;
-	}
-
-	.Header-container {
-		display: flex;
-		justify-content: space-between;
-	}
-
-	@media (width < 29rem) {
-		.Header-social {
-			display: none;
+	@layer page {
+		.Header {
+			animation-fill-mode: both;
+			animation-name: header-border;
+			animation-range: 1rem 2rem;
+			animation-timeline: scroll(root);
+			background: var(--color-SiteBackground);
+			border-block-end: var(--size-border-width-divider) solid transparent;
+			inset-block-start: 0;
+			padding-block: 0.75rem;
+			position: sticky;
+			z-index: 1;
 		}
-	}
 
-	@keyframes header-border {
-		to {
-			border-block-end-color: currentcolor;
+		.Header-container {
+			display: flex;
+			justify-content: space-between;
+		}
+
+		@media (width < 29rem) {
+			.Header-social {
+				display: none;
+			}
+		}
+
+		@keyframes header-border {
+			to {
+				border-block-end-color: currentcolor;
+			}
 		}
 	}
 </style>

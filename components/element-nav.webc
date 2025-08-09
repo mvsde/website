@@ -45,33 +45,33 @@
 </nav>
 
 <style>
-	@layer elements;
-
-	.Nav-list {
-		align-items: center;
-		display: flex;
-		flex-wrap: wrap;
-		gap: 1em;
-		list-style: none;
-	}
-
-	.Nav-link {
-		color: inherit;
-		display: block;
-		font-weight: 600;
-		text-decoration: none;
-
-		&:hover,
-		&.is-active {
-			color: var(--color-Brand);
-			text-decoration: underline;
-			text-decoration-thickness: var(--size-border-width-divider);
-			text-underline-offset: 0.375rem;
+	@layer elements {
+		.Nav-list {
+			align-items: center;
+			display: flex;
+			flex-wrap: wrap;
+			gap: 1em;
+			list-style: none;
 		}
-	}
 
-	.Nav-icon {
-		display: block;
-		font-size: 1.375em;
+		.Nav-link {
+			color: inherit;
+			display: block;
+			font-weight: 600;
+			text-decoration: none;
+
+			&:hover,
+			&.is-active {
+				color: var(--color-Brand);
+				text-decoration: underline;
+				text-decoration-thickness: var(--size-border-width-divider);
+				text-underline-offset: 0.375rem;
+			}
+		}
+
+		.Nav-icon {
+			display: block;
+			font-size: 1.375em;
+		}
 	}
 </style>

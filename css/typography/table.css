@@ -1,37 +1,37 @@
-@layer base;
+@layer base {
+	table {
+		border-collapse: collapse;
+		font-variant-numeric: tabular-nums;
+	}
 
-table {
-	border-collapse: collapse;
-	font-variant-numeric: tabular-nums;
-}
+	th,
+	td {
+		border: 0.0625rem solid currentcolor;
+		padding-block: 0.25em;
+		padding-inline: 0.5em;
+	}
 
-th,
-td {
-	border: 0.0625rem solid currentcolor;
-	padding-block: 0.25em;
-	padding-inline: 0.5em;
-}
+	th {
+		text-align: start;
+	}
 
-th {
-	text-align: start;
-}
+	/* Workaround for markdown tables not supporting <th> in <tbody> */
+	th,
+	td:has(> strong:only-child) {
+		background: var(--color-HighlightBackground);
+		font-size: 0.9em;
+	}
 
-/* Workaround for markdown tables not supporting <th> in <tbody> */
-th,
-td:has(> strong:only-child) {
-	background: var(--color-HighlightBackground);
-	font-size: 0.9em;
-}
+	th,
+	td > strong:only-child {
+		font-weight: 600;
+	}
 
-th,
-td > strong:only-child {
-	font-weight: 600;
-}
+	thead th[colspan] {
+		text-align: center;
+	}
 
-thead th[colspan] {
-	text-align: center;
-}
-
-.Table {
-	overflow-x: auto;
+	.Table {
+		overflow-x: auto;
+	}
 }

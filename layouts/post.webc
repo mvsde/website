@@ -8,9 +8,9 @@
 </page>
 
 <style>
-	@layer layouts;
-
-	.LayoutPost-meta {
-		margin-block-start: 0.5rem;
+	@layer layouts {
+		.LayoutPost-meta {
+			margin-block-start: 0.5rem;
+		}
 	}
 </style>

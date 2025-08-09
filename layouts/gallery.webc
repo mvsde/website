@@ -13,14 +13,8 @@
 		class="LayoutGallery-list"
 		:reversed="$data.collection.order !== 'ascending'"
 	>
-		<li
-			webc:for="page of getPages($data.collection.name, $data.collection.order)"
-		>
-			<a
-				class="LayoutGallery-link"
-				:href="page.url"
-				:aria-label="page.data.title"
-			>
+		<li webc:for="page of getPages($data.collection.name, $data.collection.order)">
+			<a class="LayoutGallery-link" :href="page.url" :aria-label="page.data.title">
 				<img
 					class="LayoutGallery-image"
 					:src="`/../${page.data.hero.image}`"
@@ -35,22 +29,22 @@
 </page>
 
 <style>
-	@layer layouts;
+	@layer layouts {
+		.LayoutGallery-list {
+			display: grid;
+			gap: 1.5rem;
+			grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
+			list-style: none;
+		}
 
-	.LayoutGallery-list {
-		display: grid;
-		gap: 1.5rem;
-		grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
-		list-style: none;
-	}
+		.LayoutGallery-link,
+		.LayoutGallery-image {
+			block-size: 100%;
+			display: block;
+		}
 
-	.LayoutGallery-link,
-	.LayoutGallery-image {
-		block-size: 100%;
-		display: block;
-	}
-
-	.LayoutGallery-image {
-		object-fit: cover;
+		.LayoutGallery-image {
+			object-fit: cover;
+		}
 	}
 </style>
