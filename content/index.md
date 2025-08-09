@@ -28,4 +28,4 @@ I work as a senior frontend developer with a focus on web accessibility at [Fact
 
 ## Adventure time
 
-![{{ author.name }} climbing down steep metal stairs into a ravine in the Elbe Sandstone Mountains, tall cliff-like rocks to the left and right.](../media/hiking.jpg){sizes="(width > 640px) 640px, 100vw" eleventy:widths=640,1280}
+![{{ author.name }} climbing down steep metal stairs into a ravine in the Elbe Sandstone Mountains, tall cliff-like rocks to the left and right.](../media/hiking.jpg){loading=lazy sizes="(width > 640px) 640px, 100vw" eleventy:widths=640,1280}
