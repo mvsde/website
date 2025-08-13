@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg version="1.1" viewBox="0 0 132 132" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <clipPath id="e">
+      <path transform="translate(-125.96 -595.01)" d="m115.96 544.01h38.001v95.472h-38.001z"/>
+    </clipPath>
+    <clipPath id="d">
+      <path transform="translate(-116.96 -586.01)" d="m115.96 544.01h38.001v95.472h-38.001z"/>
+    </clipPath>
+    <clipPath id="c">
+      <path transform="translate(-130.9 -614.01)" d="m115.96 544.01h38.001v95.472h-38.001z"/>
+    </clipPath>
+    <clipPath id="b">
+      <path transform="translate(-123 -620.07)" d="m115.96 544.01h38.001v95.472h-38.001z"/>
+    </clipPath>
+    <clipPath id="a">
+      <path transform="translate(-122.96 -628.41)" d="m115.96 544.01h38.001v95.472h-38.001z"/>
+    </clipPath>
+  </defs>
+  <g fill="none" stroke="#231f20" stroke-miterlimit="10">
+    <path transform="matrix(1.3333 0 0 -1.3333 54 61.648)" d="m0 0v-51m17.996 0 4e-3 51" clip-path="url(#e)" stroke-width="2"/>
+    <g stroke-width="2.6667">
+      <path d="m53.341 97.678h24"/>
+      <path d="m53.555 89.729h24"/>
+      <path d="m66.007 45.648v44"/>
+    </g>
+    <path transform="matrix(1.3333 0 0 -1.3333 42 73.648)" d="m0 0v4c0 9.941 8.059 18 18 18s18-8.059 18-18v-23" clip-path="url(#d)" stroke-width="2"/>
+  </g>
+  <path transform="matrix(1.3333 0 0 -1.3333 60.593 36.314)" d="m0 0c0.596-1.674 2.178-2.88 4.056-2.88s3.46 1.206 4.055 2.88z" clip-path="url(#c)" fill="#231f20"/>
+  <path transform="matrix(1.3333 0 0 -1.3333 50.055 28.227)" d="m0 0c0-6.627 5.373-12 12-12s12 5.373 11.958 11.833l1e-3 15.167-2.079 2.868-2.455-2.467-2.455 2.467-2.455-2.467-2.455 2.467-2.455-2.467-2.454 2.468-2.455-2.467-2.455 2.467-2.282-2.869z" clip-path="url(#b)" fill="none" stroke="#231f20" stroke-miterlimit="10" stroke-width="2"/>
+  <path transform="matrix(1.3333 0 0 -1.3333 50 17.116)" d="m0 0h24" clip-path="url(#a)" fill="none" stroke="#231f20" stroke-miterlimit="10" stroke-width="2"/>
+</svg>

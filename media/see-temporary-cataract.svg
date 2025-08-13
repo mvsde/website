@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg version="1.1" viewBox="0 0 132 132" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <clipPath id="h">
+      <path transform="translate(-217.92 -424.56)" d="m205.92 407.56h42v99h-42z"/>
+    </clipPath>
+    <clipPath id="g">
+      <path transform="translate(-206.92 -430.56)" d="m205.92 407.56h42v99h-42z"/>
+    </clipPath>
+    <clipPath id="f">
+      <path transform="translate(-236.92 -483.56)" d="m205.92 407.56h42v99h-42z"/>
+    </clipPath>
+    <clipPath id="e">
+      <path transform="translate(-231.92 -470.56)" d="m205.92 407.56h42v99h-42z"/>
+    </clipPath>
+    <clipPath id="d">
+      <path transform="translate(-221.92 -501.56)" d="m205.92 407.56h42v99h-42z"/>
+    </clipPath>
+    <clipPath id="c">
+      <path transform="translate(-222.92 -484.56)" d="m205.92 407.56h42v99h-42z"/>
+    </clipPath>
+    <clipPath id="b">
+      <path transform="translate(-232.92 -484.56)" d="m205.92 407.56h42v99h-42z"/>
+    </clipPath>
+    <clipPath id="a">
+      <path transform="translate(-242.92 -407.56)" d="m205.92 407.56h42v99h-42z"/>
+    </clipPath>
+  </defs>
+  <g fill="none" stroke="#231f20" stroke-miterlimit="10">
+    <path d="m78.428 29.333h-31.095" stroke-width="2.6667"/>
+    <path d="m47.333 24h30.672" stroke-width="2.6667"/>
+    <path transform="matrix(1.3333 0 0 -1.3333 54 109.33)" d="m0 0v-17m13.996 0 4e-3 17" clip-path="url(#h)" stroke-width="2"/>
+    <path d="m63.333 109.33h17.333l-5.3333-24v-21.333m-12 45.333h17.333l-5.3333-24v-21.333m-24 0v21.333l-5.3333 24h17.333" stroke-width="2.6667"/>
+    <g stroke-width="2">
+      <path transform="matrix(1.3333 0 0 -1.3333 39.333 101.33)" d="m0 0v23c0 9.941 8.059 18 18 18s18-8.059 18-18v-7.805" clip-path="url(#g)"/>
+      <path transform="matrix(1.3333 0 0 -1.3333 79.333 30.666)" d="m0 0c0-6.627-5.373-12-12-12s-12 5.373-11.958 11.833v6c-0.042 6.794 5.33 12.167 11.958 12.167s12-5.373 12-12z" clip-path="url(#f)"/>
+      <path transform="matrix(1.3333 0 0 -1.3333 72.667 48)" d="m0 0c0-3.866-3.134-7-7-7s-7 3.134-7 7" clip-path="url(#e)"/>
+      <path transform="matrix(1.3333 0 0 -1.3333 59.333 6.6664)" d="m0 0v1c0 1.657 1.343 3 3 3s3-1.343 3-3v-1" clip-path="url(#d)"/>
+      <path transform="matrix(1.3333 0 0 -1.3333 60.667 29.333)" d="m0 0v-1c0-1.657-1.343-3-3-3s-3 1.343-3 3v1" clip-path="url(#c)"/>
+      <path transform="matrix(1.3333 0 0 -1.3333 74 29.333)" d="m0 0v-1c0-1.657-1.343-3-3-3s-3 1.343-3 3v1" clip-path="url(#b)"/>
+      <path transform="matrix(1.3333 0 0 -1.3333 87.333 132)" d="m0 0v35h5" clip-path="url(#a)"/>
+    </g>
+  </g>
+</svg>

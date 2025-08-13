@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg version="1.1" viewBox="0 0 132 132" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <clipPath id="g">
+      <path transform="translate(-123.93 -340.88)" d="m116.04 270.88h41.514v95h-41.514z"/>
+    </clipPath>
+    <clipPath id="f">
+      <path transform="translate(-147.04 -350.88)" d="m116.04 270.88h41.514v95h-41.514z"/>
+    </clipPath>
+    <clipPath id="e">
+      <path transform="translate(-128.04 -287.88)" d="m116.04 270.88h41.514v95h-41.514z"/>
+    </clipPath>
+    <clipPath id="d">
+      <path transform="translate(-135.04 -287.88)" d="m116.04 270.88h41.514v95h-41.514z"/>
+    </clipPath>
+    <clipPath id="c">
+      <path transform="translate(-117.04 -293.88)" d="m116.04 270.88h41.514v95h-41.514z"/>
+    </clipPath>
+    <clipPath id="b">
+      <path transform="translate(-147.04 -346.88)" d="m116.04 270.88h41.514v95h-41.514z"/>
+    </clipPath>
+    <clipPath id="a">
+      <path transform="translate(-142.04 -333.88)" d="m116.04 270.88h41.514v95h-41.514z"/>
+    </clipPath>
+    <clipPath id="j">
+      <path transform="translate(-135.04 -326.88)" d="m116.04 270.88h41.514v95h-41.514z"/>
+    </clipPath>
+    <clipPath id="i">
+      <path transform="translate(-146.04 -341.88)" d="m116.04 270.88h41.514v95h-41.514z"/>
+    </clipPath>
+    <clipPath id="h">
+      <path transform="translate(-153.04 -342.38)" d="m116.04 270.88h41.514v95h-41.514z"/>
+    </clipPath>
+  </defs>
+  <path transform="matrix(1.3333 0 0 -1.3333 48.842 36)" d="m0 0c0.596-1.674 2.178-2.88 4.056-2.88s3.46 1.206 4.055 2.88z" clip-path="url(#g)" fill="#231f20"/>
+  <g fill="none" stroke="#231f20" stroke-miterlimit="10" stroke-width="2">
+    <path transform="matrix(1.3333 0 0 -1.3333 79.657 22.666)" d="m0 0v3c0 1.657 1.343 3 3 3s3-1.343 3-3v-12" clip-path="url(#f)"/>
+    <path transform="matrix(1.3333 0 0 -1.3333 54.324 106.67)" d="m0 0v-17m13.996 0 4e-3 17" clip-path="url(#e)"/>
+    <path transform="matrix(1.3333 0 0 -1.3333 63.657 106.67)" d="m0 0h13l-4 18v16m-9-34h13l-4 18v16m-18 0v-16l-4-18h13" clip-path="url(#d)"/>
+    <path transform="matrix(1.3333 0 0 -1.3333 39.657 98.666)" d="m0 0v23c0 9.941 8.059 18 18 18s18-8.059 18-18v-23" clip-path="url(#c)"/>
+    <path transform="matrix(1.3333 0 0 -1.3333 79.657 28)" d="m0 0c0-6.627-5.373-12-12-12s-12 5.373-11.958 11.833v6c-0.042 6.794 5.33 12.167 11.958 12.167s12-5.373 12-12z" clip-path="url(#b)"/>
+    <path transform="matrix(1.3333 0 0 -1.3333 72.991 45.333)" d="m0 0c0-3.866-3.134-7-7-7s-7 3.134-7 7" clip-path="url(#a)"/>
+    <path transform="matrix(1.3333 0 0 -1.3333 63.657 54.666)" d="m0 0v-8" clip-path="url(#j)"/>
+    <path transform="matrix(1.3333 0 0 -1.3333 78.324 34.666)" d="m0 0c-5.523 0-10 4.477-10 10h-12" clip-path="url(#i)"/>
+    <path transform="matrix(1.3333 0 0 -1.3333 87.657 34)" d="m0 0c0-1.933 1.567-3.5 3.5-3.5 0 0 0.5-4-4.5-4h-13" clip-path="url(#h)"/>
+  </g>
+</svg>

@@ -30,6 +30,17 @@
 		vertical-align: middle;
 	}
 
+	figcaption {
+		background: var(--color-HighlightBackground);
+		padding-block: 0.75em;
+		padding-inline: 1em;
+
+		@media (forced-colors) {
+			border: 0.0625rem solid;
+			border-block-start: none;
+		}
+	}
+
 	iframe {
 		background: var(--color-HighlightBackground);
 		border: var(--size-border-width-divider) solid currentcolor;
