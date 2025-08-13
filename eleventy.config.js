@@ -36,6 +36,11 @@ const passthroughCopyList = {
 	public: "/",
 };
 
+const pluginImageOptions = {
+	formats: ["webp", "jpeg", "svg"],
+	svgShortCircuit: true,
+};
+
 const pluginSyntaxHighlightOptions = {
 	preAttributes: {
 		"data-language": ({ language }) => syntaxLanguages[language] ?? language,
@@ -67,7 +72,7 @@ export default function (eleventyConfig) {
 	eleventyConfig.setLibrary("md", libraryMarkdown);
 
 	// Plugins
-	eleventyConfig.addPlugin(pluginImage);
+	eleventyConfig.addPlugin(pluginImage, pluginImageOptions);
 	eleventyConfig.addPlugin(pluginInputPathToURL);
 	eleventyConfig.addPlugin(pluginRSS);
 	eleventyConfig.addPlugin(pluginSyntaxHighlight, pluginSyntaxHighlightOptions);
