@@ -13,4 +13,4 @@ hero:
 The talk focuses on the routing and sever side parts of [Nuxt.js](https://nuxtjs.org).
 
 - [Interactive slides](https://nuxt.talks.fynn.be)
-- [Interactive slides source code](https://github.com/mvsde/introduction-to-nuxt)
+- [Source for interactive slides](https://github.com/mvsde/introduction-to-nuxt) (GitHub)

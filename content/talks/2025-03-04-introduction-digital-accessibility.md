@@ -12,7 +12,7 @@ hero:
 ---
 
 - [Interactive slides](https://pitch.com/v/introduction-to-digital-accessibility-hsve5g) (Pitch)
-- [Slides as PDF](/files/introduction-digital-accessibility.pdf) (3 MB)
+- [Static slides](/files/introduction-digital-accessibility.pdf) (PDF, 3 MB)
 - [Recording](https://www.youtube.com/watch?v=aTZVdXt9HnQ) (YouTube)
 
 ::: Note

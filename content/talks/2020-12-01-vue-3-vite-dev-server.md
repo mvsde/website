@@ -13,5 +13,5 @@ hero:
 Kurze Einführung in den [Vite Dev Server](https://vitejs.dev) für [Vue 3](https://vuejs.org) als Alternative zur Vue CLI.
 
 - [Interaktive Slides](https://vite.talks.fynn.be)
-- [Quellcode für interaktive Slides](https://github.com/mvsde/vue-3-mit-vite-dev-server)
-- [Aufnahme](https://www.youtube.com/watch?v=Wyj0O2EdQeQ)
+- [Code für interaktive Slides](https://github.com/mvsde/vue-3-mit-vite-dev-server) (GitHub)
+- [Aufnahme](https://www.youtube.com/watch?v=Wyj0O2EdQeQ) (YouTube)
