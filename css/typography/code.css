@@ -12,18 +12,20 @@
 	}
 
 	:not(pre) > code {
+		hyphens: manual;
 		padding-block: 0.1em 0.2em;
 		padding-inline: 0.4em;
 	}
 
 	pre > code {
 		display: inline-block;
+		hyphens: none;
 		padding: 1em;
 	}
 
 	/* Language label */
 
-	pre::before {
+	pre:not(.language-plain)::before {
 		background: var(--color-HighlightBackground);
 		content: attr(data-language);
 		display: block;
