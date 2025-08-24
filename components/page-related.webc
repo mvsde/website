@@ -1,10 +1,10 @@
 <script webc:setup>
-	function getPages(data) {
-		const related = new Set(data.related);
+	export function getItems($data) {
+		const related = new Set($data.related);
 
-		return collections.all
+		return $data.collections.all
 			.filter((item) => !related.isDisjointFrom(new Set(item.data.related)))
-			.filter((item) => item.url !== data.page.url)
+			.filter((item) => item.url !== $data.page.url)
 			.sort((a, b) => b.date - a.date);
 	}
 </script>
@@ -13,13 +13,13 @@
 	<h2>Related</h2>
 
 	<ul class="Related-list">
-		<li webc:for="page of getPages($data)">
-			<a class="Related-link" :href="page.url" @text="page.data.title"></a>
+		<li webc:for="item of getItems($data)">
+			<a class="Related-link" :href="item.url" @text="item.data.title"></a>
 			<element-meta
 				class="LayoutTag-meta"
-				:@date="page.date"
-				:@language="page.data.language === 'en' ? null : page.data.language"
-				:@tags="filterTags(page.data.tags)"
+				:@date="item.date"
+				:@language="item.data.language === 'en' ? null : item.data.language"
+				:@tags="filterTags(item.data.tags)"
 			></element-meta>
 		</li>
 	</ul>

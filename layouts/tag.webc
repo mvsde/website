@@ -1,8 +1,8 @@
 <script webc:setup>
-	function getPages(name, order) {
+	export function getItems($data) {
 		return orderCollection({
-			collection: $data.collections[name],
-			order: order,
+			collection: $data.collections[$data.collection.name],
+			order: $data.collection.order,
 		});
 	}
 </script>
@@ -13,19 +13,19 @@
 		class="LayoutTag-list"
 		:reversed="$data.collection.order !== 'ascending'"
 	>
-		<li webc:for="page of getPages($data.collection.name, $data.collection.order)">
+		<li webc:for="item of getItems($data)">
 			<a
 				class="LayoutTag-link"
-				:href="page.url"
-				:lang="page.data.language !== 'en' && page.data.language"
-				:hreflang="page.data.language !== 'en' && page.data.language"
-				@text="page.data.title"
+				:href="item.url"
+				:lang="item.data.language !== 'en' && item.data.language"
+				:hreflang="item.data.language !== 'en' && item.data.language"
+				@text="item.data.title"
 			></a>
 			<element-meta
 				class="LayoutTag-meta"
-				:@date="page.date"
-				:@language="page.data.language === 'en' ? null : page.data.language"
-				:@tags="filterTags(page.data.tags)"
+				:@date="item.date"
+				:@language="item.data.language === 'en' ? null : item.data.language"
+				:@tags="filterTags(item.data.tags)"
 			></element-meta>
 		</li>
 	</ol>

@@ -1,8 +1,8 @@
 <script webc:setup>
-	function getPages(name, order) {
+	export function getItems($data) {
 		return orderCollection({
-			collection: $data.collections[name],
-			order: order,
+			collection: $data.collections[$data.collection.name],
+			order: $data.collection.order,
 		});
 	}
 </script>
@@ -13,12 +13,12 @@
 		class="LayoutGallery-list"
 		:reversed="$data.collection.order !== 'ascending'"
 	>
-		<li webc:for="page of getPages($data.collection.name, $data.collection.order)">
-			<a class="LayoutGallery-link" :href="page.url" :aria-label="page.data.title">
+		<li webc:for="item of getItems($data)">
+			<a class="LayoutGallery-link" :href="item.url" :aria-label="item.data.title">
 				<img
 					class="LayoutGallery-image"
-					:src="`/../${page.data.hero.image}`"
-					:alt="page.data.hero.alt"
+					:src="`/../${item.data.hero.image}`"
+					:alt="item.data.hero.alt"
 					loading="lazy"
 					sizes="(width >= 1024px) 230px, (width >= 872px) 25vw, (width >= 656px) 33vw, (width >= 400px) 50vw, 100vw"
 					eleventy:widths="407,814,1628"

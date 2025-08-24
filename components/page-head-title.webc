@@ -1,10 +1,10 @@
 <script webc:setup>
-	function getTitle(data) {
-		if (isHomePage(data.page.url)) {
-			return data.author.fullName;
+	export function getTitle($data) {
+		if (isHomePage($data.page.url)) {
+			return $data.author.fullName;
 		}
 
-		return `${data.title} - ${data.author.fullName}`;
+		return `${$data.title} - ${$data.author.fullName}`;
 	}
 </script>
 
