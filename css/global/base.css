@@ -32,6 +32,7 @@
 
 	figcaption {
 		background: var(--color-HighlightBackground);
+		font-size: 1rem;
 		padding-block: 0.75em;
 		padding-inline: 1em;
 

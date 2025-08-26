@@ -29,17 +29,8 @@
 
 <style>
 	@layer page {
-		.Hero {
-			display: grid;
-			gap: 0.5rem;
-		}
-
 		.Hero-media {
 			inline-size: 100%;
-		}
-
-		.Hero-caption {
-			font-style: italic;
 		}
 	}
 </style>
