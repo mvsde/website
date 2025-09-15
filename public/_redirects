@@ -1,0 +1,5 @@
+/tag/* /tags/:splat 301
+/blog/return-of-fabulousness/ /blog/down-the-rabbit-hole/ 301
+/blog/exploring-fabulousness/ /blog/down-the-rabbit-hole/ 301
+
+https://talks.fynn.be/* https://fynn.be/talks/:splat 302!
