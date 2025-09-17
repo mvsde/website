@@ -9,7 +9,7 @@ social:
 
 ## About me
 
-My full name is _{{ author.fullName }}_ <small>({{ author.fullNameIPA }})</small>, but please call me just _{{ author.name }}_ <small>({{ author.nameIPA }})</small>. I’m non-binary and go by _they/them_ pronouns. I created a handy [pronouns guide](pronouns/en.md) with examples if you’re unsure how to use them. I live in the metropolitan area of Hamburg, which some claim to be the most beautiful city in Germany.
+My full name is _{{ author.fullName }}_ <small>({{ author.fullNameIPA }})</small>. I’m non-binary and go by _they/them_ pronouns. I created a handy [pronouns guide](pronouns/en.md) with examples if you’re unsure how to use them. I live in the metropolitan area of Hamburg, which some claim to be the most beautiful city in Germany.
 
 I practice [Shinson Hapkido](http://www.shinsonhapkido.org){lang=de hreflang=de} martial arts in our small Dojang in Buchholz. As an active member of the cyclists clubs [ADFC](https://www.adfc.de/){lang=de hreflang=de} and [Buchholz fährt Rad](https://buchholz-faehrt-rad.de/){lang=de hreflang=de}, I lobby for the mobility transition.
 
@@ -28,4 +28,4 @@ I work as a senior frontend developer with a focus on web accessibility at [Fact
 
 ## Adventure time
 
-![{{ author.name }} climbing down steep metal stairs into a ravine in the Elbe Sandstone Mountains, tall cliff-like rocks to the left and right.](../media/hiking.jpg){loading=lazy sizes="(width > 640px) 640px, 100vw" eleventy:widths=640,1280}
+![Fynn Ellie climbing down steep metal stairs into a ravine in the Elbe Sandstone Mountains, tall cliff-like rocks to the left and right.](../media/hiking.jpg){loading=lazy sizes="(width > 640px) 640px, 100vw" eleventy:widths=640,1280}

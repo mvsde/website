@@ -5,7 +5,7 @@ description: Required legal disclosure for websites from German citizens.
 
 ## Contact
 
-{{ author.fullName }}
+{{ author.legalName }} <small>({{ author.legalNameIPA }})</small>
 
 ℅ Factorial GmbH\
 Langenfelder Straße 93\

@@ -14,7 +14,7 @@ Diese Seite gibt es auch auf [Englisch](en.md){hreflang=en}.
 
 ## Name
 
-- [🧑🏻]{aria-hidden=true} **{{ author.name }}** <small>{{ author.nameIPA }}</small>
+- [🧑🏻]{aria-hidden=true} **{{ author.fullName }}** <small>{{ author.fullNameIPA }}</small>
   {.u-listUnstyled}
 
 ## Pronomen
