@@ -1,20 +1,27 @@
 <link
 	rel="preload"
-	href="/fonts/teko-latin-600-normal.woff2"
+	href="/fonts/teko-600-normal.woff2"
 	as="font"
 	type="font/woff2"
 	crossorigin
 />
 <link
 	rel="preload"
-	href="/fonts/work-sans-latin-wght-normal.woff2"
+	href="/fonts/nudica-400-normal.woff2"
 	as="font"
 	type="font/woff2"
 	crossorigin
 />
 <link
 	rel="preload"
-	href="/fonts/work-sans-latin-wght-italic.woff2"
+	href="/fonts/nudica-400-italic.woff2"
+	as="font"
+	type="font/woff2"
+	crossorigin
+/>
+<link
+	rel="preload"
+	href="/fonts/nudica-600-normal.woff2"
 	as="font"
 	type="font/woff2"
 	crossorigin

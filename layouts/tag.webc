@@ -41,7 +41,7 @@
 
 		.LayoutTag-link {
 			font-size: 1.375rem;
-			font-weight: 650;
+			font-weight: var(--typo-Heading-font-weight);
 			text-decoration: none;
 
 			&:hover {

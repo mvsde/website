@@ -1,8 +1,8 @@
-# Personal website and playground for experiments
+# fynn.be
 
 ## Requirements
 
-- [Node.js 23](https://nodejs.org)
+- [Node.js 24](https://nodejs.org/)
 
 ## Installation
 
@@ -20,14 +20,6 @@ node --run dev
 
 ```sh
 node --run build
-```
-
-## Fonts
-
-Generate fonts fallback CSS file:
-
-```sh
-node generate-fonts-fallback.js
 ```
 
 ## Formatting

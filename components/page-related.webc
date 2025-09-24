@@ -29,13 +29,19 @@
 	@layer page {
 		.Related-list {
 			display: grid;
-			gap: 0.5rem;
+			gap: 1rem;
 			list-style: none;
 			margin-block-start: 1.125rem;
 		}
 
 		.Related-link {
 			font-size: 1.125rem;
+			font-weight: var(--typo-Heading-font-weight);
+			text-decoration: none;
+
+			&:hover {
+				text-decoration: underline;
+			}
 		}
 	}
 </style>

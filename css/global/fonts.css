@@ -6,34 +6,58 @@
 		font-family: Teko;
 		font-style: normal;
 		font-weight: 600;
-		src: url("/fonts/teko-latin-600-normal.woff2") format("woff2");
+		src: url("/fonts/teko-600-normal.woff2") format("woff2");
 	}
 
-	/* Work Sans */
+	/* Nudica */
 
 	@font-face {
 		font-display: swap;
-		font-family: "Work Sans";
-		font-style: normal;
-		font-weight: 100 900;
-		src: url("/fonts/work-sans-latin-wght-normal.woff2") format("woff2-variations");
-	}
-
-	@font-face {
-		font-display: swap;
-		font-family: "Work Sans";
-		font-style: italic;
-		font-weight: 100 900;
-		src: url("/fonts/work-sans-latin-wght-italic.woff2") format("woff2-variations");
-	}
-
-	/* JetBrains Mono */
-
-	@font-face {
-		font-display: swap;
-		font-family: "JetBrains Mono";
+		font-family: Nudica;
 		font-style: normal;
 		font-weight: 400;
-		src: url("/fonts/jetbrains-mono-latin-400-normal.woff2") format("woff2");
+		src: url("/fonts/nudica-400-normal.woff2") format("woff2");
+	}
+
+	@font-face {
+		font-display: swap;
+		font-family: Nudica;
+		font-style: italic;
+		font-weight: 400;
+		src: url("/fonts/nudica-400-italic.woff2") format("woff2");
+	}
+
+	@font-face {
+		font-display: swap;
+		font-family: Nudica;
+		font-style: normal;
+		font-weight: 600;
+		src: url("/fonts/nudica-600-normal.woff2") format("woff2");
+	}
+
+	@font-face {
+		font-display: swap;
+		font-family: Nudica;
+		font-style: italic;
+		font-weight: 600;
+		src: url("/fonts/nudica-600-italic.woff2") format("woff2");
+	}
+
+	/* Nudica Mono */
+
+	@font-face {
+		font-display: swap;
+		font-family: "Nudica Mono";
+		font-style: normal;
+		font-weight: 400;
+		src: url("/fonts/nudica-mono-400-normal.woff2") format("woff2");
+	}
+
+	@font-face {
+		font-display: swap;
+		font-family: "Nudica Mono";
+		font-style: italic;
+		font-weight: 400;
+		src: url("/fonts/nudica-mono-400-italic.woff2") format("woff2");
 	}
 }

@@ -24,8 +24,8 @@ Langenfelder Straße 93\
 ### Fonts
 
 - Headings: [Teko](https://fonts.google.com/specimen/Teko) by [Indian Type Foundry](https://www.indiantypefoundry.com/)
-- Text: [Work Sans](https://fonts.google.com/specimen/Work+Sans) by [Wei Huang](https://weiweihuanghuang.github.io/)
-- Code: [JetBrains Mono](https://fonts.google.com/specimen/JetBrains+Mono) by [JetBrains](https://www.jetbrains.com/)
+- Text: [Nudica](https://www.atipofoundry.com/fonts/nudica) by [atipo foundry](https://www.atipofoundry.com/)
+- Code: [Nudica Mono](https://www.atipofoundry.com/fonts/nudica-mono) by [atipo foundry](https://www.atipofoundry.com/)
 
 ### Icons
 

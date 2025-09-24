@@ -24,7 +24,7 @@
 
 	th,
 	td > strong:only-child {
-		font-weight: 600;
+		font-weight: var(--typo-Heading-font-weight);
 	}
 
 	thead th[colspan] {

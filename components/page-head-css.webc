@@ -12,7 +12,6 @@
 <!--- Global --->
 <link rel="stylesheet" webc:bucket="shared" href="../css/global/base.css" />
 <link rel="stylesheet" webc:bucket="shared" href="../css/global/fonts.css" />
-<link rel="stylesheet" webc:bucket="shared" href="../css/global/fonts-fallback.css" />
 
 <!--- Typography --->
 <link rel="stylesheet" webc:bucket="shared" href="../css/typography/code.css" />
