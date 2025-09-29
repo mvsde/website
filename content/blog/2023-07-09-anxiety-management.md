@@ -2,6 +2,7 @@
 title: Anxiety management
 description: Right and far-right parties are becoming more popular by the day. What does this mean for queer people like me?
 tags:
+  - Neurodiversity
   - Politics
   - Queer
 ---
