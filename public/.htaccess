@@ -1,0 +1,5 @@
+ErrorDocument 404 /404.html
+
+Redirect 301 "/blog/return-of-fabulousness/" "/blog/down-the-rabbit-hole/"
+Redirect 301 "/blog/exploring-fabulousness/" "/blog/down-the-rabbit-hole/"
+RedirectMatch 301 "^/tag/(.*)$" "/tags/$1"
