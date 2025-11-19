@@ -20,7 +20,7 @@ Diese Seite gibt es auch auf [Englisch](en.md){hreflang=en}.
 ## Pronomen
 
 - [✅]{role=img aria-label=Ja:} **they/them**
-- [✅]{role=img aria-label=Ok:} **sie/ihr**
+- [👍️]{role=img aria-label=Ok:} **sie/ihr**
 - [❌]{role=img aria-label=Nein:} er/ihm
   {.u-listUnstyled}
 
